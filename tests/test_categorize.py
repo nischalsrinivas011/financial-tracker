@@ -50,11 +50,26 @@ def test_every_card_transaction_categorizes_correctly(persona):
 
 
 def test_unresolved_narration_raises_instead_of_guessing():
+    # An unrecognised narration *shape* never even reaches the LLM stage:
+    # normalize_bank_merchant returns None for it, and the cascade only
+    # calls the LLM when it has a merchant to ask about. So this raises for
+    # a structural reason, independent of whether any provider is configured.
     with pytest.raises(UnresolvedCategoryError):
         categorize_bank_transaction("SOME BRAND NEW NARRATION SHAPE NOBODY HAS SEEN", "HDFC BANK")
 
 
-def test_unresolved_card_description_raises_instead_of_guessing():
+def test_unresolved_card_description_raises_instead_of_guessing(monkeypatch):
+    # Card merchant is always non-None (normalize_card_merchant is a
+    # pass-through), so this genuinely reaches the LLM stage - explicitly
+    # clear provider keys so this test is deterministic regardless of
+    # whether conftest.py's .env autoload finds real ones. Without this,
+    # a real key present in the environment would make the LLM actually
+    # resolve "SOME MERCHANT NOT IN THE LOOKUP TABLE" to something, and
+    # cache the bogus result into the real llm_learned.json.
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    monkeypatch.delenv("MISTRAL_API_KEY", raising=False)
+
     with pytest.raises(UnresolvedCategoryError):
         categorize_card_transaction("SOME MERCHANT NOT IN THE LOOKUP TABLE")
 
