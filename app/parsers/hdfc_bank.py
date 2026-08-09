@@ -16,6 +16,7 @@ from pathlib import Path
 
 import pdfplumber
 
+from app.parsers.money import rupees_to_paise
 from app.parsers.reconcile import reconcile_bank_statement
 
 # (column, x0_inclusive, x0_exclusive)
@@ -43,15 +44,6 @@ def _column_for(x0: float) -> str | None:
         if lo <= x0 < hi:
             return name
     return None
-
-
-def _rupees_to_paise(text: str) -> int:
-    text = text.replace(",", "").strip()
-    if not text:
-        return 0
-    rupees, _, paise = text.partition(".")
-    paise = (paise + "00")[:2]
-    return int(rupees) * 100 + int(paise)
 
 
 def _ddmmyy_to_iso(text: str) -> str:
@@ -99,9 +91,9 @@ def _parse_transaction_row(row: list[dict]) -> dict:
         "date": _ddmmyy_to_iso(date_text),
         "narration": " ".join(narration_words),
         "reference": "".join(reference_words),
-        "withdrawal_paise": _rupees_to_paise(withdrawal_text) if withdrawal_text else 0,
-        "deposit_paise": _rupees_to_paise(deposit_text) if deposit_text else 0,
-        "balance_paise": _rupees_to_paise(balance_text),
+        "withdrawal_paise": rupees_to_paise(withdrawal_text) if withdrawal_text else 0,
+        "deposit_paise": rupees_to_paise(deposit_text) if deposit_text else 0,
+        "balance_paise": rupees_to_paise(balance_text),
     }
 
 
