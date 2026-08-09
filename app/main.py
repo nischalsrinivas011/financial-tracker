@@ -4,9 +4,11 @@ load_dotenv()
 
 from fastapi import FastAPI
 
+from app.api import statements
 from app.api.deps import CurrentUser
 
 app = FastAPI(title="Financial Tracker API")
+app.include_router(statements.router)
 
 
 @app.get("/health")

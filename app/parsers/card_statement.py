@@ -23,6 +23,7 @@ fixture and a follow-up — not handled here since it can't be tested yet.
 import re
 from datetime import datetime
 from pathlib import Path
+from typing import BinaryIO
 
 import pdfplumber
 
@@ -129,7 +130,7 @@ def _parse_cycle(text: str) -> dict:
     }
 
 
-def parse_card_statement(pdf_path: str | Path) -> dict:
+def parse_card_statement(pdf_path: str | Path | BinaryIO) -> dict:
     with pdfplumber.open(pdf_path) as pdf:
         pages_text = [page.extract_text() for page in pdf.pages]
 

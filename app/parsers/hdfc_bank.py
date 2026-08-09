@@ -13,6 +13,7 @@ separator) — the same split can happen mid-word.
 
 import re
 from pathlib import Path
+from typing import BinaryIO
 
 import pdfplumber
 
@@ -121,7 +122,7 @@ def _extract_header_fields(first_page_text: str) -> dict:
     }
 
 
-def parse_bank_statement(pdf_path: str | Path) -> dict:
+def parse_bank_statement(pdf_path: str | Path | BinaryIO) -> dict:
     with pdfplumber.open(pdf_path) as pdf:
         header = _extract_header_fields(pdf.pages[0].extract_text())
 
