@@ -1,0 +1,4189 @@
+{
+  "source": "synthetic",
+  "document_type": "bank_statement",
+  "bank": "HDFC BANK",
+  "persona": "sneha_young",
+  "account_number_masked": "XXXXXXXXXX2064",
+  "ifsc": "HDFC0000318",
+  "period": {
+    "from": "2025-04-01",
+    "to": "2026-03-31"
+  },
+  "opening_balance_paise": 1140000,
+  "closing_balance_paise": 7842200,
+  "total_credits_paise": 65128200,
+  "total_debits_paise": 58426000,
+  "transaction_count": 417,
+  "transactions": [
+    {
+      "date": "2025-04-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY APR25-N785302534561082",
+      "reference": "N785302534561082",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 6560000,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-04-02",
+      "narration": "POS 416024XXXXXX6409 STARBUCKS POS DEBIT",
+      "reference": "0000N42157440116",
+      "withdrawal_paise": 46000,
+      "deposit_paise": 0,
+      "balance_paise": 6514000,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-04-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N444535166107355-PERSONAL",
+      "reference": "N444535166107355",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 4864000,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-04-03",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-502350002739-PAYMENT",
+      "reference": "0000502350002739",
+      "withdrawal_paise": 47100,
+      "deposit_paise": 0,
+      "balance_paise": 4816900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-04-03",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-886362904450-PAYMENT",
+      "reference": "0000886362904450",
+      "withdrawal_paise": 18800,
+      "deposit_paise": 0,
+      "balance_paise": 4798100,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-04-04",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-452434979511-PAYMENT",
+      "reference": "0000452434979511",
+      "withdrawal_paise": 19300,
+      "deposit_paise": 0,
+      "balance_paise": 4778800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "IMPS-861816152192-R IYER-HDFC",
+      "reference": "0000861816152192",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 3978800,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-787887056585-PAYMENT",
+      "reference": "0000787887056585",
+      "withdrawal_paise": 61900,
+      "deposit_paise": 0,
+      "balance_paise": 3916900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-BOOKMYSHOW-bookmyshow@ybl-YESB0YBLUPI-090499185459-PAYMENT",
+      "reference": "0000090499185459",
+      "withdrawal_paise": 140900,
+      "deposit_paise": 0,
+      "balance_paise": 3776000,
+      "expected_category": "entertainment",
+      "expected_merchant": "BOOKMYSHOW"
+    },
+    {
+      "date": "2025-04-06",
+      "narration": "POS 416002XXXXXX8803 WRITERS CAFE POS DEBIT",
+      "reference": "0000N06726412730",
+      "withdrawal_paise": 59300,
+      "deposit_paise": 0,
+      "balance_paise": 3716700,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-04-06",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-652140131980-PAYMENT",
+      "reference": "0000652140131980",
+      "withdrawal_paise": 66300,
+      "deposit_paise": 0,
+      "balance_paise": 3650400,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-04-08",
+      "narration": "IB BILLPAY DR-TNEB-869289XXXXXX0525",
+      "reference": "IB06110492044495",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 3535400,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-04-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-320711XXXXXX2288",
+      "reference": "IB78458318000614",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 3465500,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-04-08",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-866253423982-PAYMENT",
+      "reference": "0000866253423982",
+      "withdrawal_paise": 42600,
+      "deposit_paise": 0,
+      "balance_paise": 3422900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-04-08",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-665261813547-PAYMENT",
+      "reference": "0000665261813547",
+      "withdrawal_paise": 27700,
+      "deposit_paise": 0,
+      "balance_paise": 3395200,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-04-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-348467004441-PAYMENT",
+      "reference": "0000348467004441",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 3330300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-04-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-604610220596-PAYMENT",
+      "reference": "0000604610220596",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 3318400,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-04-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-302386759489-PAYMENT",
+      "reference": "0000302386759489",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 3288500,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-04-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-037935027100-PAYMENT",
+      "reference": "0000037935027100",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 3238600,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-04-13",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-815531517353-PAYMENT",
+      "reference": "0000815531517353",
+      "withdrawal_paise": 29700,
+      "deposit_paise": 0,
+      "balance_paise": 3208900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-04-14",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-393056530213-PAYMENT",
+      "reference": "0000393056530213",
+      "withdrawal_paise": 31600,
+      "deposit_paise": 0,
+      "balance_paise": 3177300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-04-15",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-462723713184-PAYMENT",
+      "reference": "0000462723713184",
+      "withdrawal_paise": 55800,
+      "deposit_paise": 0,
+      "balance_paise": 3121500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-04-18",
+      "narration": "POS 416019XXXXXX9707 STARBUCKS POS DEBIT",
+      "reference": "0000N87945928850",
+      "withdrawal_paise": 127000,
+      "deposit_paise": 0,
+      "balance_paise": 2994500,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-04-18",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-766088351241-PAYMENT",
+      "reference": "0000766088351241",
+      "withdrawal_paise": 15500,
+      "deposit_paise": 0,
+      "balance_paise": 2979000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-04-18",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-406259483073-PAYMENT",
+      "reference": "0000406259483073",
+      "withdrawal_paise": 7100,
+      "deposit_paise": 0,
+      "balance_paise": 2971900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-20",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-878939524791-PAYMENT",
+      "reference": "0000878939524791",
+      "withdrawal_paise": 25100,
+      "deposit_paise": 0,
+      "balance_paise": 2946800,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-349994480609-PAYMENT",
+      "reference": "0000349994480609",
+      "withdrawal_paise": 36700,
+      "deposit_paise": 0,
+      "balance_paise": 2910100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-253105951183-PAYMENT",
+      "reference": "0000253105951183",
+      "withdrawal_paise": 23200,
+      "deposit_paise": 0,
+      "balance_paise": 2886900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-643949822655-PAYMENT",
+      "reference": "0000643949822655",
+      "withdrawal_paise": 58400,
+      "deposit_paise": 0,
+      "balance_paise": 2828500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-932986637548-PAYMENT",
+      "reference": "0000932986637548",
+      "withdrawal_paise": 22000,
+      "deposit_paise": 0,
+      "balance_paise": 2806500,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-04-24",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-520724431677-PAYMENT",
+      "reference": "0000520724431677",
+      "withdrawal_paise": 97300,
+      "deposit_paise": 0,
+      "balance_paise": 2709200,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-04-25",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-496373176314-PAYMENT",
+      "reference": "0000496373176314",
+      "withdrawal_paise": 28100,
+      "deposit_paise": 0,
+      "balance_paise": 2681100,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-04-26",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-770402783272-PAYMENT",
+      "reference": "0000770402783272",
+      "withdrawal_paise": 159900,
+      "deposit_paise": 0,
+      "balance_paise": 2521200,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-04-28",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-032467527413-PAYMENT",
+      "reference": "0000032467527413",
+      "withdrawal_paise": 31600,
+      "deposit_paise": 0,
+      "balance_paise": 2489600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-05-01",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-680956898651-PAYMENT",
+      "reference": "0000680956898651",
+      "withdrawal_paise": 24800,
+      "deposit_paise": 0,
+      "balance_paise": 2464800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY MAY25-N581526770943007",
+      "reference": "N581526770943007",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 7884800,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-05-02",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-280032304257-PAYMENT",
+      "reference": "0000280032304257",
+      "withdrawal_paise": 19800,
+      "deposit_paise": 0,
+      "balance_paise": 7865000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-05-02",
+      "narration": "POS 416056XXXXXX2203 STARBUCKS POS DEBIT",
+      "reference": "0000N00036566018",
+      "withdrawal_paise": 84100,
+      "deposit_paise": 0,
+      "balance_paise": 7780900,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-05-02",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-616434897694-PAYMENT",
+      "reference": "0000616434897694",
+      "withdrawal_paise": 12700,
+      "deposit_paise": 0,
+      "balance_paise": 7768200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N757002310561975-PERSONAL",
+      "reference": "N757002310561975",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 6118200,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-05-05",
+      "narration": "IMPS-261626444938-R IYER-HDFC",
+      "reference": "0000261626444938",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 5318200,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-05-05",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-933138730899-PAYMENT",
+      "reference": "0000933138730899",
+      "withdrawal_paise": 34700,
+      "deposit_paise": 0,
+      "balance_paise": 5283500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-05",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-365352575232-PAYMENT",
+      "reference": "0000365352575232",
+      "withdrawal_paise": 26600,
+      "deposit_paise": 0,
+      "balance_paise": 5256900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-05-05",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-728658701630-PAYMENT",
+      "reference": "0000728658701630",
+      "withdrawal_paise": 19900,
+      "deposit_paise": 0,
+      "balance_paise": 5237000,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-05-06",
+      "narration": "IB BILLPAY DR-AXIS CARDS-041510XXXXXX9891",
+      "reference": "IB36145973023031",
+      "withdrawal_paise": 577800,
+      "deposit_paise": 0,
+      "balance_paise": 4659200,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-05-07",
+      "narration": "POS 416003XXXXXX6924 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N97828812475",
+      "withdrawal_paise": 56200,
+      "deposit_paise": 0,
+      "balance_paise": 4603000,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "IB BILLPAY DR-TNEB-764287XXXXXX9858",
+      "reference": "IB16586366108688",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 4488000,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-656369XXXXXX3033",
+      "reference": "IB87279716542765",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 4418100,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-320779799077-PAYMENT",
+      "reference": "0000320779799077",
+      "withdrawal_paise": 40300,
+      "deposit_paise": 0,
+      "balance_paise": 4377800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-05-10",
+      "narration": "POS 416047XXXXXX9030 WRITERS CAFE POS DEBIT",
+      "reference": "0000N38723613796",
+      "withdrawal_paise": 132200,
+      "deposit_paise": 0,
+      "balance_paise": 4245600,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-294376430615-PAYMENT",
+      "reference": "0000294376430615",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 4180700,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-396217654405-PAYMENT",
+      "reference": "0000396217654405",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 4168800,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-999750209894-PAYMENT",
+      "reference": "0000999750209894",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 4138900,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-421557044309-PAYMENT",
+      "reference": "0000421557044309",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 4089000,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-831026520210-PAYMENT",
+      "reference": "0000831026520210",
+      "withdrawal_paise": 12100,
+      "deposit_paise": 0,
+      "balance_paise": 4076900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-05-13",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-718783997533-PAYMENT",
+      "reference": "0000718783997533",
+      "withdrawal_paise": 37900,
+      "deposit_paise": 0,
+      "balance_paise": 4039000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-13",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-843321499955-PAYMENT",
+      "reference": "0000843321499955",
+      "withdrawal_paise": 47200,
+      "deposit_paise": 0,
+      "balance_paise": 3991800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-13",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-798194066231-PAYMENT",
+      "reference": "0000798194066231",
+      "withdrawal_paise": 30400,
+      "deposit_paise": 0,
+      "balance_paise": 3961400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-14",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-014023879065-PAYMENT",
+      "reference": "0000014023879065",
+      "withdrawal_paise": 29500,
+      "deposit_paise": 0,
+      "balance_paise": 3931900,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-05-14",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-662023318827-PAYMENT",
+      "reference": "0000662023318827",
+      "withdrawal_paise": 16700,
+      "deposit_paise": 0,
+      "balance_paise": 3915200,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-05-16",
+      "narration": "POS 416078XXXXXX4119 STARBUCKS POS DEBIT",
+      "reference": "0000N32743670863",
+      "withdrawal_paise": 71900,
+      "deposit_paise": 0,
+      "balance_paise": 3843300,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-05-16",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-912128723179-PAYMENT",
+      "reference": "0000912128723179",
+      "withdrawal_paise": 76900,
+      "deposit_paise": 0,
+      "balance_paise": 3766400,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-05-16",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-200528247033-PAYMENT",
+      "reference": "0000200528247033",
+      "withdrawal_paise": 79600,
+      "deposit_paise": 0,
+      "balance_paise": 3686800,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-05-17",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-249299570787-PAYMENT",
+      "reference": "0000249299570787",
+      "withdrawal_paise": 61800,
+      "deposit_paise": 0,
+      "balance_paise": 3625000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-17",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-647937113903-PAYMENT",
+      "reference": "0000647937113903",
+      "withdrawal_paise": 33100,
+      "deposit_paise": 0,
+      "balance_paise": 3591900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-22",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-297664855801-PAYMENT",
+      "reference": "0000297664855801",
+      "withdrawal_paise": 21300,
+      "deposit_paise": 0,
+      "balance_paise": 3570600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-22",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-177628280057-PAYMENT",
+      "reference": "0000177628280057",
+      "withdrawal_paise": 65300,
+      "deposit_paise": 0,
+      "balance_paise": 3505300,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-05-23",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-370416670241-PAYMENT",
+      "reference": "0000370416670241",
+      "withdrawal_paise": 16000,
+      "deposit_paise": 0,
+      "balance_paise": 3489300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-05-27",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-855835775443-PAYMENT",
+      "reference": "0000855835775443",
+      "withdrawal_paise": 19200,
+      "deposit_paise": 0,
+      "balance_paise": 3470100,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-06-01",
+      "narration": "IB BILLPAY DR-AXIS CARDS-135544XXXXXX9794",
+      "reference": "IB49036748724999",
+      "withdrawal_paise": 675500,
+      "deposit_paise": 0,
+      "balance_paise": 2794600,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-06-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY JUN25-N323991143723995",
+      "reference": "N323991143723995",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 8214600,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-06-02",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-748449197099-PAYMENT",
+      "reference": "0000748449197099",
+      "withdrawal_paise": 15600,
+      "deposit_paise": 0,
+      "balance_paise": 8199000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-06-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N690679502124778-PERSONAL",
+      "reference": "N690679502124778",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 6549000,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-06-03",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-575843858047-PAYMENT",
+      "reference": "0000575843858047",
+      "withdrawal_paise": 19000,
+      "deposit_paise": 0,
+      "balance_paise": 6530000,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-06-04",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-168041094266-PAYMENT",
+      "reference": "0000168041094266",
+      "withdrawal_paise": 23000,
+      "deposit_paise": 0,
+      "balance_paise": 6507000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-06-05",
+      "narration": "IMPS-921214062303-R IYER-HDFC",
+      "reference": "0000921214062303",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 5707000,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-06-07",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-307471910814-PAYMENT",
+      "reference": "0000307471910814",
+      "withdrawal_paise": 7300,
+      "deposit_paise": 0,
+      "balance_paise": 5699700,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-06-07",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-610116233856-PAYMENT",
+      "reference": "0000610116233856",
+      "withdrawal_paise": 80100,
+      "deposit_paise": 0,
+      "balance_paise": 5619600,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-06-08",
+      "narration": "IB BILLPAY DR-TNEB-616066XXXXXX8056",
+      "reference": "IB72884864171356",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 5504600,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-06-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-426730XXXXXX8428",
+      "reference": "IB20416157236734",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 5434700,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-621678473399-PAYMENT",
+      "reference": "0000621678473399",
+      "withdrawal_paise": 49300,
+      "deposit_paise": 0,
+      "balance_paise": 5385400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-633598572227-PAYMENT",
+      "reference": "0000633598572227",
+      "withdrawal_paise": 94800,
+      "deposit_paise": 0,
+      "balance_paise": 5290600,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-06-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-578859492587-PAYMENT",
+      "reference": "0000578859492587",
+      "withdrawal_paise": 20300,
+      "deposit_paise": 0,
+      "balance_paise": 5270300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-830702100347-PAYMENT",
+      "reference": "0000830702100347",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 5205400,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-06-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-304279575814-PAYMENT",
+      "reference": "0000304279575814",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 5193500,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-06-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-617736959530-PAYMENT",
+      "reference": "0000617736959530",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 5163600,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-06-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-455629940863-PAYMENT",
+      "reference": "0000455629940863",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 5113700,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-06-12",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-123729331330-PAYMENT",
+      "reference": "0000123729331330",
+      "withdrawal_paise": 16700,
+      "deposit_paise": 0,
+      "balance_paise": 5097000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-06-13",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-140765288354-PAYMENT",
+      "reference": "0000140765288354",
+      "withdrawal_paise": 47000,
+      "deposit_paise": 0,
+      "balance_paise": 5050000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-06-14",
+      "narration": "POS 416055XXXXXX0248 STARBUCKS POS DEBIT",
+      "reference": "0000N42474213597",
+      "withdrawal_paise": 159200,
+      "deposit_paise": 0,
+      "balance_paise": 4890800,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-06-17",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-877250538907-PAYMENT",
+      "reference": "0000877250538907",
+      "withdrawal_paise": 56100,
+      "deposit_paise": 0,
+      "balance_paise": 4834700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-06-18",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-743403832654-PAYMENT",
+      "reference": "0000743403832654",
+      "withdrawal_paise": 31700,
+      "deposit_paise": 0,
+      "balance_paise": 4803000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-06-18",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-352257970649-PAYMENT",
+      "reference": "0000352257970649",
+      "withdrawal_paise": 128600,
+      "deposit_paise": 0,
+      "balance_paise": 4674400,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-06-19",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-054306453959-PAYMENT",
+      "reference": "0000054306453959",
+      "withdrawal_paise": 21900,
+      "deposit_paise": 0,
+      "balance_paise": 4652500,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-06-22",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-725009308017-PAYMENT",
+      "reference": "0000725009308017",
+      "withdrawal_paise": 21500,
+      "deposit_paise": 0,
+      "balance_paise": 4631000,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-06-23",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-221768480474-PAYMENT",
+      "reference": "0000221768480474",
+      "withdrawal_paise": 49000,
+      "deposit_paise": 0,
+      "balance_paise": 4582000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-06-23",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-890697890543-PAYMENT",
+      "reference": "0000890697890543",
+      "withdrawal_paise": 27000,
+      "deposit_paise": 0,
+      "balance_paise": 4555000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-06-24",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-389393186504-PAYMENT",
+      "reference": "0000389393186504",
+      "withdrawal_paise": 52400,
+      "deposit_paise": 0,
+      "balance_paise": 4502600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-06-25",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-668062222879-PAYMENT",
+      "reference": "0000668062222879",
+      "withdrawal_paise": 21500,
+      "deposit_paise": 0,
+      "balance_paise": 4481100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-06-25",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-386294809789-PAYMENT",
+      "reference": "0000386294809789",
+      "withdrawal_paise": 57300,
+      "deposit_paise": 0,
+      "balance_paise": 4423800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-06-25",
+      "narration": "POS 416039XXXXXX3919 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N68305194108",
+      "withdrawal_paise": 122000,
+      "deposit_paise": 0,
+      "balance_paise": 4301800,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2025-06-25",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-316884202191-PAYMENT",
+      "reference": "0000316884202191",
+      "withdrawal_paise": 27700,
+      "deposit_paise": 0,
+      "balance_paise": 4274100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-27",
+      "narration": "POS 416042XXXXXX2493 WRITERS CAFE POS DEBIT",
+      "reference": "0000N57691727236",
+      "withdrawal_paise": 148400,
+      "deposit_paise": 0,
+      "balance_paise": 4125700,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-06-28",
+      "narration": "POS 416039XXXXXX7107 STARBUCKS POS DEBIT",
+      "reference": "0000N88543532032",
+      "withdrawal_paise": 147600,
+      "deposit_paise": 0,
+      "balance_paise": 3978100,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-06-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 32100,
+      "balance_paise": 4010200,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2025-07-01",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-862042817536-PAYMENT",
+      "reference": "0000862042817536",
+      "withdrawal_paise": 39600,
+      "deposit_paise": 0,
+      "balance_paise": 3970600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-07-01",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-637836035874-PAYMENT",
+      "reference": "0000637836035874",
+      "withdrawal_paise": 40000,
+      "deposit_paise": 0,
+      "balance_paise": 3930600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-07-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY JUL25-N965844560580608",
+      "reference": "N965844560580608",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 9350600,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-07-02",
+      "narration": "IB BILLPAY DR-AXIS CARDS-903960XXXXXX4777",
+      "reference": "IB31997399846752",
+      "withdrawal_paise": 887100,
+      "deposit_paise": 0,
+      "balance_paise": 8463500,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-07-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N102367231654080-PERSONAL",
+      "reference": "N102367231654080",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 6813500,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-07-04",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-232923014399-PAYMENT",
+      "reference": "0000232923014399",
+      "withdrawal_paise": 25400,
+      "deposit_paise": 0,
+      "balance_paise": 6788100,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-07-04",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-482370538519-PAYMENT",
+      "reference": "0000482370538519",
+      "withdrawal_paise": 85000,
+      "deposit_paise": 0,
+      "balance_paise": 6703100,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-07-05",
+      "narration": "IMPS-460211521699-R IYER-HDFC",
+      "reference": "0000460211521699",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 5903100,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-07-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-122706878654-PAYMENT",
+      "reference": "0000122706878654",
+      "withdrawal_paise": 20100,
+      "deposit_paise": 0,
+      "balance_paise": 5883000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-06",
+      "narration": "POS 416092XXXXXX3392 STARBUCKS POS DEBIT",
+      "reference": "0000N38331095810",
+      "withdrawal_paise": 155600,
+      "deposit_paise": 0,
+      "balance_paise": 5727400,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-07-08",
+      "narration": "IB BILLPAY DR-TNEB-560320XXXXXX5276",
+      "reference": "IB97924121910526",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 5612400,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-07-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-532671XXXXXX4311",
+      "reference": "IB29869773536106",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 5542500,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-07-10",
+      "narration": "POS 416060XXXXXX0779 STARBUCKS POS DEBIT",
+      "reference": "0000N34267736977",
+      "withdrawal_paise": 53500,
+      "deposit_paise": 0,
+      "balance_paise": 5489000,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-151086114562-PAYMENT",
+      "reference": "0000151086114562",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 5424100,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-234042848285-PAYMENT",
+      "reference": "0000234042848285",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 5412200,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-679705826784-PAYMENT",
+      "reference": "0000679705826784",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 5382300,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-391381207808-PAYMENT",
+      "reference": "0000391381207808",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 5332400,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-781457551953-PAYMENT",
+      "reference": "0000781457551953",
+      "withdrawal_paise": 49600,
+      "deposit_paise": 0,
+      "balance_paise": 5282800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-464950136314-PAYMENT",
+      "reference": "0000464950136314",
+      "withdrawal_paise": 25800,
+      "deposit_paise": 0,
+      "balance_paise": 5257000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-07-12",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-260413539946-PAYMENT",
+      "reference": "0000260413539946",
+      "withdrawal_paise": 26100,
+      "deposit_paise": 0,
+      "balance_paise": 5230900,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-07-16",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-584661754431-PAYMENT",
+      "reference": "0000584661754431",
+      "withdrawal_paise": 26600,
+      "deposit_paise": 0,
+      "balance_paise": 5204300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-07-16",
+      "narration": "POS 416075XXXXXX9486 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N57111663152",
+      "withdrawal_paise": 111800,
+      "deposit_paise": 0,
+      "balance_paise": 5092500,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2025-07-20",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-866629160565-PAYMENT",
+      "reference": "0000866629160565",
+      "withdrawal_paise": 31400,
+      "deposit_paise": 0,
+      "balance_paise": 5061100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-21",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-683062131157-PAYMENT",
+      "reference": "0000683062131157",
+      "withdrawal_paise": 18000,
+      "deposit_paise": 0,
+      "balance_paise": 5043100,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-07-23",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-149250624146-PAYMENT",
+      "reference": "0000149250624146",
+      "withdrawal_paise": 28400,
+      "deposit_paise": 0,
+      "balance_paise": 5014700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-07-23",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-761299226375-PAYMENT",
+      "reference": "0000761299226375",
+      "withdrawal_paise": 37500,
+      "deposit_paise": 0,
+      "balance_paise": 4977200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-07-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-482059160396-PAYMENT",
+      "reference": "0000482059160396",
+      "withdrawal_paise": 18400,
+      "deposit_paise": 0,
+      "balance_paise": 4958800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-07-25",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-351937247682-PAYMENT",
+      "reference": "0000351937247682",
+      "withdrawal_paise": 24500,
+      "deposit_paise": 0,
+      "balance_paise": 4934300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-07-25",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-836012270769-PAYMENT",
+      "reference": "0000836012270769",
+      "withdrawal_paise": 7300,
+      "deposit_paise": 0,
+      "balance_paise": 4927000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-07-26",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-288077380996-PAYMENT",
+      "reference": "0000288077380996",
+      "withdrawal_paise": 55600,
+      "deposit_paise": 0,
+      "balance_paise": 4871400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-07-28",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-155297590719-PAYMENT",
+      "reference": "0000155297590719",
+      "withdrawal_paise": 25100,
+      "deposit_paise": 0,
+      "balance_paise": 4846300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-28",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-139572565210-PAYMENT",
+      "reference": "0000139572565210",
+      "withdrawal_paise": 20000,
+      "deposit_paise": 0,
+      "balance_paise": 4826300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-07-28",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-454789683292-PAYMENT",
+      "reference": "0000454789683292",
+      "withdrawal_paise": 134200,
+      "deposit_paise": 0,
+      "balance_paise": 4692100,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-08-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY AUG25-N684959229086874",
+      "reference": "N684959229086874",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 10112100,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-08-02",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-814255963982-PAYMENT",
+      "reference": "0000814255963982",
+      "withdrawal_paise": 16200,
+      "deposit_paise": 0,
+      "balance_paise": 10095900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-08-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N006719654150891-PERSONAL",
+      "reference": "N006719654150891",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 8445900,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-08-03",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-597105144430-PAYMENT",
+      "reference": "0000597105144430",
+      "withdrawal_paise": 11500,
+      "deposit_paise": 0,
+      "balance_paise": 8434400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-08-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-677393679163-PAYMENT",
+      "reference": "0000677393679163",
+      "withdrawal_paise": 31800,
+      "deposit_paise": 0,
+      "balance_paise": 8402600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-04",
+      "narration": "POS 416075XXXXXX4342 STARBUCKS POS DEBIT",
+      "reference": "0000N60647245997",
+      "withdrawal_paise": 173600,
+      "deposit_paise": 0,
+      "balance_paise": 8229000,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-08-05",
+      "narration": "IMPS-368742604300-R IYER-HDFC",
+      "reference": "0000368742604300",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 7429000,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-08-05",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-157830826848-PAYMENT",
+      "reference": "0000157830826848",
+      "withdrawal_paise": 114000,
+      "deposit_paise": 0,
+      "balance_paise": 7315000,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-08-06",
+      "narration": "IB BILLPAY DR-AXIS CARDS-742054XXXXXX7951",
+      "reference": "IB74879196568295",
+      "withdrawal_paise": 931900,
+      "deposit_paise": 0,
+      "balance_paise": 6383100,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-08-08",
+      "narration": "IB BILLPAY DR-TNEB-500379XXXXXX7776",
+      "reference": "IB13539886774431",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 6268100,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-08-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-694105XXXXXX5806",
+      "reference": "IB51777596407000",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 6198200,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-08-08",
+      "narration": "POS 416088XXXXXX3264 STARBUCKS POS DEBIT",
+      "reference": "0000N47401760586",
+      "withdrawal_paise": 133900,
+      "deposit_paise": 0,
+      "balance_paise": 6064300,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-08-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-443193344556-PAYMENT",
+      "reference": "0000443193344556",
+      "withdrawal_paise": 22900,
+      "deposit_paise": 0,
+      "balance_paise": 6041400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-09",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-390157277662-PAYMENT",
+      "reference": "0000390157277662",
+      "withdrawal_paise": 21600,
+      "deposit_paise": 0,
+      "balance_paise": 6019800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-08-10",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-305262067118-PAYMENT",
+      "reference": "0000305262067118",
+      "withdrawal_paise": 33800,
+      "deposit_paise": 0,
+      "balance_paise": 5986000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-11",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-030871260683-PAYMENT",
+      "reference": "0000030871260683",
+      "withdrawal_paise": 17900,
+      "deposit_paise": 0,
+      "balance_paise": 5968100,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-08-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-185267815027-PAYMENT",
+      "reference": "0000185267815027",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 5903200,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-08-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-806263109303-PAYMENT",
+      "reference": "0000806263109303",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 5891300,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-08-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-841715468374-PAYMENT",
+      "reference": "0000841715468374",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 5861400,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-08-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-405462452771-PAYMENT",
+      "reference": "0000405462452771",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 5811500,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-08-13",
+      "narration": "POS 416039XXXXXX1000 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N00127072800",
+      "withdrawal_paise": 95500,
+      "deposit_paise": 0,
+      "balance_paise": 5716000,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2025-08-16",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-558144479589-PAYMENT",
+      "reference": "0000558144479589",
+      "withdrawal_paise": 32200,
+      "deposit_paise": 0,
+      "balance_paise": 5683800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-16",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-668328108846-PAYMENT",
+      "reference": "0000668328108846",
+      "withdrawal_paise": 47500,
+      "deposit_paise": 0,
+      "balance_paise": 5636300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-08-17",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-320409016627-PAYMENT",
+      "reference": "0000320409016627",
+      "withdrawal_paise": 134800,
+      "deposit_paise": 0,
+      "balance_paise": 5501500,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-08-19",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-799659625318-PAYMENT",
+      "reference": "0000799659625318",
+      "withdrawal_paise": 34700,
+      "deposit_paise": 0,
+      "balance_paise": 5466800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-19",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-428337867098-PAYMENT",
+      "reference": "0000428337867098",
+      "withdrawal_paise": 48700,
+      "deposit_paise": 0,
+      "balance_paise": 5418100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-22",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-720638393050-PAYMENT",
+      "reference": "0000720638393050",
+      "withdrawal_paise": 57700,
+      "deposit_paise": 0,
+      "balance_paise": 5360400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-08-25",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-109878787445-PAYMENT",
+      "reference": "0000109878787445",
+      "withdrawal_paise": 30100,
+      "deposit_paise": 0,
+      "balance_paise": 5330300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-08-26",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-653057628382-PAYMENT",
+      "reference": "0000653057628382",
+      "withdrawal_paise": 40800,
+      "deposit_paise": 0,
+      "balance_paise": 5289500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-26",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-910339555237-PAYMENT",
+      "reference": "0000910339555237",
+      "withdrawal_paise": 13000,
+      "deposit_paise": 0,
+      "balance_paise": 5276500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-27",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-947804837791-PAYMENT",
+      "reference": "0000947804837791",
+      "withdrawal_paise": 48300,
+      "deposit_paise": 0,
+      "balance_paise": 5228200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-27",
+      "narration": "POS 416061XXXXXX7720 WRITERS CAFE POS DEBIT",
+      "reference": "0000N58411945598",
+      "withdrawal_paise": 46200,
+      "deposit_paise": 0,
+      "balance_paise": 5182000,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-08-27",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-302540273587-PAYMENT",
+      "reference": "0000302540273587",
+      "withdrawal_paise": 22300,
+      "deposit_paise": 0,
+      "balance_paise": 5159700,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-08-27",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-469930335269-PAYMENT",
+      "reference": "0000469930335269",
+      "withdrawal_paise": 17400,
+      "deposit_paise": 0,
+      "balance_paise": 5142300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-08-28",
+      "narration": "IB BILLPAY DR-AXIS CARDS-896743XXXXXX1589",
+      "reference": "IB83654549707920",
+      "withdrawal_paise": 781100,
+      "deposit_paise": 0,
+      "balance_paise": 4361200,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-09-01",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-659331085189-PAYMENT",
+      "reference": "0000659331085189",
+      "withdrawal_paise": 5000,
+      "deposit_paise": 0,
+      "balance_paise": 4356200,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-09-01",
+      "narration": "UPI-BOOKMYSHOW-bookmyshow@ybl-YESB0YBLUPI-500413295293-PAYMENT",
+      "reference": "0000500413295293",
+      "withdrawal_paise": 105300,
+      "deposit_paise": 0,
+      "balance_paise": 4250900,
+      "expected_category": "entertainment",
+      "expected_merchant": "BOOKMYSHOW"
+    },
+    {
+      "date": "2025-09-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY SEP25-N616802225697434",
+      "reference": "N616802225697434",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 9670900,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-09-02",
+      "narration": "POS 416091XXXXXX6085 STARBUCKS POS DEBIT",
+      "reference": "0000N41278845684",
+      "withdrawal_paise": 176400,
+      "deposit_paise": 0,
+      "balance_paise": 9494500,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-09-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N928463411967128-PERSONAL",
+      "reference": "N928463411967128",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 7844500,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-09-05",
+      "narration": "IMPS-981544960520-R IYER-HDFC",
+      "reference": "0000981544960520",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 7044500,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-09-05",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-726101459203-PAYMENT",
+      "reference": "0000726101459203",
+      "withdrawal_paise": 38400,
+      "deposit_paise": 0,
+      "balance_paise": 7006100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-09-06",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-611830995025-PAYMENT",
+      "reference": "0000611830995025",
+      "withdrawal_paise": 97500,
+      "deposit_paise": 0,
+      "balance_paise": 6908600,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-09-08",
+      "narration": "IB BILLPAY DR-TNEB-914586XXXXXX2461",
+      "reference": "IB70723153211537",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 6793600,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-09-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-183585XXXXXX8762",
+      "reference": "IB52154055466984",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 6723700,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-09-09",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-975321306604-PAYMENT",
+      "reference": "0000975321306604",
+      "withdrawal_paise": 59000,
+      "deposit_paise": 0,
+      "balance_paise": 6664700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-10",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-028832264675-PAYMENT",
+      "reference": "0000028832264675",
+      "withdrawal_paise": 26900,
+      "deposit_paise": 0,
+      "balance_paise": 6637800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-10",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-913642862131-PAYMENT",
+      "reference": "0000913642862131",
+      "withdrawal_paise": 147700,
+      "deposit_paise": 0,
+      "balance_paise": 6490100,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-032751367115-PAYMENT",
+      "reference": "0000032751367115",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 6425200,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-829926279406-PAYMENT",
+      "reference": "0000829926279406",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 6413300,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-961565811770-PAYMENT",
+      "reference": "0000961565811770",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 6383400,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-357685115378-PAYMENT",
+      "reference": "0000357685115378",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 6333500,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-666238565820-PAYMENT",
+      "reference": "0000666238565820",
+      "withdrawal_paise": 25000,
+      "deposit_paise": 0,
+      "balance_paise": 6308500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-265497142256-PAYMENT",
+      "reference": "0000265497142256",
+      "withdrawal_paise": 5600,
+      "deposit_paise": 0,
+      "balance_paise": 6302900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-13",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-989224825571-PAYMENT",
+      "reference": "0000989224825571",
+      "withdrawal_paise": 49100,
+      "deposit_paise": 0,
+      "balance_paise": 6253800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-15",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-223533506136-PAYMENT",
+      "reference": "0000223533506136",
+      "withdrawal_paise": 17900,
+      "deposit_paise": 0,
+      "balance_paise": 6235900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-16",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-650412240618-PAYMENT",
+      "reference": "0000650412240618",
+      "withdrawal_paise": 26400,
+      "deposit_paise": 0,
+      "balance_paise": 6209500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-09-16",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-355527868709-PAYMENT",
+      "reference": "0000355527868709",
+      "withdrawal_paise": 30600,
+      "deposit_paise": 0,
+      "balance_paise": 6178900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-17",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-193498125072-PAYMENT",
+      "reference": "0000193498125072",
+      "withdrawal_paise": 53500,
+      "deposit_paise": 0,
+      "balance_paise": 6125400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-18",
+      "narration": "POS 416044XXXXXX9911 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N11919250387",
+      "withdrawal_paise": 127100,
+      "deposit_paise": 0,
+      "balance_paise": 5998300,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2025-09-19",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-836743268274-PAYMENT",
+      "reference": "0000836743268274",
+      "withdrawal_paise": 8900,
+      "deposit_paise": 0,
+      "balance_paise": 5989400,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-09-20",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-909377381968-PAYMENT",
+      "reference": "0000909377381968",
+      "withdrawal_paise": 7800,
+      "deposit_paise": 0,
+      "balance_paise": 5981600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-22",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-150740740841-PAYMENT",
+      "reference": "0000150740740841",
+      "withdrawal_paise": 28500,
+      "deposit_paise": 0,
+      "balance_paise": 5953100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-09-23",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-910348351819-PAYMENT",
+      "reference": "0000910348351819",
+      "withdrawal_paise": 37800,
+      "deposit_paise": 0,
+      "balance_paise": 5915300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-23",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-360243445464-PAYMENT",
+      "reference": "0000360243445464",
+      "withdrawal_paise": 34400,
+      "deposit_paise": 0,
+      "balance_paise": 5880900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-23",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-392983784534-PAYMENT",
+      "reference": "0000392983784534",
+      "withdrawal_paise": 17800,
+      "deposit_paise": 0,
+      "balance_paise": 5863100,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-09-23",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-586240216431-PAYMENT",
+      "reference": "0000586240216431",
+      "withdrawal_paise": 27400,
+      "deposit_paise": 0,
+      "balance_paise": 5835700,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-09-28",
+      "narration": "POS 416056XXXXXX9850 WRITERS CAFE POS DEBIT",
+      "reference": "0000N22039677115",
+      "withdrawal_paise": 64400,
+      "deposit_paise": 0,
+      "balance_paise": 5771300,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-09-28",
+      "narration": "POS 416054XXXXXX3521 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N77127328975",
+      "withdrawal_paise": 100900,
+      "deposit_paise": 0,
+      "balance_paise": 5670400,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2025-09-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 18100,
+      "balance_paise": 5688500,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2025-10-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY OCT25-N843835964492533",
+      "reference": "N843835964492533",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 11108500,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-10-02",
+      "narration": "POS 416094XXXXXX4123 STARBUCKS POS DEBIT",
+      "reference": "0000N15934121669",
+      "withdrawal_paise": 175900,
+      "deposit_paise": 0,
+      "balance_paise": 10932600,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-10-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N701952209650273-PERSONAL",
+      "reference": "N701952209650273",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 9282600,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-10-03",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-568824107095-PAYMENT",
+      "reference": "0000568824107095",
+      "withdrawal_paise": 30900,
+      "deposit_paise": 0,
+      "balance_paise": 9251700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-017315527468-PAYMENT",
+      "reference": "0000017315527468",
+      "withdrawal_paise": 23500,
+      "deposit_paise": 0,
+      "balance_paise": 9228200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-04",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-654160378385-PAYMENT",
+      "reference": "0000654160378385",
+      "withdrawal_paise": 20400,
+      "deposit_paise": 0,
+      "balance_paise": 9207800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-05",
+      "narration": "IMPS-432463915678-R IYER-HDFC",
+      "reference": "0000432463915678",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 8407800,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-10-06",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-233850447026-PAYMENT",
+      "reference": "0000233850447026",
+      "withdrawal_paise": 29400,
+      "deposit_paise": 0,
+      "balance_paise": 8378400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-06",
+      "narration": "IB BILLPAY DR-AXIS CARDS-193071XXXXXX6066",
+      "reference": "IB33813832220110",
+      "withdrawal_paise": 1673600,
+      "deposit_paise": 0,
+      "balance_paise": 6704800,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-10-07",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-235989482779-PAYMENT",
+      "reference": "0000235989482779",
+      "withdrawal_paise": 52900,
+      "deposit_paise": 0,
+      "balance_paise": 6651900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-07",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-999652307049-PAYMENT",
+      "reference": "0000999652307049",
+      "withdrawal_paise": 16500,
+      "deposit_paise": 0,
+      "balance_paise": 6635400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-10-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-379303777783-PAYMENT",
+      "reference": "0000379303777783",
+      "withdrawal_paise": 21000,
+      "deposit_paise": 0,
+      "balance_paise": 6614400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-08",
+      "narration": "IB BILLPAY DR-TNEB-970308XXXXXX3605",
+      "reference": "IB76180939919125",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 6499400,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-10-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-451585XXXXXX8333",
+      "reference": "IB12629494672118",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 6429500,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-576059876328-PAYMENT",
+      "reference": "0000576059876328",
+      "withdrawal_paise": 6100,
+      "deposit_paise": 0,
+      "balance_paise": 6423400,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-10-10",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-713387892775-PAYMENT",
+      "reference": "0000713387892775",
+      "withdrawal_paise": 27400,
+      "deposit_paise": 0,
+      "balance_paise": 6396000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "POS 416023XXXXXX9282 STARBUCKS POS DEBIT",
+      "reference": "0000N42304720839",
+      "withdrawal_paise": 53700,
+      "deposit_paise": 0,
+      "balance_paise": 6342300,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-115310544630-PAYMENT",
+      "reference": "0000115310544630",
+      "withdrawal_paise": 9000,
+      "deposit_paise": 0,
+      "balance_paise": 6333300,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-10-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-544352243369-PAYMENT",
+      "reference": "0000544352243369",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 6268400,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-10-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-000169245656-PAYMENT",
+      "reference": "0000000169245656",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 6256500,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-10-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-069201540838-PAYMENT",
+      "reference": "0000069201540838",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 6226600,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-10-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-050952765288-PAYMENT",
+      "reference": "0000050952765288",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 6176700,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-10-15",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-074823694118-PAYMENT",
+      "reference": "0000074823694118",
+      "withdrawal_paise": 30600,
+      "deposit_paise": 0,
+      "balance_paise": 6146100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-10-16",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-117910637278-PAYMENT",
+      "reference": "0000117910637278",
+      "withdrawal_paise": 23000,
+      "deposit_paise": 0,
+      "balance_paise": 6123100,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-10-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-526898348789-PAYMENT",
+      "reference": "0000526898348789",
+      "withdrawal_paise": 26700,
+      "deposit_paise": 0,
+      "balance_paise": 6096400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-18",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-022529485832-PAYMENT",
+      "reference": "0000022529485832",
+      "withdrawal_paise": 15900,
+      "deposit_paise": 0,
+      "balance_paise": 6080500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-18",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-651037564481-PAYMENT",
+      "reference": "0000651037564481",
+      "withdrawal_paise": 124900,
+      "deposit_paise": 0,
+      "balance_paise": 5955600,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-10-19",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-256291606231-PAYMENT",
+      "reference": "0000256291606231",
+      "withdrawal_paise": 77100,
+      "deposit_paise": 0,
+      "balance_paise": 5878500,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2025-10-20",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-845093318017-PAYMENT",
+      "reference": "0000845093318017",
+      "withdrawal_paise": 130600,
+      "deposit_paise": 0,
+      "balance_paise": 5747900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-10-21",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-327654629872-PAYMENT",
+      "reference": "0000327654629872",
+      "withdrawal_paise": 5000,
+      "deposit_paise": 0,
+      "balance_paise": 5742900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-10-23",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-202866905477-PAYMENT",
+      "reference": "0000202866905477",
+      "withdrawal_paise": 20700,
+      "deposit_paise": 0,
+      "balance_paise": 5722200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-23",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-323123786626-PAYMENT",
+      "reference": "0000323123786626",
+      "withdrawal_paise": 33400,
+      "deposit_paise": 0,
+      "balance_paise": 5688800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-24",
+      "narration": "POS 416018XXXXXX2386 WRITERS CAFE POS DEBIT",
+      "reference": "0000N35902044513",
+      "withdrawal_paise": 135200,
+      "deposit_paise": 0,
+      "balance_paise": 5553600,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-10-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-693445330265-PAYMENT",
+      "reference": "0000693445330265",
+      "withdrawal_paise": 41900,
+      "deposit_paise": 0,
+      "balance_paise": 5511700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-29",
+      "narration": "IB BILLPAY DR-AXIS CARDS-446723XXXXXX2860",
+      "reference": "IB67412708813251",
+      "withdrawal_paise": 1143000,
+      "deposit_paise": 0,
+      "balance_paise": 4368700,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-579680041685-PAYMENT",
+      "reference": "0000579680041685",
+      "withdrawal_paise": 55300,
+      "deposit_paise": 0,
+      "balance_paise": 4313400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-059620430564-PAYMENT",
+      "reference": "0000059620430564",
+      "withdrawal_paise": 6200,
+      "deposit_paise": 0,
+      "balance_paise": 4307200,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-752472469903-PAYMENT",
+      "reference": "0000752472469903",
+      "withdrawal_paise": 20400,
+      "deposit_paise": 0,
+      "balance_paise": 4286800,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY NOV25-N561576758272026",
+      "reference": "N561576758272026",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 9706800,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-11-02",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-692182494394-PAYMENT",
+      "reference": "0000692182494394",
+      "withdrawal_paise": 13300,
+      "deposit_paise": 0,
+      "balance_paise": 9693500,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-11-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N725484708313161-PERSONAL",
+      "reference": "N725484708313161",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 8043500,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-11-03",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-372945640290-PAYMENT",
+      "reference": "0000372945640290",
+      "withdrawal_paise": 69300,
+      "deposit_paise": 0,
+      "balance_paise": 7974200,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-11-04",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-676672506768-PAYMENT",
+      "reference": "0000676672506768",
+      "withdrawal_paise": 40400,
+      "deposit_paise": 0,
+      "balance_paise": 7933800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-11-04",
+      "narration": "POS 416037XXXXXX6816 STARBUCKS POS DEBIT",
+      "reference": "0000N12005624198",
+      "withdrawal_paise": 70700,
+      "deposit_paise": 0,
+      "balance_paise": 7863100,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-11-05",
+      "narration": "IMPS-124157333254-R IYER-HDFC",
+      "reference": "0000124157333254",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 7063100,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-11-05",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-513478629026-PAYMENT",
+      "reference": "0000513478629026",
+      "withdrawal_paise": 7100,
+      "deposit_paise": 0,
+      "balance_paise": 7056000,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-11-05",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-899832323499-PAYMENT",
+      "reference": "0000899832323499",
+      "withdrawal_paise": 28500,
+      "deposit_paise": 0,
+      "balance_paise": 7027500,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-11-06",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-169287006780-PAYMENT",
+      "reference": "0000169287006780",
+      "withdrawal_paise": 58000,
+      "deposit_paise": 0,
+      "balance_paise": 6969500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-11-07",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-254707974192-PAYMENT",
+      "reference": "0000254707974192",
+      "withdrawal_paise": 53000,
+      "deposit_paise": 0,
+      "balance_paise": 6916500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-11-07",
+      "narration": "POS 416018XXXXXX9167 STARBUCKS POS DEBIT",
+      "reference": "0000N25990131042",
+      "withdrawal_paise": 117700,
+      "deposit_paise": 0,
+      "balance_paise": 6798800,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-11-08",
+      "narration": "IB BILLPAY DR-TNEB-579516XXXXXX2850",
+      "reference": "IB02614352043624",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 6683800,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-11-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-448551XXXXXX8680",
+      "reference": "IB85903245673457",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 6613900,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-11-08",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-908237438498-PAYMENT",
+      "reference": "0000908237438498",
+      "withdrawal_paise": 45800,
+      "deposit_paise": 0,
+      "balance_paise": 6568100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-11-09",
+      "narration": "UPI-BOOKMYSHOW-bookmyshow@ybl-YESB0YBLUPI-655294982192-PAYMENT",
+      "reference": "0000655294982192",
+      "withdrawal_paise": 54500,
+      "deposit_paise": 0,
+      "balance_paise": 6513600,
+      "expected_category": "entertainment",
+      "expected_merchant": "BOOKMYSHOW"
+    },
+    {
+      "date": "2025-11-10",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-713226232462-PAYMENT",
+      "reference": "0000713226232462",
+      "withdrawal_paise": 17600,
+      "deposit_paise": 0,
+      "balance_paise": 6496000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-981879338147-PAYMENT",
+      "reference": "0000981879338147",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 6431100,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-11-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-722421273514-PAYMENT",
+      "reference": "0000722421273514",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 6419200,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-11-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-796478095594-PAYMENT",
+      "reference": "0000796478095594",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 6389300,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-11-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-894230021446-PAYMENT",
+      "reference": "0000894230021446",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 6339400,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-11-12",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-433238250091-PAYMENT",
+      "reference": "0000433238250091",
+      "withdrawal_paise": 31800,
+      "deposit_paise": 0,
+      "balance_paise": 6307600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-16",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-675155599840-PAYMENT",
+      "reference": "0000675155599840",
+      "withdrawal_paise": 23700,
+      "deposit_paise": 0,
+      "balance_paise": 6283900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-11-16",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-708947864078-PAYMENT",
+      "reference": "0000708947864078",
+      "withdrawal_paise": 116100,
+      "deposit_paise": 0,
+      "balance_paise": 6167800,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-11-17",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-483654488063-PAYMENT",
+      "reference": "0000483654488063",
+      "withdrawal_paise": 51800,
+      "deposit_paise": 0,
+      "balance_paise": 6116000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-11-17",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-676941002281-PAYMENT",
+      "reference": "0000676941002281",
+      "withdrawal_paise": 22800,
+      "deposit_paise": 0,
+      "balance_paise": 6093200,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-11-22",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-766423870545-PAYMENT",
+      "reference": "0000766423870545",
+      "withdrawal_paise": 43800,
+      "deposit_paise": 0,
+      "balance_paise": 6049400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-11-22",
+      "narration": "POS 416071XXXXXX4169 WRITERS CAFE POS DEBIT",
+      "reference": "0000N34823022093",
+      "withdrawal_paise": 143300,
+      "deposit_paise": 0,
+      "balance_paise": 5906100,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-11-24",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-366186853402-PAYMENT",
+      "reference": "0000366186853402",
+      "withdrawal_paise": 16500,
+      "deposit_paise": 0,
+      "balance_paise": 5889600,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-11-28",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-824165395013-PAYMENT",
+      "reference": "0000824165395013",
+      "withdrawal_paise": 58300,
+      "deposit_paise": 0,
+      "balance_paise": 5831300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY DEC25-N682229462504453",
+      "reference": "N682229462504453",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 11251300,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2025-12-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N960399125823768-PERSONAL",
+      "reference": "N960399125823768",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 9601300,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2025-12-03",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-975597783822-PAYMENT",
+      "reference": "0000975597783822",
+      "withdrawal_paise": 59000,
+      "deposit_paise": 0,
+      "balance_paise": 9542300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-03",
+      "narration": "POS 416092XXXXXX2841 WRITERS CAFE POS DEBIT",
+      "reference": "0000N35581950905",
+      "withdrawal_paise": 84200,
+      "deposit_paise": 0,
+      "balance_paise": 9458100,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-12-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-183606863329-PAYMENT",
+      "reference": "0000183606863329",
+      "withdrawal_paise": 17700,
+      "deposit_paise": 0,
+      "balance_paise": 9440400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-03",
+      "narration": "IB BILLPAY DR-AXIS CARDS-674503XXXXXX2709",
+      "reference": "IB37751411557790",
+      "withdrawal_paise": 857900,
+      "deposit_paise": 0,
+      "balance_paise": 8582500,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2025-12-05",
+      "narration": "IMPS-805053655460-R IYER-HDFC",
+      "reference": "0000805053655460",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 7782500,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2025-12-05",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-913121800521-PAYMENT",
+      "reference": "0000913121800521",
+      "withdrawal_paise": 14300,
+      "deposit_paise": 0,
+      "balance_paise": 7768200,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-06",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-137084273016-PAYMENT",
+      "reference": "0000137084273016",
+      "withdrawal_paise": 16800,
+      "deposit_paise": 0,
+      "balance_paise": 7751400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-06",
+      "narration": "UPI-BOOKMYSHOW-bookmyshow@ybl-YESB0YBLUPI-551559170067-PAYMENT",
+      "reference": "0000551559170067",
+      "withdrawal_paise": 118400,
+      "deposit_paise": 0,
+      "balance_paise": 7633000,
+      "expected_category": "entertainment",
+      "expected_merchant": "BOOKMYSHOW"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-017936690441-PAYMENT",
+      "reference": "0000017936690441",
+      "withdrawal_paise": 6400,
+      "deposit_paise": 0,
+      "balance_paise": 7626600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-872813522495-PAYMENT",
+      "reference": "0000872813522495",
+      "withdrawal_paise": 8800,
+      "deposit_paise": 0,
+      "balance_paise": 7617800,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-140798301848-PAYMENT",
+      "reference": "0000140798301848",
+      "withdrawal_paise": 147100,
+      "deposit_paise": 0,
+      "balance_paise": 7470700,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "IB BILLPAY DR-TNEB-023302XXXXXX3720",
+      "reference": "IB09449315076128",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 7355700,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-712087XXXXXX7750",
+      "reference": "IB79661771116938",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 7285800,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "POS 416025XXXXXX6357 STARBUCKS POS DEBIT",
+      "reference": "0000N81362945070",
+      "withdrawal_paise": 70500,
+      "deposit_paise": 0,
+      "balance_paise": 7215300,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-693602943885-PAYMENT",
+      "reference": "0000693602943885",
+      "withdrawal_paise": 25200,
+      "deposit_paise": 0,
+      "balance_paise": 7190100,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-10",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-334535776191-PAYMENT",
+      "reference": "0000334535776191",
+      "withdrawal_paise": 27900,
+      "deposit_paise": 0,
+      "balance_paise": 7162200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-348993987681-PAYMENT",
+      "reference": "0000348993987681",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 7097300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-12-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-472213594936-PAYMENT",
+      "reference": "0000472213594936",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 7085400,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2025-12-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-122189972828-PAYMENT",
+      "reference": "0000122189972828",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 7055500,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2025-12-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-247712355980-PAYMENT",
+      "reference": "0000247712355980",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 7005600,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2025-12-14",
+      "narration": "POS 416073XXXXXX5737 WRITERS CAFE POS DEBIT",
+      "reference": "0000N60881538138",
+      "withdrawal_paise": 139000,
+      "deposit_paise": 0,
+      "balance_paise": 6866600,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-12-14",
+      "narration": "UPI-BOOKMYSHOW-bookmyshow@ybl-YESB0YBLUPI-974782224339-PAYMENT",
+      "reference": "0000974782224339",
+      "withdrawal_paise": 117400,
+      "deposit_paise": 0,
+      "balance_paise": 6749200,
+      "expected_category": "entertainment",
+      "expected_merchant": "BOOKMYSHOW"
+    },
+    {
+      "date": "2025-12-16",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-795430081164-PAYMENT",
+      "reference": "0000795430081164",
+      "withdrawal_paise": 48400,
+      "deposit_paise": 0,
+      "balance_paise": 6700800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-12-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-179684072389-PAYMENT",
+      "reference": "0000179684072389",
+      "withdrawal_paise": 18300,
+      "deposit_paise": 0,
+      "balance_paise": 6682500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-17",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-743275281903-PAYMENT",
+      "reference": "0000743275281903",
+      "withdrawal_paise": 5700,
+      "deposit_paise": 0,
+      "balance_paise": 6676800,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-17",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-714050823626-PAYMENT",
+      "reference": "0000714050823626",
+      "withdrawal_paise": 107600,
+      "deposit_paise": 0,
+      "balance_paise": 6569200,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-12-18",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-340665620615-PAYMENT",
+      "reference": "0000340665620615",
+      "withdrawal_paise": 56400,
+      "deposit_paise": 0,
+      "balance_paise": 6512800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-18",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-061664372925-PAYMENT",
+      "reference": "0000061664372925",
+      "withdrawal_paise": 29200,
+      "deposit_paise": 0,
+      "balance_paise": 6483600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-18",
+      "narration": "POS 416021XXXXXX1173 WRITERS CAFE POS DEBIT",
+      "reference": "0000N58368162553",
+      "withdrawal_paise": 49600,
+      "deposit_paise": 0,
+      "balance_paise": 6434000,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2025-12-20",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-418887788890-PAYMENT",
+      "reference": "0000418887788890",
+      "withdrawal_paise": 31300,
+      "deposit_paise": 0,
+      "balance_paise": 6402700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-22",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-037762314817-PAYMENT",
+      "reference": "0000037762314817",
+      "withdrawal_paise": 30500,
+      "deposit_paise": 0,
+      "balance_paise": 6372200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-22",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-173371864911-PAYMENT",
+      "reference": "0000173371864911",
+      "withdrawal_paise": 23000,
+      "deposit_paise": 0,
+      "balance_paise": 6349200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-26",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-593196812987-PAYMENT",
+      "reference": "0000593196812987",
+      "withdrawal_paise": 57000,
+      "deposit_paise": 0,
+      "balance_paise": 6292200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-12-26",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-440006732010-PAYMENT",
+      "reference": "0000440006732010",
+      "withdrawal_paise": 50000,
+      "deposit_paise": 0,
+      "balance_paise": 6242200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2025-12-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 20600,
+      "balance_paise": 6262800,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2026-01-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY JAN26-N745567927758867",
+      "reference": "N745567927758867",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 11682800,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2026-01-02",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-534120974532-PAYMENT",
+      "reference": "0000534120974532",
+      "withdrawal_paise": 48600,
+      "deposit_paise": 0,
+      "balance_paise": 11634200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-01-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N112794155051483-PERSONAL",
+      "reference": "N112794155051483",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 9984200,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2026-01-03",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-637219096054-PAYMENT",
+      "reference": "0000637219096054",
+      "withdrawal_paise": 61700,
+      "deposit_paise": 0,
+      "balance_paise": 9922500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-01-04",
+      "narration": "POS 416082XXXXXX0048 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N98135502732",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 9857600,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2026-01-05",
+      "narration": "IMPS-527437873958-R IYER-HDFC",
+      "reference": "0000527437873958",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 9057600,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2026-01-05",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-618995302838-PAYMENT",
+      "reference": "0000618995302838",
+      "withdrawal_paise": 37400,
+      "deposit_paise": 0,
+      "balance_paise": 9020200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-01-05",
+      "narration": "POS 416064XXXXXX9690 STARBUCKS POS DEBIT",
+      "reference": "0000N93656943281",
+      "withdrawal_paise": 55200,
+      "deposit_paise": 0,
+      "balance_paise": 8965000,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2026-01-06",
+      "narration": "IB BILLPAY DR-AXIS CARDS-550029XXXXXX4277",
+      "reference": "IB72090629585003",
+      "withdrawal_paise": 783800,
+      "deposit_paise": 0,
+      "balance_paise": 8181200,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2026-01-07",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-263067713389-PAYMENT",
+      "reference": "0000263067713389",
+      "withdrawal_paise": 8300,
+      "deposit_paise": 0,
+      "balance_paise": 8172900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-01-08",
+      "narration": "IB BILLPAY DR-TNEB-343431XXXXXX3856",
+      "reference": "IB77270583278094",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 8057900,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2026-01-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-491307XXXXXX5148",
+      "reference": "IB66574155651600",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 7988000,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2026-01-08",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-141250708269-PAYMENT",
+      "reference": "0000141250708269",
+      "withdrawal_paise": 61000,
+      "deposit_paise": 0,
+      "balance_paise": 7927000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-114511210369-PAYMENT",
+      "reference": "0000114511210369",
+      "withdrawal_paise": 9800,
+      "deposit_paise": 0,
+      "balance_paise": 7917200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-08",
+      "narration": "UPI-BOOKMYSHOW-bookmyshow@ybl-YESB0YBLUPI-611373657304-PAYMENT",
+      "reference": "0000611373657304",
+      "withdrawal_paise": 107900,
+      "deposit_paise": 0,
+      "balance_paise": 7809300,
+      "expected_category": "entertainment",
+      "expected_merchant": "BOOKMYSHOW"
+    },
+    {
+      "date": "2026-01-10",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-840963720587-PAYMENT",
+      "reference": "0000840963720587",
+      "withdrawal_paise": 21600,
+      "deposit_paise": 0,
+      "balance_paise": 7787700,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-568744733015-PAYMENT",
+      "reference": "0000568744733015",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 7722800,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-198313622149-PAYMENT",
+      "reference": "0000198313622149",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 7710900,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-084039701342-PAYMENT",
+      "reference": "0000084039701342",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 7681000,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-279481088740-PAYMENT",
+      "reference": "0000279481088740",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 7631100,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2026-01-13",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-589953303676-PAYMENT",
+      "reference": "0000589953303676",
+      "withdrawal_paise": 8600,
+      "deposit_paise": 0,
+      "balance_paise": 7622500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-14",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-717792807803-PAYMENT",
+      "reference": "0000717792807803",
+      "withdrawal_paise": 69800,
+      "deposit_paise": 0,
+      "balance_paise": 7552700,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2026-01-15",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-790553445907-PAYMENT",
+      "reference": "0000790553445907",
+      "withdrawal_paise": 16800,
+      "deposit_paise": 0,
+      "balance_paise": 7535900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-01-16",
+      "narration": "POS 416038XXXXXX7302 WRITERS CAFE POS DEBIT",
+      "reference": "0000N86674716350",
+      "withdrawal_paise": 103800,
+      "deposit_paise": 0,
+      "balance_paise": 7432100,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2026-01-16",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-690878233553-PAYMENT",
+      "reference": "0000690878233553",
+      "withdrawal_paise": 23700,
+      "deposit_paise": 0,
+      "balance_paise": 7408400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-01-17",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-505028101657-PAYMENT",
+      "reference": "0000505028101657",
+      "withdrawal_paise": 19400,
+      "deposit_paise": 0,
+      "balance_paise": 7389000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-01-17",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-648918637416-PAYMENT",
+      "reference": "0000648918637416",
+      "withdrawal_paise": 31100,
+      "deposit_paise": 0,
+      "balance_paise": 7357900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-17",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-038586161668-PAYMENT",
+      "reference": "0000038586161668",
+      "withdrawal_paise": 28600,
+      "deposit_paise": 0,
+      "balance_paise": 7329300,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-01-20",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-627721343557-PAYMENT",
+      "reference": "0000627721343557",
+      "withdrawal_paise": 30700,
+      "deposit_paise": 0,
+      "balance_paise": 7298600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-01-22",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-838736831078-PAYMENT",
+      "reference": "0000838736831078",
+      "withdrawal_paise": 52100,
+      "deposit_paise": 0,
+      "balance_paise": 7246500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-24",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-045286973949-PAYMENT",
+      "reference": "0000045286973949",
+      "withdrawal_paise": 60900,
+      "deposit_paise": 0,
+      "balance_paise": 7185600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-01-25",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-221124505035-PAYMENT",
+      "reference": "0000221124505035",
+      "withdrawal_paise": 30800,
+      "deposit_paise": 0,
+      "balance_paise": 7154800,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-01-25",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-757791789230-PAYMENT",
+      "reference": "0000757791789230",
+      "withdrawal_paise": 18200,
+      "deposit_paise": 0,
+      "balance_paise": 7136600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-26",
+      "narration": "POS 416095XXXXXX8311 WRITERS CAFE POS DEBIT",
+      "reference": "0000N53654268735",
+      "withdrawal_paise": 125400,
+      "deposit_paise": 0,
+      "balance_paise": 7011200,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2026-01-27",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-128916521336-PAYMENT",
+      "reference": "0000128916521336",
+      "withdrawal_paise": 143500,
+      "deposit_paise": 0,
+      "balance_paise": 6867700,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2026-01-31",
+      "narration": "IB BILLPAY DR-AXIS CARDS-477295XXXXXX5313",
+      "reference": "IB81420422379332",
+      "withdrawal_paise": 958600,
+      "deposit_paise": 0,
+      "balance_paise": 5909100,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2026-02-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY FEB26-N659519395468804",
+      "reference": "N659519395468804",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 11329100,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2026-02-02",
+      "narration": "POS 416026XXXXXX3752 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N65395970586",
+      "withdrawal_paise": 55100,
+      "deposit_paise": 0,
+      "balance_paise": 11274000,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2026-02-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N626729977105309-PERSONAL",
+      "reference": "N626729977105309",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 9624000,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2026-02-03",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-117786771909-PAYMENT",
+      "reference": "0000117786771909",
+      "withdrawal_paise": 31200,
+      "deposit_paise": 0,
+      "balance_paise": 9592800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-02-03",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-491706344092-PAYMENT",
+      "reference": "0000491706344092",
+      "withdrawal_paise": 8400,
+      "deposit_paise": 0,
+      "balance_paise": 9584400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "IMPS-614326763652-R IYER-HDFC",
+      "reference": "0000614326763652",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 8784400,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-613548348122-PAYMENT",
+      "reference": "0000613548348122",
+      "withdrawal_paise": 43200,
+      "deposit_paise": 0,
+      "balance_paise": 8741200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-551367383249-PAYMENT",
+      "reference": "0000551367383249",
+      "withdrawal_paise": 38900,
+      "deposit_paise": 0,
+      "balance_paise": 8702300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-538839977134-PAYMENT",
+      "reference": "0000538839977134",
+      "withdrawal_paise": 16400,
+      "deposit_paise": 0,
+      "balance_paise": 8685900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-08",
+      "narration": "IB BILLPAY DR-TNEB-972802XXXXXX7825",
+      "reference": "IB80584358742061",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 8570900,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2026-02-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-734167XXXXXX0868",
+      "reference": "IB16926056704045",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 8501000,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2026-02-08",
+      "narration": "POS 416008XXXXXX6763 WRITERS CAFE POS DEBIT",
+      "reference": "0000N03901754901",
+      "withdrawal_paise": 169800,
+      "deposit_paise": 0,
+      "balance_paise": 8331200,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2026-02-10",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-385553932053-PAYMENT",
+      "reference": "0000385553932053",
+      "withdrawal_paise": 6000,
+      "deposit_paise": 0,
+      "balance_paise": 8325200,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-10",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-453710371123-PAYMENT",
+      "reference": "0000453710371123",
+      "withdrawal_paise": 17400,
+      "deposit_paise": 0,
+      "balance_paise": 8307800,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-759239574375-PAYMENT",
+      "reference": "0000759239574375",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 8242900,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-757922181321-PAYMENT",
+      "reference": "0000757922181321",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 8231000,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-971273847820-PAYMENT",
+      "reference": "0000971273847820",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 8201100,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-251729954148-PAYMENT",
+      "reference": "0000251729954148",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 8151200,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-062538302503-PAYMENT",
+      "reference": "0000062538302503",
+      "withdrawal_paise": 28800,
+      "deposit_paise": 0,
+      "balance_paise": 8122400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-02-14",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-891140964550-PAYMENT",
+      "reference": "0000891140964550",
+      "withdrawal_paise": 37800,
+      "deposit_paise": 0,
+      "balance_paise": 8084600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-02-14",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-578230640920-PAYMENT",
+      "reference": "0000578230640920",
+      "withdrawal_paise": 24200,
+      "deposit_paise": 0,
+      "balance_paise": 8060400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-14",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-831599572302-PAYMENT",
+      "reference": "0000831599572302",
+      "withdrawal_paise": 29000,
+      "deposit_paise": 0,
+      "balance_paise": 8031400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-17",
+      "narration": "POS 416058XXXXXX4474 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N81174829947",
+      "withdrawal_paise": 128500,
+      "deposit_paise": 0,
+      "balance_paise": 7902900,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2026-02-17",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-973600287602-PAYMENT",
+      "reference": "0000973600287602",
+      "withdrawal_paise": 16500,
+      "deposit_paise": 0,
+      "balance_paise": 7886400,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-02-17",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-160348150555-PAYMENT",
+      "reference": "0000160348150555",
+      "withdrawal_paise": 47900,
+      "deposit_paise": 0,
+      "balance_paise": 7838500,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2026-02-20",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-853887100026-PAYMENT",
+      "reference": "0000853887100026",
+      "withdrawal_paise": 20600,
+      "deposit_paise": 0,
+      "balance_paise": 7817900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-02-21",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-198953627272-PAYMENT",
+      "reference": "0000198953627272",
+      "withdrawal_paise": 41700,
+      "deposit_paise": 0,
+      "balance_paise": 7776200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-02-21",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-072650826457-PAYMENT",
+      "reference": "0000072650826457",
+      "withdrawal_paise": 9600,
+      "deposit_paise": 0,
+      "balance_paise": 7766600,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-25",
+      "narration": "POS 416066XXXXXX9741 MURUGAN IDLI SHOP POS DEBIT",
+      "reference": "0000N66680626757",
+      "withdrawal_paise": 135000,
+      "deposit_paise": 0,
+      "balance_paise": 7631600,
+      "expected_category": "dining",
+      "expected_merchant": "MURUGAN IDLI SHOP"
+    },
+    {
+      "date": "2026-02-26",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-490125349215-PAYMENT",
+      "reference": "0000490125349215",
+      "withdrawal_paise": 19100,
+      "deposit_paise": 0,
+      "balance_paise": 7612500,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-826784521666-PAYMENT",
+      "reference": "0000826784521666",
+      "withdrawal_paise": 56100,
+      "deposit_paise": 0,
+      "balance_paise": 7556400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-02-28",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-949468680223-PAYMENT",
+      "reference": "0000949468680223",
+      "withdrawal_paise": 32400,
+      "deposit_paise": 0,
+      "balance_paise": 7524000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-02-28",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-632453144738-PAYMENT",
+      "reference": "0000632453144738",
+      "withdrawal_paise": 119100,
+      "deposit_paise": 0,
+      "balance_paise": 7404900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-03-01",
+      "narration": "IB BILLPAY DR-AXIS CARDS-490123XXXXXX7716",
+      "reference": "IB18372433673434",
+      "withdrawal_paise": 774300,
+      "deposit_paise": 0,
+      "balance_paise": 6630600,
+      "expected_category": "card_payment",
+      "expected_merchant": "AXIS CARDS"
+    },
+    {
+      "date": "2026-03-01",
+      "narration": "NEFT CR-HDFC0000060-CALIBRE ANALYTICS PVT LTD-SALARY MAR26-N981732825163795",
+      "reference": "N981732825163795",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5420000,
+      "balance_paise": 12050600,
+      "expected_category": "income",
+      "expected_merchant": "CALIBRE ANALYTICS PVT LTD"
+    },
+    {
+      "date": "2026-03-02",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-046601825138-PAYMENT",
+      "reference": "0000046601825138",
+      "withdrawal_paise": 46900,
+      "deposit_paise": 0,
+      "balance_paise": 12003700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-03-03",
+      "narration": "NEFT DR-HDFC0000512-LAKSHMI SUBRAMANIAN-NETBANK-N697559105987708-PERSONAL",
+      "reference": "N697559105987708",
+      "withdrawal_paise": 1650000,
+      "deposit_paise": 0,
+      "balance_paise": 10353700,
+      "expected_category": "rent",
+      "expected_merchant": "LAKSHMI SUBRAMANIAN"
+    },
+    {
+      "date": "2026-03-05",
+      "narration": "IMPS-933964894741-R IYER-HDFC",
+      "reference": "0000933964894741",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 9553700,
+      "expected_category": "family_transfer",
+      "expected_merchant": "R IYER"
+    },
+    {
+      "date": "2026-03-08",
+      "narration": "IB BILLPAY DR-TNEB-352464XXXXXX9335",
+      "reference": "IB66449767951418",
+      "withdrawal_paise": 115000,
+      "deposit_paise": 0,
+      "balance_paise": 9438700,
+      "expected_category": "utilities",
+      "expected_merchant": "TNEB"
+    },
+    {
+      "date": "2026-03-08",
+      "narration": "IB BILLPAY DR-AIRTEL POSTPAID-909468XXXXXX1409",
+      "reference": "IB63776593903732",
+      "withdrawal_paise": 69900,
+      "deposit_paise": 0,
+      "balance_paise": 9368800,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL POSTPAID"
+    },
+    {
+      "date": "2026-03-08",
+      "narration": "UPI-SWIGGY INSTAMART-swiggyinstamart@ybl-YESB0YBLUPI-564450176695-PAYMENT",
+      "reference": "0000564450176695",
+      "withdrawal_paise": 55700,
+      "deposit_paise": 0,
+      "balance_paise": 9313100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY INSTAMART"
+    },
+    {
+      "date": "2026-03-11",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-001626158541-PAYMENT",
+      "reference": "0000001626158541",
+      "withdrawal_paise": 50900,
+      "deposit_paise": 0,
+      "balance_paise": 9262200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-11",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-642158825358-PAYMENT",
+      "reference": "0000642158825358",
+      "withdrawal_paise": 61600,
+      "deposit_paise": 0,
+      "balance_paise": 9200600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-11",
+      "narration": "POS 416079XXXXXX1768 WRITERS CAFE POS DEBIT",
+      "reference": "0000N56544994208",
+      "withdrawal_paise": 175300,
+      "deposit_paise": 0,
+      "balance_paise": 9025300,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2026-03-11",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-329037586551-PAYMENT",
+      "reference": "0000329037586551",
+      "withdrawal_paise": 30100,
+      "deposit_paise": 0,
+      "balance_paise": 8995200,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-03-12",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-615364487408-PAYMENT",
+      "reference": "0000615364487408",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 8930300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2026-03-12",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-934940598651-PAYMENT",
+      "reference": "0000934940598651",
+      "withdrawal_paise": 11900,
+      "deposit_paise": 0,
+      "balance_paise": 8918400,
+      "expected_category": "subscription",
+      "expected_merchant": "SPOTIFY"
+    },
+    {
+      "date": "2026-03-12",
+      "narration": "UPI-HOTSTAR-hotstar@ybl-YESB0YBLUPI-906942099210-PAYMENT",
+      "reference": "0000906942099210",
+      "withdrawal_paise": 29900,
+      "deposit_paise": 0,
+      "balance_paise": 8888500,
+      "expected_category": "subscription",
+      "expected_merchant": "HOTSTAR"
+    },
+    {
+      "date": "2026-03-12",
+      "narration": "UPI-CULT FIT PASS-cultfitpass@ybl-YESB0YBLUPI-727806932813-PAYMENT",
+      "reference": "0000727806932813",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 8838600,
+      "expected_category": "subscription",
+      "expected_merchant": "CULT FIT PASS"
+    },
+    {
+      "date": "2026-03-13",
+      "narration": "UPI-PVR CINEMAS-pvrcinemas@ybl-YESB0YBLUPI-255046361192-PAYMENT",
+      "reference": "0000255046361192",
+      "withdrawal_paise": 96300,
+      "deposit_paise": 0,
+      "balance_paise": 8742300,
+      "expected_category": "entertainment",
+      "expected_merchant": "PVR CINEMAS"
+    },
+    {
+      "date": "2026-03-14",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-282192933363-PAYMENT",
+      "reference": "0000282192933363",
+      "withdrawal_paise": 27000,
+      "deposit_paise": 0,
+      "balance_paise": 8715300,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-03-15",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-929142314701-PAYMENT",
+      "reference": "0000929142314701",
+      "withdrawal_paise": 46500,
+      "deposit_paise": 0,
+      "balance_paise": 8668800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-03-17",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-775334355728-PAYMENT",
+      "reference": "0000775334355728",
+      "withdrawal_paise": 30600,
+      "deposit_paise": 0,
+      "balance_paise": 8638200,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-03-18",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-646051642231-PAYMENT",
+      "reference": "0000646051642231",
+      "withdrawal_paise": 18200,
+      "deposit_paise": 0,
+      "balance_paise": 8620000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-03-18",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-757873085594-PAYMENT",
+      "reference": "0000757873085594",
+      "withdrawal_paise": 24900,
+      "deposit_paise": 0,
+      "balance_paise": 8595100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-724213172345-PAYMENT",
+      "reference": "0000724213172345",
+      "withdrawal_paise": 20000,
+      "deposit_paise": 0,
+      "balance_paise": 8575100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-23",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-468323717053-PAYMENT",
+      "reference": "0000468323717053",
+      "withdrawal_paise": 23500,
+      "deposit_paise": 0,
+      "balance_paise": 8551600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-03-23",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-197529165366-PAYMENT",
+      "reference": "0000197529165366",
+      "withdrawal_paise": 47800,
+      "deposit_paise": 0,
+      "balance_paise": 8503800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-23",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-039796431675-PAYMENT",
+      "reference": "0000039796431675",
+      "withdrawal_paise": 38400,
+      "deposit_paise": 0,
+      "balance_paise": 8465400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-03-23",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-765990238084-PAYMENT",
+      "reference": "0000765990238084",
+      "withdrawal_paise": 13900,
+      "deposit_paise": 0,
+      "balance_paise": 8451500,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-03-24",
+      "narration": "UPI-CHENNAI METRO-chennaimetro@ybl-YESB0YBLUPI-224393084361-PAYMENT",
+      "reference": "0000224393084361",
+      "withdrawal_paise": 27500,
+      "deposit_paise": 0,
+      "balance_paise": 8424000,
+      "expected_category": "transport",
+      "expected_merchant": "CHENNAI METRO"
+    },
+    {
+      "date": "2026-03-24",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-652087719067-PAYMENT",
+      "reference": "0000652087719067",
+      "withdrawal_paise": 144800,
+      "deposit_paise": 0,
+      "balance_paise": 8279200,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2026-03-25",
+      "narration": "POS 416043XXXXXX8317 WRITERS CAFE POS DEBIT",
+      "reference": "0000N88386074296",
+      "withdrawal_paise": 101600,
+      "deposit_paise": 0,
+      "balance_paise": 8177600,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2026-03-25",
+      "narration": "POS 416012XXXXXX8867 WRITERS CAFE POS DEBIT",
+      "reference": "0000N82553122148",
+      "withdrawal_paise": 141800,
+      "deposit_paise": 0,
+      "balance_paise": 8035800,
+      "expected_category": "dining",
+      "expected_merchant": "WRITERS CAFE"
+    },
+    {
+      "date": "2026-03-26",
+      "narration": "POS 416001XXXXXX6744 STARBUCKS POS DEBIT",
+      "reference": "0000N87415267929",
+      "withdrawal_paise": 175000,
+      "deposit_paise": 0,
+      "balance_paise": 7860800,
+      "expected_category": "dining",
+      "expected_merchant": "STARBUCKS"
+    },
+    {
+      "date": "2026-03-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-658348523380-PAYMENT",
+      "reference": "0000658348523380",
+      "withdrawal_paise": 20200,
+      "deposit_paise": 0,
+      "balance_paise": 7840600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-03-27",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-968801887208-PAYMENT",
+      "reference": "0000968801887208",
+      "withdrawal_paise": 15800,
+      "deposit_paise": 0,
+      "balance_paise": 7824800,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-03-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 17400,
+      "balance_paise": 7842200,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    }
+  ]
+}

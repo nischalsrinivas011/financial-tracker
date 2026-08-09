@@ -1,0 +1,907 @@
+{
+  "source": "synthetic",
+  "document_type": "credit_card_statement",
+  "issuer": "AXIS BANK",
+  "product": "MY ZONE CREDIT CARD",
+  "persona": "sneha_young",
+  "card_number_masked": "XXXXXXXXXXXX9014",
+  "credit_limit_paise": 9000000,
+  "payment_style": "partial",
+  "cycle_count": 12,
+  "total_finance_charges_paise": 315497,
+  "total_gst_paise": 56784,
+  "closing_balance_paise": 2062381,
+  "cycles": [
+    {
+      "statement_date": "2025-04-25",
+      "due_date": "2025-05-15",
+      "opening_paise": 0,
+      "payments_paise": 0,
+      "purchases_paise": 1016700,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1016700,
+      "minimum_due_paise": 50835,
+      "transactions": [
+        {
+          "date": "2025-03-27",
+          "description": "ZUDIO",
+          "amount_paise": 313800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-04-10",
+          "description": "STARBUCKS",
+          "amount_paise": 91900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-11",
+          "description": "DOMINOS",
+          "amount_paise": 159300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-11",
+          "description": "PVR CINEMAS",
+          "amount_paise": 88600,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-04-15",
+          "description": "ZUDIO",
+          "amount_paise": 186600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-04-21",
+          "description": "AMAZON IN",
+          "amount_paise": 176500,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-05-25",
+      "due_date": "2025-06-14",
+      "opening_paise": 1016700,
+      "payments_paise": 577800,
+      "purchases_paise": 631900,
+      "finance_charge_paise": 15580,
+      "gst_paise": 2804,
+      "closing_paise": 1089184,
+      "minimum_due_paise": 54459,
+      "transactions": [
+        {
+          "date": "2025-05-04",
+          "description": "BOOKMYSHOW",
+          "amount_paise": 53100,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-05-05",
+          "description": "ZUDIO",
+          "amount_paise": 150900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-05",
+          "description": "DOMINOS",
+          "amount_paise": 120100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-06",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 577800,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-05-18",
+          "description": "STARBUCKS",
+          "amount_paise": 51900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-23",
+          "description": "MYNTRA",
+          "amount_paise": 118600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-24",
+          "description": "NYKAA",
+          "amount_paise": 137300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 15580,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-05-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 2804,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-06-25",
+      "due_date": "2025-07-15",
+      "opening_paise": 1089184,
+      "payments_paise": 675500,
+      "purchases_paise": 1053100,
+      "finance_charge_paise": 14685,
+      "gst_paise": 2643,
+      "closing_paise": 1484112,
+      "minimum_due_paise": 74205,
+      "transactions": [
+        {
+          "date": "2025-05-28",
+          "description": "AMAZON IN",
+          "amount_paise": 91000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-31",
+          "description": "NYKAA",
+          "amount_paise": 396800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-01",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 675500,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "SOCIAL",
+          "amount_paise": 52400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-12",
+          "description": "SOCIAL",
+          "amount_paise": 78100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-14",
+          "description": "AMAZON IN",
+          "amount_paise": 373600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-18",
+          "description": "BOOKMYSHOW",
+          "amount_paise": 61200,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-06-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 14685,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-06-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 2643,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-07-25",
+      "due_date": "2025-08-14",
+      "opening_paise": 1484112,
+      "payments_paise": 887100,
+      "purchases_paise": 1339300,
+      "finance_charge_paise": 21193,
+      "gst_paise": 3814,
+      "closing_paise": 1961319,
+      "minimum_due_paise": 98065,
+      "transactions": [
+        {
+          "date": "2025-06-29",
+          "description": "NYKAA",
+          "amount_paise": 396900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-02",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 887100,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-04",
+          "description": "BOOKMYSHOW",
+          "amount_paise": 97900,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "MYNTRA",
+          "amount_paise": 242300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-10",
+          "description": "MYNTRA",
+          "amount_paise": 335900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-18",
+          "description": "DOMINOS",
+          "amount_paise": 132500,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-19",
+          "description": "DOMINOS",
+          "amount_paise": 133800,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 21193,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-07-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 3814,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-08-25",
+      "due_date": "2025-09-14",
+      "opening_paise": 1961319,
+      "payments_paise": 931900,
+      "purchases_paise": 1421000,
+      "finance_charge_paise": 36544,
+      "gst_paise": 6577,
+      "closing_paise": 2493540,
+      "minimum_due_paise": 124677,
+      "transactions": [
+        {
+          "date": "2025-07-29",
+          "description": "ZUDIO",
+          "amount_paise": 387300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-06",
+          "description": "SOCIAL",
+          "amount_paise": 73000,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-06",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 931900,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-08-14",
+          "description": "PVR CINEMAS",
+          "amount_paise": 112000,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-08-17",
+          "description": "AMAZON IN",
+          "amount_paise": 384100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-18",
+          "description": "AMAZON IN",
+          "amount_paise": 398700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-22",
+          "description": "DOMINOS",
+          "amount_paise": 65900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 36544,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-08-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 6577,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-09-25",
+      "due_date": "2025-10-15",
+      "opening_paise": 2493540,
+      "payments_paise": 781100,
+      "purchases_paise": 824900,
+      "finance_charge_paise": 60791,
+      "gst_paise": 10942,
+      "closing_paise": 2609073,
+      "minimum_due_paise": 130453,
+      "transactions": [
+        {
+          "date": "2025-08-27",
+          "description": "NYKAA",
+          "amount_paise": 147300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-28",
+          "description": "ZUDIO",
+          "amount_paise": 288400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-28",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 781100,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-09",
+          "description": "BOOKMYSHOW",
+          "amount_paise": 56800,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-09-10",
+          "description": "SOCIAL",
+          "amount_paise": 158700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-13",
+          "description": "STARBUCKS",
+          "amount_paise": 59700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-21",
+          "description": "MYNTRA",
+          "amount_paise": 114000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 60791,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-09-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 10942,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-10-25",
+      "due_date": "2025-11-14",
+      "opening_paise": 2609073,
+      "payments_paise": 1673600,
+      "purchases_paise": 804600,
+      "finance_charge_paise": 33209,
+      "gst_paise": 5977,
+      "closing_paise": 1779259,
+      "minimum_due_paise": 88962,
+      "transactions": [
+        {
+          "date": "2025-09-26",
+          "description": "AMAZON IN",
+          "amount_paise": 395600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-28",
+          "description": "PVR CINEMAS",
+          "amount_paise": 81100,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-10-05",
+          "description": "NYKAA",
+          "amount_paise": 54900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-06",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1673600,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-10-07",
+          "description": "MYNTRA",
+          "amount_paise": 169100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-07",
+          "description": "DOMINOS",
+          "amount_paise": 61200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-10-16",
+          "description": "DOMINOS",
+          "amount_paise": 42700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-10-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 33209,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-10-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 5977,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-11-25",
+      "due_date": "2025-12-15",
+      "opening_paise": 1779259,
+      "payments_paise": 1143000,
+      "purchases_paise": 928500,
+      "finance_charge_paise": 22587,
+      "gst_paise": 4065,
+      "closing_paise": 1591411,
+      "minimum_due_paise": 79570,
+      "transactions": [
+        {
+          "date": "2025-10-29",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1143000,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-11-01",
+          "description": "AMAZON IN",
+          "amount_paise": 233000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-06",
+          "description": "NYKAA",
+          "amount_paise": 267400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-09",
+          "description": "AMAZON IN",
+          "amount_paise": 188000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-21",
+          "description": "SOCIAL",
+          "amount_paise": 49700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-21",
+          "description": "BOOKMYSHOW",
+          "amount_paise": 58800,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-11-24",
+          "description": "SOCIAL",
+          "amount_paise": 131600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 22587,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-11-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 4065,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-12-25",
+      "due_date": "2026-01-14",
+      "opening_paise": 1591411,
+      "payments_paise": 857900,
+      "purchases_paise": 713300,
+      "finance_charge_paise": 26039,
+      "gst_paise": 4687,
+      "closing_paise": 1477537,
+      "minimum_due_paise": 73876,
+      "transactions": [
+        {
+          "date": "2025-11-29",
+          "description": "DOMINOS",
+          "amount_paise": 90200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-01",
+          "description": "ZUDIO",
+          "amount_paise": 232300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-03",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 857900,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-12-16",
+          "description": "ZUDIO",
+          "amount_paise": 98600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-19",
+          "description": "STARBUCKS",
+          "amount_paise": 111400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-21",
+          "description": "PVR CINEMAS",
+          "amount_paise": 93100,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2025-12-23",
+          "description": "AMAZON IN",
+          "amount_paise": 87700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 26039,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-12-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 4687,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-01-25",
+      "due_date": "2026-02-14",
+      "opening_paise": 1477537,
+      "payments_paise": 783800,
+      "purchases_paise": 937300,
+      "finance_charge_paise": 24627,
+      "gst_paise": 4432,
+      "closing_paise": 1660096,
+      "minimum_due_paise": 83004,
+      "transactions": [
+        {
+          "date": "2025-12-29",
+          "description": "STARBUCKS",
+          "amount_paise": 142200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-01-03",
+          "description": "AMAZON IN",
+          "amount_paise": 248100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-06",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 783800,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-11",
+          "description": "AMAZON IN",
+          "amount_paise": 177200,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-12",
+          "description": "BOOKMYSHOW",
+          "amount_paise": 41800,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2026-01-16",
+          "description": "AMAZON IN",
+          "amount_paise": 259500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-19",
+          "description": "SOCIAL",
+          "amount_paise": 68500,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-01-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 24627,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-01-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 4432,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-02-25",
+      "due_date": "2026-03-17",
+      "opening_paise": 1660096,
+      "payments_paise": 958600,
+      "purchases_paise": 1038900,
+      "finance_charge_paise": 24903,
+      "gst_paise": 4482,
+      "closing_paise": 1769781,
+      "minimum_due_paise": 88489,
+      "transactions": [
+        {
+          "date": "2026-01-31",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 958600,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-02-01",
+          "description": "STARBUCKS",
+          "amount_paise": 90500,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-02",
+          "description": "NYKAA",
+          "amount_paise": 317600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-03",
+          "description": "MYNTRA",
+          "amount_paise": 127400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-13",
+          "description": "MYNTRA",
+          "amount_paise": 396300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-22",
+          "description": "DOMINOS",
+          "amount_paise": 69800,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-23",
+          "description": "PVR CINEMAS",
+          "amount_paise": 37300,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2026-02-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 24903,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-02-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 4482,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-03-25",
+      "due_date": "2026-04-14",
+      "opening_paise": 1769781,
+      "payments_paise": 774300,
+      "purchases_paise": 1025200,
+      "finance_charge_paise": 35339,
+      "gst_paise": 6361,
+      "closing_paise": 2062381,
+      "minimum_due_paise": 103119,
+      "transactions": [
+        {
+          "date": "2026-02-25",
+          "description": "NYKAA",
+          "amount_paise": 331300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-27",
+          "description": "PVR CINEMAS",
+          "amount_paise": 83800,
+          "type": "debit",
+          "expected_category": "entertainment"
+        },
+        {
+          "date": "2026-03-01",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 774300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-03-02",
+          "description": "SOCIAL",
+          "amount_paise": 128300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-05",
+          "description": "NYKAA",
+          "amount_paise": 107700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-03-08",
+          "description": "NYKAA",
+          "amount_paise": 251000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-03-18",
+          "description": "SOCIAL",
+          "amount_paise": 123100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-25",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 35339,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-03-25",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 6361,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    }
+  ]
+}

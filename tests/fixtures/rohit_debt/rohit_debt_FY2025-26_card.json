@@ -1,0 +1,1068 @@
+{
+  "source": "synthetic",
+  "document_type": "credit_card_statement",
+  "issuer": "SBI CARD",
+  "product": "SIMPLYCLICK CREDIT CARD",
+  "persona": "rohit_debt",
+  "card_number_masked": "XXXXXXXXXXXX6602",
+  "credit_limit_paise": 18000000,
+  "payment_style": "minimum",
+  "cycle_count": 12,
+  "total_finance_charges_paise": 3949368,
+  "total_gst_paise": 710881,
+  "closing_balance_paise": 20562917,
+  "cycles": [
+    {
+      "statement_date": "2025-04-14",
+      "due_date": "2025-05-04",
+      "opening_paise": 0,
+      "payments_paise": 0,
+      "purchases_paise": 1378600,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1378600,
+      "minimum_due_paise": 68930,
+      "transactions": [
+        {
+          "date": "2025-03-18",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 141000,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-03-20",
+          "description": "FLIPKART",
+          "amount_paise": 360700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-03-25",
+          "description": "ZOMATO",
+          "amount_paise": 52300,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-03-27",
+          "description": "ZOMATO",
+          "amount_paise": 77100,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-04-03",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 255900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-04-04",
+          "description": "AJIO",
+          "amount_paise": 302400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-04-05",
+          "description": "SWIGGY",
+          "amount_paise": 45600,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-04-08",
+          "description": "AMAZON IN",
+          "amount_paise": 143600,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-05-14",
+      "due_date": "2025-06-03",
+      "opening_paise": 1378600,
+      "payments_paise": 68930,
+      "purchases_paise": 2609700,
+      "finance_charge_paise": 98944,
+      "gst_paise": 17809,
+      "closing_paise": 4036123,
+      "minimum_due_paise": 201806,
+      "transactions": [
+        {
+          "date": "2025-04-15",
+          "description": "SWIGGY",
+          "amount_paise": 38200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-04-21",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 68930,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-04-23",
+          "description": "SWIGGY",
+          "amount_paise": 96000,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-04-25",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 135800,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-04-29",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 131700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-02",
+          "description": "FLIPKART",
+          "amount_paise": 562300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-04",
+          "description": "CASH ADVANCE ATM",
+          "amount_paise": 1477500,
+          "type": "debit",
+          "expected_category": "cash_advance"
+        },
+        {
+          "date": "2025-05-06",
+          "description": "AJIO",
+          "amount_paise": 92700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-08",
+          "description": "ZOMATO",
+          "amount_paise": 75500,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-05-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 98944,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-05-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 17809,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-06-14",
+      "due_date": "2025-07-04",
+      "opening_paise": 4036123,
+      "payments_paise": 201806,
+      "purchases_paise": 1681500,
+      "finance_charge_paise": 136118,
+      "gst_paise": 24501,
+      "closing_paise": 5676436,
+      "minimum_due_paise": 283821,
+      "transactions": [
+        {
+          "date": "2025-05-22",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 112200,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-23",
+          "description": "AMAZON IN",
+          "amount_paise": 182500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-23",
+          "description": "ZOMATO",
+          "amount_paise": 32100,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-05-23",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 224500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-24",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 201806,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-06-02",
+          "description": "FLIPKART",
+          "amount_paise": 487900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-03",
+          "description": "SWIGGY",
+          "amount_paise": 93900,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-06-04",
+          "description": "AJIO",
+          "amount_paise": 491200,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-09",
+          "description": "SWIGGY",
+          "amount_paise": 57200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-06-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 136118,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-06-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 24501,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-07-14",
+      "due_date": "2025-08-03",
+      "opening_paise": 5676436,
+      "payments_paise": 283821,
+      "purchases_paise": 1478900,
+      "finance_charge_paise": 191437,
+      "gst_paise": 34458,
+      "closing_paise": 7097410,
+      "minimum_due_paise": 354870,
+      "transactions": [
+        {
+          "date": "2025-06-19",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 225800,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-06-24",
+          "description": "SWIGGY",
+          "amount_paise": 67200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-06-26",
+          "description": "SWIGGY",
+          "amount_paise": 67600,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-06-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 283821,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-06-27",
+          "description": "AJIO",
+          "amount_paise": 633700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "AMAZON IN",
+          "amount_paise": 311900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-06",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 127500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-07-07",
+          "description": "SWIGGY",
+          "amount_paise": 45200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-07-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 191437,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-07-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 34458,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-08-14",
+      "due_date": "2025-09-03",
+      "opening_paise": 7097410,
+      "payments_paise": 354870,
+      "purchases_paise": 1575500,
+      "finance_charge_paise": 239360,
+      "gst_paise": 43084,
+      "closing_paise": 8600484,
+      "minimum_due_paise": 430024,
+      "transactions": [
+        {
+          "date": "2025-07-16",
+          "description": "SWIGGY",
+          "amount_paise": 89100,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-07-17",
+          "description": "SWIGGY",
+          "amount_paise": 65900,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-07-17",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 354870,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-19",
+          "description": "AJIO",
+          "amount_paise": 551100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-21",
+          "description": "AMAZON IN",
+          "amount_paise": 337800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-03",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 253700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-08-10",
+          "description": "FLIPKART",
+          "amount_paise": 136200,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-11",
+          "description": "SWIGGY",
+          "amount_paise": 41700,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-08-12",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 100000,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-08-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 239360,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-08-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 43084,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-09-14",
+      "due_date": "2025-10-04",
+      "opening_paise": 8600484,
+      "payments_paise": 430024,
+      "purchases_paise": 1602200,
+      "finance_charge_paise": 290051,
+      "gst_paise": 52209,
+      "closing_paise": 10114920,
+      "minimum_due_paise": 505746,
+      "transactions": [
+        {
+          "date": "2025-08-17",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 199700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-08-18",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 172400,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-08-23",
+          "description": "SWIGGY",
+          "amount_paise": 85000,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-08-26",
+          "description": "AMAZON IN",
+          "amount_paise": 670800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 430024,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-08-28",
+          "description": "ZOMATO",
+          "amount_paise": 73100,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-09-04",
+          "description": "AMAZON IN",
+          "amount_paise": 262500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-07",
+          "description": "ZOMATO",
+          "amount_paise": 47300,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-09-12",
+          "description": "FLIPKART",
+          "amount_paise": 91400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 290051,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-09-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 52209,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-10-14",
+      "due_date": "2025-11-03",
+      "opening_paise": 10114920,
+      "payments_paise": 505746,
+      "purchases_paise": 1146100,
+      "finance_charge_paise": 341125,
+      "gst_paise": 61402,
+      "closing_paise": 11157801,
+      "minimum_due_paise": 557890,
+      "transactions": [
+        {
+          "date": "2025-09-19",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 505746,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-29",
+          "description": "FLIPKART",
+          "amount_paise": 170400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-29",
+          "description": "AMAZON IN",
+          "amount_paise": 196000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-02",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 218900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-10-05",
+          "description": "ZOMATO",
+          "amount_paise": 58700,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-10-06",
+          "description": "SWIGGY",
+          "amount_paise": 46400,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-10-06",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 259900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-10-09",
+          "description": "ZOMATO",
+          "amount_paise": 34500,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-10-13",
+          "description": "FLIPKART",
+          "amount_paise": 161300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 341125,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 61402,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-11-14",
+      "due_date": "2025-12-04",
+      "opening_paise": 11157801,
+      "payments_paise": 557890,
+      "purchases_paise": 1759700,
+      "finance_charge_paise": 376296,
+      "gst_paise": 67733,
+      "closing_paise": 12803640,
+      "minimum_due_paise": 640182,
+      "transactions": [
+        {
+          "date": "2025-10-20",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 203600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-10-22",
+          "description": "AJIO",
+          "amount_paise": 238700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-24",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 136600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-10-27",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 557890,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-10-28",
+          "description": "SWIGGY",
+          "amount_paise": 92000,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-11-01",
+          "description": "AJIO",
+          "amount_paise": 279000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-03",
+          "description": "FLIPKART",
+          "amount_paise": 636900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-06",
+          "description": "ZOMATO",
+          "amount_paise": 75200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-11-08",
+          "description": "SWIGGY",
+          "amount_paise": 97700,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-11-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 376296,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-11-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 67733,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-12-14",
+      "due_date": "2026-01-03",
+      "opening_paise": 12803640,
+      "payments_paise": 640182,
+      "purchases_paise": 2844400,
+      "finance_charge_paise": 477895,
+      "gst_paise": 86021,
+      "closing_paise": 15571774,
+      "minimum_due_paise": 778588,
+      "transactions": [
+        {
+          "date": "2025-11-16",
+          "description": "AMAZON IN",
+          "amount_paise": 440500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-24",
+          "description": "AJIO",
+          "amount_paise": 174600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-24",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 640182,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-11-29",
+          "description": "ZOMATO",
+          "amount_paise": 80900,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-12-01",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 173300,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-12-01",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 234900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-12-02",
+          "description": "SWIGGY",
+          "amount_paise": 36800,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-12-04",
+          "description": "ZOMATO",
+          "amount_paise": 98000,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-12-06",
+          "description": "AJIO",
+          "amount_paise": 307000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-11",
+          "description": "CASH ADVANCE ATM",
+          "amount_paise": 1298400,
+          "type": "debit",
+          "expected_category": "cash_advance"
+        },
+        {
+          "date": "2025-12-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 477895,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-12-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 86021,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-01-14",
+      "due_date": "2026-02-03",
+      "opening_paise": 15571774,
+      "payments_paise": 778588,
+      "purchases_paise": 1562200,
+      "finance_charge_paise": 525158,
+      "gst_paise": 94528,
+      "closing_paise": 16975072,
+      "minimum_due_paise": 848753,
+      "transactions": [
+        {
+          "date": "2025-12-17",
+          "description": "SWIGGY",
+          "amount_paise": 41200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2025-12-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 778588,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-12-28",
+          "description": "AMAZON IN",
+          "amount_paise": 535000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-04",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 201500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-04",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 255700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-09",
+          "description": "ZOMATO",
+          "amount_paise": 87800,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-01-10",
+          "description": "SWIGGY",
+          "amount_paise": 61500,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-01-11",
+          "description": "AMAZON IN",
+          "amount_paise": 379500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 525158,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-01-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 94528,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-02-14",
+      "due_date": "2026-03-06",
+      "opening_paise": 16975072,
+      "payments_paise": 848753,
+      "purchases_paise": 2722900,
+      "finance_charge_paise": 612904,
+      "gst_paise": 110322,
+      "closing_paise": 19572445,
+      "minimum_due_paise": 978622,
+      "transactions": [
+        {
+          "date": "2026-01-16",
+          "description": "HP PETROL PUMP",
+          "amount_paise": 109600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-22",
+          "description": "AJIO",
+          "amount_paise": 223800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-22",
+          "description": "SWIGGY",
+          "amount_paise": 90600,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-01-24",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 848753,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-25",
+          "description": "AMAZON IN",
+          "amount_paise": 172100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-28",
+          "description": "AMAZON IN",
+          "amount_paise": 650100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-31",
+          "description": "SWIGGY",
+          "amount_paise": 88800,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-02-02",
+          "description": "SWIGGY",
+          "amount_paise": 100600,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-02-06",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 148700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-02-13",
+          "description": "CASH ADVANCE ATM",
+          "amount_paise": 1138600,
+          "type": "debit",
+          "expected_category": "cash_advance"
+        },
+        {
+          "date": "2026-02-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 612904,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-02-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 110322,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-03-14",
+      "due_date": "2026-04-03",
+      "opening_paise": 19572445,
+      "payments_paise": 978622,
+      "purchases_paise": 1190200,
+      "finance_charge_paise": 660080,
+      "gst_paise": 118814,
+      "closing_paise": 20562917,
+      "minimum_due_paise": 1028145,
+      "transactions": [
+        {
+          "date": "2026-02-13",
+          "description": "AMAZON IN",
+          "amount_paise": 217500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-17",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 107800,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-02-20",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 978622,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-02-23",
+          "description": "ZOMATO",
+          "amount_paise": 75200,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-02-27",
+          "description": "SWIGGY",
+          "amount_paise": 70100,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-02-28",
+          "description": "SWIGGY",
+          "amount_paise": 71400,
+          "type": "debit",
+          "expected_category": "food_delivery"
+        },
+        {
+          "date": "2026-03-05",
+          "description": "BHARAT PETROLEUM",
+          "amount_paise": 148600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-03-07",
+          "description": "AMAZON IN",
+          "amount_paise": 499600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-03-14",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 660080,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-03-14",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 118814,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "source": "synthetic",
+  "document_type": "credit_card_statement",
+  "issuer": "HDFC BANK",
+  "product": "REGALIA GOLD CREDIT CARD",
+  "persona": "arjun_salaried",
+  "card_number_masked": "XXXXXXXXXXXX4417",
+  "credit_limit_paise": 65000000,
+  "payment_style": "full",
+  "cycle_count": 12,
+  "total_finance_charges_paise": 0,
+  "total_gst_paise": 0,
+  "closing_balance_paise": 2558000,
+  "cycles": [
+    {
+      "statement_date": "2025-04-18",
+      "due_date": "2025-05-08",
+      "opening_paise": 0,
+      "payments_paise": 0,
+      "purchases_paise": 3131200,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 3131200,
+      "minimum_due_paise": 156560,
+      "transactions": [
+        {
+          "date": "2025-03-23",
+          "description": "AMAZON IN",
+          "amount_paise": 264300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-03-27",
+          "description": "IKEA BENGALURU",
+          "amount_paise": 266700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-03-27",
+          "description": "BLUE TOKAI",
+          "amount_paise": 198200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-03-28",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 86600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-03-30",
+          "description": "INDIAN OIL",
+          "amount_paise": 139700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-04-06",
+          "description": "SHELL INDIA",
+          "amount_paise": 293500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-04-13",
+          "description": "IRCTC",
+          "amount_paise": 1882200,
+          "type": "debit",
+          "expected_category": "travel"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-05-18",
+      "due_date": "2025-06-07",
+      "opening_paise": 3131200,
+      "payments_paise": 3131200,
+      "purchases_paise": 2690300,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2690300,
+      "minimum_due_paise": 134515,
+      "transactions": [
+        {
+          "date": "2025-04-19",
+          "description": "BLUE TOKAI",
+          "amount_paise": 84100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-25",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 81500,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 3131200,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-05-04",
+          "description": "IRCTC",
+          "amount_paise": 1414100,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-05-05",
+          "description": "INDIAN OIL",
+          "amount_paise": 194500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-14",
+          "description": "CROMA",
+          "amount_paise": 247800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-17",
+          "description": "MYNTRA",
+          "amount_paise": 668300,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-06-18",
+      "due_date": "2025-07-08",
+      "opening_paise": 2690300,
+      "payments_paise": 2690300,
+      "purchases_paise": 2113300,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2113300,
+      "minimum_due_paise": 105665,
+      "transactions": [
+        {
+          "date": "2025-05-20",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 284600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-23",
+          "description": "INDIAN OIL",
+          "amount_paise": 250500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-29",
+          "description": "BLUE TOKAI",
+          "amount_paise": 348100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-29",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2690300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-05-30",
+          "description": "MYNTRA",
+          "amount_paise": 819300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "SHELL INDIA",
+          "amount_paise": 210600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-06-09",
+          "description": "CROMA",
+          "amount_paise": 200200,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-07-18",
+      "due_date": "2025-08-07",
+      "opening_paise": 2113300,
+      "payments_paise": 2113300,
+      "purchases_paise": 3733700,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 3733700,
+      "minimum_due_paise": 186685,
+      "transactions": [
+        {
+          "date": "2025-06-21",
+          "description": "CROMA",
+          "amount_paise": 880600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-22",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 145900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-28",
+          "description": "MYNTRA",
+          "amount_paise": 795700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-30",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2113300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-05",
+          "description": "INDIAN OIL",
+          "amount_paise": 269700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "INDIAN OIL",
+          "amount_paise": 263400,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-07-11",
+          "description": "INDIGO AIRLINES",
+          "amount_paise": 1070800,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-07-17",
+          "description": "BLUE TOKAI",
+          "amount_paise": 307600,
+          "type": "debit",
+          "expected_category": "dining"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-08-18",
+      "due_date": "2025-09-07",
+      "opening_paise": 3733700,
+      "payments_paise": 3733700,
+      "purchases_paise": 3553000,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 3553000,
+      "minimum_due_paise": 177650,
+      "transactions": [
+        {
+          "date": "2025-07-20",
+          "description": "INDIGO AIRLINES",
+          "amount_paise": 1503300,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-07-21",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 3733700,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-23",
+          "description": "BLUE TOKAI",
+          "amount_paise": 167100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-23",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 257400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-26",
+          "description": "MYNTRA",
+          "amount_paise": 734400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-28",
+          "description": "CROMA",
+          "amount_paise": 612500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-03",
+          "description": "SHELL INDIA",
+          "amount_paise": 141600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-08-07",
+          "description": "INDIAN OIL",
+          "amount_paise": 136700,
+          "type": "debit",
+          "expected_category": "fuel"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-09-18",
+      "due_date": "2025-10-08",
+      "opening_paise": 3553000,
+      "payments_paise": 3553000,
+      "purchases_paise": 1804300,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1804300,
+      "minimum_due_paise": 90215,
+      "transactions": [
+        {
+          "date": "2025-08-20",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 307900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-21",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 288600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-23",
+          "description": "CROMA",
+          "amount_paise": 648800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-26",
+          "description": "MYNTRA",
+          "amount_paise": 267300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-31",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 3553000,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-13",
+          "description": "SHELL INDIA",
+          "amount_paise": 291700,
+          "type": "debit",
+          "expected_category": "fuel"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-10-18",
+      "due_date": "2025-11-07",
+      "opening_paise": 1804300,
+      "payments_paise": 1804300,
+      "purchases_paise": 2042500,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2042500,
+      "minimum_due_paise": 102125,
+      "transactions": [
+        {
+          "date": "2025-09-22",
+          "description": "IKEA BENGALURU",
+          "amount_paise": 499400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-27",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1804300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-29",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 86600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-30",
+          "description": "INDIAN OIL",
+          "amount_paise": 194100,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-10-06",
+          "description": "BLUE TOKAI",
+          "amount_paise": 343200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "IKEA BENGALURU",
+          "amount_paise": 821800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "BLUE TOKAI",
+          "amount_paise": 97400,
+          "type": "debit",
+          "expected_category": "dining"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-11-18",
+      "due_date": "2025-12-08",
+      "opening_paise": 2042500,
+      "payments_paise": 2042500,
+      "purchases_paise": 1918100,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1918100,
+      "minimum_due_paise": 95905,
+      "transactions": [
+        {
+          "date": "2025-10-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2042500,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-10-27",
+          "description": "BLUE TOKAI",
+          "amount_paise": 101000,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-10",
+          "description": "INDIAN OIL",
+          "amount_paise": 143500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-11-11",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 318100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-14",
+          "description": "MYNTRA",
+          "amount_paise": 423900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-15",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 190700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-16",
+          "description": "MYNTRA",
+          "amount_paise": 740900,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-12-18",
+      "due_date": "2026-01-07",
+      "opening_paise": 1918100,
+      "payments_paise": 1918100,
+      "purchases_paise": 2650500,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2650500,
+      "minimum_due_paise": 132525,
+      "transactions": [
+        {
+          "date": "2025-11-22",
+          "description": "SHELL INDIA",
+          "amount_paise": 196200,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-11-26",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 345600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-29",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1918100,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-12-03",
+          "description": "INDIGO AIRLINES",
+          "amount_paise": 772500,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-12-04",
+          "description": "SHELL INDIA",
+          "amount_paise": 268100,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-12-05",
+          "description": "IKEA BENGALURU",
+          "amount_paise": 335700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-11",
+          "description": "IKEA BENGALURU",
+          "amount_paise": 183000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-13",
+          "description": "BLUE TOKAI",
+          "amount_paise": 230600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-16",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 318800,
+          "type": "debit",
+          "expected_category": "dining"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-01-18",
+      "due_date": "2026-02-07",
+      "opening_paise": 2650500,
+      "payments_paise": 2650500,
+      "purchases_paise": 3478000,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 3478000,
+      "minimum_due_paise": 173900,
+      "transactions": [
+        {
+          "date": "2025-12-30",
+          "description": "INDIAN OIL",
+          "amount_paise": 278000,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-12-30",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2650500,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-02",
+          "description": "IRCTC",
+          "amount_paise": 1176700,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2026-01-04",
+          "description": "MYNTRA",
+          "amount_paise": 539700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-08",
+          "description": "INDIAN OIL",
+          "amount_paise": 247100,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-12",
+          "description": "SMOKE HOUSE DELI",
+          "amount_paise": 318900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-01-13",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 302800,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-01-15",
+          "description": "MYNTRA",
+          "amount_paise": 614800,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-02-18",
+      "due_date": "2026-03-10",
+      "opening_paise": 3478000,
+      "payments_paise": 3478000,
+      "purchases_paise": 2224300,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2224300,
+      "minimum_due_paise": 111215,
+      "transactions": [
+        {
+          "date": "2026-01-22",
+          "description": "MYNTRA",
+          "amount_paise": 363600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-25",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 3478000,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-27",
+          "description": "AMAZON IN",
+          "amount_paise": 270000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-27",
+          "description": "IRCTC",
+          "amount_paise": 751300,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2026-02-07",
+          "description": "INDIAN OIL",
+          "amount_paise": 217600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-02-09",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 96600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-09",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 165600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-11",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 151200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-13",
+          "description": "INDIAN OIL",
+          "amount_paise": 208400,
+          "type": "debit",
+          "expected_category": "fuel"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-03-18",
+      "due_date": "2026-04-07",
+      "opening_paise": 2224300,
+      "payments_paise": 2224300,
+      "purchases_paise": 2558000,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2558000,
+      "minimum_due_paise": 127900,
+      "transactions": [
+        {
+          "date": "2026-02-20",
+          "description": "AMAZON IN",
+          "amount_paise": 806100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-25",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2224300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-03-01",
+          "description": "BLUE TOKAI",
+          "amount_paise": 151600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-01",
+          "description": "TOIT BREWPUB",
+          "amount_paise": 353400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-11",
+          "description": "INDIAN OIL",
+          "amount_paise": 250600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-03-14",
+          "description": "INDIAN OIL",
+          "amount_paise": 180900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-03-15",
+          "description": "AMAZON IN",
+          "amount_paise": 815400,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    }
+  ]
+}

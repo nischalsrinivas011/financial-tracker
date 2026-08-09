@@ -1,0 +1,3159 @@
+{
+  "source": "synthetic",
+  "document_type": "bank_statement",
+  "bank": "HDFC BANK",
+  "persona": "vikram_creep",
+  "account_number_masked": "XXXXXXXXXX8837",
+  "ifsc": "HDFC0000060",
+  "period": {
+    "from": "2025-04-01",
+    "to": "2026-03-31"
+  },
+  "opening_balance_paise": 14780000,
+  "closing_balance_paise": 8070700,
+  "total_credits_paise": 411986300,
+  "total_debits_paise": 418695600,
+  "transaction_count": 314,
+  "transactions": [
+    {
+      "date": "2025-04-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY APR25-N599524112444597",
+      "reference": "N599524112444597",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 45980000,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-04-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N710164776236558-PERSONAL",
+      "reference": "N710164776236558",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 34480000,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-04-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-362221757854-PAYMENT",
+      "reference": "0000362221757854",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 32680000,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "EMI 6437732 CHQ S7031671630 2272958704",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 27810000,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-531706650305-PAYMENT",
+      "reference": "0000531706650305",
+      "withdrawal_paise": 71400,
+      "deposit_paise": 0,
+      "balance_paise": 27738600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-585434081975-PAYMENT",
+      "reference": "0000585434081975",
+      "withdrawal_paise": 71500,
+      "deposit_paise": 0,
+      "balance_paise": 27667100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-228809791808-PAYMENT",
+      "reference": "0000228809791808",
+      "withdrawal_paise": 25200,
+      "deposit_paise": 0,
+      "balance_paise": 27641900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-04-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-5514503424",
+      "reference": "0000548419690527",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 26141900,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-708061XXXXXX4423",
+      "reference": "IB55016064383308",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 25461900,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-462296XXXXXX4501",
+      "reference": "IB26471399292725",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 25312000,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-291441906514-PAYMENT",
+      "reference": "0000291441906514",
+      "withdrawal_paise": 35700,
+      "deposit_paise": 0,
+      "balance_paise": 25276300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-986827220036-PAYMENT",
+      "reference": "0000986827220036",
+      "withdrawal_paise": 61600,
+      "deposit_paise": 0,
+      "balance_paise": 25214700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-04-12",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-463988203702-PAYMENT",
+      "reference": "0000463988203702",
+      "withdrawal_paise": 356000,
+      "deposit_paise": 0,
+      "balance_paise": 24858700,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-04-12",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-256698061094-PAYMENT",
+      "reference": "0000256698061094",
+      "withdrawal_paise": 703400,
+      "deposit_paise": 0,
+      "balance_paise": 24155300,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-04-13",
+      "narration": "ACH D- TATA AIG-361491673",
+      "reference": "0000098458947837",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 23745300,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-04-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-286808139227-PAYMENT",
+      "reference": "0000286808139227",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 23595400,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-04-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-067848967960-PAYMENT",
+      "reference": "0000067848967960",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 23530500,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-04-20",
+      "narration": "ACH D- FITNESS FIRST-376521191",
+      "reference": "0000039654058980",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 22580500,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-04-20",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-440772344723-PAYMENT",
+      "reference": "0000440772344723",
+      "withdrawal_paise": 85400,
+      "deposit_paise": 0,
+      "balance_paise": 22495100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-695927184436-PAYMENT",
+      "reference": "0000695927184436",
+      "withdrawal_paise": 27900,
+      "deposit_paise": 0,
+      "balance_paise": 22467200,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-756615380525-PAYMENT",
+      "reference": "0000756615380525",
+      "withdrawal_paise": 38800,
+      "deposit_paise": 0,
+      "balance_paise": 22428400,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-04-22",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-062998722715-PAYMENT",
+      "reference": "0000062998722715",
+      "withdrawal_paise": 72600,
+      "deposit_paise": 0,
+      "balance_paise": 22355800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-24",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-825408435315-PAYMENT",
+      "reference": "0000825408435315",
+      "withdrawal_paise": 658800,
+      "deposit_paise": 0,
+      "balance_paise": 21697000,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-04-26",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-177525063808-PAYMENT",
+      "reference": "0000177525063808",
+      "withdrawal_paise": 40500,
+      "deposit_paise": 0,
+      "balance_paise": 21656500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY MAY25-N512485146971316",
+      "reference": "N512485146971316",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 52856500,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-05-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N818709794708621-PERSONAL",
+      "reference": "N818709794708621",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 41356500,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-05-02",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-681461XXXXXX4283",
+      "reference": "IB68275363047215",
+      "withdrawal_paise": 7936100,
+      "deposit_paise": 0,
+      "balance_paise": 33420400,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-05-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-319765908135-PAYMENT",
+      "reference": "0000319765908135",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 31620400,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-05-05",
+      "narration": "EMI 0552424 CHQ S1609632252 0338808325",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 26750400,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-05-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-8613315856",
+      "reference": "0000015998973132",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 25250400,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-05-06",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-193266822142-PAYMENT",
+      "reference": "0000193266822142",
+      "withdrawal_paise": 41900,
+      "deposit_paise": 0,
+      "balance_paise": 25208500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-128778894085-PAYMENT",
+      "reference": "0000128778894085",
+      "withdrawal_paise": 66800,
+      "deposit_paise": 0,
+      "balance_paise": 25141700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-820613016781-PAYMENT",
+      "reference": "0000820613016781",
+      "withdrawal_paise": 48300,
+      "deposit_paise": 0,
+      "balance_paise": 25093400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-941963XXXXXX8755",
+      "reference": "IB87774682043381",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 24413400,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-363043XXXXXX9445",
+      "reference": "IB96010882624964",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 24263500,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-926159986735-PAYMENT",
+      "reference": "0000926159986735",
+      "withdrawal_paise": 81800,
+      "deposit_paise": 0,
+      "balance_paise": 24181700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-495346620612-PAYMENT",
+      "reference": "0000495346620612",
+      "withdrawal_paise": 60000,
+      "deposit_paise": 0,
+      "balance_paise": 24121700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-05-13",
+      "narration": "ACH D- TATA AIG-406380484",
+      "reference": "0000004469755173",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 23711700,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-05-14",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-286222360500-PAYMENT",
+      "reference": "0000286222360500",
+      "withdrawal_paise": 76800,
+      "deposit_paise": 0,
+      "balance_paise": 23634900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-400348187153-PAYMENT",
+      "reference": "0000400348187153",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 23485000,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-767101368869-PAYMENT",
+      "reference": "0000767101368869",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 23420100,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-594743100779-PAYMENT",
+      "reference": "0000594743100779",
+      "withdrawal_paise": 47000,
+      "deposit_paise": 0,
+      "balance_paise": 23373100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-160704766137-PAYMENT",
+      "reference": "0000160704766137",
+      "withdrawal_paise": 52800,
+      "deposit_paise": 0,
+      "balance_paise": 23320300,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-05-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-446798302806-PAYMENT",
+      "reference": "0000446798302806",
+      "withdrawal_paise": 52700,
+      "deposit_paise": 0,
+      "balance_paise": 23267600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-18",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-802893655636-PAYMENT",
+      "reference": "0000802893655636",
+      "withdrawal_paise": 399700,
+      "deposit_paise": 0,
+      "balance_paise": 22867900,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-05-18",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-794911463867-PAYMENT",
+      "reference": "0000794911463867",
+      "withdrawal_paise": 770600,
+      "deposit_paise": 0,
+      "balance_paise": 22097300,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-05-20",
+      "narration": "ACH D- FITNESS FIRST-851724033",
+      "reference": "0000003390352861",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 21147300,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-05-21",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-064429950152-PAYMENT",
+      "reference": "0000064429950152",
+      "withdrawal_paise": 74800,
+      "deposit_paise": 0,
+      "balance_paise": 21072500,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-05-26",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-782693861524-PAYMENT",
+      "reference": "0000782693861524",
+      "withdrawal_paise": 358100,
+      "deposit_paise": 0,
+      "balance_paise": 20714400,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-05-31",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-891624XXXXXX9523",
+      "reference": "IB42892253208782",
+      "withdrawal_paise": 6108700,
+      "deposit_paise": 0,
+      "balance_paise": 14605700,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-06-01",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-733874187398-PAYMENT",
+      "reference": "0000733874187398",
+      "withdrawal_paise": 613600,
+      "deposit_paise": 0,
+      "balance_paise": 13992100,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-06-01",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-865633813374-PAYMENT",
+      "reference": "0000865633813374",
+      "withdrawal_paise": 45700,
+      "deposit_paise": 0,
+      "balance_paise": 13946400,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-06-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY JUN25-N398051276206023",
+      "reference": "N398051276206023",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 45146400,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-06-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N409502532683156-PERSONAL",
+      "reference": "N409502532683156",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 33646400,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-06-02",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-347837784785-PAYMENT",
+      "reference": "0000347837784785",
+      "withdrawal_paise": 26400,
+      "deposit_paise": 0,
+      "balance_paise": 33620000,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-06-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-758487186153-PAYMENT",
+      "reference": "0000758487186153",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 31820000,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-06-05",
+      "narration": "EMI 1530732 CHQ S7201843432 4508426690",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 26950000,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-06-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-022142389531-PAYMENT",
+      "reference": "0000022142389531",
+      "withdrawal_paise": 65000,
+      "deposit_paise": 0,
+      "balance_paise": 26885000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-0242664118",
+      "reference": "0000528602715618",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 25385000,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-06-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-607669093703-PAYMENT",
+      "reference": "0000607669093703",
+      "withdrawal_paise": 21200,
+      "deposit_paise": 0,
+      "balance_paise": 25363800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-898521XXXXXX2405",
+      "reference": "IB92143969638145",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 24683800,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-632222XXXXXX6803",
+      "reference": "IB38942286633029",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 24533900,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-06-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-738189511699-PAYMENT",
+      "reference": "0000738189511699",
+      "withdrawal_paise": 23300,
+      "deposit_paise": 0,
+      "balance_paise": 24510600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-11",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-533868420601-PAYMENT",
+      "reference": "0000533868420601",
+      "withdrawal_paise": 27700,
+      "deposit_paise": 0,
+      "balance_paise": 24482900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-06-13",
+      "narration": "ACH D- TATA AIG-799836998",
+      "reference": "0000061473140478",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 24072900,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-06-13",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-291977489183-PAYMENT",
+      "reference": "0000291977489183",
+      "withdrawal_paise": 24500,
+      "deposit_paise": 0,
+      "balance_paise": 24048400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-299189749388-PAYMENT",
+      "reference": "0000299189749388",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 23898500,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-06-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-374423180755-PAYMENT",
+      "reference": "0000374423180755",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 23833600,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-06-17",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-538702906564-PAYMENT",
+      "reference": "0000538702906564",
+      "withdrawal_paise": 18300,
+      "deposit_paise": 0,
+      "balance_paise": 23815300,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-06-18",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-623729584004-PAYMENT",
+      "reference": "0000623729584004",
+      "withdrawal_paise": 62500,
+      "deposit_paise": 0,
+      "balance_paise": 23752800,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-06-20",
+      "narration": "ACH D- FITNESS FIRST-112682674",
+      "reference": "0000066053487637",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 22802800,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-06-20",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-376280234899-PAYMENT",
+      "reference": "0000376280234899",
+      "withdrawal_paise": 778300,
+      "deposit_paise": 0,
+      "balance_paise": 22024500,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-06-26",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-510607792438-PAYMENT",
+      "reference": "0000510607792438",
+      "withdrawal_paise": 685500,
+      "deposit_paise": 0,
+      "balance_paise": 21339000,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-06-27",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-816382412505-PAYMENT",
+      "reference": "0000816382412505",
+      "withdrawal_paise": 27300,
+      "deposit_paise": 0,
+      "balance_paise": 21311700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-06-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 32900,
+      "balance_paise": 21344600,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2025-07-01",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-543712XXXXXX7014",
+      "reference": "IB50297341521463",
+      "withdrawal_paise": 10081800,
+      "deposit_paise": 0,
+      "balance_paise": 11262800,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-07-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY JUL25-N892652549271755",
+      "reference": "N892652549271755",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 42462800,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-07-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N226063637304549-PERSONAL",
+      "reference": "N226063637304549",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 30962800,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-07-03",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-045108061773-PAYMENT",
+      "reference": "0000045108061773",
+      "withdrawal_paise": 66300,
+      "deposit_paise": 0,
+      "balance_paise": 30896500,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-07-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-131637114286-PAYMENT",
+      "reference": "0000131637114286",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 29096500,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-07-05",
+      "narration": "EMI 7319533 CHQ S8601772110 5346310373",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 24226500,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-07-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-912819358392-PAYMENT",
+      "reference": "0000912819358392",
+      "withdrawal_paise": 31800,
+      "deposit_paise": 0,
+      "balance_paise": 24194700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-4133069927",
+      "reference": "0000712427941735",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 22694700,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-07-06",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-720831113901-PAYMENT",
+      "reference": "0000720831113901",
+      "withdrawal_paise": 305200,
+      "deposit_paise": 0,
+      "balance_paise": 22389500,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-07-06",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-003381997736-PAYMENT",
+      "reference": "0000003381997736",
+      "withdrawal_paise": 42000,
+      "deposit_paise": 0,
+      "balance_paise": 22347500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-450956977921-PAYMENT",
+      "reference": "0000450956977921",
+      "withdrawal_paise": 38800,
+      "deposit_paise": 0,
+      "balance_paise": 22308700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-912549XXXXXX0694",
+      "reference": "IB51169929369388",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 21628700,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-07-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-021218XXXXXX0717",
+      "reference": "IB49943021106362",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 21478800,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-07-11",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-439845206024-PAYMENT",
+      "reference": "0000439845206024",
+      "withdrawal_paise": 88400,
+      "deposit_paise": 0,
+      "balance_paise": 21390400,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-07-13",
+      "narration": "ACH D- TATA AIG-657264454",
+      "reference": "0000087257336355",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 20980400,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-07-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-230242340792-PAYMENT",
+      "reference": "0000230242340792",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 20830500,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-07-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-293510502041-PAYMENT",
+      "reference": "0000293510502041",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 20765600,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-07-15",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-209753289723-PAYMENT",
+      "reference": "0000209753289723",
+      "withdrawal_paise": 81100,
+      "deposit_paise": 0,
+      "balance_paise": 20684500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-20",
+      "narration": "ACH D- FITNESS FIRST-801724790",
+      "reference": "0000096894270922",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 19734500,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-07-23",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-775374584691-PAYMENT",
+      "reference": "0000775374584691",
+      "withdrawal_paise": 579400,
+      "deposit_paise": 0,
+      "balance_paise": 19155100,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-07-23",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-415613753569-PAYMENT",
+      "reference": "0000415613753569",
+      "withdrawal_paise": 36900,
+      "deposit_paise": 0,
+      "balance_paise": 19118200,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-07-23",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-806566358932-PAYMENT",
+      "reference": "0000806566358932",
+      "withdrawal_paise": 88500,
+      "deposit_paise": 0,
+      "balance_paise": 19029700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-07-25",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-915061007348-PAYMENT",
+      "reference": "0000915061007348",
+      "withdrawal_paise": 88300,
+      "deposit_paise": 0,
+      "balance_paise": 18941400,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-07-28",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-990071389857-PAYMENT",
+      "reference": "0000990071389857",
+      "withdrawal_paise": 506000,
+      "deposit_paise": 0,
+      "balance_paise": 18435400,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-07-28",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-057771340035-PAYMENT",
+      "reference": "0000057771340035",
+      "withdrawal_paise": 25800,
+      "deposit_paise": 0,
+      "balance_paise": 18409600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-29",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-696310XXXXXX1491",
+      "reference": "IB57750656003792",
+      "withdrawal_paise": 11221100,
+      "deposit_paise": 0,
+      "balance_paise": 7188500,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-08-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY AUG25-N224291813724422",
+      "reference": "N224291813724422",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 38388500,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-08-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N117081322096001-PERSONAL",
+      "reference": "N117081322096001",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 26888500,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-08-03",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-520256027437-PAYMENT",
+      "reference": "0000520256027437",
+      "withdrawal_paise": 77700,
+      "deposit_paise": 0,
+      "balance_paise": 26810800,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-08-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-912751373097-PAYMENT",
+      "reference": "0000912751373097",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 25010800,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-08-04",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-295397424370-PAYMENT",
+      "reference": "0000295397424370",
+      "withdrawal_paise": 371200,
+      "deposit_paise": 0,
+      "balance_paise": 24639600,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-08-05",
+      "narration": "EMI 1480615 CHQ S5258695706 6701490451",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 19769600,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-08-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-6133242842",
+      "reference": "0000371002813394",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 18269600,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-08-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-231048479821-PAYMENT",
+      "reference": "0000231048479821",
+      "withdrawal_paise": 56500,
+      "deposit_paise": 0,
+      "balance_paise": 18213100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-247663938353-PAYMENT",
+      "reference": "0000247663938353",
+      "withdrawal_paise": 52300,
+      "deposit_paise": 0,
+      "balance_paise": 18160800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-067354XXXXXX4331",
+      "reference": "IB48270499338253",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 17480800,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-08-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-758654XXXXXX3783",
+      "reference": "IB51942961017552",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 17330900,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-08-10",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-437836751549-PAYMENT",
+      "reference": "0000437836751549",
+      "withdrawal_paise": 268600,
+      "deposit_paise": 0,
+      "balance_paise": 17062300,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-08-10",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-085638636852-PAYMENT",
+      "reference": "0000085638636852",
+      "withdrawal_paise": 55200,
+      "deposit_paise": 0,
+      "balance_paise": 17007100,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-08-13",
+      "narration": "ACH D- TATA AIG-140323425",
+      "reference": "0000040137161318",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 16597100,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-08-13",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-074541346398-PAYMENT",
+      "reference": "0000074541346398",
+      "withdrawal_paise": 47400,
+      "deposit_paise": 0,
+      "balance_paise": 16549700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-08-13",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-354072876628-PAYMENT",
+      "reference": "0000354072876628",
+      "withdrawal_paise": 73500,
+      "deposit_paise": 0,
+      "balance_paise": 16476200,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-08-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-600439513287-PAYMENT",
+      "reference": "0000600439513287",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 16326300,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-08-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-624546858869-PAYMENT",
+      "reference": "0000624546858869",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 16261400,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-08-16",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-135273116773-PAYMENT",
+      "reference": "0000135273116773",
+      "withdrawal_paise": 77200,
+      "deposit_paise": 0,
+      "balance_paise": 16184200,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-08-18",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-162042383047-PAYMENT",
+      "reference": "0000162042383047",
+      "withdrawal_paise": 25200,
+      "deposit_paise": 0,
+      "balance_paise": 16159000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-20",
+      "narration": "ACH D- FITNESS FIRST-463925569",
+      "reference": "0000095663862551",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 15209000,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-08-26",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-112367514580-PAYMENT",
+      "reference": "0000112367514580",
+      "withdrawal_paise": 28300,
+      "deposit_paise": 0,
+      "balance_paise": 15180700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-08-26",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-165503900631-PAYMENT",
+      "reference": "0000165503900631",
+      "withdrawal_paise": 27400,
+      "deposit_paise": 0,
+      "balance_paise": 15153300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-27",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-996431304542-PAYMENT",
+      "reference": "0000996431304542",
+      "withdrawal_paise": 258400,
+      "deposit_paise": 0,
+      "balance_paise": 14894900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-09-01",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-028753XXXXXX1704",
+      "reference": "IB57668553175489",
+      "withdrawal_paise": 10242900,
+      "deposit_paise": 0,
+      "balance_paise": 4652000,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-09-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY SEP25-N693117764636102",
+      "reference": "N693117764636102",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 35852000,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-09-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N349204612914660-PERSONAL",
+      "reference": "N349204612914660",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 24352000,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-09-02",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-141556568720-PAYMENT",
+      "reference": "0000141556568720",
+      "withdrawal_paise": 711900,
+      "deposit_paise": 0,
+      "balance_paise": 23640100,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-09-02",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-189218403261-PAYMENT",
+      "reference": "0000189218403261",
+      "withdrawal_paise": 19400,
+      "deposit_paise": 0,
+      "balance_paise": 23620700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-380326219846-PAYMENT",
+      "reference": "0000380326219846",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 21820700,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-09-05",
+      "narration": "EMI 1180134 CHQ S7829710634 9474456115",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 16950700,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-09-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-084705122670-PAYMENT",
+      "reference": "0000084705122670",
+      "withdrawal_paise": 70700,
+      "deposit_paise": 0,
+      "balance_paise": 16880000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-2427860765",
+      "reference": "0000173267730859",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 15380000,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-09-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-314188282311-PAYMENT",
+      "reference": "0000314188282311",
+      "withdrawal_paise": 80200,
+      "deposit_paise": 0,
+      "balance_paise": 15299800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-506255096197-PAYMENT",
+      "reference": "0000506255096197",
+      "withdrawal_paise": 65000,
+      "deposit_paise": 0,
+      "balance_paise": 15234800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-833016074646-PAYMENT",
+      "reference": "0000833016074646",
+      "withdrawal_paise": 85600,
+      "deposit_paise": 0,
+      "balance_paise": 15149200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-179545837213-PAYMENT",
+      "reference": "0000179545837213",
+      "withdrawal_paise": 54000,
+      "deposit_paise": 0,
+      "balance_paise": 15095200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-424018XXXXXX4132",
+      "reference": "IB45407039248816",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 14415200,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-09-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-464049XXXXXX6556",
+      "reference": "IB98713969953802",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 14265300,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-09-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-967704323885-PAYMENT",
+      "reference": "0000967704323885",
+      "withdrawal_paise": 22200,
+      "deposit_paise": 0,
+      "balance_paise": 14243100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-13",
+      "narration": "ACH D- TATA AIG-723042931",
+      "reference": "0000031609683383",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 13833100,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-09-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-996861280108-PAYMENT",
+      "reference": "0000996861280108",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 13683200,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-09-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-688029609565-PAYMENT",
+      "reference": "0000688029609565",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 13618300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-09-16",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-844895367437-PAYMENT",
+      "reference": "0000844895367437",
+      "withdrawal_paise": 361600,
+      "deposit_paise": 0,
+      "balance_paise": 13256700,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-09-19",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-669931123689-PAYMENT",
+      "reference": "0000669931123689",
+      "withdrawal_paise": 62900,
+      "deposit_paise": 0,
+      "balance_paise": 13193800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-20",
+      "narration": "ACH D- FITNESS FIRST-964621149",
+      "reference": "0000040611733673",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 12243800,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-09-20",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-906638032424-PAYMENT",
+      "reference": "0000906638032424",
+      "withdrawal_paise": 56800,
+      "deposit_paise": 0,
+      "balance_paise": 12187000,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-09-21",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-019979053685-PAYMENT",
+      "reference": "0000019979053685",
+      "withdrawal_paise": 696800,
+      "deposit_paise": 0,
+      "balance_paise": 11490200,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-09-24",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-785599828897-PAYMENT",
+      "reference": "0000785599828897",
+      "withdrawal_paise": 54700,
+      "deposit_paise": 0,
+      "balance_paise": 11435500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-25",
+      "narration": "IMPS-237349558344-MF REDEMPTION-MIRAE LARGE CAP-HDFC",
+      "reference": "0000237349558344",
+      "withdrawal_paise": 0,
+      "deposit_paise": 2500000,
+      "balance_paise": 13935500,
+      "expected_category": "transfer_in",
+      "expected_merchant": "MF REDEMPTION-MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-09-25",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-958750XXXXXX5362",
+      "reference": "IB26823927692402",
+      "withdrawal_paise": 13499900,
+      "deposit_paise": 0,
+      "balance_paise": 435600,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-09-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 11700,
+      "balance_paise": 447300,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2025-10-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY OCT25-N212166727648650",
+      "reference": "N212166727648650",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 31647300,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-10-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N745333319724039-PERSONAL",
+      "reference": "N745333319724039",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 20147300,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-10-02",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-140115134327-PAYMENT",
+      "reference": "0000140115134327",
+      "withdrawal_paise": 89600,
+      "deposit_paise": 0,
+      "balance_paise": 20057700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-744241835873-PAYMENT",
+      "reference": "0000744241835873",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 18257700,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-10-05",
+      "narration": "EMI 1110687 CHQ S7425335978 3859583912",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 13387700,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-10-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-7890757496",
+      "reference": "0000961773003352",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 11887700,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-657372XXXXXX5227",
+      "reference": "IB13407615934603",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 11207700,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-827803XXXXXX4779",
+      "reference": "IB49924244682795",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 11057800,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-706495033220-PAYMENT",
+      "reference": "0000706495033220",
+      "withdrawal_paise": 21400,
+      "deposit_paise": 0,
+      "balance_paise": 11036400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-463406018553-PAYMENT",
+      "reference": "0000463406018553",
+      "withdrawal_paise": 223300,
+      "deposit_paise": 0,
+      "balance_paise": 10813100,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-10-13",
+      "narration": "ACH D- TATA AIG-900872817",
+      "reference": "0000099438266706",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 10403100,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-10-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-988323156298-PAYMENT",
+      "reference": "0000988323156298",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 10253200,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-10-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-599159651844-PAYMENT",
+      "reference": "0000599159651844",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 10188300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-10-18",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-123207198145-PAYMENT",
+      "reference": "0000123207198145",
+      "withdrawal_paise": 63500,
+      "deposit_paise": 0,
+      "balance_paise": 10124800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-18",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-651370378912-PAYMENT",
+      "reference": "0000651370378912",
+      "withdrawal_paise": 55100,
+      "deposit_paise": 0,
+      "balance_paise": 10069700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-10-19",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-278911795280-PAYMENT",
+      "reference": "0000278911795280",
+      "withdrawal_paise": 33600,
+      "deposit_paise": 0,
+      "balance_paise": 10036100,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-10-19",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-718568796851-PAYMENT",
+      "reference": "0000718568796851",
+      "withdrawal_paise": 20700,
+      "deposit_paise": 0,
+      "balance_paise": 10015400,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-10-20",
+      "narration": "ACH D- FITNESS FIRST-432591913",
+      "reference": "0000073117700340",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 9065400,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-10-21",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-756061464674-PAYMENT",
+      "reference": "0000756061464674",
+      "withdrawal_paise": 521400,
+      "deposit_paise": 0,
+      "balance_paise": 8544000,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-10-22",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-404319867487-PAYMENT",
+      "reference": "0000404319867487",
+      "withdrawal_paise": 560300,
+      "deposit_paise": 0,
+      "balance_paise": 7983700,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-10-22",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-224163288946-PAYMENT",
+      "reference": "0000224163288946",
+      "withdrawal_paise": 79600,
+      "deposit_paise": 0,
+      "balance_paise": 7904100,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-10-24",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-898418982026-PAYMENT",
+      "reference": "0000898418982026",
+      "withdrawal_paise": 27300,
+      "deposit_paise": 0,
+      "balance_paise": 7876800,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-10-25",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-805187531757-PAYMENT",
+      "reference": "0000805187531757",
+      "withdrawal_paise": 71800,
+      "deposit_paise": 0,
+      "balance_paise": 7805000,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-10-25",
+      "narration": "IMPS-053794446423-SELF-SAVINGS TRANSFER-HDFC",
+      "reference": "0000053794446423",
+      "withdrawal_paise": 0,
+      "deposit_paise": 2000000,
+      "balance_paise": 9805000,
+      "expected_category": "transfer_in",
+      "expected_merchant": "SELF-SAVINGS TRANSFER"
+    },
+    {
+      "date": "2025-10-25",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-779490XXXXXX3162",
+      "reference": "IB60244438927675",
+      "withdrawal_paise": 9732000,
+      "deposit_paise": 0,
+      "balance_paise": 73000,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-10-28",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-528053957497-PAYMENT",
+      "reference": "0000528053957497",
+      "withdrawal_paise": 50400,
+      "deposit_paise": 0,
+      "balance_paise": 22600,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "IMPS-773078349740-SELF-SAVINGS TRANSFER-HDFC",
+      "reference": "0000773078349740",
+      "withdrawal_paise": 0,
+      "deposit_paise": 500000,
+      "balance_paise": 522600,
+      "expected_category": "transfer_in",
+      "expected_merchant": "SELF-SAVINGS TRANSFER"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-960605853035-PAYMENT",
+      "reference": "0000960605853035",
+      "withdrawal_paise": 83100,
+      "deposit_paise": 0,
+      "balance_paise": 439500,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY NOV25-N711268605935656",
+      "reference": "N711268605935656",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 31639500,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-11-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N536036432764337-PERSONAL",
+      "reference": "N536036432764337",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 20139500,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-11-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-877009413094-PAYMENT",
+      "reference": "0000877009413094",
+      "withdrawal_paise": 70800,
+      "deposit_paise": 0,
+      "balance_paise": 20068700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-664361191506-PAYMENT",
+      "reference": "0000664361191506",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 18268700,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-11-05",
+      "narration": "EMI 5791667 CHQ S2484412156 3633419724",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 13398700,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-11-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-1239651898",
+      "reference": "0000913757028739",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 11898700,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-11-08",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-460983780714-PAYMENT",
+      "reference": "0000460983780714",
+      "withdrawal_paise": 628400,
+      "deposit_paise": 0,
+      "balance_paise": 11270300,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-11-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-114466XXXXXX6993",
+      "reference": "IB48194537448547",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 10590300,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-11-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-163751XXXXXX2253",
+      "reference": "IB78419234979356",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 10440400,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-11-09",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-602715796800-PAYMENT",
+      "reference": "0000602715796800",
+      "withdrawal_paise": 490900,
+      "deposit_paise": 0,
+      "balance_paise": 9949500,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-11-13",
+      "narration": "ACH D- TATA AIG-041351259",
+      "reference": "0000008430319526",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 9539500,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-11-14",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-194443032773-PAYMENT",
+      "reference": "0000194443032773",
+      "withdrawal_paise": 21400,
+      "deposit_paise": 0,
+      "balance_paise": 9518100,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-11-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-248260049058-PAYMENT",
+      "reference": "0000248260049058",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 9368200,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-11-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-873717473970-PAYMENT",
+      "reference": "0000873717473970",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 9303300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-11-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-183104462422-PAYMENT",
+      "reference": "0000183104462422",
+      "withdrawal_paise": 50800,
+      "deposit_paise": 0,
+      "balance_paise": 9252500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-18",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-501736078762-PAYMENT",
+      "reference": "0000501736078762",
+      "withdrawal_paise": 80600,
+      "deposit_paise": 0,
+      "balance_paise": 9171900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-20",
+      "narration": "ACH D- FITNESS FIRST-847674251",
+      "reference": "0000082972747508",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 8221900,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-11-20",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-564854679029-PAYMENT",
+      "reference": "0000564854679029",
+      "withdrawal_paise": 68200,
+      "deposit_paise": 0,
+      "balance_paise": 8153700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-21",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-104435790623-PAYMENT",
+      "reference": "0000104435790623",
+      "withdrawal_paise": 55100,
+      "deposit_paise": 0,
+      "balance_paise": 8098600,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-11-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-583908963080-PAYMENT",
+      "reference": "0000583908963080",
+      "withdrawal_paise": 59300,
+      "deposit_paise": 0,
+      "balance_paise": 8039300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-684545465523-PAYMENT",
+      "reference": "0000684545465523",
+      "withdrawal_paise": 44000,
+      "deposit_paise": 0,
+      "balance_paise": 7995300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-22",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-677499223184-PAYMENT",
+      "reference": "0000677499223184",
+      "withdrawal_paise": 617100,
+      "deposit_paise": 0,
+      "balance_paise": 7378200,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-11-24",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-478363162214-PAYMENT",
+      "reference": "0000478363162214",
+      "withdrawal_paise": 19500,
+      "deposit_paise": 0,
+      "balance_paise": 7358700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-30",
+      "narration": "IMPS-847277064447-MF REDEMPTION-MIRAE LARGE CAP-HDFC",
+      "reference": "0000847277064447",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5000000,
+      "balance_paise": 12358700,
+      "expected_category": "transfer_in",
+      "expected_merchant": "MF REDEMPTION-MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-11-30",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-787792XXXXXX9303",
+      "reference": "IB70886454823243",
+      "withdrawal_paise": 12146700,
+      "deposit_paise": 0,
+      "balance_paise": 212000,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-12-01",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-656517303822-PAYMENT",
+      "reference": "0000656517303822",
+      "withdrawal_paise": 41700,
+      "deposit_paise": 0,
+      "balance_paise": 170300,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-12-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY DEC25-N938789599370732",
+      "reference": "N938789599370732",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 31370300,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2025-12-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N150305764236203-PERSONAL",
+      "reference": "N150305764236203",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 19870300,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2025-12-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-780942398500-PAYMENT",
+      "reference": "0000780942398500",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 18070300,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2025-12-04",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-016097109411-PAYMENT",
+      "reference": "0000016097109411",
+      "withdrawal_paise": 62400,
+      "deposit_paise": 0,
+      "balance_paise": 18007900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-12-05",
+      "narration": "EMI 5488077 CHQ S7053525788 9640519429",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 13137900,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2025-12-05",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-211971936682-PAYMENT",
+      "reference": "0000211971936682",
+      "withdrawal_paise": 30800,
+      "deposit_paise": 0,
+      "balance_paise": 13107100,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-12-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-5036744869",
+      "reference": "0000233514861143",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 11607100,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-776575820503-PAYMENT",
+      "reference": "0000776575820503",
+      "withdrawal_paise": 61800,
+      "deposit_paise": 0,
+      "balance_paise": 11545300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-018199302466-PAYMENT",
+      "reference": "0000018199302466",
+      "withdrawal_paise": 41700,
+      "deposit_paise": 0,
+      "balance_paise": 11503600,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-12-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-574910XXXXXX5473",
+      "reference": "IB65322943876457",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 10823600,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2025-12-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-409246XXXXXX4471",
+      "reference": "IB17948394266275",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 10673700,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2025-12-13",
+      "narration": "ACH D- TATA AIG-769363435",
+      "reference": "0000063100448838",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 10263700,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2025-12-13",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-142035889900-PAYMENT",
+      "reference": "0000142035889900",
+      "withdrawal_paise": 460000,
+      "deposit_paise": 0,
+      "balance_paise": 9803700,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-12-14",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-184058723505-PAYMENT",
+      "reference": "0000184058723505",
+      "withdrawal_paise": 80800,
+      "deposit_paise": 0,
+      "balance_paise": 9722900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2025-12-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-731618304694-PAYMENT",
+      "reference": "0000731618304694",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 9573000,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2025-12-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-063891391441-PAYMENT",
+      "reference": "0000063891391441",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 9508100,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2025-12-15",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-862826861838-PAYMENT",
+      "reference": "0000862826861838",
+      "withdrawal_paise": 29100,
+      "deposit_paise": 0,
+      "balance_paise": 9479000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-360186474395-PAYMENT",
+      "reference": "0000360186474395",
+      "withdrawal_paise": 20500,
+      "deposit_paise": 0,
+      "balance_paise": 9458500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-20",
+      "narration": "ACH D- FITNESS FIRST-837470822",
+      "reference": "0000055325856970",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 8508500,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2025-12-20",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-082361486475-PAYMENT",
+      "reference": "0000082361486475",
+      "withdrawal_paise": 280600,
+      "deposit_paise": 0,
+      "balance_paise": 8227900,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2025-12-22",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-194302084136-PAYMENT",
+      "reference": "0000194302084136",
+      "withdrawal_paise": 84100,
+      "deposit_paise": 0,
+      "balance_paise": 8143800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-25",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-279294872169-PAYMENT",
+      "reference": "0000279294872169",
+      "withdrawal_paise": 601000,
+      "deposit_paise": 0,
+      "balance_paise": 7542800,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2025-12-25",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-046796223690-PAYMENT",
+      "reference": "0000046796223690",
+      "withdrawal_paise": 84400,
+      "deposit_paise": 0,
+      "balance_paise": 7458400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-26",
+      "narration": "IMPS-666034156669-SELF-SAVINGS TRANSFER-HDFC",
+      "reference": "0000666034156669",
+      "withdrawal_paise": 0,
+      "deposit_paise": 12500000,
+      "balance_paise": 19958400,
+      "expected_category": "transfer_in",
+      "expected_merchant": "SELF-SAVINGS TRANSFER"
+    },
+    {
+      "date": "2025-12-26",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-879562XXXXXX0530",
+      "reference": "IB58260525125078",
+      "withdrawal_paise": 19941400,
+      "deposit_paise": 0,
+      "balance_paise": 17000,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2025-12-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 20100,
+      "balance_paise": 37100,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2026-01-01",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-979221703049-PAYMENT",
+      "reference": "0000979221703049",
+      "withdrawal_paise": 36300,
+      "deposit_paise": 0,
+      "balance_paise": 800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY JAN26-N143674336588530",
+      "reference": "N143674336588530",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 31200800,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2026-01-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N280085654898840-PERSONAL",
+      "reference": "N280085654898840",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 19700800,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2026-01-02",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-489365482590-PAYMENT",
+      "reference": "0000489365482590",
+      "withdrawal_paise": 31300,
+      "deposit_paise": 0,
+      "balance_paise": 19669500,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-01-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-919244341278-PAYMENT",
+      "reference": "0000919244341278",
+      "withdrawal_paise": 49800,
+      "deposit_paise": 0,
+      "balance_paise": 19619700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-982910761373-PAYMENT",
+      "reference": "0000982910761373",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 17819700,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2026-01-05",
+      "narration": "EMI 3779463 CHQ S5449863312 6827624997",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 12949700,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2026-01-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-7206139959",
+      "reference": "0000955562732815",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 11449700,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2026-01-06",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-566117147215-PAYMENT",
+      "reference": "0000566117147215",
+      "withdrawal_paise": 327700,
+      "deposit_paise": 0,
+      "balance_paise": 11122000,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-01-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-103217XXXXXX5500",
+      "reference": "IB72461191346398",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 10442000,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2026-01-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-304106XXXXXX2732",
+      "reference": "IB67730239893919",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 10292100,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2026-01-09",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-792843533948-PAYMENT",
+      "reference": "0000792843533948",
+      "withdrawal_paise": 49700,
+      "deposit_paise": 0,
+      "balance_paise": 10242400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-745437223728-PAYMENT",
+      "reference": "0000745437223728",
+      "withdrawal_paise": 81800,
+      "deposit_paise": 0,
+      "balance_paise": 10160600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-13",
+      "narration": "ACH D- TATA AIG-832679602",
+      "reference": "0000056950241541",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 9750600,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2026-01-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-272602528685-PAYMENT",
+      "reference": "0000272602528685",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 9600700,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2026-01-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-711707288590-PAYMENT",
+      "reference": "0000711707288590",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 9535800,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2026-01-20",
+      "narration": "ACH D- FITNESS FIRST-887514747",
+      "reference": "0000066436085221",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 8585800,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2026-01-20",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-968792531456-PAYMENT",
+      "reference": "0000968792531456",
+      "withdrawal_paise": 666900,
+      "deposit_paise": 0,
+      "balance_paise": 7918900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-01-22",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-635880515483-PAYMENT",
+      "reference": "0000635880515483",
+      "withdrawal_paise": 420900,
+      "deposit_paise": 0,
+      "balance_paise": 7498000,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2026-01-23",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-224541016506-PAYMENT",
+      "reference": "0000224541016506",
+      "withdrawal_paise": 21000,
+      "deposit_paise": 0,
+      "balance_paise": 7477000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-23",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-378519866100-PAYMENT",
+      "reference": "0000378519866100",
+      "withdrawal_paise": 45400,
+      "deposit_paise": 0,
+      "balance_paise": 7431600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-26",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-036266815508-PAYMENT",
+      "reference": "0000036266815508",
+      "withdrawal_paise": 82900,
+      "deposit_paise": 0,
+      "balance_paise": 7348700,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-01-27",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-154450370830-PAYMENT",
+      "reference": "0000154450370830",
+      "withdrawal_paise": 28700,
+      "deposit_paise": 0,
+      "balance_paise": 7320000,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-01-28",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-807363292457-PAYMENT",
+      "reference": "0000807363292457",
+      "withdrawal_paise": 18000,
+      "deposit_paise": 0,
+      "balance_paise": 7302000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-28",
+      "narration": "IMPS-910890634636-MF REDEMPTION-PARAG PARIKH FLEXI-HDFC",
+      "reference": "0000910890634636",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6500000,
+      "balance_paise": 13802000,
+      "expected_category": "transfer_in",
+      "expected_merchant": "MF REDEMPTION-PARAG PARIKH FLEXI"
+    },
+    {
+      "date": "2026-01-28",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-942125XXXXXX6654",
+      "reference": "IB82302720771654",
+      "withdrawal_paise": 13730700,
+      "deposit_paise": 0,
+      "balance_paise": 71300,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2026-02-01",
+      "narration": "IMPS-807151673292-MF REDEMPTION-PARAG PARIKH FLEXI-HDFC",
+      "reference": "0000807151673292",
+      "withdrawal_paise": 0,
+      "deposit_paise": 1000000,
+      "balance_paise": 1071300,
+      "expected_category": "transfer_in",
+      "expected_merchant": "MF REDEMPTION-PARAG PARIKH FLEXI"
+    },
+    {
+      "date": "2026-02-01",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-017003598799-PAYMENT",
+      "reference": "0000017003598799",
+      "withdrawal_paise": 612600,
+      "deposit_paise": 0,
+      "balance_paise": 458700,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2026-02-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY FEB26-N072060463798779",
+      "reference": "N072060463798779",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 31658700,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2026-02-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N093965907501097-PERSONAL",
+      "reference": "N093965907501097",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 20158700,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2026-02-02",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-176419320403-PAYMENT",
+      "reference": "0000176419320403",
+      "withdrawal_paise": 70800,
+      "deposit_paise": 0,
+      "balance_paise": 20087900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-02-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-552677332731-PAYMENT",
+      "reference": "0000552677332731",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 18287900,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "EMI 5980111 CHQ S3509865263 5583207266",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 13417900,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-566356625752-PAYMENT",
+      "reference": "0000566356625752",
+      "withdrawal_paise": 54400,
+      "deposit_paise": 0,
+      "balance_paise": 13363500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-6989759469",
+      "reference": "0000759987918456",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 11863500,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2026-02-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-230755XXXXXX1241",
+      "reference": "IB17450793952909",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 11183500,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2026-02-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-762093XXXXXX9298",
+      "reference": "IB44692989847831",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 11033600,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2026-02-13",
+      "narration": "ACH D- TATA AIG-997060092",
+      "reference": "0000074658958551",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 10623600,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2026-02-13",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-281202364158-PAYMENT",
+      "reference": "0000281202364158",
+      "withdrawal_paise": 72800,
+      "deposit_paise": 0,
+      "balance_paise": 10550800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-688512475265-PAYMENT",
+      "reference": "0000688512475265",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 10400900,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2026-02-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-591622979642-PAYMENT",
+      "reference": "0000591622979642",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 10336000,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2026-02-15",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-946144904267-PAYMENT",
+      "reference": "0000946144904267",
+      "withdrawal_paise": 35600,
+      "deposit_paise": 0,
+      "balance_paise": 10300400,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-02-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-733614460690-PAYMENT",
+      "reference": "0000733614460690",
+      "withdrawal_paise": 54000,
+      "deposit_paise": 0,
+      "balance_paise": 10246400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-17",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-790784599588-PAYMENT",
+      "reference": "0000790784599588",
+      "withdrawal_paise": 69700,
+      "deposit_paise": 0,
+      "balance_paise": 10176700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-20",
+      "narration": "ACH D- FITNESS FIRST-053333950",
+      "reference": "0000070630530208",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 9226700,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2026-02-20",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-654283021011-PAYMENT",
+      "reference": "0000654283021011",
+      "withdrawal_paise": 24200,
+      "deposit_paise": 0,
+      "balance_paise": 9202500,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-02-21",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-470967246261-PAYMENT",
+      "reference": "0000470967246261",
+      "withdrawal_paise": 536600,
+      "deposit_paise": 0,
+      "balance_paise": 8665900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-02-21",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-927755098010-PAYMENT",
+      "reference": "0000927755098010",
+      "withdrawal_paise": 25600,
+      "deposit_paise": 0,
+      "balance_paise": 8640300,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-02-21",
+      "narration": "IMPS-673336142212-SELF-SAVINGS TRANSFER-HDFC",
+      "reference": "0000673336142212",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6000000,
+      "balance_paise": 14640300,
+      "expected_category": "transfer_in",
+      "expected_merchant": "SELF-SAVINGS TRANSFER"
+    },
+    {
+      "date": "2026-02-21",
+      "narration": "IB BILLPAY DR-KOTAK CARDS-529914XXXXXX0998",
+      "reference": "IB56443894934189",
+      "withdrawal_paise": 14533300,
+      "deposit_paise": 0,
+      "balance_paise": 107000,
+      "expected_category": "card_payment",
+      "expected_merchant": "KOTAK CARDS"
+    },
+    {
+      "date": "2026-02-22",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-586971793119-PAYMENT",
+      "reference": "0000586971793119",
+      "withdrawal_paise": 44900,
+      "deposit_paise": 0,
+      "balance_paise": 62100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-28",
+      "narration": "IMPS-588886868471-SELF-SAVINGS TRANSFER-HDFC",
+      "reference": "0000588886868471",
+      "withdrawal_paise": 0,
+      "deposit_paise": 500000,
+      "balance_paise": 562100,
+      "expected_category": "transfer_in",
+      "expected_merchant": "SELF-SAVINGS TRANSFER"
+    },
+    {
+      "date": "2026-02-28",
+      "narration": "UPI-FOODHALL-foodhall@ybl-YESB0YBLUPI-059225207099-PAYMENT",
+      "reference": "0000059225207099",
+      "withdrawal_paise": 553600,
+      "deposit_paise": 0,
+      "balance_paise": 8500,
+      "expected_category": "groceries",
+      "expected_merchant": "FOODHALL"
+    },
+    {
+      "date": "2026-02-28",
+      "narration": "IMPS-408161482715-MF REDEMPTION-MIRAE LARGE CAP-HDFC",
+      "reference": "0000408161482715",
+      "withdrawal_paise": 0,
+      "deposit_paise": 500000,
+      "balance_paise": 508500,
+      "expected_category": "transfer_in",
+      "expected_merchant": "MF REDEMPTION-MIRAE LARGE CAP"
+    },
+    {
+      "date": "2026-02-28",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-638735191285-PAYMENT",
+      "reference": "0000638735191285",
+      "withdrawal_paise": 45500,
+      "deposit_paise": 0,
+      "balance_paise": 463000,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-01",
+      "narration": "IMPS-412991612099-MF REDEMPTION-MIRAE LARGE CAP-HDFC",
+      "reference": "0000412991612099",
+      "withdrawal_paise": 0,
+      "deposit_paise": 500000,
+      "balance_paise": 963000,
+      "expected_category": "transfer_in",
+      "expected_merchant": "MF REDEMPTION-MIRAE LARGE CAP"
+    },
+    {
+      "date": "2026-03-01",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-181179925582-PAYMENT",
+      "reference": "0000181179925582",
+      "withdrawal_paise": 468800,
+      "deposit_paise": 0,
+      "balance_paise": 494200,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-03-01",
+      "narration": "NEFT CR-HDFC0000060-HALCYON CAPITAL ADVISORS-SALARY MAR26-N519492722959696",
+      "reference": "N519492722959696",
+      "withdrawal_paise": 0,
+      "deposit_paise": 31200000,
+      "balance_paise": 31694200,
+      "expected_category": "income",
+      "expected_merchant": "HALCYON CAPITAL ADVISORS"
+    },
+    {
+      "date": "2026-03-02",
+      "narration": "NEFT DR-HDFC0000512-NILESH SHETH-NETBANK-N399357235039461-PERSONAL",
+      "reference": "N399357235039461",
+      "withdrawal_paise": 11500000,
+      "deposit_paise": 0,
+      "balance_paise": 20194200,
+      "expected_category": "rent",
+      "expected_merchant": "NILESH SHETH"
+    },
+    {
+      "date": "2026-03-02",
+      "narration": "UPI-NATURES BASKET-naturesbasket@ybl-YESB0YBLUPI-158754489563-PAYMENT",
+      "reference": "0000158754489563",
+      "withdrawal_paise": 436200,
+      "deposit_paise": 0,
+      "balance_paise": 19758000,
+      "expected_category": "groceries",
+      "expected_merchant": "NATURES BASKET"
+    },
+    {
+      "date": "2026-03-02",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-852794614564-PAYMENT",
+      "reference": "0000852794614564",
+      "withdrawal_paise": 52900,
+      "deposit_paise": 0,
+      "balance_paise": 19705100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-04",
+      "narration": "UPI-HOUSEHOLD HELP-householdhelp@ybl-YESB0YBLUPI-667875937866-PAYMENT",
+      "reference": "0000667875937866",
+      "withdrawal_paise": 1800000,
+      "deposit_paise": 0,
+      "balance_paise": 17905100,
+      "expected_category": "household_staff",
+      "expected_merchant": "HOUSEHOLD HELP"
+    },
+    {
+      "date": "2026-03-05",
+      "narration": "EMI 1212352 CHQ S7506483582 5586392289",
+      "reference": "000000000000000",
+      "withdrawal_paise": 4870000,
+      "deposit_paise": 0,
+      "balance_paise": 13035100,
+      "expected_category": "loan_emi",
+      "expected_merchant": "CAR LOAN"
+    },
+    {
+      "date": "2026-03-05",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-587985108208-PAYMENT",
+      "reference": "0000587985108208",
+      "withdrawal_paise": 49900,
+      "deposit_paise": 0,
+      "balance_paise": 12985200,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-06",
+      "narration": "SI-TAD-MIRAE LARGE CAP-6915461005",
+      "reference": "0000317008148131",
+      "withdrawal_paise": 1500000,
+      "deposit_paise": 0,
+      "balance_paise": 11485200,
+      "expected_category": "investment_sip",
+      "expected_merchant": "MIRAE LARGE CAP"
+    },
+    {
+      "date": "2026-03-07",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-656226601867-PAYMENT",
+      "reference": "0000656226601867",
+      "withdrawal_paise": 665900,
+      "deposit_paise": 0,
+      "balance_paise": 10819300,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-03-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-680012848133-PAYMENT",
+      "reference": "0000680012848133",
+      "withdrawal_paise": 20700,
+      "deposit_paise": 0,
+      "balance_paise": 10798600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-09",
+      "narration": "IB BILLPAY DR-ADANI ELECTRICITY-382120XXXXXX8380",
+      "reference": "IB57642145580287",
+      "withdrawal_paise": 680000,
+      "deposit_paise": 0,
+      "balance_paise": 10118600,
+      "expected_category": "utilities",
+      "expected_merchant": "ADANI ELECTRICITY"
+    },
+    {
+      "date": "2026-03-09",
+      "narration": "IB BILLPAY DR-TATA PLAY FIBER-408136XXXXXX6116",
+      "reference": "IB85711337510516",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 9968700,
+      "expected_category": "utilities",
+      "expected_merchant": "TATA PLAY FIBER"
+    },
+    {
+      "date": "2026-03-13",
+      "narration": "ACH D- TATA AIG-693439691",
+      "reference": "0000037166549539",
+      "withdrawal_paise": 410000,
+      "deposit_paise": 0,
+      "balance_paise": 9558700,
+      "expected_category": "insurance_health",
+      "expected_merchant": "TATA AIG"
+    },
+    {
+      "date": "2026-03-13",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-681124736284-PAYMENT",
+      "reference": "0000681124736284",
+      "withdrawal_paise": 45200,
+      "deposit_paise": 0,
+      "balance_paise": 9513500,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-14",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-864532736227-PAYMENT",
+      "reference": "0000864532736227",
+      "withdrawal_paise": 70700,
+      "deposit_paise": 0,
+      "balance_paise": 9442800,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-15",
+      "narration": "UPI-APPLE ONE-appleone@ybl-YESB0YBLUPI-534510798897-PAYMENT",
+      "reference": "0000534510798897",
+      "withdrawal_paise": 149900,
+      "deposit_paise": 0,
+      "balance_paise": 9292900,
+      "expected_category": "subscription",
+      "expected_merchant": "APPLE ONE"
+    },
+    {
+      "date": "2026-03-15",
+      "narration": "UPI-NETFLIX PREMIUM-netflixpremium@ybl-YESB0YBLUPI-913375104488-PAYMENT",
+      "reference": "0000913375104488",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 9228000,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX PREMIUM"
+    },
+    {
+      "date": "2026-03-16",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-989275863009-PAYMENT",
+      "reference": "0000989275863009",
+      "withdrawal_paise": 47600,
+      "deposit_paise": 0,
+      "balance_paise": 9180400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-17",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-384472165069-PAYMENT",
+      "reference": "0000384472165069",
+      "withdrawal_paise": 72500,
+      "deposit_paise": 0,
+      "balance_paise": 9107900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-20",
+      "narration": "ACH D- FITNESS FIRST-297894200",
+      "reference": "0000057533075156",
+      "withdrawal_paise": 950000,
+      "deposit_paise": 0,
+      "balance_paise": 8157900,
+      "expected_category": "club_membership",
+      "expected_merchant": "FITNESS FIRST"
+    },
+    {
+      "date": "2026-03-20",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-796194976541-PAYMENT",
+      "reference": "0000796194976541",
+      "withdrawal_paise": 25100,
+      "deposit_paise": 0,
+      "balance_paise": 8132800,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-21",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-579259508265-PAYMENT",
+      "reference": "0000579259508265",
+      "withdrawal_paise": 43900,
+      "deposit_paise": 0,
+      "balance_paise": 8088900,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-22",
+      "narration": "UPI-BLUSMART-blusmart@ybl-YESB0YBLUPI-936428735353-PAYMENT",
+      "reference": "0000936428735353",
+      "withdrawal_paise": 39800,
+      "deposit_paise": 0,
+      "balance_paise": 8049100,
+      "expected_category": "transport",
+      "expected_merchant": "BLUSMART"
+    },
+    {
+      "date": "2026-03-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 21600,
+      "balance_paise": 8070700,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    }
+  ]
+}

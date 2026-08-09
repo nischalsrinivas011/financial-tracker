@@ -1,0 +1,1173 @@
+{
+  "source": "synthetic",
+  "document_type": "credit_card_statement",
+  "issuer": "KOTAK MAHINDRA BANK",
+  "product": "WHITE RESERVE CREDIT CARD",
+  "persona": "vikram_creep",
+  "card_number_masked": "XXXXXXXXXXXX2077",
+  "credit_limit_paise": 120000000,
+  "payment_style": "partial",
+  "cycle_count": 12,
+  "total_finance_charges_paise": 4801802,
+  "total_gst_paise": 864320,
+  "closing_balance_paise": 24668922,
+  "cycles": [
+    {
+      "statement_date": "2025-04-20",
+      "due_date": "2025-05-10",
+      "opening_paise": 0,
+      "payments_paise": 0,
+      "purchases_paise": 12700000,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 12700000,
+      "minimum_due_paise": 635000,
+      "transactions": [
+        {
+          "date": "2025-03-22",
+          "description": "MASQUE",
+          "amount_paise": 720900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-03-23",
+          "description": "ZARA",
+          "amount_paise": 1946300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-03-24",
+          "description": "BASTIAN",
+          "amount_paise": 1072100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-03-29",
+          "description": "ZARA",
+          "amount_paise": 568500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-03-30",
+          "description": "MAKEMYTRIP",
+          "amount_paise": 6526700,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-04-06",
+          "description": "BASTIAN",
+          "amount_paise": 592400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-07",
+          "description": "THE TABLE",
+          "amount_paise": 401900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-07",
+          "description": "SHELL INDIA",
+          "amount_paise": 419900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-04-14",
+          "description": "SHELL INDIA",
+          "amount_paise": 451300,
+          "type": "debit",
+          "expected_category": "fuel"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-05-20",
+      "due_date": "2025-06-09",
+      "opening_paise": 12700000,
+      "payments_paise": 7936100,
+      "purchases_paise": 11456000,
+      "finance_charge_paise": 169118,
+      "gst_paise": 30441,
+      "closing_paise": 16419459,
+      "minimum_due_paise": 820972,
+      "transactions": [
+        {
+          "date": "2025-04-22",
+          "description": "APPLE INDIA",
+          "amount_paise": 1261100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-04-24",
+          "description": "THE TABLE",
+          "amount_paise": 1119200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-04-25",
+          "description": "EMIRATES",
+          "amount_paise": 4940100,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-04-25",
+          "description": "CROMA",
+          "amount_paise": 1531300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-05-02",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 7936100,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-05-03",
+          "description": "THE TABLE",
+          "amount_paise": 900200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-17",
+          "description": "SHELL INDIA",
+          "amount_paise": 362700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-18",
+          "description": "SHELL INDIA",
+          "amount_paise": 364700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-19",
+          "description": "MASQUE",
+          "amount_paise": 402400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-19",
+          "description": "SODA BOTTLE",
+          "amount_paise": 574300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-05-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 169118,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-05-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 30441,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-06-20",
+      "due_date": "2025-07-10",
+      "opening_paise": 16419459,
+      "payments_paise": 6108700,
+      "purchases_paise": 6929800,
+      "finance_charge_paise": 366031,
+      "gst_paise": 65885,
+      "closing_paise": 17672475,
+      "minimum_due_paise": 883623,
+      "transactions": [
+        {
+          "date": "2025-05-29",
+          "description": "SHELL INDIA",
+          "amount_paise": 264300,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-05-31",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 6108700,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-06-01",
+          "description": "SHELL INDIA",
+          "amount_paise": 258600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-06-07",
+          "description": "BASTIAN",
+          "amount_paise": 446400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-09",
+          "description": "SODA BOTTLE",
+          "amount_paise": 1062600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-12",
+          "description": "MASQUE",
+          "amount_paise": 439100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-13",
+          "description": "SODA BOTTLE",
+          "amount_paise": 467900,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-15",
+          "description": "ZARA",
+          "amount_paise": 2100400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-18",
+          "description": "APPLE INDIA",
+          "amount_paise": 1890500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 366031,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-06-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 65885,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-07-20",
+      "due_date": "2025-08-09",
+      "opening_paise": 17672475,
+      "payments_paise": 10081800,
+      "purchases_paise": 14648000,
+      "finance_charge_paise": 269468,
+      "gst_paise": 48504,
+      "closing_paise": 22556647,
+      "minimum_due_paise": 1127832,
+      "transactions": [
+        {
+          "date": "2025-06-21",
+          "description": "MASQUE",
+          "amount_paise": 1054300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-22",
+          "description": "SHELL INDIA",
+          "amount_paise": 478700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-06-25",
+          "description": "MASQUE",
+          "amount_paise": 284800,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-06-25",
+          "description": "TATA CLIQ LUXURY",
+          "amount_paise": 2806800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "MASQUE",
+          "amount_paise": 376500,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "BASTIAN",
+          "amount_paise": 964400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 10081800,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-02",
+          "description": "SHELL INDIA",
+          "amount_paise": 329500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-07-03",
+          "description": "EMIRATES",
+          "amount_paise": 5850800,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-07-18",
+          "description": "APPLE INDIA",
+          "amount_paise": 2502200,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 269468,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 48504,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-08-20",
+      "due_date": "2025-09-09",
+      "opening_paise": 22556647,
+      "payments_paise": 11221100,
+      "purchases_paise": 10789600,
+      "finance_charge_paise": 402411,
+      "gst_paise": 72433,
+      "closing_paise": 22599991,
+      "minimum_due_paise": 1129999,
+      "transactions": [
+        {
+          "date": "2025-07-22",
+          "description": "SODA BOTTLE",
+          "amount_paise": 583100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-22",
+          "description": "BASTIAN",
+          "amount_paise": 668700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-07-24",
+          "description": "SHELL INDIA",
+          "amount_paise": 391900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-07-26",
+          "description": "APPLE INDIA",
+          "amount_paise": 1978000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-27",
+          "description": "SHELL INDIA",
+          "amount_paise": 405600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-07-29",
+          "description": "APPLE INDIA",
+          "amount_paise": 2745800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-29",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 11221100,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-08-01",
+          "description": "SODA BOTTLE",
+          "amount_paise": 331100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-04",
+          "description": "CROMA",
+          "amount_paise": 3252700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-17",
+          "description": "SODA BOTTLE",
+          "amount_paise": 432700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 402411,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-08-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 72433,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-09-20",
+      "due_date": "2025-10-10",
+      "opening_paise": 22599991,
+      "payments_paise": 10242900,
+      "purchases_paise": 10446000,
+      "finance_charge_paise": 438676,
+      "gst_paise": 78961,
+      "closing_paise": 23320728,
+      "minimum_due_paise": 1166036,
+      "transactions": [
+        {
+          "date": "2025-08-24",
+          "description": "SHELL INDIA",
+          "amount_paise": 348000,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-08-25",
+          "description": "BASTIAN",
+          "amount_paise": 930400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-08-29",
+          "description": "SHELL INDIA",
+          "amount_paise": 458600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-09-01",
+          "description": "BASTIAN",
+          "amount_paise": 1072300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-01",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 10242900,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-02",
+          "description": "THE TABLE",
+          "amount_paise": 765200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-09",
+          "description": "SODA BOTTLE",
+          "amount_paise": 648300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-15",
+          "description": "CROMA",
+          "amount_paise": 2951100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-18",
+          "description": "APPLE INDIA",
+          "amount_paise": 2129000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-19",
+          "description": "ZARA",
+          "amount_paise": 1143100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 438676,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-09-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 78961,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-10-20",
+      "due_date": "2025-11-09",
+      "opening_paise": 23320728,
+      "payments_paise": 13499900,
+      "purchases_paise": 16056300,
+      "finance_charge_paise": 348639,
+      "gst_paise": 62755,
+      "closing_paise": 26288522,
+      "minimum_due_paise": 1314426,
+      "transactions": [
+        {
+          "date": "2025-09-23",
+          "description": "MASQUE",
+          "amount_paise": 299000,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-24",
+          "description": "ZARA",
+          "amount_paise": 1817400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-25",
+          "description": "ZARA",
+          "amount_paise": 2143900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-25",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 13499900,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-26",
+          "description": "SHELL INDIA",
+          "amount_paise": 336700,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-09-27",
+          "description": "THE TABLE",
+          "amount_paise": 345200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-09-28",
+          "description": "SODA BOTTLE",
+          "amount_paise": 468200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-10-02",
+          "description": "MAKEMYTRIP",
+          "amount_paise": 6251900,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-10-11",
+          "description": "TATA CLIQ LUXURY",
+          "amount_paise": 3244700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-11",
+          "description": "SHELL INDIA",
+          "amount_paise": 290600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-10-15",
+          "description": "BASTIAN",
+          "amount_paise": 858700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-10-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 348639,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-10-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 62755,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-11-20",
+      "due_date": "2025-12-10",
+      "opening_paise": 26288522,
+      "payments_paise": 9732000,
+      "purchases_paise": 9745200,
+      "finance_charge_paise": 587756,
+      "gst_paise": 105796,
+      "closing_paise": 26995274,
+      "minimum_due_paise": 1349763,
+      "transactions": [
+        {
+          "date": "2025-10-25",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 9732000,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-10-26",
+          "description": "BASTIAN",
+          "amount_paise": 1013800,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-10-30",
+          "description": "SODA BOTTLE",
+          "amount_paise": 667300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-02",
+          "description": "ZARA",
+          "amount_paise": 431300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-08",
+          "description": "TATA CLIQ LUXURY",
+          "amount_paise": 2333100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-09",
+          "description": "APPLE INDIA",
+          "amount_paise": 2916800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-11-09",
+          "description": "SHELL INDIA",
+          "amount_paise": 355300,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-11-10",
+          "description": "BASTIAN",
+          "amount_paise": 847700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-13",
+          "description": "THE TABLE",
+          "amount_paise": 899400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-17",
+          "description": "SHELL INDIA",
+          "amount_paise": 280500,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-11-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 587756,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-11-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 105796,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-12-20",
+      "due_date": "2026-01-09",
+      "opening_paise": 26995274,
+      "payments_paise": 12146700,
+      "purchases_paise": 17993700,
+      "finance_charge_paise": 527124,
+      "gst_paise": 94882,
+      "closing_paise": 33464280,
+      "minimum_due_paise": 1673214,
+      "transactions": [
+        {
+          "date": "2025-11-26",
+          "description": "SODA BOTTLE",
+          "amount_paise": 603700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-11-28",
+          "description": "VISTARA",
+          "amount_paise": 7778200,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-11-30",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 12146700,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-12-05",
+          "description": "CROMA",
+          "amount_paise": 2440300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-06",
+          "description": "SHELL INDIA",
+          "amount_paise": 325800,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-12-11",
+          "description": "SHELL INDIA",
+          "amount_paise": 269100,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2025-12-13",
+          "description": "MASQUE",
+          "amount_paise": 444000,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-13",
+          "description": "APPLE INDIA",
+          "amount_paise": 2854500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-16",
+          "description": "SODA BOTTLE",
+          "amount_paise": 320300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-18",
+          "description": "APPLE INDIA",
+          "amount_paise": 1774500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-19",
+          "description": "BASTIAN",
+          "amount_paise": 1183300,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 527124,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2025-12-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 94882,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-01-20",
+      "due_date": "2026-02-09",
+      "opening_paise": 33464280,
+      "payments_paise": 19941400,
+      "purchases_paise": 16579100,
+      "finance_charge_paise": 480062,
+      "gst_paise": 86411,
+      "closing_paise": 30668453,
+      "minimum_due_paise": 1533422,
+      "transactions": [
+        {
+          "date": "2025-12-22",
+          "description": "MASQUE",
+          "amount_paise": 335100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-22",
+          "description": "TATA CLIQ LUXURY",
+          "amount_paise": 2654200,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-25",
+          "description": "CROMA",
+          "amount_paise": 2782600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-26",
+          "description": "BASTIAN",
+          "amount_paise": 1099400,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2025-12-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 19941400,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-05",
+          "description": "TATA CLIQ LUXURY",
+          "amount_paise": 1685500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-01-11",
+          "description": "SHELL INDIA",
+          "amount_paise": 391200,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-13",
+          "description": "THE TABLE",
+          "amount_paise": 922100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-01-13",
+          "description": "MAKEMYTRIP",
+          "amount_paise": 6007400,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2026-01-15",
+          "description": "MASQUE",
+          "amount_paise": 325600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-01-19",
+          "description": "SHELL INDIA",
+          "amount_paise": 376000,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 480062,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-01-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 86411,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-02-20",
+      "due_date": "2026-03-12",
+      "opening_paise": 30668453,
+      "payments_paise": 13730700,
+      "purchases_paise": 14103700,
+      "finance_charge_paise": 601290,
+      "gst_paise": 108232,
+      "closing_paise": 31750975,
+      "minimum_due_paise": 1587548,
+      "transactions": [
+        {
+          "date": "2026-01-24",
+          "description": "SHELL INDIA",
+          "amount_paise": 444900,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-01-25",
+          "description": "TAJ HOTELS",
+          "amount_paise": 7447400,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2026-01-28",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 13730700,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-29",
+          "description": "BASTIAN",
+          "amount_paise": 833100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-01",
+          "description": "APPLE INDIA",
+          "amount_paise": 561000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-01",
+          "description": "SHELL INDIA",
+          "amount_paise": 485600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-02-06",
+          "description": "THE TABLE",
+          "amount_paise": 891700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-08",
+          "description": "MASQUE",
+          "amount_paise": 510100,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-08",
+          "description": "APPLE INDIA",
+          "amount_paise": 2674700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-09",
+          "description": "BASTIAN",
+          "amount_paise": 255200,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 601290,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-02-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 108232,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-03-20",
+      "due_date": "2026-04-09",
+      "opening_paise": 31750975,
+      "payments_paise": 14533300,
+      "purchases_paise": 6730000,
+      "finance_charge_paise": 611227,
+      "gst_paise": 110020,
+      "closing_paise": 24668922,
+      "minimum_due_paise": 1233446,
+      "transactions": [
+        {
+          "date": "2026-02-21",
+          "description": "THE TABLE",
+          "amount_paise": 338600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-02-21",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 14533300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-02-23",
+          "description": "SHELL INDIA",
+          "amount_paise": 302000,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-02-25",
+          "description": "CROMA",
+          "amount_paise": 2423900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-27",
+          "description": "TATA CLIQ LUXURY",
+          "amount_paise": 473600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-03-01",
+          "description": "SODA BOTTLE",
+          "amount_paise": 435600,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-07",
+          "description": "SHELL INDIA",
+          "amount_paise": 258600,
+          "type": "debit",
+          "expected_category": "fuel"
+        },
+        {
+          "date": "2026-03-13",
+          "description": "MASQUE",
+          "amount_paise": 294700,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-14",
+          "description": "MASQUE",
+          "amount_paise": 1196500,
+          "type": "debit",
+          "expected_category": "dining"
+        },
+        {
+          "date": "2026-03-19",
+          "description": "ZARA",
+          "amount_paise": 1006500,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-03-20",
+          "description": "FINANCE CHARGES",
+          "amount_paise": 611227,
+          "type": "debit",
+          "expected_category": "finance_charge"
+        },
+        {
+          "date": "2026-03-20",
+          "description": "GST ON FINANCE CHARGES",
+          "amount_paise": 110020,
+          "type": "debit",
+          "expected_category": "tax"
+        }
+      ]
+    }
+  ]
+}

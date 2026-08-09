@@ -1,0 +1,3569 @@
+{
+  "source": "synthetic",
+  "document_type": "bank_statement",
+  "bank": "HDFC BANK",
+  "persona": "meera_freelance",
+  "account_number_masked": "XXXXXXXXXX2948",
+  "ifsc": "HDFC0000094",
+  "period": {
+    "from": "2025-04-01",
+    "to": "2026-03-31"
+  },
+  "opening_balance_paise": 9630000,
+  "closing_balance_paise": 56340000,
+  "total_credits_paise": 163479000,
+  "total_debits_paise": 116769000,
+  "transaction_count": 355,
+  "transactions": [
+    {
+      "date": "2025-04-01",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-394879020557-PAYMENT",
+      "reference": "0000394879020557",
+      "withdrawal_paise": 46700,
+      "deposit_paise": 0,
+      "balance_paise": 9583300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-04-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N283223337145291-PERSONAL",
+      "reference": "N283223337145291",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 6633300,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-04-04",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-910675362592-PAYMENT",
+      "reference": "0000910675362592",
+      "withdrawal_paise": 19200,
+      "deposit_paise": 0,
+      "balance_paise": 6614100,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-538543797121-PAYMENT",
+      "reference": "0000538543797121",
+      "withdrawal_paise": 32200,
+      "deposit_paise": 0,
+      "balance_paise": 6581900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-118066192758-PAYMENT",
+      "reference": "0000118066192758",
+      "withdrawal_paise": 23700,
+      "deposit_paise": 0,
+      "balance_paise": 6558200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-04-06",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-172399904283-PAYMENT",
+      "reference": "0000172399904283",
+      "withdrawal_paise": 76600,
+      "deposit_paise": 0,
+      "balance_paise": 6481600,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-04-06",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-610953614974-PAYMENT",
+      "reference": "0000610953614974",
+      "withdrawal_paise": 213500,
+      "deposit_paise": 0,
+      "balance_paise": 6268100,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-04-06",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-898817929072-PAYMENT",
+      "reference": "0000898817929072",
+      "withdrawal_paise": 75600,
+      "deposit_paise": 0,
+      "balance_paise": 6192500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-04-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-1829498075",
+      "reference": "0000236933742799",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 5392500,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "IB BILLPAY DR-BESCOM-198793XXXXXX7790",
+      "reference": "IB71742223601808",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 5212500,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-282450XXXXXX5619",
+      "reference": "IB89853769040276",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 5112600,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-04-09",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE APR25-N655267530987045",
+      "reference": "N655267530987045",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6244400,
+      "balance_paise": 11357000,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2025-04-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-373770967482-PAYMENT",
+      "reference": "0000373770967482",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 11180000,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-04-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-962517403211-PAYMENT",
+      "reference": "0000962517403211",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 11115100,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-04-11",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-655036329970-PAYMENT",
+      "reference": "0000655036329970",
+      "withdrawal_paise": 26400,
+      "deposit_paise": 0,
+      "balance_paise": 11088700,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-04-13",
+      "narration": "POS 416010XXXXXX6081 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N04305434114",
+      "withdrawal_paise": 176700,
+      "deposit_paise": 0,
+      "balance_paise": 10912000,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-04-13",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-105037946184-PAYMENT",
+      "reference": "0000105037946184",
+      "withdrawal_paise": 17200,
+      "deposit_paise": 0,
+      "balance_paise": 10894800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-04-15",
+      "narration": "ACH D- NIVA BUPA-339661546",
+      "reference": "0000099118762786",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 10730800,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-04-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-855388XXXXXX0755",
+      "reference": "IB35480348917843",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 8330800,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-04-15",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-516876155022-PAYMENT",
+      "reference": "0000516876155022",
+      "withdrawal_paise": 25000,
+      "deposit_paise": 0,
+      "balance_paise": 8305800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-04-16",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-275967530273-PAYMENT",
+      "reference": "0000275967530273",
+      "withdrawal_paise": 191500,
+      "deposit_paise": 0,
+      "balance_paise": 8114300,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-04-17",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-296926462562-PAYMENT",
+      "reference": "0000296926462562",
+      "withdrawal_paise": 23900,
+      "deposit_paise": 0,
+      "balance_paise": 8090400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-04-17",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-283582092975-PAYMENT",
+      "reference": "0000283582092975",
+      "withdrawal_paise": 22200,
+      "deposit_paise": 0,
+      "balance_paise": 8068200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-04-18",
+      "narration": "POS 416078XXXXXX1067 CHINITA POS DEBIT",
+      "reference": "0000N28785443299",
+      "withdrawal_paise": 55100,
+      "deposit_paise": 0,
+      "balance_paise": 8013100,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2025-04-18",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE APR25-N493241160157959",
+      "reference": "N493241160157959",
+      "withdrawal_paise": 0,
+      "deposit_paise": 2633000,
+      "balance_paise": 10646100,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-04-28",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-609318569002-PAYMENT",
+      "reference": "0000609318569002",
+      "withdrawal_paise": 70700,
+      "deposit_paise": 0,
+      "balance_paise": 10575400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-04-28",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE APR25-N689556569949579",
+      "reference": "N689556569949579",
+      "withdrawal_paise": 0,
+      "deposit_paise": 4127400,
+      "balance_paise": 14702800,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2025-05-03",
+      "narration": "IB BILLPAY DR-ICICI CARDS-291224XXXXXX0541",
+      "reference": "IB19247382693548",
+      "withdrawal_paise": 928800,
+      "deposit_paise": 0,
+      "balance_paise": 13774000,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-05-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N505265907555846-PERSONAL",
+      "reference": "N505265907555846",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 10824000,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-05-04",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-809060881042-PAYMENT",
+      "reference": "0000809060881042",
+      "withdrawal_paise": 24300,
+      "deposit_paise": 0,
+      "balance_paise": 10799700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-05-04",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-611268860500-PAYMENT",
+      "reference": "0000611268860500",
+      "withdrawal_paise": 26500,
+      "deposit_paise": 0,
+      "balance_paise": 10773200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-6819580394",
+      "reference": "0000369354992946",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 9973200,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-518993331518-PAYMENT",
+      "reference": "0000518993331518",
+      "withdrawal_paise": 126500,
+      "deposit_paise": 0,
+      "balance_paise": 9846700,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-05-08",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-479931155634-PAYMENT",
+      "reference": "0000479931155634",
+      "withdrawal_paise": 35800,
+      "deposit_paise": 0,
+      "balance_paise": 9810900,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "IB BILLPAY DR-BESCOM-766789XXXXXX4413",
+      "reference": "IB36577147432694",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 9630900,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-05-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-816408XXXXXX2036",
+      "reference": "IB99187788556620",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 9531000,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-05-10",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-842183104823-PAYMENT",
+      "reference": "0000842183104823",
+      "withdrawal_paise": 189900,
+      "deposit_paise": 0,
+      "balance_paise": 9341100,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-05-10",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-673381280205-PAYMENT",
+      "reference": "0000673381280205",
+      "withdrawal_paise": 36800,
+      "deposit_paise": 0,
+      "balance_paise": 9304300,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-05-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-920591262648-PAYMENT",
+      "reference": "0000920591262648",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 9127300,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-05-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-195620389196-PAYMENT",
+      "reference": "0000195620389196",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 9062400,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-05-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-291154843839-PAYMENT",
+      "reference": "0000291154843839",
+      "withdrawal_paise": 12900,
+      "deposit_paise": 0,
+      "balance_paise": 9049500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-546606005244-PAYMENT",
+      "reference": "0000546606005244",
+      "withdrawal_paise": 197500,
+      "deposit_paise": 0,
+      "balance_paise": 8852000,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-621971837825-PAYMENT",
+      "reference": "0000621971837825",
+      "withdrawal_paise": 27900,
+      "deposit_paise": 0,
+      "balance_paise": 8824100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-05-12",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE MAY25-N101155624100274",
+      "reference": "N101155624100274",
+      "withdrawal_paise": 0,
+      "deposit_paise": 9736000,
+      "balance_paise": 18560100,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2025-05-13",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-777382140150-PAYMENT",
+      "reference": "0000777382140150",
+      "withdrawal_paise": 47300,
+      "deposit_paise": 0,
+      "balance_paise": 18512800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-05-14",
+      "narration": "POS 416074XXXXXX2753 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N84402459380",
+      "withdrawal_paise": 204500,
+      "deposit_paise": 0,
+      "balance_paise": 18308300,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "ACH D- NIVA BUPA-222305352",
+      "reference": "0000012093051095",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 18144300,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-368584XXXXXX4945",
+      "reference": "IB92825611069148",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 15744300,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-05-15",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-806996634059-PAYMENT",
+      "reference": "0000806996634059",
+      "withdrawal_paise": 30600,
+      "deposit_paise": 0,
+      "balance_paise": 15713700,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-05-17",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-852203794384-PAYMENT",
+      "reference": "0000852203794384",
+      "withdrawal_paise": 36700,
+      "deposit_paise": 0,
+      "balance_paise": 15677000,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-05-17",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-371608290256-PAYMENT",
+      "reference": "0000371608290256",
+      "withdrawal_paise": 52100,
+      "deposit_paise": 0,
+      "balance_paise": 15624900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-05-21",
+      "narration": "POS 416059XXXXXX0688 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N55157850938",
+      "withdrawal_paise": 206500,
+      "deposit_paise": 0,
+      "balance_paise": 15418400,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-05-23",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-078860026397-PAYMENT",
+      "reference": "0000078860026397",
+      "withdrawal_paise": 246700,
+      "deposit_paise": 0,
+      "balance_paise": 15171700,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-05-23",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE MAY25-N782221785542777",
+      "reference": "N782221785542777",
+      "withdrawal_paise": 0,
+      "deposit_paise": 4498400,
+      "balance_paise": 19670100,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-05-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-073343260612-PAYMENT",
+      "reference": "0000073343260612",
+      "withdrawal_paise": 41900,
+      "deposit_paise": 0,
+      "balance_paise": 19628200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-05-24",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-150857199046-PAYMENT",
+      "reference": "0000150857199046",
+      "withdrawal_paise": 29500,
+      "deposit_paise": 0,
+      "balance_paise": 19598700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-05-24",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE MAY25-N030125446293841",
+      "reference": "N030125446293841",
+      "withdrawal_paise": 0,
+      "deposit_paise": 4224100,
+      "balance_paise": 23822800,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2025-05-26",
+      "narration": "IB BILLPAY DR-ICICI CARDS-173400XXXXXX8539",
+      "reference": "IB76123262904774",
+      "withdrawal_paise": 1579700,
+      "deposit_paise": 0,
+      "balance_paise": 22243100,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-06-01",
+      "narration": "POS 416084XXXXXX2165 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N44509500328",
+      "withdrawal_paise": 87500,
+      "deposit_paise": 0,
+      "balance_paise": 22155600,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-06-03",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE JUN25-N889975443587344",
+      "reference": "N889975443587344",
+      "withdrawal_paise": 0,
+      "deposit_paise": 4787900,
+      "balance_paise": 26943500,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2025-06-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N803999482113873-PERSONAL",
+      "reference": "N803999482113873",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 23993500,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-06-04",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-174886735346-PAYMENT",
+      "reference": "0000174886735346",
+      "withdrawal_paise": 50800,
+      "deposit_paise": 0,
+      "balance_paise": 23942700,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-06",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-743236458416-PAYMENT",
+      "reference": "0000743236458416",
+      "withdrawal_paise": 11200,
+      "deposit_paise": 0,
+      "balance_paise": 23931500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-5210640062",
+      "reference": "0000145623682749",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 23131500,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-06-08",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-930269386368-PAYMENT",
+      "reference": "0000930269386368",
+      "withdrawal_paise": 207000,
+      "deposit_paise": 0,
+      "balance_paise": 22924500,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "IB BILLPAY DR-BESCOM-464729XXXXXX2899",
+      "reference": "IB79580974805148",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 22744500,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-850420XXXXXX4192",
+      "reference": "IB58896916478000",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 22644600,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-06-09",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-409284888428-PAYMENT",
+      "reference": "0000409284888428",
+      "withdrawal_paise": 66200,
+      "deposit_paise": 0,
+      "balance_paise": 22578400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-06-10",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-147949239734-PAYMENT",
+      "reference": "0000147949239734",
+      "withdrawal_paise": 56600,
+      "deposit_paise": 0,
+      "balance_paise": 22521800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-06-10",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-274408739331-PAYMENT",
+      "reference": "0000274408739331",
+      "withdrawal_paise": 52600,
+      "deposit_paise": 0,
+      "balance_paise": 22469200,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-06-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-689359236966-PAYMENT",
+      "reference": "0000689359236966",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 22292200,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-06-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-772980867779-PAYMENT",
+      "reference": "0000772980867779",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 22227300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-06-15",
+      "narration": "ACH D- NIVA BUPA-776511751",
+      "reference": "0000094196366711",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 22063300,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-06-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-957249XXXXXX0489",
+      "reference": "IB14442539360050",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 19663300,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-06-15",
+      "narration": "POS 416085XXXXXX4476 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N47917630918",
+      "withdrawal_paise": 72900,
+      "deposit_paise": 0,
+      "balance_paise": 19590400,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-06-15",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE JUN25-N426185220538145",
+      "reference": "N426185220538145",
+      "withdrawal_paise": 0,
+      "deposit_paise": 8649700,
+      "balance_paise": 28240100,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-06-16",
+      "narration": "POS 416064XXXXXX0308 CHINITA POS DEBIT",
+      "reference": "0000N63130885849",
+      "withdrawal_paise": 138700,
+      "deposit_paise": 0,
+      "balance_paise": 28101400,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2025-06-17",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-931542721348-PAYMENT",
+      "reference": "0000931542721348",
+      "withdrawal_paise": 65700,
+      "deposit_paise": 0,
+      "balance_paise": 28035700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-06-18",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-806777635903-PAYMENT",
+      "reference": "0000806777635903",
+      "withdrawal_paise": 76300,
+      "deposit_paise": 0,
+      "balance_paise": 27959400,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-06-18",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-609543258782-PAYMENT",
+      "reference": "0000609543258782",
+      "withdrawal_paise": 15600,
+      "deposit_paise": 0,
+      "balance_paise": 27943800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-06-19",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-349974329585-PAYMENT",
+      "reference": "0000349974329585",
+      "withdrawal_paise": 45100,
+      "deposit_paise": 0,
+      "balance_paise": 27898700,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-06-21",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-487052305435-PAYMENT",
+      "reference": "0000487052305435",
+      "withdrawal_paise": 200300,
+      "deposit_paise": 0,
+      "balance_paise": 27698400,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-06-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-261782564949-PAYMENT",
+      "reference": "0000261782564949",
+      "withdrawal_paise": 19000,
+      "deposit_paise": 0,
+      "balance_paise": 27679400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-23",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-810621473356-PAYMENT",
+      "reference": "0000810621473356",
+      "withdrawal_paise": 33800,
+      "deposit_paise": 0,
+      "balance_paise": 27645600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-06-23",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE JUN25-N992322250775491",
+      "reference": "N992322250775491",
+      "withdrawal_paise": 0,
+      "deposit_paise": 3997500,
+      "balance_paise": 31643100,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2025-06-24",
+      "narration": "IB BILLPAY DR-ICICI CARDS-628288XXXXXX0536",
+      "reference": "IB58016472163057",
+      "withdrawal_paise": 1897300,
+      "deposit_paise": 0,
+      "balance_paise": 29745800,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-06-25",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-989460219578-PAYMENT",
+      "reference": "0000989460219578",
+      "withdrawal_paise": 69800,
+      "deposit_paise": 0,
+      "balance_paise": 29676000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-06-25",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-248726026758-PAYMENT",
+      "reference": "0000248726026758",
+      "withdrawal_paise": 23000,
+      "deposit_paise": 0,
+      "balance_paise": 29653000,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-06-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 15800,
+      "balance_paise": 29668800,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2025-07-02",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-328201188646-PAYMENT",
+      "reference": "0000328201188646",
+      "withdrawal_paise": 28800,
+      "deposit_paise": 0,
+      "balance_paise": 29640000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-07-02",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-169041821870-PAYMENT",
+      "reference": "0000169041821870",
+      "withdrawal_paise": 19100,
+      "deposit_paise": 0,
+      "balance_paise": 29620900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-07-03",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-959820744888-PAYMENT",
+      "reference": "0000959820744888",
+      "withdrawal_paise": 52900,
+      "deposit_paise": 0,
+      "balance_paise": 29568000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-07-03",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-052096945841-PAYMENT",
+      "reference": "0000052096945841",
+      "withdrawal_paise": 37700,
+      "deposit_paise": 0,
+      "balance_paise": 29530300,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-07-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N770379389988261-PERSONAL",
+      "reference": "N770379389988261",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 26580300,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-07-05",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-785182542261-PAYMENT",
+      "reference": "0000785182542261",
+      "withdrawal_paise": 30500,
+      "deposit_paise": 0,
+      "balance_paise": 26549800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-07-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-424160079926-PAYMENT",
+      "reference": "0000424160079926",
+      "withdrawal_paise": 10700,
+      "deposit_paise": 0,
+      "balance_paise": 26539100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-3795001255",
+      "reference": "0000786073231713",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 25739100,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-07-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-341751254219-PAYMENT",
+      "reference": "0000341751254219",
+      "withdrawal_paise": 27500,
+      "deposit_paise": 0,
+      "balance_paise": 25711600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-09",
+      "narration": "IB BILLPAY DR-BESCOM-776519XXXXXX9004",
+      "reference": "IB58305303780512",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 25531600,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-07-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-987676XXXXXX8157",
+      "reference": "IB80739615753888",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 25431700,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-07-09",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-653150185895-PAYMENT",
+      "reference": "0000653150185895",
+      "withdrawal_paise": 36600,
+      "deposit_paise": 0,
+      "balance_paise": 25395100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-07-09",
+      "narration": "POS 416079XXXXXX1452 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N34400246685",
+      "withdrawal_paise": 53900,
+      "deposit_paise": 0,
+      "balance_paise": 25341200,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2025-07-10",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-850950712071-PAYMENT",
+      "reference": "0000850950712071",
+      "withdrawal_paise": 38600,
+      "deposit_paise": 0,
+      "balance_paise": 25302600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-07-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-158802123168-PAYMENT",
+      "reference": "0000158802123168",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 25125600,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-07-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-969487029063-PAYMENT",
+      "reference": "0000969487029063",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 25060700,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-07-13",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-078569544592-PAYMENT",
+      "reference": "0000078569544592",
+      "withdrawal_paise": 69500,
+      "deposit_paise": 0,
+      "balance_paise": 24991200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-07-14",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-346025807937-PAYMENT",
+      "reference": "0000346025807937",
+      "withdrawal_paise": 256600,
+      "deposit_paise": 0,
+      "balance_paise": 24734600,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-07-14",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-342461008078-PAYMENT",
+      "reference": "0000342461008078",
+      "withdrawal_paise": 73300,
+      "deposit_paise": 0,
+      "balance_paise": 24661300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-07-15",
+      "narration": "ACH D- NIVA BUPA-086415542",
+      "reference": "0000004964030205",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 24497300,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-07-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-435007XXXXXX7677",
+      "reference": "IB87093919405297",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 22097300,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-07-17",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-056739271832-PAYMENT",
+      "reference": "0000056739271832",
+      "withdrawal_paise": 108000,
+      "deposit_paise": 0,
+      "balance_paise": 21989300,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-07-19",
+      "narration": "POS 416016XXXXXX7264 CHINITA POS DEBIT",
+      "reference": "0000N38109631350",
+      "withdrawal_paise": 93200,
+      "deposit_paise": 0,
+      "balance_paise": 21896100,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2025-07-19",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE JUL25-N445750845021231",
+      "reference": "N445750845021231",
+      "withdrawal_paise": 0,
+      "deposit_paise": 3978100,
+      "balance_paise": 25874200,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-07-22",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-587064599278-PAYMENT",
+      "reference": "0000587064599278",
+      "withdrawal_paise": 227300,
+      "deposit_paise": 0,
+      "balance_paise": 25646900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-07-22",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-197748154465-PAYMENT",
+      "reference": "0000197748154465",
+      "withdrawal_paise": 10500,
+      "deposit_paise": 0,
+      "balance_paise": 25636400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-07-23",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-237732150202-PAYMENT",
+      "reference": "0000237732150202",
+      "withdrawal_paise": 189300,
+      "deposit_paise": 0,
+      "balance_paise": 25447100,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-07-29",
+      "narration": "IB BILLPAY DR-ICICI CARDS-753074XXXXXX3698",
+      "reference": "IB30656557205042",
+      "withdrawal_paise": 1527000,
+      "deposit_paise": 0,
+      "balance_paise": 23920100,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-08-03",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-613859192006-PAYMENT",
+      "reference": "0000613859192006",
+      "withdrawal_paise": 41900,
+      "deposit_paise": 0,
+      "balance_paise": 23878200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-08-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N793653603218481-PERSONAL",
+      "reference": "N793653603218481",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 20928200,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-08-05",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-461371045878-PAYMENT",
+      "reference": "0000461371045878",
+      "withdrawal_paise": 40600,
+      "deposit_paise": 0,
+      "balance_paise": 20887600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-807017695763-PAYMENT",
+      "reference": "0000807017695763",
+      "withdrawal_paise": 12300,
+      "deposit_paise": 0,
+      "balance_paise": 20875300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-08-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-1602907555",
+      "reference": "0000921706955586",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 20075300,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-08-09",
+      "narration": "IB BILLPAY DR-BESCOM-776459XXXXXX7647",
+      "reference": "IB35287937773569",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 19895300,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-08-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-743383XXXXXX5636",
+      "reference": "IB67274908363448",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 19795400,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-08-09",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-569503864772-PAYMENT",
+      "reference": "0000569503864772",
+      "withdrawal_paise": 47000,
+      "deposit_paise": 0,
+      "balance_paise": 19748400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-08-10",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-233954164328-PAYMENT",
+      "reference": "0000233954164328",
+      "withdrawal_paise": 53200,
+      "deposit_paise": 0,
+      "balance_paise": 19695200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-08-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-376431788313-PAYMENT",
+      "reference": "0000376431788313",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 19518200,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-08-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-650609429044-PAYMENT",
+      "reference": "0000650609429044",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 19453300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-08-11",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE AUG25-N246112626037437",
+      "reference": "N246112626037437",
+      "withdrawal_paise": 0,
+      "deposit_paise": 9873200,
+      "balance_paise": 29326500,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2025-08-15",
+      "narration": "ACH D- NIVA BUPA-597229759",
+      "reference": "0000076335332306",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 29162500,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-08-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-396680XXXXXX2059",
+      "reference": "IB25052228414630",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 26762500,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-08-16",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-638504542613-PAYMENT",
+      "reference": "0000638504542613",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 26697600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-16",
+      "narration": "POS 416052XXXXXX0180 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N47410253388",
+      "withdrawal_paise": 103600,
+      "deposit_paise": 0,
+      "balance_paise": 26594000,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-08-18",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-931639946224-PAYMENT",
+      "reference": "0000931639946224",
+      "withdrawal_paise": 21500,
+      "deposit_paise": 0,
+      "balance_paise": 26572500,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-08-19",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE AUG25-N862281431543613",
+      "reference": "N862281431543613",
+      "withdrawal_paise": 0,
+      "deposit_paise": 3041400,
+      "balance_paise": 29613900,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-08-21",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-733247954565-PAYMENT",
+      "reference": "0000733247954565",
+      "withdrawal_paise": 188400,
+      "deposit_paise": 0,
+      "balance_paise": 29425500,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-08-21",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-247158734891-PAYMENT",
+      "reference": "0000247158734891",
+      "withdrawal_paise": 67600,
+      "deposit_paise": 0,
+      "balance_paise": 29357900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-08-21",
+      "narration": "POS 416041XXXXXX8025 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N43291777316",
+      "withdrawal_paise": 80200,
+      "deposit_paise": 0,
+      "balance_paise": 29277700,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-08-21",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-027357445980-PAYMENT",
+      "reference": "0000027357445980",
+      "withdrawal_paise": 56600,
+      "deposit_paise": 0,
+      "balance_paise": 29221100,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-08-23",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-441882641035-PAYMENT",
+      "reference": "0000441882641035",
+      "withdrawal_paise": 166400,
+      "deposit_paise": 0,
+      "balance_paise": 29054700,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-08-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-044393919047-PAYMENT",
+      "reference": "0000044393919047",
+      "withdrawal_paise": 37200,
+      "deposit_paise": 0,
+      "balance_paise": 29017500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-08-24",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-317124004955-PAYMENT",
+      "reference": "0000317124004955",
+      "withdrawal_paise": 29300,
+      "deposit_paise": 0,
+      "balance_paise": 28988200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-08-25",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-954053818074-PAYMENT",
+      "reference": "0000954053818074",
+      "withdrawal_paise": 162100,
+      "deposit_paise": 0,
+      "balance_paise": 28826100,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-08-26",
+      "narration": "UPI-CULT FIT-cultfit@ybl-YESB0YBLUPI-884099621436-PAYMENT",
+      "reference": "0000884099621436",
+      "withdrawal_paise": 153100,
+      "deposit_paise": 0,
+      "balance_paise": 28673000,
+      "expected_category": "health",
+      "expected_merchant": "CULT FIT"
+    },
+    {
+      "date": "2025-08-29",
+      "narration": "IB BILLPAY DR-ICICI CARDS-551373XXXXXX6288",
+      "reference": "IB66151635435264",
+      "withdrawal_paise": 1459800,
+      "deposit_paise": 0,
+      "balance_paise": 27213200,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-08-29",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE AUG25-N109548872939601",
+      "reference": "N109548872939601",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6257900,
+      "balance_paise": 33471100,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2025-09-01",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-272444525819-PAYMENT",
+      "reference": "0000272444525819",
+      "withdrawal_paise": 52300,
+      "deposit_paise": 0,
+      "balance_paise": 33418800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N242823813884473-PERSONAL",
+      "reference": "N242823813884473",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 30468800,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-09-04",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-850693548883-PAYMENT",
+      "reference": "0000850693548883",
+      "withdrawal_paise": 165500,
+      "deposit_paise": 0,
+      "balance_paise": 30303300,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-09-04",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-094146283936-PAYMENT",
+      "reference": "0000094146283936",
+      "withdrawal_paise": 24900,
+      "deposit_paise": 0,
+      "balance_paise": 30278400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-09-05",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-873596252190-PAYMENT",
+      "reference": "0000873596252190",
+      "withdrawal_paise": 198500,
+      "deposit_paise": 0,
+      "balance_paise": 30079900,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-09-06",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-696939486394-PAYMENT",
+      "reference": "0000696939486394",
+      "withdrawal_paise": 276900,
+      "deposit_paise": 0,
+      "balance_paise": 29803000,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2025-09-06",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-746691294509-PAYMENT",
+      "reference": "0000746691294509",
+      "withdrawal_paise": 43800,
+      "deposit_paise": 0,
+      "balance_paise": 29759200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-09-07",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-848856091065-PAYMENT",
+      "reference": "0000848856091065",
+      "withdrawal_paise": 19800,
+      "deposit_paise": 0,
+      "balance_paise": 29739400,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-09-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-5794419210",
+      "reference": "0000558656887921",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 28939400,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-09-09",
+      "narration": "IB BILLPAY DR-BESCOM-068920XXXXXX2761",
+      "reference": "IB63154570903398",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 28759400,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-09-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-824092XXXXXX7657",
+      "reference": "IB11672084408826",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 28659500,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-09-09",
+      "narration": "POS 416003XXXXXX3948 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N29271562583",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 28594600,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2025-09-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-936065772764-PAYMENT",
+      "reference": "0000936065772764",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 28417600,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-09-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-615554401113-PAYMENT",
+      "reference": "0000615554401113",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 28352700,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-09-11",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-290535793558-PAYMENT",
+      "reference": "0000290535793558",
+      "withdrawal_paise": 53900,
+      "deposit_paise": 0,
+      "balance_paise": 28298800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-09-12",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-366473793923-PAYMENT",
+      "reference": "0000366473793923",
+      "withdrawal_paise": 162000,
+      "deposit_paise": 0,
+      "balance_paise": 28136800,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-09-13",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-544221805241-PAYMENT",
+      "reference": "0000544221805241",
+      "withdrawal_paise": 32600,
+      "deposit_paise": 0,
+      "balance_paise": 28104200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-09-15",
+      "narration": "ACH D- NIVA BUPA-888517485",
+      "reference": "0000074716395511",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 27940200,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-09-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-343723XXXXXX0689",
+      "reference": "IB52568288590520",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 25540200,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-09-16",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-958138667563-PAYMENT",
+      "reference": "0000958138667563",
+      "withdrawal_paise": 52200,
+      "deposit_paise": 0,
+      "balance_paise": 25488000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-09-16",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-965610808239-PAYMENT",
+      "reference": "0000965610808239",
+      "withdrawal_paise": 28100,
+      "deposit_paise": 0,
+      "balance_paise": 25459900,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-09-19",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-338339609713-PAYMENT",
+      "reference": "0000338339609713",
+      "withdrawal_paise": 11700,
+      "deposit_paise": 0,
+      "balance_paise": 25448200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-09-19",
+      "narration": "UPI-APOLLO PHARMACY-apollopharmacy@ybl-YESB0YBLUPI-449752134275-PAYMENT",
+      "reference": "0000449752134275",
+      "withdrawal_paise": 48500,
+      "deposit_paise": 0,
+      "balance_paise": 25399700,
+      "expected_category": "health",
+      "expected_merchant": "APOLLO PHARMACY"
+    },
+    {
+      "date": "2025-09-21",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-566111357857-PAYMENT",
+      "reference": "0000566111357857",
+      "withdrawal_paise": 53900,
+      "deposit_paise": 0,
+      "balance_paise": 25345800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-09-23",
+      "narration": "POS 416078XXXXXX6362 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N11310298607",
+      "withdrawal_paise": 200500,
+      "deposit_paise": 0,
+      "balance_paise": 25145300,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-09-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-455475738467-PAYMENT",
+      "reference": "0000455475738467",
+      "withdrawal_paise": 63800,
+      "deposit_paise": 0,
+      "balance_paise": 25081500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-09-27",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-264061065083-PAYMENT",
+      "reference": "0000264061065083",
+      "withdrawal_paise": 24300,
+      "deposit_paise": 0,
+      "balance_paise": 25057200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-09-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 23400,
+      "balance_paise": 25080600,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2025-10-02",
+      "narration": "POS 416060XXXXXX4156 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N97679264567",
+      "withdrawal_paise": 153400,
+      "deposit_paise": 0,
+      "balance_paise": 24927200,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2025-10-03",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-044032935296-PAYMENT",
+      "reference": "0000044032935296",
+      "withdrawal_paise": 60200,
+      "deposit_paise": 0,
+      "balance_paise": 24867000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N765425036014313-PERSONAL",
+      "reference": "N765425036014313",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 21917000,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-10-04",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-039684133586-PAYMENT",
+      "reference": "0000039684133586",
+      "withdrawal_paise": 27100,
+      "deposit_paise": 0,
+      "balance_paise": 21889900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-04",
+      "narration": "IB BILLPAY DR-ICICI CARDS-866981XXXXXX5987",
+      "reference": "IB19349775288327",
+      "withdrawal_paise": 2172100,
+      "deposit_paise": 0,
+      "balance_paise": 19717800,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-10-05",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-845849545671-PAYMENT",
+      "reference": "0000845849545671",
+      "withdrawal_paise": 16500,
+      "deposit_paise": 0,
+      "balance_paise": 19701300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-8855256819",
+      "reference": "0000978457602543",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 18901300,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-10-08",
+      "narration": "POS 416094XXXXXX2490 CHINITA POS DEBIT",
+      "reference": "0000N46449434199",
+      "withdrawal_paise": 109400,
+      "deposit_paise": 0,
+      "balance_paise": 18791900,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "IB BILLPAY DR-BESCOM-843576XXXXXX0646",
+      "reference": "IB49520871862573",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 18611900,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-498561XXXXXX8904",
+      "reference": "IB97850053778719",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 18512000,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-10-09",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-565610478987-PAYMENT",
+      "reference": "0000565610478987",
+      "withdrawal_paise": 23700,
+      "deposit_paise": 0,
+      "balance_paise": 18488300,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-10-10",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-584652052651-PAYMENT",
+      "reference": "0000584652052651",
+      "withdrawal_paise": 47900,
+      "deposit_paise": 0,
+      "balance_paise": 18440400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-10",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE OCT25-N810112303797204",
+      "reference": "N810112303797204",
+      "withdrawal_paise": 0,
+      "deposit_paise": 5898800,
+      "balance_paise": 24339200,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-349934457801-PAYMENT",
+      "reference": "0000349934457801",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 24162200,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-211696689626-PAYMENT",
+      "reference": "0000211696689626",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 24097300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-194027368712-PAYMENT",
+      "reference": "0000194027368712",
+      "withdrawal_paise": 111000,
+      "deposit_paise": 0,
+      "balance_paise": 23986300,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-10-11",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-966349359947-PAYMENT",
+      "reference": "0000966349359947",
+      "withdrawal_paise": 65800,
+      "deposit_paise": 0,
+      "balance_paise": 23920500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-14",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-124893922813-PAYMENT",
+      "reference": "0000124893922813",
+      "withdrawal_paise": 38000,
+      "deposit_paise": 0,
+      "balance_paise": 23882500,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-10-14",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-345641445649-PAYMENT",
+      "reference": "0000345641445649",
+      "withdrawal_paise": 26300,
+      "deposit_paise": 0,
+      "balance_paise": 23856200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-15",
+      "narration": "ACH D- NIVA BUPA-800922225",
+      "reference": "0000088397050593",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 23692200,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-10-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-671120XXXXXX4212",
+      "reference": "IB96491010769978",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 21292200,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-10-15",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-307462361123-PAYMENT",
+      "reference": "0000307462361123",
+      "withdrawal_paise": 44600,
+      "deposit_paise": 0,
+      "balance_paise": 21247600,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-10-16",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-157785713373-PAYMENT",
+      "reference": "0000157785713373",
+      "withdrawal_paise": 67500,
+      "deposit_paise": 0,
+      "balance_paise": 21180100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-10-17",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-539621705243-PAYMENT",
+      "reference": "0000539621705243",
+      "withdrawal_paise": 210300,
+      "deposit_paise": 0,
+      "balance_paise": 20969800,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-10-17",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-973411612776-PAYMENT",
+      "reference": "0000973411612776",
+      "withdrawal_paise": 40400,
+      "deposit_paise": 0,
+      "balance_paise": 20929400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-10-19",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-059937772648-PAYMENT",
+      "reference": "0000059937772648",
+      "withdrawal_paise": 224400,
+      "deposit_paise": 0,
+      "balance_paise": 20705000,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-10-21",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-773832623784-PAYMENT",
+      "reference": "0000773832623784",
+      "withdrawal_paise": 166800,
+      "deposit_paise": 0,
+      "balance_paise": 20538200,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-10-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-309431120113-PAYMENT",
+      "reference": "0000309431120113",
+      "withdrawal_paise": 37900,
+      "deposit_paise": 0,
+      "balance_paise": 20500300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-10-24",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE OCT25-N040841138701547",
+      "reference": "N040841138701547",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6183100,
+      "balance_paise": 26683400,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-10-28",
+      "narration": "POS 416044XXXXXX4728 CHINITA POS DEBIT",
+      "reference": "0000N81244225393",
+      "withdrawal_paise": 65300,
+      "deposit_paise": 0,
+      "balance_paise": 26618100,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2025-10-30",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE OCT25-N005010873584719",
+      "reference": "N005010873584719",
+      "withdrawal_paise": 0,
+      "deposit_paise": 1273600,
+      "balance_paise": 27891700,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2025-10-31",
+      "narration": "IB BILLPAY DR-ICICI CARDS-360175XXXXXX6564",
+      "reference": "IB67099780899145",
+      "withdrawal_paise": 1957800,
+      "deposit_paise": 0,
+      "balance_paise": 25933900,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-799720365292-PAYMENT",
+      "reference": "0000799720365292",
+      "withdrawal_paise": 75000,
+      "deposit_paise": 0,
+      "balance_paise": 25858900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-11-01",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-097999972904-PAYMENT",
+      "reference": "0000097999972904",
+      "withdrawal_paise": 67100,
+      "deposit_paise": 0,
+      "balance_paise": 25791800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-11-02",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-466044662167-PAYMENT",
+      "reference": "0000466044662167",
+      "withdrawal_paise": 39200,
+      "deposit_paise": 0,
+      "balance_paise": 25752600,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-11-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N379214447602927-PERSONAL",
+      "reference": "N379214447602927",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 22802600,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-11-04",
+      "narration": "POS 416021XXXXXX4510 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N22067958210",
+      "withdrawal_paise": 117600,
+      "deposit_paise": 0,
+      "balance_paise": 22685000,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2025-11-04",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-928595276956-PAYMENT",
+      "reference": "0000928595276956",
+      "withdrawal_paise": 16100,
+      "deposit_paise": 0,
+      "balance_paise": 22668900,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-11-07",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-939119344531-PAYMENT",
+      "reference": "0000939119344531",
+      "withdrawal_paise": 45100,
+      "deposit_paise": 0,
+      "balance_paise": 22623800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-11-07",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-845044224934-PAYMENT",
+      "reference": "0000845044224934",
+      "withdrawal_paise": 15800,
+      "deposit_paise": 0,
+      "balance_paise": 22608000,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-11-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-6070162482",
+      "reference": "0000009883416550",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 21808000,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-11-09",
+      "narration": "IB BILLPAY DR-BESCOM-856004XXXXXX5009",
+      "reference": "IB49248124390718",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 21628000,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-11-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-733750XXXXXX1798",
+      "reference": "IB94414628965882",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 21528100,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-11-10",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-635884574855-PAYMENT",
+      "reference": "0000635884574855",
+      "withdrawal_paise": 23000,
+      "deposit_paise": 0,
+      "balance_paise": 21505100,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-11-10",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE NOV25-N303720011788900",
+      "reference": "N303720011788900",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6453800,
+      "balance_paise": 27958900,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2025-11-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-741026208994-PAYMENT",
+      "reference": "0000741026208994",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 27781900,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-11-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-055722028119-PAYMENT",
+      "reference": "0000055722028119",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 27717000,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-11-14",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-284558083482-PAYMENT",
+      "reference": "0000284558083482",
+      "withdrawal_paise": 180100,
+      "deposit_paise": 0,
+      "balance_paise": 27536900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-11-14",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-256185667227-PAYMENT",
+      "reference": "0000256185667227",
+      "withdrawal_paise": 46800,
+      "deposit_paise": 0,
+      "balance_paise": 27490100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-11-15",
+      "narration": "ACH D- NIVA BUPA-831088865",
+      "reference": "0000064888531057",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 27326100,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-11-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-595949XXXXXX4958",
+      "reference": "IB34244828655985",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 24926100,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-11-16",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-391068881916-PAYMENT",
+      "reference": "0000391068881916",
+      "withdrawal_paise": 238900,
+      "deposit_paise": 0,
+      "balance_paise": 24687200,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-11-17",
+      "narration": "POS 416046XXXXXX3886 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N43262912862",
+      "withdrawal_paise": 175900,
+      "deposit_paise": 0,
+      "balance_paise": 24511300,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2025-11-19",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-026861850675-PAYMENT",
+      "reference": "0000026861850675",
+      "withdrawal_paise": 40700,
+      "deposit_paise": 0,
+      "balance_paise": 24470600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-20",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-536674823249-PAYMENT",
+      "reference": "0000536674823249",
+      "withdrawal_paise": 35300,
+      "deposit_paise": 0,
+      "balance_paise": 24435300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-11-22",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-058018020190-PAYMENT",
+      "reference": "0000058018020190",
+      "withdrawal_paise": 136200,
+      "deposit_paise": 0,
+      "balance_paise": 24299100,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-11-22",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE NOV25-N372510146309390",
+      "reference": "N372510146309390",
+      "withdrawal_paise": 0,
+      "deposit_paise": 9261800,
+      "balance_paise": 33560900,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-11-23",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-204895819653-PAYMENT",
+      "reference": "0000204895819653",
+      "withdrawal_paise": 72100,
+      "deposit_paise": 0,
+      "balance_paise": 33488800,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-11-28",
+      "narration": "IB BILLPAY DR-ICICI CARDS-418008XXXXXX0304",
+      "reference": "IB14054063976427",
+      "withdrawal_paise": 1464600,
+      "deposit_paise": 0,
+      "balance_paise": 32024200,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-12-01",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-747705351454-PAYMENT",
+      "reference": "0000747705351454",
+      "withdrawal_paise": 23700,
+      "deposit_paise": 0,
+      "balance_paise": 32000500,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N576373306077773-PERSONAL",
+      "reference": "N576373306077773",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 29050500,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2025-12-04",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-983882024133-PAYMENT",
+      "reference": "0000983882024133",
+      "withdrawal_paise": 56900,
+      "deposit_paise": 0,
+      "balance_paise": 28993600,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-06",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-646367787721-PAYMENT",
+      "reference": "0000646367787721",
+      "withdrawal_paise": 63000,
+      "deposit_paise": 0,
+      "balance_paise": 28930600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-12-06",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-742772133622-PAYMENT",
+      "reference": "0000742772133622",
+      "withdrawal_paise": 45400,
+      "deposit_paise": 0,
+      "balance_paise": 28885200,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-853220455787-PAYMENT",
+      "reference": "0000853220455787",
+      "withdrawal_paise": 57800,
+      "deposit_paise": 0,
+      "balance_paise": 28827400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-12-07",
+      "narration": "POS 416045XXXXXX5776 CHINITA POS DEBIT",
+      "reference": "0000N89413606473",
+      "withdrawal_paise": 184400,
+      "deposit_paise": 0,
+      "balance_paise": 28643000,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-0941952298",
+      "reference": "0000081146560398",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 27843000,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-699993868289-PAYMENT",
+      "reference": "0000699993868289",
+      "withdrawal_paise": 63800,
+      "deposit_paise": 0,
+      "balance_paise": 27779200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-12-08",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-737843999518-PAYMENT",
+      "reference": "0000737843999518",
+      "withdrawal_paise": 53300,
+      "deposit_paise": 0,
+      "balance_paise": 27725900,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2025-12-09",
+      "narration": "IB BILLPAY DR-BESCOM-549206XXXXXX9902",
+      "reference": "IB35562293286902",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 27545900,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2025-12-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-698362XXXXXX7220",
+      "reference": "IB37383004887905",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 27446000,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2025-12-10",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-898043857950-PAYMENT",
+      "reference": "0000898043857950",
+      "withdrawal_paise": 82600,
+      "deposit_paise": 0,
+      "balance_paise": 27363400,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-12-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-799324858247-PAYMENT",
+      "reference": "0000799324858247",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 27186400,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2025-12-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-549722861391-PAYMENT",
+      "reference": "0000549722861391",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 27121500,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2025-12-13",
+      "narration": "POS 416015XXXXXX4884 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N52117811914",
+      "withdrawal_paise": 192800,
+      "deposit_paise": 0,
+      "balance_paise": 26928700,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2025-12-15",
+      "narration": "ACH D- NIVA BUPA-416045080",
+      "reference": "0000034374362570",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 26764700,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2025-12-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-395408XXXXXX6427",
+      "reference": "IB25315507308139",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 24364700,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2025-12-16",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-332573578241-PAYMENT",
+      "reference": "0000332573578241",
+      "withdrawal_paise": 17200,
+      "deposit_paise": 0,
+      "balance_paise": 24347500,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2025-12-20",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-172554068637-PAYMENT",
+      "reference": "0000172554068637",
+      "withdrawal_paise": 52900,
+      "deposit_paise": 0,
+      "balance_paise": 24294600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2025-12-20",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-476235644511-PAYMENT",
+      "reference": "0000476235644511",
+      "withdrawal_paise": 26200,
+      "deposit_paise": 0,
+      "balance_paise": 24268400,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-12-22",
+      "narration": "POS 416058XXXXXX0005 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N69162171537",
+      "withdrawal_paise": 56500,
+      "deposit_paise": 0,
+      "balance_paise": 24211900,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2025-12-25",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-059047526519-PAYMENT",
+      "reference": "0000059047526519",
+      "withdrawal_paise": 37600,
+      "deposit_paise": 0,
+      "balance_paise": 24174300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2025-12-25",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE DEC25-N229164073269975",
+      "reference": "N229164073269975",
+      "withdrawal_paise": 0,
+      "deposit_paise": 9685500,
+      "balance_paise": 33859800,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2025-12-26",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-926212042562-PAYMENT",
+      "reference": "0000926212042562",
+      "withdrawal_paise": 90000,
+      "deposit_paise": 0,
+      "balance_paise": 33769800,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2025-12-27",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-895185666099-PAYMENT",
+      "reference": "0000895185666099",
+      "withdrawal_paise": 239600,
+      "deposit_paise": 0,
+      "balance_paise": 33530200,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2025-12-27",
+      "narration": "IB BILLPAY DR-ICICI CARDS-425701XXXXXX3200",
+      "reference": "IB18342474394145",
+      "withdrawal_paise": 1484500,
+      "deposit_paise": 0,
+      "balance_paise": 32045700,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2025-12-28",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-786844996429-PAYMENT",
+      "reference": "0000786844996429",
+      "withdrawal_paise": 36600,
+      "deposit_paise": 0,
+      "balance_paise": 32009100,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2025-12-29",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE DEC25-N104389304844947",
+      "reference": "N104389304844947",
+      "withdrawal_paise": 0,
+      "deposit_paise": 1258000,
+      "balance_paise": 33267100,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2025-12-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 21600,
+      "balance_paise": 33288700,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    },
+    {
+      "date": "2026-01-02",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-227573636470-PAYMENT",
+      "reference": "0000227573636470",
+      "withdrawal_paise": 31000,
+      "deposit_paise": 0,
+      "balance_paise": 33257700,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2026-01-03",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-359422143102-PAYMENT",
+      "reference": "0000359422143102",
+      "withdrawal_paise": 54300,
+      "deposit_paise": 0,
+      "balance_paise": 33203400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N218216922535978-PERSONAL",
+      "reference": "N218216922535978",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 30253400,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2026-01-04",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-062989145197-PAYMENT",
+      "reference": "0000062989145197",
+      "withdrawal_paise": 51100,
+      "deposit_paise": 0,
+      "balance_paise": 30202300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-05",
+      "narration": "UPI-APOLLO PHARMACY-apollopharmacy@ybl-YESB0YBLUPI-040211458468-PAYMENT",
+      "reference": "0000040211458468",
+      "withdrawal_paise": 152600,
+      "deposit_paise": 0,
+      "balance_paise": 30049700,
+      "expected_category": "health",
+      "expected_merchant": "APOLLO PHARMACY"
+    },
+    {
+      "date": "2026-01-06",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-871489392840-PAYMENT",
+      "reference": "0000871489392840",
+      "withdrawal_paise": 198800,
+      "deposit_paise": 0,
+      "balance_paise": 29850900,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2026-01-06",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-635080832487-PAYMENT",
+      "reference": "0000635080832487",
+      "withdrawal_paise": 40300,
+      "deposit_paise": 0,
+      "balance_paise": 29810600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-8785831713",
+      "reference": "0000169107054580",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 29010600,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2026-01-09",
+      "narration": "IB BILLPAY DR-BESCOM-038651XXXXXX4204",
+      "reference": "IB15427540006166",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 28830600,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2026-01-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-719142XXXXXX5094",
+      "reference": "IB89899760158610",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 28730700,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2026-01-10",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-312179596945-PAYMENT",
+      "reference": "0000312179596945",
+      "withdrawal_paise": 194200,
+      "deposit_paise": 0,
+      "balance_paise": 28536500,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-01-10",
+      "narration": "POS 416009XXXXXX5120 CHINITA POS DEBIT",
+      "reference": "0000N21542600191",
+      "withdrawal_paise": 72200,
+      "deposit_paise": 0,
+      "balance_paise": 28464300,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2026-01-10",
+      "narration": "POS 416069XXXXXX2862 CHINITA POS DEBIT",
+      "reference": "0000N70773889197",
+      "withdrawal_paise": 105900,
+      "deposit_paise": 0,
+      "balance_paise": 28358400,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2026-01-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-030599590300-PAYMENT",
+      "reference": "0000030599590300",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 28181400,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2026-01-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-519451661243-PAYMENT",
+      "reference": "0000519451661243",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 28116500,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "POS 416003XXXXXX9537 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N67199292241",
+      "withdrawal_paise": 101900,
+      "deposit_paise": 0,
+      "balance_paise": 28014600,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2026-01-12",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE JAN26-N271423052218739",
+      "reference": "N271423052218739",
+      "withdrawal_paise": 0,
+      "deposit_paise": 8998000,
+      "balance_paise": 37012600,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2026-01-14",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-901295067572-PAYMENT",
+      "reference": "0000901295067572",
+      "withdrawal_paise": 41500,
+      "deposit_paise": 0,
+      "balance_paise": 36971100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-15",
+      "narration": "ACH D- NIVA BUPA-799626952",
+      "reference": "0000056779625960",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 36807100,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2026-01-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-782323XXXXXX8014",
+      "reference": "IB94979077880944",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 34407100,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2026-01-16",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE JAN26-N108947720269241",
+      "reference": "N108947720269241",
+      "withdrawal_paise": 0,
+      "deposit_paise": 3893500,
+      "balance_paise": 38300600,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2026-01-18",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-096872185458-PAYMENT",
+      "reference": "0000096872185458",
+      "withdrawal_paise": 33600,
+      "deposit_paise": 0,
+      "balance_paise": 38267000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-19",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-371590951438-PAYMENT",
+      "reference": "0000371590951438",
+      "withdrawal_paise": 204900,
+      "deposit_paise": 0,
+      "balance_paise": 38062100,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2026-01-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-771578698178-PAYMENT",
+      "reference": "0000771578698178",
+      "withdrawal_paise": 47600,
+      "deposit_paise": 0,
+      "balance_paise": 38014500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-01-23",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-792443898719-PAYMENT",
+      "reference": "0000792443898719",
+      "withdrawal_paise": 24400,
+      "deposit_paise": 0,
+      "balance_paise": 37990100,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2026-01-23",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE JAN26-N555020525409555",
+      "reference": "N555020525409555",
+      "withdrawal_paise": 0,
+      "deposit_paise": 3740300,
+      "balance_paise": 41730400,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2026-01-25",
+      "narration": "IB BILLPAY DR-ICICI CARDS-181494XXXXXX0302",
+      "reference": "IB73328859147497",
+      "withdrawal_paise": 2044900,
+      "deposit_paise": 0,
+      "balance_paise": 39685500,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2026-01-26",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-058551226869-PAYMENT",
+      "reference": "0000058551226869",
+      "withdrawal_paise": 30100,
+      "deposit_paise": 0,
+      "balance_paise": 39655400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-01-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-257642221463-PAYMENT",
+      "reference": "0000257642221463",
+      "withdrawal_paise": 37100,
+      "deposit_paise": 0,
+      "balance_paise": 39618300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-01-27",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-120186369179-PAYMENT",
+      "reference": "0000120186369179",
+      "withdrawal_paise": 12600,
+      "deposit_paise": 0,
+      "balance_paise": 39605700,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-01-28",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-424329014183-PAYMENT",
+      "reference": "0000424329014183",
+      "withdrawal_paise": 12500,
+      "deposit_paise": 0,
+      "balance_paise": 39593200,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2026-02-01",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-846508759469-PAYMENT",
+      "reference": "0000846508759469",
+      "withdrawal_paise": 55800,
+      "deposit_paise": 0,
+      "balance_paise": 39537400,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2026-02-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N502369617856825-PERSONAL",
+      "reference": "N502369617856825",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 36587400,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2026-02-04",
+      "narration": "NEFT CR-ICIC0000004-PIXELFORGE STUDIOS LLP-INVOICE FEB26-N985210257964857",
+      "reference": "N985210257964857",
+      "withdrawal_paise": 0,
+      "deposit_paise": 12134700,
+      "balance_paise": 48722100,
+      "expected_category": "income",
+      "expected_merchant": "PIXELFORGE STUDIOS LLP"
+    },
+    {
+      "date": "2026-02-05",
+      "narration": "POS 416037XXXXXX9549 CHINITA POS DEBIT",
+      "reference": "0000N60689507306",
+      "withdrawal_paise": 189100,
+      "deposit_paise": 0,
+      "balance_paise": 48533000,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2026-02-06",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-782486214660-PAYMENT",
+      "reference": "0000782486214660",
+      "withdrawal_paise": 109200,
+      "deposit_paise": 0,
+      "balance_paise": 48423800,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2026-02-06",
+      "narration": "POS 416098XXXXXX6374 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N27358007738",
+      "withdrawal_paise": 189700,
+      "deposit_paise": 0,
+      "balance_paise": 48234100,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2026-02-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-7416034155",
+      "reference": "0000353312039990",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 47434100,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2026-02-08",
+      "narration": "POS 416056XXXXXX3548 CHINITA POS DEBIT",
+      "reference": "0000N89241542918",
+      "withdrawal_paise": 187500,
+      "deposit_paise": 0,
+      "balance_paise": 47246600,
+      "expected_category": "dining",
+      "expected_merchant": "CHINITA"
+    },
+    {
+      "date": "2026-02-08",
+      "narration": "UPI-APOLLO PHARMACY-apollopharmacy@ybl-YESB0YBLUPI-438645528274-PAYMENT",
+      "reference": "0000438645528274",
+      "withdrawal_paise": 140900,
+      "deposit_paise": 0,
+      "balance_paise": 47105700,
+      "expected_category": "health",
+      "expected_merchant": "APOLLO PHARMACY"
+    },
+    {
+      "date": "2026-02-09",
+      "narration": "IB BILLPAY DR-BESCOM-269803XXXXXX9051",
+      "reference": "IB72390758926506",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 46925700,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2026-02-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-186658XXXXXX2995",
+      "reference": "IB83370811430488",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 46825800,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2026-02-09",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-016051780817-PAYMENT",
+      "reference": "0000016051780817",
+      "withdrawal_paise": 34000,
+      "deposit_paise": 0,
+      "balance_paise": 46791800,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2026-02-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-671348004368-PAYMENT",
+      "reference": "0000671348004368",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 46614800,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2026-02-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-189555670547-PAYMENT",
+      "reference": "0000189555670547",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 46549900,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-883149808963-PAYMENT",
+      "reference": "0000883149808963",
+      "withdrawal_paise": 12000,
+      "deposit_paise": 0,
+      "balance_paise": 46537900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-12",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-555536926935-PAYMENT",
+      "reference": "0000555536926935",
+      "withdrawal_paise": 59200,
+      "deposit_paise": 0,
+      "balance_paise": 46478700,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-02-14",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-828447308261-PAYMENT",
+      "reference": "0000828447308261",
+      "withdrawal_paise": 18400,
+      "deposit_paise": 0,
+      "balance_paise": 46460300,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-15",
+      "narration": "ACH D- NIVA BUPA-522513859",
+      "reference": "0000085623372392",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 46296300,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2026-02-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-115369XXXXXX9938",
+      "reference": "IB39153847776223",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 43896300,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2026-02-15",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-727457751783-PAYMENT",
+      "reference": "0000727457751783",
+      "withdrawal_paise": 44800,
+      "deposit_paise": 0,
+      "balance_paise": 43851500,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-02-16",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-784010104123-PAYMENT",
+      "reference": "0000784010104123",
+      "withdrawal_paise": 154000,
+      "deposit_paise": 0,
+      "balance_paise": 43697500,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2026-02-17",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE FEB26-N371467659409004",
+      "reference": "N371467659409004",
+      "withdrawal_paise": 0,
+      "deposit_paise": 7955300,
+      "balance_paise": 51652800,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2026-02-18",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-814566615453-PAYMENT",
+      "reference": "0000814566615453",
+      "withdrawal_paise": 93600,
+      "deposit_paise": 0,
+      "balance_paise": 51559200,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-02-20",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-286704586373-PAYMENT",
+      "reference": "0000286704586373",
+      "withdrawal_paise": 52700,
+      "deposit_paise": 0,
+      "balance_paise": 51506500,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-22",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-893596314835-PAYMENT",
+      "reference": "0000893596314835",
+      "withdrawal_paise": 37100,
+      "deposit_paise": 0,
+      "balance_paise": 51469400,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-02-22",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-644044307088-PAYMENT",
+      "reference": "0000644044307088",
+      "withdrawal_paise": 27500,
+      "deposit_paise": 0,
+      "balance_paise": 51441900,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-02-22",
+      "narration": "NEFT CR-ICIC0000004-BRIGHTPATH MEDIA PVT LTD-INVOICE FEB26-N495565183733154",
+      "reference": "N495565183733154",
+      "withdrawal_paise": 0,
+      "deposit_paise": 6122700,
+      "balance_paise": 57564600,
+      "expected_category": "income",
+      "expected_merchant": "BRIGHTPATH MEDIA PVT LTD"
+    },
+    {
+      "date": "2026-02-24",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-167105776337-PAYMENT",
+      "reference": "0000167105776337",
+      "withdrawal_paise": 268000,
+      "deposit_paise": 0,
+      "balance_paise": 57296600,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2026-02-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-948256188751-PAYMENT",
+      "reference": "0000948256188751",
+      "withdrawal_paise": 52400,
+      "deposit_paise": 0,
+      "balance_paise": 57244200,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-02-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-050806202210-PAYMENT",
+      "reference": "0000050806202210",
+      "withdrawal_paise": 40600,
+      "deposit_paise": 0,
+      "balance_paise": 57203600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-02-27",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-047246142973-PAYMENT",
+      "reference": "0000047246142973",
+      "withdrawal_paise": 68300,
+      "deposit_paise": 0,
+      "balance_paise": 57135300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-01",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-374853765820-PAYMENT",
+      "reference": "0000374853765820",
+      "withdrawal_paise": 32900,
+      "deposit_paise": 0,
+      "balance_paise": 57102400,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-02",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-013546531743-PAYMENT",
+      "reference": "0000013546531743",
+      "withdrawal_paise": 26300,
+      "deposit_paise": 0,
+      "balance_paise": 57076100,
+      "expected_category": "transport",
+      "expected_merchant": "NAMMA METRO"
+    },
+    {
+      "date": "2026-03-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-911463250424-PAYMENT",
+      "reference": "0000911463250424",
+      "withdrawal_paise": 16300,
+      "deposit_paise": 0,
+      "balance_paise": 57059800,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-03",
+      "narration": "IB BILLPAY DR-ICICI CARDS-152860XXXXXX2331",
+      "reference": "IB08238880300693",
+      "withdrawal_paise": 1117200,
+      "deposit_paise": 0,
+      "balance_paise": 55942600,
+      "expected_category": "card_payment",
+      "expected_merchant": "ICICI CARDS"
+    },
+    {
+      "date": "2026-03-04",
+      "narration": "NEFT DR-HDFC0000512-SUDHA RAGHAVAN-NETBANK-N634642711835364-PERSONAL",
+      "reference": "N634642711835364",
+      "withdrawal_paise": 2950000,
+      "deposit_paise": 0,
+      "balance_paise": 52992600,
+      "expected_category": "rent",
+      "expected_merchant": "SUDHA RAGHAVAN"
+    },
+    {
+      "date": "2026-03-06",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-429198117537-PAYMENT",
+      "reference": "0000429198117537",
+      "withdrawal_paise": 227700,
+      "deposit_paise": 0,
+      "balance_paise": 52764900,
+      "expected_category": "groceries",
+      "expected_merchant": "ZEPTO"
+    },
+    {
+      "date": "2026-03-06",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-762773653870-PAYMENT",
+      "reference": "0000762773653870",
+      "withdrawal_paise": 34700,
+      "deposit_paise": 0,
+      "balance_paise": 52730200,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-03-07",
+      "narration": "POS 416087XXXXXX7430 GLENS BAKEHOUSE POS DEBIT",
+      "reference": "0000N33144405712",
+      "withdrawal_paise": 86100,
+      "deposit_paise": 0,
+      "balance_paise": 52644100,
+      "expected_category": "dining",
+      "expected_merchant": "GLENS BAKEHOUSE"
+    },
+    {
+      "date": "2026-03-08",
+      "narration": "SI-TAD-UTI NIFTY INDEX-4520284977",
+      "reference": "0000483042388951",
+      "withdrawal_paise": 800000,
+      "deposit_paise": 0,
+      "balance_paise": 51844100,
+      "expected_category": "investment_sip",
+      "expected_merchant": "UTI NIFTY INDEX"
+    },
+    {
+      "date": "2026-03-09",
+      "narration": "IB BILLPAY DR-BESCOM-091372XXXXXX3283",
+      "reference": "IB60993275932555",
+      "withdrawal_paise": 180000,
+      "deposit_paise": 0,
+      "balance_paise": 51664100,
+      "expected_category": "utilities",
+      "expected_merchant": "BESCOM"
+    },
+    {
+      "date": "2026-03-09",
+      "narration": "IB BILLPAY DR-AIRTEL BROADBAND-428924XXXXXX9503",
+      "reference": "IB20966943925401",
+      "withdrawal_paise": 99900,
+      "deposit_paise": 0,
+      "balance_paise": 51564200,
+      "expected_category": "utilities",
+      "expected_merchant": "AIRTEL BROADBAND"
+    },
+    {
+      "date": "2026-03-11",
+      "narration": "UPI-ADOBE CC-adobecc@ybl-YESB0YBLUPI-912852738185-PAYMENT",
+      "reference": "0000912852738185",
+      "withdrawal_paise": 177000,
+      "deposit_paise": 0,
+      "balance_paise": 51387200,
+      "expected_category": "subscription",
+      "expected_merchant": "ADOBE CC"
+    },
+    {
+      "date": "2026-03-11",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-594104517994-PAYMENT",
+      "reference": "0000594104517994",
+      "withdrawal_paise": 64900,
+      "deposit_paise": 0,
+      "balance_paise": 51322300,
+      "expected_category": "subscription",
+      "expected_merchant": "NETFLIX"
+    },
+    {
+      "date": "2026-03-12",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-482294597189-PAYMENT",
+      "reference": "0000482294597189",
+      "withdrawal_paise": 46200,
+      "deposit_paise": 0,
+      "balance_paise": 51276100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "SWIGGY"
+    },
+    {
+      "date": "2026-03-12",
+      "narration": "UPI-CULT FIT-cultfit@ybl-YESB0YBLUPI-924167116778-PAYMENT",
+      "reference": "0000924167116778",
+      "withdrawal_paise": 66900,
+      "deposit_paise": 0,
+      "balance_paise": 51209200,
+      "expected_category": "health",
+      "expected_merchant": "CULT FIT"
+    },
+    {
+      "date": "2026-03-14",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-659876148850-PAYMENT",
+      "reference": "0000659876148850",
+      "withdrawal_paise": 49100,
+      "deposit_paise": 0,
+      "balance_paise": 51160100,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-15",
+      "narration": "ACH D- NIVA BUPA-329682193",
+      "reference": "0000040719889742",
+      "withdrawal_paise": 164000,
+      "deposit_paise": 0,
+      "balance_paise": 50996100,
+      "expected_category": "insurance_health",
+      "expected_merchant": "NIVA BUPA"
+    },
+    {
+      "date": "2026-03-15",
+      "narration": "IB BILLPAY DR-ADVANCE TAX-497205XXXXXX9393",
+      "reference": "IB61442334567846",
+      "withdrawal_paise": 2400000,
+      "deposit_paise": 0,
+      "balance_paise": 48596100,
+      "expected_category": "tax_advance",
+      "expected_merchant": "ADVANCE TAX"
+    },
+    {
+      "date": "2026-03-15",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-304626688597-PAYMENT",
+      "reference": "0000304626688597",
+      "withdrawal_paise": 70100,
+      "deposit_paise": 0,
+      "balance_paise": 48526000,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-17",
+      "narration": "UPI-BLINKIT-blinkit@ybl-YESB0YBLUPI-312224219071-PAYMENT",
+      "reference": "0000312224219071",
+      "withdrawal_paise": 88800,
+      "deposit_paise": 0,
+      "balance_paise": 48437200,
+      "expected_category": "groceries",
+      "expected_merchant": "BLINKIT"
+    },
+    {
+      "date": "2026-03-19",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-476399626886-PAYMENT",
+      "reference": "0000476399626886",
+      "withdrawal_paise": 28600,
+      "deposit_paise": 0,
+      "balance_paise": 48408600,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-19",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-043807267645-PAYMENT",
+      "reference": "0000043807267645",
+      "withdrawal_paise": 59300,
+      "deposit_paise": 0,
+      "balance_paise": 48349300,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-19",
+      "narration": "NEFT CR-ICIC0000004-NORTHWIND CONSULTING-INVOICE MAR26-N299132244629328",
+      "reference": "N299132244629328",
+      "withdrawal_paise": 0,
+      "deposit_paise": 8479800,
+      "balance_paise": 56829100,
+      "expected_category": "income",
+      "expected_merchant": "NORTHWIND CONSULTING"
+    },
+    {
+      "date": "2026-03-20",
+      "narration": "POS 416098XXXXXX7357 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N20487759526",
+      "withdrawal_paise": 121100,
+      "deposit_paise": 0,
+      "balance_paise": 56708000,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2026-03-24",
+      "narration": "UPI-RAPIDO-rapido@ybl-YESB0YBLUPI-487039532676-PAYMENT",
+      "reference": "0000487039532676",
+      "withdrawal_paise": 31200,
+      "deposit_paise": 0,
+      "balance_paise": 56676800,
+      "expected_category": "transport",
+      "expected_merchant": "RAPIDO"
+    },
+    {
+      "date": "2026-03-24",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-380570403566-PAYMENT",
+      "reference": "0000380570403566",
+      "withdrawal_paise": 15200,
+      "deposit_paise": 0,
+      "balance_paise": 56661600,
+      "expected_category": "transport",
+      "expected_merchant": "UBER INDIA"
+    },
+    {
+      "date": "2026-03-27",
+      "narration": "UPI-SPAR HYPERMARKET-sparhypermarket@ybl-YESB0YBLUPI-499400356087-PAYMENT",
+      "reference": "0000499400356087",
+      "withdrawal_paise": 270500,
+      "deposit_paise": 0,
+      "balance_paise": 56391100,
+      "expected_category": "groceries",
+      "expected_merchant": "SPAR HYPERMARKET"
+    },
+    {
+      "date": "2026-03-28",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-535988994574-PAYMENT",
+      "reference": "0000535988994574",
+      "withdrawal_paise": 23000,
+      "deposit_paise": 0,
+      "balance_paise": 56368100,
+      "expected_category": "food_delivery",
+      "expected_merchant": "ZOMATO"
+    },
+    {
+      "date": "2026-03-28",
+      "narration": "POS 416034XXXXXX1331 THIRD WAVE COFFEE POS DEBIT",
+      "reference": "0000N79372955567",
+      "withdrawal_paise": 58400,
+      "deposit_paise": 0,
+      "balance_paise": 56309700,
+      "expected_category": "dining",
+      "expected_merchant": "THIRD WAVE COFFEE"
+    },
+    {
+      "date": "2026-03-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "reference": "000000000000000",
+      "withdrawal_paise": 0,
+      "deposit_paise": 30300,
+      "balance_paise": 56340000,
+      "expected_category": "interest_income",
+      "expected_merchant": "HDFC BANK"
+    }
+  ]
+}

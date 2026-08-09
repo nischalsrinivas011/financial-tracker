@@ -1,0 +1,536 @@
+{
+  "source": "synthetic",
+  "document_type": "credit_card_statement",
+  "issuer": "ICICI BANK",
+  "product": "AMAZON PAY CREDIT CARD",
+  "persona": "meera_freelance",
+  "card_number_masked": "XXXXXXXXXXXX8823",
+  "credit_limit_paise": 28000000,
+  "payment_style": "full",
+  "cycle_count": 12,
+  "total_finance_charges_paise": 0,
+  "total_gst_paise": 0,
+  "closing_balance_paise": 1402400,
+  "cycles": [
+    {
+      "statement_date": "2025-04-22",
+      "due_date": "2025-05-12",
+      "opening_paise": 0,
+      "payments_paise": 0,
+      "purchases_paise": 928800,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 928800,
+      "minimum_due_paise": 46440,
+      "transactions": [
+        {
+          "date": "2025-03-26",
+          "description": "AMAZON IN",
+          "amount_paise": 292400,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-04-11",
+          "description": "FIGMA",
+          "amount_paise": 208200,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-04-16",
+          "description": "AWS INDIA",
+          "amount_paise": 428200,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-05-22",
+      "due_date": "2025-06-11",
+      "opening_paise": 928800,
+      "payments_paise": 928800,
+      "purchases_paise": 1579700,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1579700,
+      "minimum_due_paise": 78985,
+      "transactions": [
+        {
+          "date": "2025-05-03",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 928800,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-05-05",
+          "description": "INDIGO AIRLINES",
+          "amount_paise": 739300,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-05-07",
+          "description": "AWS INDIA",
+          "amount_paise": 409900,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-05-14",
+          "description": "AMAZON IN",
+          "amount_paise": 430500,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-06-22",
+      "due_date": "2025-07-12",
+      "opening_paise": 1579700,
+      "payments_paise": 1579700,
+      "purchases_paise": 1897300,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1897300,
+      "minimum_due_paise": 94865,
+      "transactions": [
+        {
+          "date": "2025-05-26",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1579700,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-05-28",
+          "description": "NYKAA",
+          "amount_paise": 549600,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-06-19",
+          "description": "FIGMA",
+          "amount_paise": 697500,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-06-19",
+          "description": "FIGMA",
+          "amount_paise": 650200,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-07-22",
+      "due_date": "2025-08-11",
+      "opening_paise": 1897300,
+      "payments_paise": 1897300,
+      "purchases_paise": 1527000,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1527000,
+      "minimum_due_paise": 76350,
+      "transactions": [
+        {
+          "date": "2025-06-24",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1897300,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-02",
+          "description": "AMAZON IN",
+          "amount_paise": 476800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-07-08",
+          "description": "FIGMA",
+          "amount_paise": 569900,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-07-20",
+          "description": "AMAZON IN",
+          "amount_paise": 480300,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-08-22",
+      "due_date": "2025-09-11",
+      "opening_paise": 1527000,
+      "payments_paise": 1527000,
+      "purchases_paise": 1459800,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1459800,
+      "minimum_due_paise": 72990,
+      "transactions": [
+        {
+          "date": "2025-07-29",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1527000,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-07-31",
+          "description": "AWS INDIA",
+          "amount_paise": 548500,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-08-02",
+          "description": "NYKAA",
+          "amount_paise": 310100,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-08",
+          "description": "NYKAA",
+          "amount_paise": 138900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-20",
+          "description": "NOTION LABS",
+          "amount_paise": 462300,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-09-22",
+      "due_date": "2025-10-12",
+      "opening_paise": 1459800,
+      "payments_paise": 1459800,
+      "purchases_paise": 2172100,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2172100,
+      "minimum_due_paise": 108605,
+      "transactions": [
+        {
+          "date": "2025-08-24",
+          "description": "NYKAA",
+          "amount_paise": 386300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-08-29",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1459800,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-09-03",
+          "description": "NOTION LABS",
+          "amount_paise": 430500,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-09-11",
+          "description": "NYKAA",
+          "amount_paise": 389800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-09-11",
+          "description": "OYO ROOMS",
+          "amount_paise": 829900,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-09-15",
+          "description": "AWS INDIA",
+          "amount_paise": 135600,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-10-22",
+      "due_date": "2025-11-11",
+      "opening_paise": 2172100,
+      "payments_paise": 2172100,
+      "purchases_paise": 1957800,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1957800,
+      "minimum_due_paise": 97890,
+      "transactions": [
+        {
+          "date": "2025-10-01",
+          "description": "NOTION LABS",
+          "amount_paise": 621300,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-10-04",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2172100,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-10-06",
+          "description": "NYKAA",
+          "amount_paise": 380700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-09",
+          "description": "AMAZON IN",
+          "amount_paise": 209300,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-10-19",
+          "description": "FIGMA",
+          "amount_paise": 746500,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-11-22",
+      "due_date": "2025-12-12",
+      "opening_paise": 1957800,
+      "payments_paise": 1957800,
+      "purchases_paise": 1464600,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1464600,
+      "minimum_due_paise": 73230,
+      "transactions": [
+        {
+          "date": "2025-10-27",
+          "description": "AWS INDIA",
+          "amount_paise": 680900,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-10-31",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1957800,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-11-07",
+          "description": "AWS INDIA",
+          "amount_paise": 336000,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-11-17",
+          "description": "AMAZON IN",
+          "amount_paise": 447700,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2025-12-22",
+      "due_date": "2026-01-11",
+      "opening_paise": 1464600,
+      "payments_paise": 1464600,
+      "purchases_paise": 1484500,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1484500,
+      "minimum_due_paise": 74225,
+      "transactions": [
+        {
+          "date": "2025-11-28",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1464600,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2025-12-06",
+          "description": "FIGMA",
+          "amount_paise": 549300,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-12-09",
+          "description": "NYKAA",
+          "amount_paise": 243900,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-10",
+          "description": "FIGMA",
+          "amount_paise": 332000,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2025-12-19",
+          "description": "AMAZON IN",
+          "amount_paise": 359300,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-01-22",
+      "due_date": "2026-02-11",
+      "opening_paise": 1484500,
+      "payments_paise": 1484500,
+      "purchases_paise": 2044900,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 2044900,
+      "minimum_due_paise": 102245,
+      "transactions": [
+        {
+          "date": "2025-12-24",
+          "description": "NYKAA",
+          "amount_paise": 198000,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2025-12-26",
+          "description": "INDIGO AIRLINES",
+          "amount_paise": 1189600,
+          "type": "debit",
+          "expected_category": "travel"
+        },
+        {
+          "date": "2025-12-27",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1484500,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-05",
+          "description": "FIGMA",
+          "amount_paise": 657300,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-02-22",
+      "due_date": "2026-03-14",
+      "opening_paise": 2044900,
+      "payments_paise": 2044900,
+      "purchases_paise": 1117200,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1117200,
+      "minimum_due_paise": 55860,
+      "transactions": [
+        {
+          "date": "2026-01-25",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 2044900,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-01-26",
+          "description": "NOTION LABS",
+          "amount_paise": 323200,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2026-02-12",
+          "description": "NYKAA",
+          "amount_paise": 181700,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-02-16",
+          "description": "AWS INDIA",
+          "amount_paise": 612300,
+          "type": "debit",
+          "expected_category": "business"
+        }
+      ]
+    },
+    {
+      "statement_date": "2026-03-22",
+      "due_date": "2026-04-11",
+      "opening_paise": 1117200,
+      "payments_paise": 1117200,
+      "purchases_paise": 1402400,
+      "finance_charge_paise": 0,
+      "gst_paise": 0,
+      "closing_paise": 1402400,
+      "minimum_due_paise": 70120,
+      "transactions": [
+        {
+          "date": "2026-02-25",
+          "description": "AMAZON IN",
+          "amount_paise": 415800,
+          "type": "debit",
+          "expected_category": "shopping"
+        },
+        {
+          "date": "2026-03-03",
+          "description": "PAYMENT RECEIVED - THANK YOU",
+          "amount_paise": 1117200,
+          "type": "credit",
+          "expected_category": "payment"
+        },
+        {
+          "date": "2026-03-13",
+          "description": "FIGMA",
+          "amount_paise": 576700,
+          "type": "debit",
+          "expected_category": "business"
+        },
+        {
+          "date": "2026-03-15",
+          "description": "NYKAA",
+          "amount_paise": 409900,
+          "type": "debit",
+          "expected_category": "shopping"
+        }
+      ]
+    }
+  ]
+}

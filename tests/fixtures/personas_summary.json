@@ -1,0 +1,62 @@
+[
+  {
+    "persona": "arjun_salaried",
+    "name": "MR. ARJUN MEHTA",
+    "narrative": "Healthy saver. High savings rate, disciplined SIPs, adequate insurance, card paid in full monthly. Baseline for comparison.",
+    "bank_transactions": 370,
+    "card_cycles": 12,
+    "annual_income_rs": 2068800,
+    "annual_outflow_rs": 1884624,
+    "closing_balance_rs": 399533,
+    "card_closing_rs": 25580,
+    "card_finance_charges_rs": 0
+  },
+  {
+    "persona": "meera_freelance",
+    "name": "MS. MEERA NAIR",
+    "narrative": "Irregular income. Some months two client payments, some months none. Tests cash-flow volatility, advance tax, and whether the app can compute a meaningful savings rate without a fixed salary.",
+    "bank_transactions": 355,
+    "card_cycles": 12,
+    "annual_income_rs": 1633879,
+    "annual_outflow_rs": 1167690,
+    "closing_balance_rs": 563400,
+    "card_closing_rs": 14024,
+    "card_finance_charges_rs": 0
+  },
+  {
+    "persona": "rohit_debt",
+    "name": "MR. ROHIT BANSAL",
+    "narrative": "Revolving credit card debt. Pays only the minimum, so finance charges compound month over month. Two cards, one loan stack. This is the persona the app should flag most loudly.",
+    "bank_transactions": 336,
+    "card_cycles": 12,
+    "annual_income_rs": 1063200,
+    "annual_outflow_rs": 878244,
+    "closing_balance_rs": 204743,
+    "card_closing_rs": 205629,
+    "card_finance_charges_rs": 39493
+  },
+  {
+    "persona": "sneha_young",
+    "name": "MS. SNEHA IYER",
+    "narrative": "First job. No emergency fund, no term or health cover beyond employer group policy, seven active subscriptions, heavy food delivery. Card carries a partial balance most months.",
+    "bank_transactions": 417,
+    "card_cycles": 12,
+    "annual_income_rs": 650400,
+    "annual_outflow_rs": 584260,
+    "closing_balance_rs": 78422,
+    "card_closing_rs": 20623,
+    "card_finance_charges_rs": 3154
+  },
+  {
+    "persona": "vikram_creep",
+    "name": "MR. VIKRAM RAO",
+    "narrative": "High earner, thin savings rate. Rent and discretionary spending scaled with income. Large card balance carried at a low utilisation ratio, so it looks fine on the surface and is not.",
+    "bank_transactions": 314,
+    "card_cycles": 12,
+    "annual_income_rs": 3744000,
+    "annual_outflow_rs": 4186956,
+    "closing_balance_rs": 80707,
+    "card_closing_rs": 246689,
+    "card_finance_charges_rs": 48018
+  }
+]
