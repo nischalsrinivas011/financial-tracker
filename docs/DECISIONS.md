@@ -4,6 +4,35 @@ Real design decisions with alternatives, logged as they're made. See
 `CLAUDE.md` for the rules these decisions produced, and `PROJECT_BRIEF.md`
 for the roadmap they slot into.
 
+## 2026-08-09 — Categorisation cascade: build deterministic stages first, defer the LLM stage
+
+**Problem:** Phase 2 is scoped as a 3-stage cascade (rules → lookup table →
+LLM for the unseen tail). Surveying all 5 personas' fixtures found 91
+distinct bank merchants and 43 card descriptions, all resolvable by
+structural narration rules or a merchant lookup table — zero genuinely
+unseen merchants in the current data.
+
+**Options considered:**
+1. Build all 3 stages now, including a stub/mocked LLM call for the unseen
+   tail, so the architecture is "complete" per the roadmap description.
+2. Build stages 1-2 (rules, lookup table) now, fully tested against fixture
+   ground truth; defer stage 3 until there's a real unseen-merchant case to
+   test it against and the provider/API key question is settled.
+
+**Choice:** Option 2.
+
+**Reasoning:** Same principle already applied to the card statement parser's
+page-overflow handling: don't write code that can't be verified against a
+real fixture. A stubbed LLM call would be untested by construction. Stage 3
+also needs a decision only the owner can make (which free-tier provider,
+and obtaining the API key) and `CLAUDE.md`'s LLM provider rules (cost
+routing, token/latency logging, no provider SDK outside
+`app/llm/client.py`) are enough scope to deserve their own explained step
+rather than being folded in as a side effect of finishing the cascade.
+Revisit when either real data introduces an unseen merchant, or there's a
+deliberate reason to build and test the LLM stage against a manufactured
+case.
+
 ## 2026-08-09 — Real statement upload behind Google auth: parked, not decided
 
 **Problem:** Proposal to let users who sign in with Google upload their real

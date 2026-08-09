@@ -92,5 +92,9 @@ evaluation methodology. Correctness and measurability matter more than feature c
 
 ## Current phase
 
-Phase 1 — synthetic statement generator and the deterministic parser with
-reconciliation. No API, no frontend, no LLM calls yet.
+Phase 2 — merchant normalisation and the categorisation cascade (rules →
+lookup table → LLM for the unseen tail, cached back). Phase 1 (synthetic
+fixtures, deterministic parsers, reconciliation) is done. Still no API, no
+frontend. The LLM stage of the cascade is deferred until there's a real
+unseen-merchant case to test it against and a provider/API key decision
+has been made with the owner — see `docs/DECISIONS.md`.
