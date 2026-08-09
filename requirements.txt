@@ -1,0 +1,12 @@
+# Render's Python buildpack auto-detects requirements.txt, not pyproject.toml
+# (we don't use Poetry). Keep this in sync with [project.dependencies] in
+# pyproject.toml by hand - dev-only deps (pytest) deliberately excluded.
+pdfplumber>=0.11
+httpx>=0.28
+sqlalchemy>=2.0
+psycopg[binary]>=3.3
+python-dotenv>=1.2
+clerk-backend-api>=6.0
+fastapi>=0.141
+uvicorn[standard]>=0.52
+python-multipart>=0.0.32
