@@ -45,9 +45,12 @@ So the system splits in two:
 - **Extraction is deterministic.** Bank-specific parsers, table extraction, an
   arithmetic reconciliation gate. No embeddings, no retrieval, no similarity search.
 - **The advisory layer is hybrid retrieval.** SQL over the user's transactions for
-  their actual numbers, plus vector search over an Indian personal-finance corpus
-  (tax regimes, 80C/80D, HRA, LTCG, PPF, NPS, prepay-vs-invest, emergency funds).
-  Both assembled into one grounded, cited answer.
+  their actual numbers, plus vector search over a general personal-finance corpus
+  (budgeting frameworks, emergency funds, debt ratios and payoff strategies,
+  affordability/FOIR, credit mechanics, insurance adequacy, prepay-vs-invest,
+  asset allocation). No tax content — this is an expense tracker and insight
+  generator, not a tax tool; see the 2026-08-09 decision in `docs/DECISIONS.md`
+  for why tax was scoped out. Both sources assembled into one grounded, cited answer.
 
 A question like "should I prepay my home loan or invest?" needs both halves. A
 question like "how much did I spend on food in March?" needs neither — it should

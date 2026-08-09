@@ -92,8 +92,16 @@ evaluation methodology. Correctness and measurability matter more than feature c
 
 ## Current phase
 
-Phase 3 — FastAPI + Postgres + auth, first deploy. Phase 1 (synthetic
-fixtures, deterministic parsers, reconciliation) and Phase 2 (merchant
-normalisation, rules → lookup → LLM cascade, all 3 stages live with Groq
-and Mistral confirmed working; Gemini blocked on an account-side quota
-issue, see `docs/DECISIONS.md`) are done. Still no frontend.
+Phase 4 — knowledge corpus, chunking, pgvector, the router, hybrid
+retrieval. Phase 1 (synthetic fixtures, deterministic parsers,
+reconciliation), Phase 2 (categorisation cascade, all 3 stages live), and
+Phase 3 (FastAPI + Postgres + real Clerk auth + first deploy on Render,
+all verified against live services) are done. Still no frontend.
+
+The corpus content this phase writes must match the chunk ids already
+named in `golden_questions.yaml`'s `relevant_chunks` fields — that file
+was written before the corpus and is the source of truth for what needs
+to exist, not the other way around. Phase 4 builds one working chunking
+strategy end-to-end (section-aware, per the hypothesis in
+`RAG_EVALUATION.md`); the 3-way chunking comparison against fixed-size
+and semantic is explicitly Phase 5's job, not this one.

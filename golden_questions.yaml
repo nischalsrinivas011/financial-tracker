@@ -70,48 +70,51 @@ questions:
   # B. Corpus only — pure retrieval. Tests chunking and grounding.
   # ---------------------------------------------------------------
   - id: vec-001
-    question: What is the maximum deduction under Section 80C?
+    question: What is the 50/30/20 budgeting rule?
     route: vector
     difficulty: easy
-    expected_behavior: States the cap and that it applies only under the old regime.
-    must_mention: [old regime]
-    relevant_chunks: [80c-overview, regime-comparison]
+    expected_behavior: States the three buckets (needs, wants, savings/debt) and their target percentages.
+    must_mention: [needs, wants]
+    relevant_chunks: [budgeting-50-30-20]
 
   - id: vec-002
-    question: Can I claim 80D for my parents' health insurance premium?
+    question: How much life insurance coverage do I actually need?
     route: vector
     difficulty: medium
-    expected_behavior: Distinguishes senior-citizen parents from non-senior. Two different caps.
-    must_mention: [senior citizen]
-    relevant_chunks: [80d-parents, 80d-limits]
+    expected_behavior: Gives an income-multiple rule of thumb and names the factors that adjust it (dependents, existing debt, other assets), not a single number stated as fact.
+    must_mention: [income]
+    relevant_chunks: [term-insurance-coverage, insurance-adequacy]
 
   - id: vec-003
-    question: How is long-term capital gains tax calculated on equity mutual funds?
+    question: How should my equity/debt mix change as I get older?
     route: vector
     difficulty: medium
-    expected_behavior: Holding period, exemption threshold, rate. No grandfathering confusion.
-    relevant_chunks: [ltcg-equity, holding-periods]
+    expected_behavior: States an age-based allocation rule of thumb and the reasoning (shrinking time horizon, falling risk capacity), not a rigid formula stated as fact.
+    relevant_chunks: [asset-allocation-by-age]
 
   - id: vec-004
-    question: What is the difference between the old and new tax regime?
+    question: Where should I park money I'll need in the next 6 months?
     route: vector
     difficulty: easy
-    expected_behavior: Slab structure vs deductions trade-off. Should not claim one is universally better.
-    must_not_mention: [always better, you should choose]
-    relevant_chunks: [regime-comparison, slabs-new, slabs-old]
+    expected_behavior: Recommends liquid/short-duration instruments over equity and states the trade-off (safety and access vs return).
+    must_not_mention: [guaranteed returns]
+    relevant_chunks: [parking-short-term-funds]
 
   - id: vec-005
-    question: Can I claim both HRA and a home loan interest deduction?
+    question: Is it better to rent or buy a home?
     route: vector
     difficulty: hard
-    expected_behavior: Yes, under specific conditions. Must state the conditions, not just "yes".
-    relevant_chunks: [hra-rules, hra-plus-homeloan, section-24b]
+    expected_behavior: Frames as a trade-off dependent on time horizon, opportunity cost of the down payment, and local price-to-rent ratio. Must not give a directive answer.
+    must_mention: [trade-off]
+    must_not_mention: [you should definitely]
+    relevant_chunks: [rent-vs-buy, emi-calculation]
 
   - id: vec-006
-    question: What is the lock-in period for ELSS funds?
+    question: How does a SIP actually work?
     route: vector
     difficulty: easy
-    relevant_chunks: [elss-basics]
+    expected_behavior: Explains rupee-cost averaging and fixed recurring investment mechanics, not fund selection.
+    relevant_chunks: [sip-mechanics]
 
   - id: vec-007
     question: How much emergency fund should someone keep?
@@ -128,17 +131,18 @@ questions:
     relevant_chunks: [cc-late-payment, credit-score-factors]
 
   - id: vec-009
-    question: Is PPF interest taxable?
+    question: How does credit utilization affect my credit score?
     route: vector
     difficulty: easy
-    relevant_chunks: [ppf-taxation]
+    expected_behavior: States the recommended utilization threshold and why it matters independent of paying on time.
+    relevant_chunks: [credit-utilization-ratio, credit-score-factors]
 
   - id: vec-010
-    question: What is the NPS additional deduction beyond 80C?
+    question: What's the difference between the debt snowball and avalanche methods?
     route: vector
     difficulty: medium
-    expected_behavior: Names 80CCD(1B) specifically and its cap.
-    relevant_chunks: [nps-80ccd, 80c-overview]
+    expected_behavior: Explains both (smallest balance first vs highest interest first) and the trade-off between psychological momentum and mathematical optimality.
+    relevant_chunks: [debt-payoff-strategies]
 
   # ---------------------------------------------------------------
   # C. Hybrid — the reason this architecture exists.
@@ -153,29 +157,29 @@ questions:
       with their numbers plugged in. Must NOT issue a directive recommendation.
     must_mention: [interest rate, your surplus, trade-off]
     must_not_mention: [you should definitely, guaranteed returns]
-    relevant_chunks: [prepay-vs-invest, section-24b, equity-expected-returns]
+    relevant_chunks: [prepay-vs-invest, equity-expected-returns]
 
   - id: hyb-002
-    question: Am I on track to use my full 80C limit this year?
+    question: How much of my income is going toward debt each month, and is that healthy?
     route: hybrid
     difficulty: hard
     expected_behavior: >
-      Identifies 80C-eligible outflows in transactions (ELSS SIPs, PPF, insurance
-      premiums, EPF), sums them, compares to the cap from the corpus, states the gap.
-      Must flag that it cannot see EPF deducted at source.
-    must_mention: [gap, cannot see]
-    relevant_chunks: [80c-overview, 80c-eligible-instruments]
+      Sums EMI/loan debits from transactions, computes as a percentage of income,
+      compares against the corpus benchmark for a healthy debt-to-income ratio,
+      states whether it's within or over that range.
+    must_mention: [ratio]
+    relevant_chunks: [debt-ratios, healthy-debt-to-income]
 
   - id: hyb-003
-    question: Which tax regime is better for me?
+    question: What would my budget look like under the 50/30/20 rule, using my real numbers?
     route: hybrid
     difficulty: hard
     expected_behavior: >
-      Estimates deductions visible in transactions, computes both regimes, shows
-      the comparison, and explicitly caveats what it cannot see (HRA proof, EPF,
-      employer NPS). Frames as an estimate requiring verification.
-    must_mention: [estimate, cannot see]
-    relevant_chunks: [regime-comparison, slabs-new, slabs-old]
+      Classifies the user's actual categorised spending into needs/wants/savings
+      buckets, compares against the 50/30/20 targets from the corpus, states
+      where they're over or under each bucket.
+    must_mention: [needs, wants]
+    relevant_chunks: [budgeting-50-30-20]
 
   - id: hyb-004
     question: Is my emergency fund big enough?

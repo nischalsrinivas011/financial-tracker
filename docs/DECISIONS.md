@@ -146,3 +146,45 @@ input is still synthetic, so rule 8 doesn't apply. It does mean the free-tier
 cold-start problem `PROJECT_BRIEF.md` calls out has to be solved for this
 path too (or the live-upload demo needs its own warm-keeping story) — design
 that when Phase 6 starts, not before.
+
+## 2026-08-09 — Knowledge corpus: drop tax content, keep the hybrid architecture
+
+**Problem:** `PROJECT_BRIEF.md` and `CLAUDE.md` originally scoped the
+advisory layer's knowledge corpus around Indian tax topics (80C/80D, HRA,
+LTCG, PPF/NPS taxation, old-vs-new regime). The owner corrected this
+mid-Phase-4: the product is a financial expense tracker and insight
+generator, not a tax tool - tax content doesn't belong in it at all.
+
+**Options considered:**
+1. Drop the knowledge corpus and hybrid retrieval entirely; pivot to a
+   pure SQL/analytics insight generator over transactions.
+2. Keep the SQL + vector hybrid architecture (still the portfolio's core
+   retrieval-judgment demonstration), but rescope the corpus to general
+   personal-finance topics with no tax content, and rewrite the
+   tax-rooted questions in `golden_questions.yaml` to match.
+
+**Choice:** Option 2.
+
+**Reasoning:** The retrieval-architecture demonstration (SQL for a
+user's actual numbers + vector search for a knowledge framework +
+router deciding which is needed) doesn't depend on the corpus topic
+being tax specifically - emergency funds, debt ratios, affordability,
+and credit mechanics exercise the same architecture just as well, and
+are more evergreen than tax figures that shift with each Union Budget.
+Of the 27 originally-scoped chunk ids, 14 were tax-specific and dropped
+(80c-overview, regime-comparison, 80d-parents, 80d-limits, ltcg-equity,
+holding-periods, slabs-new, slabs-old, hra-rules, hra-plus-homeloan,
+section-24b, ppf-taxation, nps-80ccd, 80c-eligible-instruments), plus
+elss-basics (its defining feature is its tax treatment, so it isn't a
+coherent topic without one). 12 non-tax chunks were already in scope
+and are kept. 9 new non-tax chunks replace what was dropped:
+budgeting-50-30-20, term-insurance-coverage, asset-allocation-by-age,
+parking-short-term-funds, rent-vs-buy, sip-mechanics,
+credit-utilization-ratio, debt-payoff-strategies, healthy-debt-to-income.
+
+`golden_questions.yaml`'s own header says never soften existing
+questions, only add - but 8 of 10 `vec-*` questions and 2 of 8 `hyb-*`
+questions were tax-rooted and unanswerable without tax content, so
+they're replaced with non-tax equivalents at the same difficulty and
+route, not softened or deleted outright. `vec-007`, `vec-008`, and all
+of `hyb-001`, `004`-`008` were never tax questions and are untouched.

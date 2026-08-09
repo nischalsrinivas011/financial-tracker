@@ -96,9 +96,11 @@ Run the same golden set against at least three strategies and record the deltas:
 | Section-aware | Split on document headings; keep a section intact where possible. |
 | Semantic | Embedding-similarity boundaries between adjacent sentences. |
 
-Hypothesis to state *before* running: tax rules are highly structured, so
-section-aware should beat fixed-size on recall because a deduction limit and its
-conditions live in the same section and fixed-size splits them.
+Hypothesis to state *before* running: personal-finance frameworks are highly
+structured, so section-aware should beat fixed-size on recall because a rule
+of thumb and its caveats/conditions live in the same section (e.g. an
+affordability threshold and the assumptions it depends on) and fixed-size
+splits them apart.
 
 Record whether the hypothesis held. A documented wrong hypothesis is better
 portfolio material than an undocumented right one.
