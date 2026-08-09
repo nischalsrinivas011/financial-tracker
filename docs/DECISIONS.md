@@ -33,6 +33,52 @@ Revisit when either real data introduces an unseen merchant, or there's a
 deliberate reason to build and test the LLM stage against a manufactured
 case.
 
+## 2026-08-09 — LLM client: one HTTP client for the providers, provider order, deferred UI picker
+
+**Problem:** Building the LLM stage of the categorisation cascade across
+free-tier providers with automatic fallback when one is rate-limited. The
+owner also asked for the *end user* of the app to eventually be able to
+pick their preferred provider, the way a person picks a model in a chat UI.
+
+**Options considered (client shape):**
+1. Integrate each provider's official SDK (`google-generativeai`, `groq`,
+   `mistralai`, etc.) behind a common interface.
+2. One generic HTTP client (`httpx`) against each provider's
+   OpenAI-compatible chat-completions endpoint, since each one exposes one.
+
+**Choice:** Option 2. The request/response shapes are close enough to
+identical across providers that maintaining a separate SDK adapter per
+provider would be pure overhead; one `POST .../chat/completions` call
+handles all of them, and it keeps `app/llm/client.py` as the only place
+any provider-specific detail (base URL, model, env var) lives, per the
+existing "no provider SDK outside this module" rule.
+
+**Provider order:** Groq, Gemini, Mistral - verified against each
+provider's own site/docs in August 2026 rather than assumed. Groq does
+not train on free-tier inputs; Gemini and Mistral do, by default (Mistral
+has an opt-out, not on by default). Cerebras was evaluated during design
+(also doesn't train on inputs, per its own site — a general platform
+statement, not explicitly scoped to the free tier) and would have been
+tried alongside Groq first, but the owner was unable to obtain an API key
+for it, so it's not in the final list. That's an access constraint, not a
+privacy or quality judgment against Cerebras — worth revisiting if a key
+becomes available later.
+
+**Options considered (per-user provider selection):**
+1. Build a selector now, as part of finishing the cascade's third stage.
+2. Build the supporting data model now (each `Provider` carries
+   `trains_on_free_tier_inputs` and a `privacy_note`, and `complete()`
+   takes an optional `preferred_provider` override) but not the actual
+   picker UI.
+
+**Choice:** Option 2. There is no UI in this project yet - no API
+(Phase 3), no frontend (Phase 6) - so there is nothing to select *in*.
+Building a selector now would be scaffolding ahead of the current phase,
+which the working-style rules explicitly warn against. The data a picker
+would need (per-provider training-on-inputs status, an override hook) is
+cheap to design in now and expensive to retrofit later, so that part is
+built; the control itself is deferred to whichever phase first has a UI.
+
 ## 2026-08-09 — Real statement upload behind Google auth: parked, not decided
 
 **Problem:** Proposal to let users who sign in with Google upload their real

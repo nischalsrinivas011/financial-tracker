@@ -3,11 +3,13 @@ from pathlib import Path
 
 import pytest
 
+from app.categorize import cascade
 from app.categorize.cascade import (
     UnresolvedCategoryError,
     categorize_bank_transaction,
     categorize_card_transaction,
 )
+from app.llm.client import LLMResponse
 
 FIXTURES = Path(__file__).parent / "fixtures"
 PERSONAS = ["arjun_salaried", "meera_freelance", "rohit_debt", "sneha_young", "vikram_creep"]
@@ -55,3 +57,42 @@ def test_unresolved_narration_raises_instead_of_guessing():
 def test_unresolved_card_description_raises_instead_of_guessing():
     with pytest.raises(UnresolvedCategoryError):
         categorize_card_transaction("SOME MERCHANT NOT IN THE LOOKUP TABLE")
+
+
+def _fake_llm_response(text: str) -> LLMResponse:
+    return LLMResponse(
+        text=text, provider="groq", model="llama-3.1-8b-instant",
+        input_tokens=12, output_tokens=2, latency_ms=42.0,
+    )
+
+
+def test_unseen_merchant_resolved_via_llm_and_cached(monkeypatch, tmp_path):
+    monkeypatch.setattr(cascade, "_LEARNED_PATH", tmp_path / "llm_learned.json")
+
+    calls = []
+
+    def fake_complete(messages, **kwargs):
+        calls.append(messages)
+        return _fake_llm_response("shopping")
+
+    monkeypatch.setattr(cascade, "complete", fake_complete)
+
+    result = categorize_card_transaction("SOME BRAND NEW MERCHANT XYZ")
+    assert result == {"merchant": "SOME BRAND NEW MERCHANT XYZ", "category": "shopping"}
+    assert len(calls) == 1
+
+    # Second lookup for the same merchant must hit the learned cache, not the LLM again.
+    result_again = categorize_card_transaction("SOME BRAND NEW MERCHANT XYZ")
+    assert result_again == {"merchant": "SOME BRAND NEW MERCHANT XYZ", "category": "shopping"}
+    assert len(calls) == 1
+
+    learned = json.loads((tmp_path / "llm_learned.json").read_text())
+    assert learned["card"]["SOME BRAND NEW MERCHANT XYZ"] == "shopping"
+
+
+def test_llm_returning_a_category_outside_the_taxonomy_is_rejected(monkeypatch, tmp_path):
+    monkeypatch.setattr(cascade, "_LEARNED_PATH", tmp_path / "llm_learned.json")
+    monkeypatch.setattr(cascade, "complete", lambda messages, **kwargs: _fake_llm_response("not_a_real_category"))
+
+    with pytest.raises(UnresolvedCategoryError):
+        categorize_card_transaction("ANOTHER UNSEEN MERCHANT")
