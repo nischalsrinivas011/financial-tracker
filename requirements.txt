@@ -10,3 +10,8 @@ clerk-backend-api>=6.0
 fastapi>=0.141
 uvicorn[standard]>=0.52
 python-multipart>=0.0.32
+# torch (a sentence-transformers dependency) resolves to a ~530MB CPU-only
+# build locally. Verify this actually fits Render's free-tier build/image
+# size limits when this next gets redeployed - not yet confirmed.
+sentence-transformers>=5.7
+pgvector>=0.5

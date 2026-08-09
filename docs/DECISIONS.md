@@ -188,3 +188,32 @@ questions were tax-rooted and unanswerable without tax content, so
 they're replaced with non-tax equivalents at the same difficulty and
 route, not softened or deleted outright. `vec-007`, `vec-008`, and all
 of `hyb-001`, `004`-`008` were never tax questions and are untouched.
+
+## 2026-08-09 — Embedding model: all-MiniLM-L6-v2 over newer, heavier options
+
+**Problem:** Phase 4 needs a local (never-paid-API, per `CLAUDE.md`'s
+stack rule) sentence-transformers model to embed the knowledge corpus
+and incoming queries.
+
+**Options considered:**
+1. A newer, higher-retrieval-quality model (BGE-M3, Nomic Embed v2) -
+   current research/benchmark writeups rank these above the older
+   Sentence-BERT models on pure retrieval quality.
+2. `all-MiniLM-L6-v2` - smaller, older, "outperformed by newer models"
+   per the same sources, but ~80MB and no special loading requirements.
+
+**Choice:** Option 2.
+
+**Reasoning:** This has to run inside the same process as the deployed
+API on Render's free tier - CPU-only, limited RAM. Some Nomic variants
+need `trust_remote_code=True` to load, which means running
+model-repo-supplied code; that's a deliberate call to make on purpose,
+not a default to accept for a marginal quality gain. BGE-M3 is
+described in the sources checked as GPU-oriented. For a 21-chunk
+corpus, the retrieval-quality gap between MiniLM and a heavier model
+is unlikely to be what makes or breaks the Phase 5 eval numbers, and
+"picked the lighter model given free-tier deploy constraints" is a
+more honest engineering story for the portfolio than chasing benchmark
+scores at the cost of what can actually run in production. Revisit if
+Phase 5's eval shows retrieval quality is the binding constraint, not
+routing or prompting.

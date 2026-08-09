@@ -12,6 +12,8 @@ dependencies = [
     "fastapi>=0.141",
     "uvicorn[standard]>=0.52",
     "python-multipart>=0.0.32",
+    "sentence-transformers>=5.7",
+    "pgvector>=0.5",
 ]
 
 [project.optional-dependencies]

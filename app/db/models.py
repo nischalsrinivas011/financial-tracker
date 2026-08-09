@@ -16,9 +16,12 @@ timezone configuration.
 import uuid
 from datetime import date, datetime, timezone
 
+from pgvector.sqlalchemy import Vector
 from sqlalchemy import DateTime, ForeignKey, UniqueConstraint
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+
+EMBEDDING_DIM = 384  # all-MiniLM-L6-v2 (see docs/DECISIONS.md for why this model)
 
 
 def _utcnow() -> datetime:
@@ -96,3 +99,22 @@ class Transaction(Base):
 
     account: Mapped["Account"] = relationship(back_populates="transactions")
     statement: Mapped["Statement"] = relationship(back_populates="transactions")
+
+
+class KnowledgeChunk(Base):
+    """One section of the knowledge/*.md corpus, embedded for vector search.
+
+    chunk_id is the stable id from the <!-- chunk_id: ... --> tag in the
+    source markdown (see app/rag/chunking.py) - it's what golden_questions.yaml's
+    relevant_chunks field refers to, and what ingestion upserts on.
+    """
+
+    __tablename__ = "knowledge_chunks"
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    chunk_id: Mapped[str] = mapped_column(unique=True)
+    source_file: Mapped[str]
+    heading: Mapped[str]
+    content: Mapped[str]
+    embedding: Mapped[list[float]] = mapped_column(Vector(EMBEDDING_DIM))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_utcnow)
