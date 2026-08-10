@@ -92,16 +92,30 @@ evaluation methodology. Correctness and measurability matter more than feature c
 
 ## Current phase
 
-Phase 4 — knowledge corpus, chunking, pgvector, the router, hybrid
-retrieval. Phase 1 (synthetic fixtures, deterministic parsers,
-reconciliation), Phase 2 (categorisation cascade, all 3 stages live), and
-Phase 3 (FastAPI + Postgres + real Clerk auth + first deploy on Render,
-all verified against live services) are done. Still no frontend.
+Phase 4 is functionally complete: 21-chunk non-tax knowledge corpus
+(`knowledge/`, tax scope dropped 2026-08-09 — see `docs/DECISIONS.md`),
+pgvector + local embeddings (`all-MiniLM-L6-v2`) on Neon, section-aware
+chunking (`app/rag/chunking.py`), vector search (`app/rag/retrieval.py`),
+SQL retrieval helpers over transactions (`app/rag/sql_retrieval.py`), a
+rule-based router measured at 94.4% against the golden set
+(`app/rag/router.py`), and hybrid answer assembly (`app/rag/answer.py`)
+verified live end-to-end with a real LLM call, not just mocked tests.
+Phase 1 (synthetic fixtures, deterministic parsers, reconciliation),
+Phase 2 (categorisation cascade), and Phase 3 (FastAPI + Postgres + real
+Clerk auth + first deploy on Render) are done. Still no frontend.
 
-The corpus content this phase writes must match the chunk ids already
-named in `golden_questions.yaml`'s `relevant_chunks` fields — that file
-was written before the corpus and is the source of truth for what needs
-to exist, not the other way around. Phase 4 builds one working chunking
-strategy end-to-end (section-aware, per the hypothesis in
-`RAG_EVALUATION.md`); the 3-way chunking comparison against fixed-size
-and semantic is explicitly Phase 5's job, not this one.
+Known, deliberately deferred gaps carried into Phase 5 rather than fixed
+now ("we can optimize later"): the router's 2 known misses on
+deliberately-open-ended edge-case questions (not chased with more
+keywords — see `docs/DECISIONS.md`); `answer_sql_question`'s NL→SQL-params
+extraction is rule-based and scoped to the golden set's patterns, not a
+general parser; vector-route retrieval at k=5 on a 21-chunk corpus
+sometimes pulls in tangentially-related chunks that the LLM then
+discusses even when not asked about — observed live, not yet fixed
+(likely a smaller k or a distance cutoff); `sentence-transformers`
+pulling in ~530MB of torch is unverified against Render's free-tier
+build/image size limits.
+
+Phase 5 (`RAG_EVALUATION.md`) is where these get measured properly: eval
+harness, baseline run, and the 3-way chunking comparison (section-aware
+vs. fixed-size vs. semantic) that Phase 4 deliberately didn't build.
