@@ -94,10 +94,36 @@ evaluation methodology. Correctness and measurability matter more than feature c
 
 Phase 6 — Next.js dashboard, demo mode, deploy. Phases 1-4 are done (see
 git history). Node v24.15.0 / npm 11.12.1 already installed, no setup
-needed there. Known gap going in: app/rag/answer.py's hybrid Q&A has no
-HTTP endpoint yet — only /statements/* is wired into app/main.py, so
-that needs adding before the frontend has anything to call for the
-insights/chat feature.
+needed there.
+
+Done so far in Phase 6: `POST /ask` (app/api/ask.py, wraps
+app/rag/answer.py), `GET /accounts`, `GET /transactions` (+
+`/transactions/summary`) — all auth-scoped, all tested
+(tests/test_ask_api.py, tests/test_accounts_transactions_api.py).
+CORS wired in app/main.py via `CORS_ALLOWED_ORIGINS`. `frontend/` is
+scaffolded (Next.js 16 App Router, TypeScript, Tailwind v4, shadcn/ui,
+Recharts) with real Clerk auth (`@clerk/nextjs`, `proxy.ts` —
+Next.js 16 renamed `middleware.ts`). The dashboard
+(`frontend/src/app/dashboard/page.tsx`, gated on `useAuth()`) has
+upload, accounts, spending-by-category chart, transactions table, and
+an ask/chat box, all built on `frontend/src/lib/api.ts`. Demo mode
+(`frontend/src/app/demo/page.tsx`, linked from `/` as "Try with sample
+data") needs no sign-in and no backend call — it renders
+`frontend/src/data/demo-data.json`, exported from the real
+arjun_salaried eval persona via `eval/export_demo_data.py` (re-run
+that script if the persona's seeded data changes), with a handful of
+canned Q&A pulled verbatim from the baseline eval run.
+
+Not yet verified live: the signed-in dashboard view (upload → parse →
+categorize → chart/table round-trip). Claude built and type-checked/
+linted it and confirmed the signed-out redirect guard works, but
+can't sign in itself — Clerk's real sign-in needs a password, which
+Claude won't enter under any circumstance. Owner needs to check this
+manually before it's considered done.
+
+Not started: Vercel deploy (needs the owner's Vercel account) and
+wiring the deployed frontend URL into `CORS_ALLOWED_ORIGINS` /
+`CLERK_AUTHORIZED_PARTIES`.
 
 Phase 5 (`RAG_EVALUATION.md`) is in progress. Done: `eval/` scaffolding,
 `eval/seed_persona.py` (real eval user seeded via the actual upload

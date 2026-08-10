@@ -1,0 +1,4264 @@
+{
+  "accounts": [
+    {
+      "id": "722eccad-8405-4ed1-bbbc-4e554343a275",
+      "kind": "bank",
+      "institution": "HDFC BANK",
+      "product": null,
+      "account_number_masked": "XXXXXXXXXX1736"
+    },
+    {
+      "id": "524b7860-8ad7-4c24-9bf0-1510aea44124",
+      "kind": "credit_card",
+      "institution": "HDFC BANK",
+      "product": "REGALIA GOLD CREDIT CARD",
+      "account_number_masked": "XXXXXXXXXXXX4417"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "898c10c6-8d2d-428d-bdd0-8b07dec4f61a",
+      "date": "2026-03-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "merchant": "HDFC BANK",
+      "category": "interest_income",
+      "direction": "credit",
+      "amount_paise": 30600
+    },
+    {
+      "id": "711999cd-94fe-4d91-832e-97345e2baae9",
+      "date": "2026-03-28",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-578239220169-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 96900
+    },
+    {
+      "id": "bc6292a8-e7d4-494a-bd67-010c1ce06354",
+      "date": "2026-03-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-720712923421-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 67400
+    },
+    {
+      "id": "9445da3b-716b-4638-af21-827994af7efa",
+      "date": "2026-03-26",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-823786024185-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 192700
+    },
+    {
+      "id": "fd6427ed-0144-4395-b18e-902e10c25a5d",
+      "date": "2026-03-25",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-251324771252-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 44200
+    },
+    {
+      "id": "9df53938-1a8b-48f3-9164-d6528ccb7dee",
+      "date": "2026-03-25",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-301518307757-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 153700
+    },
+    {
+      "id": "e8caa09d-29aa-4728-ac62-c71ff2e54f32",
+      "date": "2026-03-23",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-608650185918-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 26000
+    },
+    {
+      "id": "d5168d82-a369-4dc4-997b-3c7faae60b00",
+      "date": "2026-03-20",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-681317931596-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 79900
+    },
+    {
+      "id": "d15d57d8-a655-4f51-b177-f1cb6663447c",
+      "date": "2026-03-19",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-157985923401-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 12200
+    },
+    {
+      "id": "d39ce480-4574-4251-960f-21a208a4415a",
+      "date": "2026-03-15",
+      "narration": "AMAZON IN",
+      "merchant": "AMAZON IN",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 815400
+    },
+    {
+      "id": "9383c00e-4f0b-4f37-9413-282c299f942f",
+      "date": "2026-03-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-037941916319-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "72c2cee3-489d-4596-b675-72c9e8886cbd",
+      "date": "2026-03-14",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 180900
+    },
+    {
+      "id": "a32ca205-c924-4418-b7bb-480e2c40d6b8",
+      "date": "2026-03-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-775929207188-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "391b67c1-271c-448a-ad21-93a8f81b2fe1",
+      "date": "2026-03-13",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-631058329836-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 61100
+    },
+    {
+      "id": "9ee361d7-395f-4fb7-a59b-7a0e263666d8",
+      "date": "2026-03-12",
+      "narration": "ACH D- STAR HEALTH-824545808",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "3998b358-b4c6-4f80-aa88-d1f895b0975a",
+      "date": "2026-03-12",
+      "narration": "ACH D- HDFC LIFE TERM-143945761",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "e4bd9df0-8c32-43df-bc29-8d1244610aa0",
+      "date": "2026-03-11",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 250600
+    },
+    {
+      "id": "793f3a31-e8b0-41df-95c6-cdf181de82ee",
+      "date": "2026-03-10",
+      "narration": "EMI 6233352 CHQ S3954256033 3452748724",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "aee663c6-833c-447d-8356-68b5adf9fece",
+      "date": "2026-03-09",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-206183735525-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 53800
+    },
+    {
+      "id": "5cf65935-a295-4e47-91e4-1fa7ab04e1c2",
+      "date": "2026-03-09",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-439915382829-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 15300
+    },
+    {
+      "id": "dad8a8a8-53b9-4dd6-b65a-b751f6467ac0",
+      "date": "2026-03-08",
+      "narration": "IB BILLPAY DR-BESCOM-063196XXXXXX2868",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "b6e3acb6-b89e-4db3-996a-ae6a387de1f7",
+      "date": "2026-03-08",
+      "narration": "POS 416047XXXXXX5821 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 209600
+    },
+    {
+      "id": "e044af4a-d7c8-4d14-b90b-032998cd6e29",
+      "date": "2026-03-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-474914039389-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 12600
+    },
+    {
+      "id": "4f0947a5-5329-4c4d-8646-c2f9046d7388",
+      "date": "2026-03-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-437567XXXXXX2131",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "c8417b6e-7c85-4646-bd12-508ea98fc6e4",
+      "date": "2026-03-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-995728XXXXXX2761",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "0d835598-a206-4b67-8e6a-a73812661f71",
+      "date": "2026-03-05",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-473346255586-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 13700
+    },
+    {
+      "id": "2bb74027-e6e1-4de4-8ea8-ef51d9f104c8",
+      "date": "2026-03-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-0114803587",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "fd8e8228-3df5-46ec-aa6a-6301a172a537",
+      "date": "2026-03-05",
+      "narration": "SI-TAD-AXIS MF ELSS-0383749802",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "649501a6-d2ed-4f3d-8fc6-9e2fb92290d3",
+      "date": "2026-03-03",
+      "narration": "POS 416062XXXXXX0018 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 134800
+    },
+    {
+      "id": "db5183e5-06e0-4cc0-9ab9-e9b6d7fdc68f",
+      "date": "2026-03-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N763175672650700-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "f15cf3b2-11b3-4d24-ae1c-c474391d6b6c",
+      "date": "2026-03-02",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-056024849757-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 219500
+    },
+    {
+      "id": "b362669e-06b5-4433-90dc-5f0aca609430",
+      "date": "2026-03-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY MAR26-N200175985997779",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "b31714a9-e143-475b-bbff-b27d47c0a7ff",
+      "date": "2026-03-01",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-761621667306-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 24900
+    },
+    {
+      "id": "0619bdba-b5a3-4ca3-9a90-94b8d9fe09a5",
+      "date": "2026-03-01",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 353400
+    },
+    {
+      "id": "7aed0cf7-b4b7-4adc-9b6b-cf538e8806bc",
+      "date": "2026-03-01",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 151600
+    },
+    {
+      "id": "4fa2ef59-5825-4d41-b17a-591f9b6dd1e3",
+      "date": "2026-02-27",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-095144482975-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 54900
+    },
+    {
+      "id": "db600f1b-b7fb-4bc5-9b08-42e1d4587c11",
+      "date": "2026-02-25",
+      "narration": "IB BILLPAY DR-HDFC CARDS-641741XXXXXX1236",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 2224300
+    },
+    {
+      "id": "034ed4c9-8834-4531-bcd3-210b477f583e",
+      "date": "2026-02-25",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 2224300
+    },
+    {
+      "id": "5dc736b2-02f1-4968-b4eb-d1333790d784",
+      "date": "2026-02-24",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-898763841370-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 16500
+    },
+    {
+      "id": "32b2bb8f-ff83-4f44-871f-d2b5fe38a139",
+      "date": "2026-02-22",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-640430846661-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 60900
+    },
+    {
+      "id": "d481381d-a6ad-4b5c-9c08-751e974d5c65",
+      "date": "2026-02-20",
+      "narration": "AMAZON IN",
+      "merchant": "AMAZON IN",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 806100
+    },
+    {
+      "id": "cceb831a-8ed9-46d8-9ab8-3cfc1a1133b8",
+      "date": "2026-02-17",
+      "narration": "POS 416060XXXXXX3316 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 196100
+    },
+    {
+      "id": "f35e0bcc-48eb-4b0a-a5aa-d4a9abbdab42",
+      "date": "2026-02-16",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-794058668373-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 184400
+    },
+    {
+      "id": "721edb7a-ef09-41f1-8c9b-544c99bcefd4",
+      "date": "2026-02-15",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-078533551472-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 156400
+    },
+    {
+      "id": "99351a99-3172-4c4b-9ff1-829ba39243bf",
+      "date": "2026-02-15",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-581911737786-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 80800
+    },
+    {
+      "id": "d2f0ad30-5329-404f-9d7b-c0468852f1bb",
+      "date": "2026-02-14",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-658195036098-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 27200
+    },
+    {
+      "id": "aecfb6ba-d428-4267-aa06-5da686efc8cd",
+      "date": "2026-02-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-672323212728-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "23d30fc5-6ea0-44ab-84a5-cae3c6724967",
+      "date": "2026-02-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-221686888278-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "5c52bef5-c3f7-48be-9db6-3c8002366191",
+      "date": "2026-02-14",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-623877588970-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 29000
+    },
+    {
+      "id": "1c9b2437-f6d1-48a4-987f-2b6dd0851f0b",
+      "date": "2026-02-13",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-243469221783-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 136000
+    },
+    {
+      "id": "06885aaa-2f3c-4a23-976a-ed10329d5de1",
+      "date": "2026-02-13",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 208400
+    },
+    {
+      "id": "814923a6-d09e-4d30-b9dc-86f444b98a9b",
+      "date": "2026-02-12",
+      "narration": "ACH D- STAR HEALTH-416801241",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "845d518b-b749-475a-9af9-97d618da8eb4",
+      "date": "2026-02-12",
+      "narration": "ACH D- HDFC LIFE TERM-223182600",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "edcd6c5a-6c91-4195-a517-d207fe282e28",
+      "date": "2026-02-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-365190645542-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 39700
+    },
+    {
+      "id": "558641f5-e5d9-4dbd-bb38-359f82350d89",
+      "date": "2026-02-11",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 151200
+    },
+    {
+      "id": "c5c049e5-2268-43f6-b2cf-8b38e2bc21e4",
+      "date": "2026-02-10",
+      "narration": "EMI 4660153 CHQ S5705667277 7348848312",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "3b402aa8-16fb-4c26-b08a-bf91f00876a7",
+      "date": "2026-02-09",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 165600
+    },
+    {
+      "id": "90145d92-25bb-4816-9a42-919b45ef34f8",
+      "date": "2026-02-09",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 96600
+    },
+    {
+      "id": "1354288e-e119-4fe0-a706-1f636108d33e",
+      "date": "2026-02-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-900071XXXXXX9615",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "ba80897f-802e-49b4-9edd-54c523af4a8d",
+      "date": "2026-02-08",
+      "narration": "IB BILLPAY DR-BESCOM-960563XXXXXX7956",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "beae6cf6-c50f-4a97-8ba8-3c1678955ee4",
+      "date": "2026-02-07",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 217600
+    },
+    {
+      "id": "9996cfd7-82bb-4b0a-a3e5-719bf7ff0d2e",
+      "date": "2026-02-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-996809XXXXXX8984",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "51ccb314-7a57-4699-a9fd-ee6d0a50ae6f",
+      "date": "2026-02-07",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-267197549044-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 46500
+    },
+    {
+      "id": "ae7b7e58-54b1-49ec-8967-49255fc04284",
+      "date": "2026-02-06",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-780669513162-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 43200
+    },
+    {
+      "id": "9b77dc6b-efca-4ee1-a4b7-88ab6d03cd60",
+      "date": "2026-02-05",
+      "narration": "SI-TAD-AXIS MF ELSS-8393832301",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "afc32a04-5996-4307-b6c6-d4acfe7a0323",
+      "date": "2026-02-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-0562818371",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "4bd3a50a-667e-46eb-8689-b5a236df3844",
+      "date": "2026-02-04",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-980780687787-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 43000
+    },
+    {
+      "id": "db1ace41-f90b-492f-896b-eb73eaa70dd7",
+      "date": "2026-02-04",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-403290810905-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 38000
+    },
+    {
+      "id": "e3dab567-f77c-4c75-a488-50b20d1a0639",
+      "date": "2026-02-03",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-879250619174-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 277300
+    },
+    {
+      "id": "8c0cc0e3-27ec-4d0b-a624-2c032f9f85d1",
+      "date": "2026-02-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N035983781413472-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "419a547c-bb94-45bc-81db-e9c4ee1e4119",
+      "date": "2026-02-02",
+      "narration": "UPI-APOLLO PHARMACY-apollopharmacy@ybl-YESB0YBLUPI-572933330877-PAYMENT",
+      "merchant": "APOLLO PHARMACY",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 209800
+    },
+    {
+      "id": "23e4eb15-f7e6-4d8c-a9be-b3585ad67a59",
+      "date": "2026-02-02",
+      "narration": "POS 416096XXXXXX8291 CTR MALLESHWARAM POS DEBIT",
+      "merchant": "CTR MALLESHWARAM",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 108100
+    },
+    {
+      "id": "ff35a520-88f5-455a-abdb-9884dc087139",
+      "date": "2026-02-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY FEB26-N387726090253442",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "20d3ad37-6e51-4dc7-a7ee-e8cde62a9e27",
+      "date": "2026-01-28",
+      "narration": "POS 416072XXXXXX4122 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 128200
+    },
+    {
+      "id": "45d1dc25-a870-4536-a174-7745198735b8",
+      "date": "2026-01-27",
+      "narration": "AMAZON IN",
+      "merchant": "AMAZON IN",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 270000
+    },
+    {
+      "id": "cd586ede-9549-426d-b6df-9aab82377af5",
+      "date": "2026-01-27",
+      "narration": "IRCTC",
+      "merchant": "IRCTC",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 751300
+    },
+    {
+      "id": "a6a1adaf-dca3-455b-9a1f-a38c6ae11855",
+      "date": "2026-01-25",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-144433452135-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 9600
+    },
+    {
+      "id": "f29ac8e9-2e5f-4221-8aaf-9d6e84181552",
+      "date": "2026-01-25",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-660145384189-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 34700
+    },
+    {
+      "id": "2ee2f0d0-f7f1-4e7c-858a-91e9de694951",
+      "date": "2026-01-25",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 3478000
+    },
+    {
+      "id": "d44cdec4-a95d-4e36-8327-d3b620958a59",
+      "date": "2026-01-25",
+      "narration": "IB BILLPAY DR-HDFC CARDS-243745XXXXXX9880",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 3478000
+    },
+    {
+      "id": "8165052a-8ebe-4331-be2e-9a5b2cd2de4b",
+      "date": "2026-01-24",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-953781227493-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 108800
+    },
+    {
+      "id": "89f66faf-3b8a-4273-b1bc-d91293a5dbd9",
+      "date": "2026-01-22",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 363600
+    },
+    {
+      "id": "68df9e4a-e49b-4da4-801b-3a17546c130a",
+      "date": "2026-01-21",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-916695344093-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 75400
+    },
+    {
+      "id": "bf8591f0-efbf-4388-9259-1c7aa7bffa24",
+      "date": "2026-01-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-850870694919-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 10100
+    },
+    {
+      "id": "150feaee-4daf-4806-bf43-9fa01f592a87",
+      "date": "2026-01-19",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-998365737133-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 173800
+    },
+    {
+      "id": "c5b36de4-83c6-436b-bc5a-ee8f5726a9a9",
+      "date": "2026-01-19",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-111381392658-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 26500
+    },
+    {
+      "id": "607641b0-87be-4e8a-bb0d-55f48b9d9381",
+      "date": "2026-01-18",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-165739575481-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 23700
+    },
+    {
+      "id": "2da71aa9-e8c6-4810-bc6e-66ec753ee860",
+      "date": "2026-01-18",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-841098055850-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 33700
+    },
+    {
+      "id": "a0b0b6d3-f3c0-4777-8354-c767dcd74c28",
+      "date": "2026-01-15",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 614800
+    },
+    {
+      "id": "9762247a-7637-48a2-940a-8041b9792da0",
+      "date": "2026-01-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-828921645474-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "b3205686-992a-4e64-8fe2-3d088db9a15b",
+      "date": "2026-01-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-216127930713-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "db110d33-32bd-41be-927e-1bd153d59451",
+      "date": "2026-01-13",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 302800
+    },
+    {
+      "id": "19d2c66a-a791-47e6-a1c6-5db83b5494af",
+      "date": "2026-01-12",
+      "narration": "ACH D- STAR HEALTH-260951860",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "34ac9e8a-ba78-44c8-8200-012e778e5435",
+      "date": "2026-01-12",
+      "narration": "ACH D- HDFC LIFE TERM-678892126",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "ea69c268-f7fb-458a-9dd1-92b2bd13bccc",
+      "date": "2026-01-12",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 318900
+    },
+    {
+      "id": "da6f7172-5a28-471f-83dc-b7fbc481a5f1",
+      "date": "2026-01-10",
+      "narration": "EMI 2755980 CHQ S3468030269 9264428960",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "0b7c5a9d-8e18-4be0-bd91-e11508566639",
+      "date": "2026-01-10",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-241938016755-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 78600
+    },
+    {
+      "id": "aa497f17-bfbb-485e-a846-a8d1741c1877",
+      "date": "2026-01-08",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-000380896761-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 16500
+    },
+    {
+      "id": "654b0a26-8acc-4507-b176-af1608ee056f",
+      "date": "2026-01-08",
+      "narration": "IB BILLPAY DR-BESCOM-957324XXXXXX8620",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "5a27a6fa-aae6-40c8-95d4-4c48fbd44753",
+      "date": "2026-01-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-205486XXXXXX5649",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "99348e55-84ca-4f0e-be42-6d1710c18b2e",
+      "date": "2026-01-08",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 247100
+    },
+    {
+      "id": "cafad392-157c-479e-9c39-e0677aef57db",
+      "date": "2026-01-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-767517XXXXXX1235",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "188a66af-ba32-4d25-bb60-826dbfd68e86",
+      "date": "2026-01-06",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-551563153973-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 13900
+    },
+    {
+      "id": "d3c9f12a-ae50-4fd1-966e-4900e93b7851",
+      "date": "2026-01-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-4760778743",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "54cf8d45-6cf1-4b93-9329-0d3127e39948",
+      "date": "2026-01-05",
+      "narration": "SI-TAD-AXIS MF ELSS-1605482414",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "f9df3474-0476-4004-8dba-5e828154e3c3",
+      "date": "2026-01-04",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 539700
+    },
+    {
+      "id": "dbe1e899-2b11-4d9b-832b-23c13ad5a041",
+      "date": "2026-01-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N788684725522319-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "ca1686a6-25ce-4408-94e0-367561874d95",
+      "date": "2026-01-02",
+      "narration": "IRCTC",
+      "merchant": "IRCTC",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 1176700
+    },
+    {
+      "id": "68999353-242e-4c20-9d04-945a74ed576d",
+      "date": "2026-01-02",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-050788601525-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 93100
+    },
+    {
+      "id": "0d05eafc-565b-44e4-b2a7-c7555651d227",
+      "date": "2026-01-02",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-233081264303-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 29700
+    },
+    {
+      "id": "3bdfe650-cd3e-4873-bf82-533797693894",
+      "date": "2026-01-01",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-019091008290-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 116800
+    },
+    {
+      "id": "24117949-a7ba-4d30-a865-9b7b5869eca6",
+      "date": "2026-01-01",
+      "narration": "POS 416031XXXXXX1869 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 249900
+    },
+    {
+      "id": "475a3a26-e52f-4c22-8a51-38f42348d946",
+      "date": "2026-01-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY JAN26-N144534218960958",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "dd50acc3-efe4-469e-82cc-567be040f4c8",
+      "date": "2025-12-30",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 2650500
+    },
+    {
+      "id": "97b60f3d-ad0b-40db-bcf1-a634c113b114",
+      "date": "2025-12-30",
+      "narration": "IB BILLPAY DR-HDFC CARDS-178505XXXXXX5338",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 2650500
+    },
+    {
+      "id": "40a9c545-7527-4050-bd5e-bc4c54e68082",
+      "date": "2025-12-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "merchant": "HDFC BANK",
+      "category": "interest_income",
+      "direction": "credit",
+      "amount_paise": 11800
+    },
+    {
+      "id": "eb89e507-e6af-4868-a682-6e9d04908cfe",
+      "date": "2025-12-30",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 278000
+    },
+    {
+      "id": "1c8e5843-0f32-4c3d-87b3-d3c8fb3fa6f8",
+      "date": "2025-12-27",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-531959566306-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 136600
+    },
+    {
+      "id": "34ba826f-b128-4788-b56d-0d9fc37e2fe1",
+      "date": "2025-12-26",
+      "narration": "UPI-PRACTO-practo@ybl-YESB0YBLUPI-210350937904-PAYMENT",
+      "merchant": "PRACTO",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 142400
+    },
+    {
+      "id": "5e51259c-fa9b-46cc-aab1-f42b705b4c9e",
+      "date": "2025-12-23",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-031056062441-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 39400
+    },
+    {
+      "id": "7e9b60a7-ea40-44db-b4f2-62d40f1af713",
+      "date": "2025-12-23",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-852988126453-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 10000
+    },
+    {
+      "id": "a75f60d5-2c37-4f58-ae54-2c332b1ddfd7",
+      "date": "2025-12-22",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-071552088396-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 269400
+    },
+    {
+      "id": "682c0f44-441a-4e57-a564-de6e842b25e8",
+      "date": "2025-12-22",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-173812722736-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 9100
+    },
+    {
+      "id": "6c3263b0-0988-4656-8556-669b9823aefd",
+      "date": "2025-12-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-731840048321-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 10500
+    },
+    {
+      "id": "9d0a3036-b154-4bea-92a6-9398b292722b",
+      "date": "2025-12-17",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-946643553887-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 55500
+    },
+    {
+      "id": "a873c5c0-06bf-4339-b2df-392d98e15cd5",
+      "date": "2025-12-16",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 318800
+    },
+    {
+      "id": "cec0b771-d77e-4942-be76-251335047e80",
+      "date": "2025-12-16",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-186036434310-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 44200
+    },
+    {
+      "id": "5db13bf9-1983-43f5-a6f8-de503f2ca27b",
+      "date": "2025-12-14",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-053085284397-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 42700
+    },
+    {
+      "id": "ae4e3cc2-cf3b-4950-845b-12ab9f6d1f39",
+      "date": "2025-12-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-762286106881-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "59146ccb-def1-4540-bcd3-4c3085a0f6c4",
+      "date": "2025-12-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-330548043346-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "1cbe393d-69a1-455d-9b21-f0bb65b81f8e",
+      "date": "2025-12-13",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 230600
+    },
+    {
+      "id": "7a50eba3-3d1e-4c39-a11e-33539e59b29d",
+      "date": "2025-12-12",
+      "narration": "ACH D- HDFC LIFE TERM-632585834",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "497a9976-4e14-489e-9623-7c1531f901b8",
+      "date": "2025-12-12",
+      "narration": "ACH D- STAR HEALTH-700713809",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "57548c0c-583b-4351-855e-287d0af8bc42",
+      "date": "2025-12-11",
+      "narration": "IKEA BENGALURU",
+      "merchant": "IKEA BENGALURU",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 183000
+    },
+    {
+      "id": "70498e13-51c5-46d6-b029-55f1d10d420c",
+      "date": "2025-12-11",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-743116943190-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 30400
+    },
+    {
+      "id": "04131a5b-695b-40a6-a525-eac542622f53",
+      "date": "2025-12-10",
+      "narration": "EMI 5889105 CHQ S7826115832 0308034053",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "e572ef71-5475-42f3-adaa-3b0102fbc745",
+      "date": "2025-12-10",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-492852371971-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 10200
+    },
+    {
+      "id": "8a9aa649-973d-491c-9869-57dd2a6dcbd5",
+      "date": "2025-12-10",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-689881100359-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 273400
+    },
+    {
+      "id": "fc9d8135-77eb-44a6-ad03-f0407fd3bda6",
+      "date": "2025-12-09",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-620578780216-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 213100
+    },
+    {
+      "id": "9e34c392-0897-4a41-a8bd-dc01ff4e0f2f",
+      "date": "2025-12-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-001949XXXXXX9905",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "301cddde-58cf-4b8f-ac61-e9716ce719f6",
+      "date": "2025-12-08",
+      "narration": "IB BILLPAY DR-BESCOM-877982XXXXXX5103",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "3045bfdb-cfb3-45b8-a0e8-3082f5926bdc",
+      "date": "2025-12-08",
+      "narration": "POS 416017XXXXXX5474 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 90200
+    },
+    {
+      "id": "ebad1acd-dd55-401a-bef2-40ef118b6978",
+      "date": "2025-12-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-957072XXXXXX2054",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "394795b6-83b6-4d43-b0ec-3ce312a2891f",
+      "date": "2025-12-06",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-920879719912-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 30200
+    },
+    {
+      "id": "b09979de-87b6-4e68-9a3d-6e92068963e3",
+      "date": "2025-12-05",
+      "narration": "IKEA BENGALURU",
+      "merchant": "IKEA BENGALURU",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 335700
+    },
+    {
+      "id": "12cde669-a306-4392-a7af-5d4f461b6866",
+      "date": "2025-12-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-1963948825",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "6e6cbdb1-7e2f-4558-aefc-da64f66d397c",
+      "date": "2025-12-05",
+      "narration": "SI-TAD-AXIS MF ELSS-0906322257",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "93797ab1-c1f1-4b54-a625-84392f551f25",
+      "date": "2025-12-04",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-689652155200-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 21400
+    },
+    {
+      "id": "e8fdb706-7915-48d8-a2c0-019bf854d1ba",
+      "date": "2025-12-04",
+      "narration": "SHELL INDIA",
+      "merchant": "SHELL INDIA",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 268100
+    },
+    {
+      "id": "feb261f8-e27d-48ba-b732-97e5a03b951a",
+      "date": "2025-12-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N792000255525459-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "eee10564-ed6c-4a34-a730-d3b87f804862",
+      "date": "2025-12-03",
+      "narration": "INDIGO AIRLINES",
+      "merchant": "INDIGO AIRLINES",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 772500
+    },
+    {
+      "id": "e6bf2baf-53fe-4501-80e8-ecdd7cbbf7f4",
+      "date": "2025-12-02",
+      "narration": "POS 416046XXXXXX2758 CTR MALLESHWARAM POS DEBIT",
+      "merchant": "CTR MALLESHWARAM",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 237400
+    },
+    {
+      "id": "7dbebab4-6f1b-4f28-9e7c-870490394127",
+      "date": "2025-12-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY DEC25-N218095592798904",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "f259bca7-f568-4193-a17e-c204d1c34c59",
+      "date": "2025-11-29",
+      "narration": "IB BILLPAY DR-HDFC CARDS-527471XXXXXX9428",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 1918100
+    },
+    {
+      "id": "db0c5133-000c-4860-8a3d-570879a3beeb",
+      "date": "2025-11-29",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 1918100
+    },
+    {
+      "id": "82341869-e9ff-4d89-bd7b-fa71adaf9755",
+      "date": "2025-11-28",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-871863021367-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 232900
+    },
+    {
+      "id": "5ee65108-fe12-4485-9311-8cbfd59bbf44",
+      "date": "2025-11-28",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-697383583595-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 22700
+    },
+    {
+      "id": "96e2584c-f93c-4787-816a-5d019dfb698d",
+      "date": "2025-11-26",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 345600
+    },
+    {
+      "id": "29feab82-93f9-4b0c-bc5d-3df1f67ec3e5",
+      "date": "2025-11-22",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-980996146853-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 36400
+    },
+    {
+      "id": "84368868-3c56-48c1-a2f3-18829171faf4",
+      "date": "2025-11-22",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-952213182823-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 42500
+    },
+    {
+      "id": "8a21abe3-9b3f-4540-9321-eca54d56fe6f",
+      "date": "2025-11-22",
+      "narration": "SHELL INDIA",
+      "merchant": "SHELL INDIA",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 196200
+    },
+    {
+      "id": "9eec9f30-b57a-4c38-9fa1-f018ecd06142",
+      "date": "2025-11-19",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-359007491627-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 59400
+    },
+    {
+      "id": "efa48fee-9787-4073-9151-e938ea431205",
+      "date": "2025-11-18",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-016696504363-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 304600
+    },
+    {
+      "id": "2696c97d-de6d-4683-a606-190439ec7a43",
+      "date": "2025-11-18",
+      "narration": "POS 416027XXXXXX9507 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 124800
+    },
+    {
+      "id": "c0798336-775b-40a9-9358-a9b560825337",
+      "date": "2025-11-18",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-469413434888-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 117300
+    },
+    {
+      "id": "1f92afd3-510f-4450-a6c6-03cf7d117f66",
+      "date": "2025-11-16",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-592235737742-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 45600
+    },
+    {
+      "id": "6c91340f-e145-4a78-b073-e3310e666132",
+      "date": "2025-11-16",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 740900
+    },
+    {
+      "id": "85e8e1b7-4391-4279-b51d-f3afd288a89c",
+      "date": "2025-11-15",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-613482698508-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 40900
+    },
+    {
+      "id": "60f50c50-0a5d-4e50-9017-4e3a420e8505",
+      "date": "2025-11-15",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 190700
+    },
+    {
+      "id": "dce4f9b8-3d4d-4b3f-84a5-ca31ceff1b2e",
+      "date": "2025-11-14",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 423900
+    },
+    {
+      "id": "fab9bc87-dee8-4cda-a0da-212fae2f6a4f",
+      "date": "2025-11-14",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-656776215769-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 220400
+    },
+    {
+      "id": "ebe8a103-1302-4d78-ae98-ab0396059bec",
+      "date": "2025-11-14",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-685472411455-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 14500
+    },
+    {
+      "id": "550640ae-d81b-435e-b164-922953b8940a",
+      "date": "2025-11-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-337825084222-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "df61a570-6921-41fb-843e-5c6f18b52c85",
+      "date": "2025-11-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-391774282330-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "eade5df7-b926-42ef-864a-ab3dff90fd70",
+      "date": "2025-11-12",
+      "narration": "ACH D- HDFC LIFE TERM-033997350",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "f5588362-211c-4426-a3ab-f2b600247616",
+      "date": "2025-11-12",
+      "narration": "ACH D- STAR HEALTH-178745404",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "26e1a92a-ba41-41ad-a802-7d06afd90bb1",
+      "date": "2025-11-11",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-357303959151-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 24600
+    },
+    {
+      "id": "9e808bc0-456c-46c0-a858-dd700b4e7746",
+      "date": "2025-11-11",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 318100
+    },
+    {
+      "id": "3c4b0c21-fc15-471a-ba92-eaf0576525d6",
+      "date": "2025-11-10",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 143500
+    },
+    {
+      "id": "0bb416ee-ef1c-4808-9a66-1979556db099",
+      "date": "2025-11-10",
+      "narration": "EMI 6856621 CHQ S4760444955 1309731435",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "e9466665-6764-49a9-a4bd-86b26e31dcdb",
+      "date": "2025-11-08",
+      "narration": "IB BILLPAY DR-BESCOM-404582XXXXXX3316",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "108e64f6-be63-4cf8-9daf-123d1d96779c",
+      "date": "2025-11-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-333940XXXXXX0626",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "4ddba03f-eb58-47d5-a4b1-1a2b50fcb27a",
+      "date": "2025-11-08",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-328502965731-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 51000
+    },
+    {
+      "id": "8e834ad2-9af0-4279-b7fb-d6a371dabd05",
+      "date": "2025-11-07",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-001585610512-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 83600
+    },
+    {
+      "id": "65507060-9857-4be7-abee-c8ba53ed2c69",
+      "date": "2025-11-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-020846XXXXXX2041",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "70245905-9fc0-4708-ba82-0a5a8ea5a765",
+      "date": "2025-11-06",
+      "narration": "POS 416062XXXXXX6947 CTR MALLESHWARAM POS DEBIT",
+      "merchant": "CTR MALLESHWARAM",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 184600
+    },
+    {
+      "id": "82c63243-de48-45ab-aac3-f9dc54b6c47d",
+      "date": "2025-11-05",
+      "narration": "SI-TAD-AXIS MF ELSS-9956337448",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "b6567a0a-2434-4f83-81ee-3750a940f165",
+      "date": "2025-11-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-1631885660",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "92b15644-343a-41cd-8ca0-65057635ea22",
+      "date": "2025-11-05",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-328098539512-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 57100
+    },
+    {
+      "id": "dccf76eb-d5a1-4c3b-b3a8-90f1e9e9a882",
+      "date": "2025-11-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N514855780578368-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "b3541edb-a292-4a2a-b3a8-ade3f90d09f7",
+      "date": "2025-11-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY NOV25-N038073381670800",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "f07d6b31-63c6-4033-a4b7-a6eb1cf42b9f",
+      "date": "2025-10-28",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-985013875934-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 78400
+    },
+    {
+      "id": "cfaf2bab-83ff-4d09-8fbf-c7d71b98a29b",
+      "date": "2025-10-28",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-879199702551-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 50900
+    },
+    {
+      "id": "1e648470-fcd1-4151-8661-a2d959ec1ccc",
+      "date": "2025-10-27",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 101000
+    },
+    {
+      "id": "14f3b610-ccb1-4ad6-8196-daf412704e08",
+      "date": "2025-10-26",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 2042500
+    },
+    {
+      "id": "55734e65-d480-4940-bdc7-83a11902b6eb",
+      "date": "2025-10-26",
+      "narration": "IB BILLPAY DR-HDFC CARDS-785467XXXXXX0027",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 2042500
+    },
+    {
+      "id": "751695f6-2574-4d73-9b2a-bb3322d66de5",
+      "date": "2025-10-23",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-973833609439-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 50500
+    },
+    {
+      "id": "bd9c2a11-31ed-47d3-a40c-daff1ba68085",
+      "date": "2025-10-22",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-983414921570-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 272200
+    },
+    {
+      "id": "8a3d2931-a062-4178-a880-9a5ac2caea2b",
+      "date": "2025-10-22",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-736707404558-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 61300
+    },
+    {
+      "id": "0019d97f-abf1-4a84-8b1c-13f5ea8dcc6f",
+      "date": "2025-10-21",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-374546827469-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 30800
+    },
+    {
+      "id": "85be166c-68b0-4e3b-87db-9f46228d1b12",
+      "date": "2025-10-19",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-411509392542-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 43600
+    },
+    {
+      "id": "d3fa54e3-8d1d-4ecb-8394-e890e7556f58",
+      "date": "2025-10-18",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-107639048701-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 281800
+    },
+    {
+      "id": "f72ae87a-7270-459e-9ba9-b891c558d76a",
+      "date": "2025-10-16",
+      "narration": "POS 416061XXXXXX3704 CTR MALLESHWARAM POS DEBIT",
+      "merchant": "CTR MALLESHWARAM",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 240700
+    },
+    {
+      "id": "c15c9ced-6fab-4e5e-afe0-57fff4c158b5",
+      "date": "2025-10-16",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-627127958569-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 209700
+    },
+    {
+      "id": "f8b2b7e1-7dcb-4743-a51b-081613fa210f",
+      "date": "2025-10-15",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-819135654731-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 108700
+    },
+    {
+      "id": "e1d0dc61-a453-4707-9255-ad1fb1819ad9",
+      "date": "2025-10-15",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-944672883988-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 71500
+    },
+    {
+      "id": "45f5767a-b7d8-43b5-af5d-e46fb3933d4c",
+      "date": "2025-10-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-865052519191-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "1822e3fc-3a5b-4771-a700-86693e7fd2a4",
+      "date": "2025-10-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-498643723552-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "74d4c795-9644-4fcf-b787-4de8df357756",
+      "date": "2025-10-14",
+      "narration": "IKEA BENGALURU",
+      "merchant": "IKEA BENGALURU",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 821800
+    },
+    {
+      "id": "d7b1d566-bf19-4cac-8ee5-92c62ff6b84c",
+      "date": "2025-10-14",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 97400
+    },
+    {
+      "id": "8c467fb3-5c5a-4e09-83a7-1cc1ed063635",
+      "date": "2025-10-13",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-383312743612-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 23600
+    },
+    {
+      "id": "df2320f2-ad51-4592-8ff3-1ceaea68eacd",
+      "date": "2025-10-12",
+      "narration": "ACH D- HDFC LIFE TERM-540702417",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "28bbaf97-0631-4a3d-91db-6e8ba48deb55",
+      "date": "2025-10-12",
+      "narration": "ACH D- STAR HEALTH-746266317",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "683ce3da-b4e0-449d-9ea1-523dfb892f07",
+      "date": "2025-10-11",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-976469500259-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 24200
+    },
+    {
+      "id": "98ad7426-4236-4487-8dd9-126af3505ecc",
+      "date": "2025-10-10",
+      "narration": "EMI 1832901 CHQ S4551229353 7525371600",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "92517f18-d4f8-425c-a83c-36bda6336a02",
+      "date": "2025-10-08",
+      "narration": "IB BILLPAY DR-BESCOM-062981XXXXXX9273",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "7dede919-d37d-4201-907f-a876249ac8b2",
+      "date": "2025-10-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-016117XXXXXX4034",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "17dd11bc-e8dc-4b92-8773-994fc8f2bcbe",
+      "date": "2025-10-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-048765XXXXXX5945",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "13e5a04e-d37d-4451-a5d5-10763bb18bb3",
+      "date": "2025-10-06",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 343200
+    },
+    {
+      "id": "51ab078a-eb01-42d6-9238-aa29249d7c79",
+      "date": "2025-10-05",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-103710672612-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 44000
+    },
+    {
+      "id": "26003c1d-96ce-42a2-9282-a453f9d97ef3",
+      "date": "2025-10-05",
+      "narration": "SI-TAD-AXIS MF ELSS-8115564757",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "2deda9d7-b30a-463d-88f0-9e52094e51f7",
+      "date": "2025-10-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-0790664877",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "b1801b99-0d55-44e7-b689-4eba3d514272",
+      "date": "2025-10-04",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-688040728702-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 14100
+    },
+    {
+      "id": "82c70f33-5624-4c75-ac8a-128c69e22c6d",
+      "date": "2025-10-04",
+      "narration": "POS 416047XXXXXX3543 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 255200
+    },
+    {
+      "id": "e7665422-f016-469d-bec5-4e745b4c7694",
+      "date": "2025-10-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N358012469297739-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "58e04bce-1d12-4976-8a9c-47b1de251342",
+      "date": "2025-10-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY OCT25-N536506372039340",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "1b49cb4f-74e2-42f2-8714-38fdec9245ba",
+      "date": "2025-09-30",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 194100
+    },
+    {
+      "id": "a5897b39-f8c8-4b03-895c-c5f117ead1eb",
+      "date": "2025-09-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "merchant": "HDFC BANK",
+      "category": "interest_income",
+      "direction": "credit",
+      "amount_paise": 9100
+    },
+    {
+      "id": "8fa8df42-aad9-41fa-a302-0202ea0ae5f6",
+      "date": "2025-09-29",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 86600
+    },
+    {
+      "id": "1cf89193-da01-4d36-82a2-af1d66503e52",
+      "date": "2025-09-27",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 1804300
+    },
+    {
+      "id": "7c2e232f-ce57-4321-8d3a-f3b133bc21f3",
+      "date": "2025-09-27",
+      "narration": "IB BILLPAY DR-HDFC CARDS-085420XXXXXX9004",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 1804300
+    },
+    {
+      "id": "82a83f5e-a219-4d99-b029-dc00646882cd",
+      "date": "2025-09-25",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-931820930315-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 82800
+    },
+    {
+      "id": "0cb41589-ff17-4dde-94b0-3f38f7521d67",
+      "date": "2025-09-22",
+      "narration": "IKEA BENGALURU",
+      "merchant": "IKEA BENGALURU",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 499400
+    },
+    {
+      "id": "553517ca-f663-47c8-b8da-bf4fb585ff7b",
+      "date": "2025-09-19",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-175140696050-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 85700
+    },
+    {
+      "id": "fd05cd9c-5cce-4bf8-b5ef-a025d106fb64",
+      "date": "2025-09-19",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-136641978998-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 60000
+    },
+    {
+      "id": "58632ed5-a77d-4a6d-b99d-1f75775ba344",
+      "date": "2025-09-19",
+      "narration": "POS 416041XXXXXX4134 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 182500
+    },
+    {
+      "id": "f758a80f-091c-4ed4-b20d-1cf7d744941f",
+      "date": "2025-09-18",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-885617117349-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 338300
+    },
+    {
+      "id": "fd00516b-3377-4b05-8d08-adbd626b5a52",
+      "date": "2025-09-16",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-182932467204-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 79100
+    },
+    {
+      "id": "900ebf08-cea1-4b81-9613-4d77896627aa",
+      "date": "2025-09-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-045003796654-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "b854cc0c-a2c4-4127-a21c-cfd3a1970098",
+      "date": "2025-09-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-707286494361-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "9564f41d-45ee-4048-9172-79328e6dbaf7",
+      "date": "2025-09-14",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-302210156578-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 20200
+    },
+    {
+      "id": "780d0f6d-177c-452c-affb-e160ef535bc2",
+      "date": "2025-09-13",
+      "narration": "SHELL INDIA",
+      "merchant": "SHELL INDIA",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 291700
+    },
+    {
+      "id": "d99d3fe3-16cc-4653-800f-e2bdabd3331f",
+      "date": "2025-09-12",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-666110492933-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 46100
+    },
+    {
+      "id": "561c404b-ad4f-462c-be0c-524666be5402",
+      "date": "2025-09-12",
+      "narration": "ACH D- STAR HEALTH-725420887",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "19a42677-1c8f-44c3-8e4d-de65072541d5",
+      "date": "2025-09-12",
+      "narration": "ACH D- HDFC LIFE TERM-894842432",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "d799f92a-8e4b-491f-97f1-14dae0ed2a15",
+      "date": "2025-09-10",
+      "narration": "EMI 1233010 CHQ S5153631003 9236527404",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "e0d91f79-2354-4620-8c6e-ac2998bcc40e",
+      "date": "2025-09-10",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-022124306177-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 33800
+    },
+    {
+      "id": "ccf8d872-6b19-4fb7-bc0c-51d9509950e4",
+      "date": "2025-09-10",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-518854838322-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 289400
+    },
+    {
+      "id": "624866cc-0d00-4b04-816e-371daecc80c1",
+      "date": "2025-09-09",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-291142442929-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 299600
+    },
+    {
+      "id": "033631e0-67cf-4240-a3b9-474b34d8c989",
+      "date": "2025-09-08",
+      "narration": "IB BILLPAY DR-BESCOM-980487XXXXXX4621",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "9ada2a10-09f1-4883-940e-a6703a3ade6f",
+      "date": "2025-09-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-779705XXXXXX7776",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "c7377ec2-1050-4090-b464-bb5bc2f8c130",
+      "date": "2025-09-08",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-059726908816-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 11400
+    },
+    {
+      "id": "9e3d6568-7ee3-47e3-9d22-2ba978fc3abd",
+      "date": "2025-09-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-332252XXXXXX8077",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "48bb3b61-cea1-4139-b8d1-b4b27cc1b3fd",
+      "date": "2025-09-05",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-246540845641-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 9800
+    },
+    {
+      "id": "87c32383-54de-4634-8e5f-770b9f07ceb2",
+      "date": "2025-09-05",
+      "narration": "POS 416097XXXXXX6691 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 78000
+    },
+    {
+      "id": "5395b022-23df-47a9-910e-82cd2667d5fc",
+      "date": "2025-09-05",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-791663946000-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 212200
+    },
+    {
+      "id": "5484f456-f4bb-4189-beb8-04467c4290d3",
+      "date": "2025-09-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-4792698170",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "93b5e9dc-8469-4739-ae66-09bbf1bde9ba",
+      "date": "2025-09-05",
+      "narration": "SI-TAD-AXIS MF ELSS-9552201526",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "e1df9f51-73b5-497e-9782-026f304874cf",
+      "date": "2025-09-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N014863565503846-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "163f0832-7f7f-4c3f-bbff-a7e03f3c2ebb",
+      "date": "2025-09-03",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-046553409053-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 27500
+    },
+    {
+      "id": "eef397ca-4003-454a-9252-a1ea728d4d0d",
+      "date": "2025-09-02",
+      "narration": "UPI-PRACTO-practo@ybl-YESB0YBLUPI-425297312929-PAYMENT",
+      "merchant": "PRACTO",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 176900
+    },
+    {
+      "id": "c789cc3b-c6cd-494f-9163-66271cebcd4e",
+      "date": "2025-09-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY SEP25-N113245772141219",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "fc63242e-a134-4905-9d95-833d961835e3",
+      "date": "2025-09-01",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-425499376097-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 21500
+    },
+    {
+      "id": "26f49462-4758-4086-9bf2-72fc2dec73a1",
+      "date": "2025-08-31",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 3553000
+    },
+    {
+      "id": "8b9bfd5d-40a3-4da3-ad9f-4070ade7d55b",
+      "date": "2025-08-31",
+      "narration": "IB BILLPAY DR-HDFC CARDS-001490XXXXXX2111",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 3553000
+    },
+    {
+      "id": "47408f16-cf09-4c6c-a22b-9fe21a216a27",
+      "date": "2025-08-26",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 267300
+    },
+    {
+      "id": "c193d843-38a0-4b47-ae61-fb76be0fd55b",
+      "date": "2025-08-26",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-025841138434-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 239100
+    },
+    {
+      "id": "7c79a6bc-c308-43a3-b4f9-7fac17471168",
+      "date": "2025-08-26",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-511463822226-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 39100
+    },
+    {
+      "id": "21db6003-f7b8-4a0e-a5fa-a1b0160902a3",
+      "date": "2025-08-25",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-891120172906-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 33500
+    },
+    {
+      "id": "1a665b07-f242-4cb7-9a21-c85d8151cf50",
+      "date": "2025-08-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-357859414819-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 46500
+    },
+    {
+      "id": "6975ac20-10e9-412a-8407-f82c47332902",
+      "date": "2025-08-24",
+      "narration": "POS 416056XXXXXX6489 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 186600
+    },
+    {
+      "id": "cbba573d-3622-4eff-82e5-21988906f2b4",
+      "date": "2025-08-23",
+      "narration": "CROMA",
+      "merchant": "CROMA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 648800
+    },
+    {
+      "id": "02d1e05a-a00d-4455-b434-417019df0372",
+      "date": "2025-08-23",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-751904578848-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 24100
+    },
+    {
+      "id": "3d5c4eee-f628-47ab-bb3b-8b820e13661f",
+      "date": "2025-08-22",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-244846125188-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 82300
+    },
+    {
+      "id": "25637674-d89f-44e9-8fa3-13c07d01b992",
+      "date": "2025-08-21",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 288600
+    },
+    {
+      "id": "8d0c0a8c-0aaa-46fe-8a57-819e0bfeaa42",
+      "date": "2025-08-20",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 307900
+    },
+    {
+      "id": "61587f9f-8240-41c5-b151-e1b1367fd9de",
+      "date": "2025-08-17",
+      "narration": "UPI-APOLLO PHARMACY-apollopharmacy@ybl-YESB0YBLUPI-971464525364-PAYMENT",
+      "merchant": "APOLLO PHARMACY",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 133800
+    },
+    {
+      "id": "cd2a0ea6-38e5-4f05-951a-eaae46a010cc",
+      "date": "2025-08-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-801271574711-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "3b9f70cf-6680-4d29-a344-66035af0be3c",
+      "date": "2025-08-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-833354789753-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "1b2229af-ef67-49ea-9875-8b6151614ac5",
+      "date": "2025-08-12",
+      "narration": "ACH D- HDFC LIFE TERM-844288095",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "385f70f8-f248-4685-a747-e40aafeb03f4",
+      "date": "2025-08-12",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-217311749322-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 22700
+    },
+    {
+      "id": "b448c96c-65fd-417b-84bb-91485561a4fa",
+      "date": "2025-08-12",
+      "narration": "ACH D- STAR HEALTH-197700118",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "72795f4d-f289-4b0b-8f29-b936b5564877",
+      "date": "2025-08-11",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-781205247237-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 224900
+    },
+    {
+      "id": "37194dd3-eed5-4974-bd04-c99745e304de",
+      "date": "2025-08-10",
+      "narration": "EMI 9030231 CHQ S4748866579 8476567121",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "746c3fee-485d-428a-93fb-d7858c102192",
+      "date": "2025-08-10",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-666932184818-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 38900
+    },
+    {
+      "id": "d797f94e-924c-49f1-82ad-6dd238c7f9ac",
+      "date": "2025-08-10",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-555178703477-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 85200
+    },
+    {
+      "id": "f9d20b85-73eb-43ed-a0da-873be5fabc5a",
+      "date": "2025-08-09",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-620833726621-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 146400
+    },
+    {
+      "id": "be3b574b-f33a-4cf7-9b53-1dccba4bca2f",
+      "date": "2025-08-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-308719XXXXXX1926",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "b05d43db-7564-41b8-8732-4932e69d695d",
+      "date": "2025-08-08",
+      "narration": "IB BILLPAY DR-BESCOM-700688XXXXXX8458",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "6e41b3bf-b3d4-446b-a384-f8f8ec818eb7",
+      "date": "2025-08-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-638224XXXXXX4897",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "5709bc6c-442a-4024-ba6f-a6fccd5ba38d",
+      "date": "2025-08-07",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-677849790108-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 46900
+    },
+    {
+      "id": "adb1c916-4725-49a0-9b8e-80e784a779ed",
+      "date": "2025-08-07",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 136700
+    },
+    {
+      "id": "1f5e94bc-c820-4952-a820-7a2a26bd2a70",
+      "date": "2025-08-07",
+      "narration": "POS 416065XXXXXX1194 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 78900
+    },
+    {
+      "id": "991d2bda-c50b-4434-9374-43142f5ad5e9",
+      "date": "2025-08-06",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-828705370182-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 30300
+    },
+    {
+      "id": "3c119ba8-dccd-43da-aa5e-4fd6ab78f40e",
+      "date": "2025-08-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-6200999052",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "535b9477-0d09-4fa1-944a-3f0b226425e4",
+      "date": "2025-08-05",
+      "narration": "SI-TAD-AXIS MF ELSS-4537360537",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "b20137d8-a418-461b-9bcc-722d3c6e5523",
+      "date": "2025-08-04",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-929479807481-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 32000
+    },
+    {
+      "id": "dd922b6c-a677-4a36-91e2-f708889c8a6a",
+      "date": "2025-08-03",
+      "narration": "SHELL INDIA",
+      "merchant": "SHELL INDIA",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 141600
+    },
+    {
+      "id": "90979c52-0463-4dbd-8ae0-0a0f2943610a",
+      "date": "2025-08-03",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-854092310620-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 170600
+    },
+    {
+      "id": "ba5d47f2-1a0d-4ba5-810d-07e14e4f944d",
+      "date": "2025-08-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N303768405724056-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "9627d79b-dc12-4192-af2f-30ed0d303d0c",
+      "date": "2025-08-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY AUG25-N037837899129638",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "ed6dfb35-0500-413d-8657-840b74f17e0a",
+      "date": "2025-07-28",
+      "narration": "CROMA",
+      "merchant": "CROMA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 612500
+    },
+    {
+      "id": "a1ad45a0-120d-4513-9afa-99665d64c80a",
+      "date": "2025-07-28",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-512952700322-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 287200
+    },
+    {
+      "id": "42b81e6f-6f4f-454d-ac44-8468097eb711",
+      "date": "2025-07-27",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-998551732408-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 24200
+    },
+    {
+      "id": "cf8877b2-3c7f-4226-82df-2ee13d8d2cbb",
+      "date": "2025-07-26",
+      "narration": "POS 416085XXXXXX5429 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 188000
+    },
+    {
+      "id": "339e6dac-dc90-4caa-ab26-2c173d67ba0c",
+      "date": "2025-07-26",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 734400
+    },
+    {
+      "id": "21750dfb-6ae6-4981-9d57-bde6c94c350d",
+      "date": "2025-07-24",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-322500660184-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 163400
+    },
+    {
+      "id": "8edcba5f-454c-43b4-b766-2ef3af5f5ddb",
+      "date": "2025-07-23",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-236494880690-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 28200
+    },
+    {
+      "id": "f82ced9b-c17b-43c9-99e2-07f9fe7c6b88",
+      "date": "2025-07-23",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 257400
+    },
+    {
+      "id": "ce3b5b94-f08a-4267-a8f2-6685754e42b0",
+      "date": "2025-07-23",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 167100
+    },
+    {
+      "id": "b95f5592-add3-4dc5-b4fe-fecf08241657",
+      "date": "2025-07-21",
+      "narration": "IB BILLPAY DR-HDFC CARDS-561493XXXXXX5347",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 3733700
+    },
+    {
+      "id": "ea1acddc-0a16-440f-86af-d5f7ac676baa",
+      "date": "2025-07-21",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 3733700
+    },
+    {
+      "id": "ebeb2cad-db65-4921-a3b7-eb4f21648def",
+      "date": "2025-07-21",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-613195226323-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 16100
+    },
+    {
+      "id": "b08819d0-e455-411c-841d-9c7cb0c535bf",
+      "date": "2025-07-20",
+      "narration": "INDIGO AIRLINES",
+      "merchant": "INDIGO AIRLINES",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 1503300
+    },
+    {
+      "id": "4ddc0372-a361-4be5-9395-59e09a5d9089",
+      "date": "2025-07-17",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 307600
+    },
+    {
+      "id": "1e697dea-067d-47bf-bc48-c4ea369b2ec6",
+      "date": "2025-07-17",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-756086113984-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 29900
+    },
+    {
+      "id": "5049c125-4275-47d3-86f5-c813bf3eb677",
+      "date": "2025-07-16",
+      "narration": "UPI-PRACTO-practo@ybl-YESB0YBLUPI-279930710394-PAYMENT",
+      "merchant": "PRACTO",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 92600
+    },
+    {
+      "id": "efb5998e-aee0-4b4d-be8f-1914236dfb28",
+      "date": "2025-07-15",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-484629975459-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 58000
+    },
+    {
+      "id": "e210e8a4-d8c7-4b98-ae68-ebb4c9613927",
+      "date": "2025-07-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-480942871659-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "d9662012-37de-4993-9764-618905989e43",
+      "date": "2025-07-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-408078240767-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "9cb0e174-e1a5-40ab-ac5e-a964d841255a",
+      "date": "2025-07-12",
+      "narration": "ACH D- STAR HEALTH-616200545",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "23d85951-0e19-4965-8bfd-98cd6b146df2",
+      "date": "2025-07-12",
+      "narration": "ACH D- HDFC LIFE TERM-541073983",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "656db956-bb0d-43d0-91eb-72822a67ce4f",
+      "date": "2025-07-11",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-948448916987-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 87300
+    },
+    {
+      "id": "3443c85a-a340-4a06-b8e1-f886b856752f",
+      "date": "2025-07-11",
+      "narration": "INDIGO AIRLINES",
+      "merchant": "INDIGO AIRLINES",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 1070800
+    },
+    {
+      "id": "a80dd226-c227-4027-8763-00fce267e877",
+      "date": "2025-07-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-881174531050-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 30700
+    },
+    {
+      "id": "b418d0af-aad5-4ab5-9db5-d19f72b1b985",
+      "date": "2025-07-11",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-234705300520-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 306700
+    },
+    {
+      "id": "7005ffc8-3d15-4aee-a6d9-635c9273b85d",
+      "date": "2025-07-10",
+      "narration": "EMI 7899532 CHQ S9158821250 2598755769",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "021fa16e-103a-4caa-8cd9-96242c2d9338",
+      "date": "2025-07-08",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 263400
+    },
+    {
+      "id": "62ee65dc-bbb8-43f1-8e5c-e56750967b3b",
+      "date": "2025-07-08",
+      "narration": "IB BILLPAY DR-BESCOM-051166XXXXXX9481",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "9ff85a53-2691-43ab-893a-ba75c91f149f",
+      "date": "2025-07-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-766982XXXXXX3801",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "37b94e14-7ee7-4150-9286-006efab1176f",
+      "date": "2025-07-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-524010XXXXXX1980",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "678111f5-c492-4633-ac82-93e478d8a8d5",
+      "date": "2025-07-06",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-114113551972-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 136500
+    },
+    {
+      "id": "3e937ef3-1097-4b48-b74d-e7fc3dd74f70",
+      "date": "2025-07-05",
+      "narration": "POS 416009XXXXXX6616 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 147900
+    },
+    {
+      "id": "60aabada-9d30-41ca-87ea-47d2164e31b0",
+      "date": "2025-07-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-1452982008",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "4ea7fe2c-0ae7-4742-84ba-a114bbb08300",
+      "date": "2025-07-05",
+      "narration": "SI-TAD-AXIS MF ELSS-9205115499",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "c566b029-d3f5-48e5-ba08-b1dd91923490",
+      "date": "2025-07-05",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 269700
+    },
+    {
+      "id": "21a39f7f-7da1-4881-9e04-cf456bee935f",
+      "date": "2025-07-04",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-518775850705-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 80500
+    },
+    {
+      "id": "b14197a7-db95-4174-a272-dbc431fb9ab1",
+      "date": "2025-07-03",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-473491912572-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 40700
+    },
+    {
+      "id": "77f35971-4ac1-45c3-8ce1-7127e6b098d5",
+      "date": "2025-07-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N024684791029658-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "4dd9d2aa-d0a4-4f2f-9a6f-a74f3472a53c",
+      "date": "2025-07-03",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-193706715561-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 37600
+    },
+    {
+      "id": "0c4f5063-c249-4047-8f06-5d20a1f76340",
+      "date": "2025-07-02",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-522010761649-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 73400
+    },
+    {
+      "id": "6b7632c0-a989-422b-be3b-aff5146b813b",
+      "date": "2025-07-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY JUL25-N730910918763549",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "db383dc5-c9bb-402d-b11e-63b828fab676",
+      "date": "2025-06-30",
+      "narration": "CREDIT INTEREST CAPITALISED",
+      "merchant": "HDFC BANK",
+      "category": "interest_income",
+      "direction": "credit",
+      "amount_paise": 34200
+    },
+    {
+      "id": "884f6b14-fcae-4393-afac-d6457ef6c74d",
+      "date": "2025-06-30",
+      "narration": "IB BILLPAY DR-HDFC CARDS-603908XXXXXX2966",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 2113300
+    },
+    {
+      "id": "5f8f7a3f-8d6b-4ca1-9bb6-4caf6363ebd0",
+      "date": "2025-06-30",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 2113300
+    },
+    {
+      "id": "ff796f51-fd96-43c5-bfc7-6def36e61ee5",
+      "date": "2025-06-28",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-192196836471-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 291900
+    },
+    {
+      "id": "78287a43-0881-4789-b86d-8e09a6e66939",
+      "date": "2025-06-28",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 795700
+    },
+    {
+      "id": "d97e574e-cc49-4145-b178-20153c9eaa0d",
+      "date": "2025-06-26",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-630868698505-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 55700
+    },
+    {
+      "id": "78de6bed-36ea-4522-b094-06c99b9f3526",
+      "date": "2025-06-24",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-778871887024-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 10200
+    },
+    {
+      "id": "cd7fce1b-1859-464d-a0ad-aca2fab07f03",
+      "date": "2025-06-24",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-446200406041-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 71200
+    },
+    {
+      "id": "c560c3bd-a548-4f65-81a3-8c9bf89e1003",
+      "date": "2025-06-24",
+      "narration": "POS 416041XXXXXX3051 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 191600
+    },
+    {
+      "id": "a602a299-3ef8-4039-8cd6-d61c7ba784e2",
+      "date": "2025-06-22",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 145900
+    },
+    {
+      "id": "26b15465-9631-43cd-8b71-88b8d74877c3",
+      "date": "2025-06-21",
+      "narration": "CROMA",
+      "merchant": "CROMA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 880600
+    },
+    {
+      "id": "9e439eb1-3fcf-4e34-b41e-4f3f7fd5759f",
+      "date": "2025-06-21",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-007650324534-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 47300
+    },
+    {
+      "id": "41aa27a5-068a-49f9-a5c1-31ee1a91e7a4",
+      "date": "2025-06-19",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-170404791167-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 41500
+    },
+    {
+      "id": "7dc7b372-5133-437b-8bff-51441532926f",
+      "date": "2025-06-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-580609137003-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "7afcae26-96e7-4fa7-bc75-34d52e466b42",
+      "date": "2025-06-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-450002141975-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "23e89b04-e90c-4e62-88e2-e19414a52e61",
+      "date": "2025-06-14",
+      "narration": "UPI-CULT FIT-cultfit@ybl-YESB0YBLUPI-729211606667-PAYMENT",
+      "merchant": "CULT FIT",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 77500
+    },
+    {
+      "id": "ca0e37a4-e6c3-44e7-82ed-456d272d8e97",
+      "date": "2025-06-13",
+      "narration": "POS 416068XXXXXX7356 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 71700
+    },
+    {
+      "id": "c02e794b-d019-4302-be77-becec4983ea1",
+      "date": "2025-06-13",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-247713990622-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 164100
+    },
+    {
+      "id": "377a041c-f608-45b8-9f33-52680c4207dc",
+      "date": "2025-06-12",
+      "narration": "ACH D- STAR HEALTH-657308891",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "286892e3-c3da-45ab-8906-207117ddf588",
+      "date": "2025-06-12",
+      "narration": "ACH D- HDFC LIFE TERM-166790793",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "c4728841-e2ee-417a-84b7-322f76398ba3",
+      "date": "2025-06-12",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-820287710879-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 63700
+    },
+    {
+      "id": "2e00b2f1-2ac0-4006-8f87-082885bb78d1",
+      "date": "2025-06-11",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-478272642093-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 43400
+    },
+    {
+      "id": "a7133150-37fa-4997-8413-71e50ee657cb",
+      "date": "2025-06-10",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-868886915097-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 108500
+    },
+    {
+      "id": "54243238-ac07-44b9-bfbb-5b41782f061c",
+      "date": "2025-06-10",
+      "narration": "EMI 7642112 CHQ S7170655828 6661863643",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "4bcbe47a-8eb9-454f-ba05-0a2c121a96ba",
+      "date": "2025-06-09",
+      "narration": "CROMA",
+      "merchant": "CROMA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 200200
+    },
+    {
+      "id": "32e2b356-0e5e-463b-b867-7af620c246ec",
+      "date": "2025-06-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-066264XXXXXX0953",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "55f80d34-46a0-47ea-86a0-ec0fc56f3780",
+      "date": "2025-06-08",
+      "narration": "IB BILLPAY DR-BESCOM-345232XXXXXX1870",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "55b887ac-2562-4740-a177-7a95f590a2b5",
+      "date": "2025-06-07",
+      "narration": "SHELL INDIA",
+      "merchant": "SHELL INDIA",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 210600
+    },
+    {
+      "id": "c4d2688e-b259-4915-8397-aad36e657e94",
+      "date": "2025-06-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-074820XXXXXX2833",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "9cc92c85-99ce-4b88-af32-fee1808dd5f7",
+      "date": "2025-06-06",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-916488950651-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 75100
+    },
+    {
+      "id": "0b5e1b12-df22-4c3f-b75f-79b26c8211c9",
+      "date": "2025-06-06",
+      "narration": "UPI-MORE MEGASTORE-moremegastore@ybl-YESB0YBLUPI-732842097332-PAYMENT",
+      "merchant": "MORE MEGASTORE",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 244300
+    },
+    {
+      "id": "0c61272b-9c4b-40a4-a3a2-3e63b9f731f3",
+      "date": "2025-06-05",
+      "narration": "SI-TAD-AXIS MF ELSS-5618592446",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "0dbbe46b-571e-41a8-9a56-1edfdf025b2f",
+      "date": "2025-06-05",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-333218274707-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 46000
+    },
+    {
+      "id": "33a2c12b-08c2-49cd-bcdf-c14e45d1c6d6",
+      "date": "2025-06-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-3929270486",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "58074d11-8cff-44f0-ae70-5ed39fe62f9a",
+      "date": "2025-06-03",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-883606253628-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 30900
+    },
+    {
+      "id": "0cb4bb86-042a-4f85-bd14-b29336b54b75",
+      "date": "2025-06-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N236441843787239-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "04356a0a-3d22-4338-8246-61a597a5cad9",
+      "date": "2025-06-02",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-057541981910-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 11500
+    },
+    {
+      "id": "20192755-3cf8-429c-87e6-e7206f82423a",
+      "date": "2025-06-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY JUN25-N798488793158211",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "25736c7a-acf0-4344-80ea-78ab498ddcc8",
+      "date": "2025-05-30",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 819300
+    },
+    {
+      "id": "d313b5db-e24c-4ee0-8992-11f4ec4e52c8",
+      "date": "2025-05-29",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 2690300
+    },
+    {
+      "id": "6926d273-eb80-4e99-b901-aebe5e980a04",
+      "date": "2025-05-29",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 348100
+    },
+    {
+      "id": "4258399a-757e-4ee8-a120-ac4a9b20d2c7",
+      "date": "2025-05-29",
+      "narration": "IB BILLPAY DR-HDFC CARDS-988049XXXXXX0746",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 2690300
+    },
+    {
+      "id": "25033a54-5bc3-48e1-beb5-482656d60636",
+      "date": "2025-05-28",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-259323577590-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 39000
+    },
+    {
+      "id": "28e06628-effe-4e7b-ada3-94dbd7b8f63b",
+      "date": "2025-05-28",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-144197810671-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 79200
+    },
+    {
+      "id": "7957d6f2-fe56-4926-a6a9-9ee9d00c7458",
+      "date": "2025-05-28",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-162286351287-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 285500
+    },
+    {
+      "id": "e36e86b2-2fc7-4405-91a0-35ecd50a1d61",
+      "date": "2025-05-27",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-787626607336-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 44400
+    },
+    {
+      "id": "c8e72bcf-ea9c-422b-a4e1-23352fa7e611",
+      "date": "2025-05-25",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-585356859280-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 17600
+    },
+    {
+      "id": "67114823-4dac-4108-962a-d2845c91259a",
+      "date": "2025-05-25",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-413848931714-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 27500
+    },
+    {
+      "id": "db11cc23-abec-49b5-9c1b-d60243c6d200",
+      "date": "2025-05-24",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-723354298844-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 51500
+    },
+    {
+      "id": "673022b7-d686-4ec8-acf9-da318f6f67f8",
+      "date": "2025-05-23",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 250500
+    },
+    {
+      "id": "05261ff3-bd1f-4c4f-9224-14f6eb1d1ec7",
+      "date": "2025-05-20",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 284600
+    },
+    {
+      "id": "2394b2c0-ee9f-4fb8-864b-74fc5e31599f",
+      "date": "2025-05-20",
+      "narration": "POS 416090XXXXXX5309 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 135900
+    },
+    {
+      "id": "ad069c06-7805-4d90-9463-8b9a12ac237c",
+      "date": "2025-05-18",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-314588265559-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 232000
+    },
+    {
+      "id": "e8fe939b-147f-43aa-a7f9-756943e4efa7",
+      "date": "2025-05-17",
+      "narration": "MYNTRA",
+      "merchant": "MYNTRA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 668300
+    },
+    {
+      "id": "215fb76c-cd8e-47ec-ab15-409c992eb259",
+      "date": "2025-05-16",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-379929407862-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 41800
+    },
+    {
+      "id": "f8104871-a7ee-4fe5-85a0-057f0f9cc13c",
+      "date": "2025-05-16",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-222787333347-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 24300
+    },
+    {
+      "id": "7f2d9753-5e32-4297-b498-3f6fea35642a",
+      "date": "2025-05-15",
+      "narration": "POS 416063XXXXXX7347 TRUFFLES POS DEBIT",
+      "merchant": "TRUFFLES",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 178900
+    },
+    {
+      "id": "c2e781bc-63fd-4203-86c4-a20f903c0066",
+      "date": "2025-05-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-420461728362-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "3bfdcbf8-937e-44ca-9b2f-f70239b950e5",
+      "date": "2025-05-14",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-568411402291-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 56800
+    },
+    {
+      "id": "e36c9851-2b60-4b0e-9d93-9d63bc700390",
+      "date": "2025-05-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-337167812505-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "f45457f5-0cee-4cc1-a92a-92ee5860797b",
+      "date": "2025-05-14",
+      "narration": "CROMA",
+      "merchant": "CROMA",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 247800
+    },
+    {
+      "id": "91a9e94f-b7c8-455a-a3ee-9cb04cd91de0",
+      "date": "2025-05-12",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-260216041769-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 28800
+    },
+    {
+      "id": "ec6f4abb-8739-445b-8778-a9a8725fd2e0",
+      "date": "2025-05-12",
+      "narration": "ACH D- HDFC LIFE TERM-206948917",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "547dc541-3fc9-426a-acd5-1b3c583eebfd",
+      "date": "2025-05-12",
+      "narration": "ACH D- STAR HEALTH-163636768",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "290c78ec-bd9b-4134-a6cc-c72c67bdeeb0",
+      "date": "2025-05-10",
+      "narration": "EMI 0642295 CHQ S0921795474 6850121350",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "ef56f256-99fe-4db5-92e6-aaf674d65537",
+      "date": "2025-05-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-487853XXXXXX7166",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "54af4534-dcd4-4e47-a494-ecab3a79f103",
+      "date": "2025-05-08",
+      "narration": "IB BILLPAY DR-BESCOM-455104XXXXXX2941",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "7f695aa9-1543-43ab-975d-1322e5d01812",
+      "date": "2025-05-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-232184XXXXXX3486",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "6ff89deb-bfda-4fd3-8ebb-f789a4e18289",
+      "date": "2025-05-05",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 194500
+    },
+    {
+      "id": "514322cb-d40a-4c2e-ba25-64cfc071f468",
+      "date": "2025-05-05",
+      "narration": "SI-TAD-AXIS MF ELSS-8283880816",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "b64a56ab-cec9-4ddf-aac4-f9930205fb8a",
+      "date": "2025-05-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-0695638940",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "0dcfa831-c300-4b00-bba0-2ecd98c204e0",
+      "date": "2025-05-05",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-283299408084-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 69300
+    },
+    {
+      "id": "910d03a9-f654-45ae-8f49-ac04f7e5ec19",
+      "date": "2025-05-04",
+      "narration": "IRCTC",
+      "merchant": "IRCTC",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 1414100
+    },
+    {
+      "id": "d3cba4a5-5717-42a8-bd36-6efe1feaed16",
+      "date": "2025-05-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N210814324692547-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "ca86405c-e5e1-4651-8bdc-a7a5335dd765",
+      "date": "2025-05-03",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-397055574081-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 302600
+    },
+    {
+      "id": "a1a3f01c-cc96-4ba9-acec-1d72d6d9946f",
+      "date": "2025-05-03",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-348524395854-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 133200
+    },
+    {
+      "id": "748d341c-32d7-4b89-b573-d36210e2a537",
+      "date": "2025-05-03",
+      "narration": "UPI-APOLLO PHARMACY-apollopharmacy@ybl-YESB0YBLUPI-336685023203-PAYMENT",
+      "merchant": "APOLLO PHARMACY",
+      "category": "health",
+      "direction": "debit",
+      "amount_paise": 135200
+    },
+    {
+      "id": "0a7dd96e-307c-4e82-acb1-8264e25894eb",
+      "date": "2025-05-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY MAY25-N814180155254565",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "e8f74943-d308-4154-94c5-0793958ccff1",
+      "date": "2025-04-28",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-156295962902-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 31000
+    },
+    {
+      "id": "bb057fdd-71df-4547-9a0d-756ebccb49c9",
+      "date": "2025-04-28",
+      "narration": "UPI-ZOMATO-zomato@ybl-YESB0YBLUPI-297710037216-PAYMENT",
+      "merchant": "ZOMATO",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 73300
+    },
+    {
+      "id": "56624fe5-457f-413a-b446-fff4f8bd4930",
+      "date": "2025-04-26",
+      "narration": "PAYMENT RECEIVED - THANK YOU",
+      "merchant": "PAYMENT RECEIVED - THANK YOU",
+      "category": "payment",
+      "direction": "credit",
+      "amount_paise": 3131200
+    },
+    {
+      "id": "151b7d23-943f-4467-be7f-3503aa88f1ea",
+      "date": "2025-04-26",
+      "narration": "IB BILLPAY DR-HDFC CARDS-159630XXXXXX1674",
+      "merchant": "HDFC CARDS",
+      "category": "card_payment",
+      "direction": "debit",
+      "amount_paise": 3131200
+    },
+    {
+      "id": "4f921d8a-71fc-489d-ba23-cb2ec9386ea2",
+      "date": "2025-04-25",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-306496900849-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 27400
+    },
+    {
+      "id": "b5bee7f5-5589-4054-9433-3213a6ae9654",
+      "date": "2025-04-25",
+      "narration": "SMOKE HOUSE DELI",
+      "merchant": "SMOKE HOUSE DELI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 81500
+    },
+    {
+      "id": "ffed3216-856a-4532-889f-7c1952ec4d77",
+      "date": "2025-04-25",
+      "narration": "UPI-ZEPTO-zepto@ybl-YESB0YBLUPI-639356635545-PAYMENT",
+      "merchant": "ZEPTO",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 282900
+    },
+    {
+      "id": "7bbaac6e-3ab7-4538-891e-872f01a801dc",
+      "date": "2025-04-19",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 84100
+    },
+    {
+      "id": "5ab4ab04-6074-4385-92d9-a76dd86799fc",
+      "date": "2025-04-18",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-531487333848-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 24500
+    },
+    {
+      "id": "83bd2f61-56ab-41e7-9631-2778be8fe971",
+      "date": "2025-04-16",
+      "narration": "POS 416045XXXXXX4206 TOIT BREWPUB POS DEBIT",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 178900
+    },
+    {
+      "id": "33a6f1f9-d5a9-4948-bc1f-567a6827e7c7",
+      "date": "2025-04-15",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-989195223032-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 70300
+    },
+    {
+      "id": "85435819-5946-4336-8b0d-47f4364eb806",
+      "date": "2025-04-15",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-753463255409-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 31600
+    },
+    {
+      "id": "8e0d9cd5-debe-429d-8fb4-ee6e076c18d5",
+      "date": "2025-04-14",
+      "narration": "UPI-SPOTIFY-spotify@ybl-YESB0YBLUPI-847178179687-PAYMENT",
+      "merchant": "SPOTIFY",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 19900
+    },
+    {
+      "id": "fc29c320-6b33-4466-bcb3-206e7a602495",
+      "date": "2025-04-14",
+      "narration": "UPI-NETFLIX-netflix@ybl-YESB0YBLUPI-642387487441-PAYMENT",
+      "merchant": "NETFLIX",
+      "category": "subscription",
+      "direction": "debit",
+      "amount_paise": 64900
+    },
+    {
+      "id": "c3051dbd-94ef-4df7-b637-0ff957ac0b20",
+      "date": "2025-04-14",
+      "narration": "UPI-OLA CABS-olacabs@ybl-YESB0YBLUPI-040494163456-PAYMENT",
+      "merchant": "OLA CABS",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 14300
+    },
+    {
+      "id": "ddff876e-6382-4d75-b671-073f811bcdc7",
+      "date": "2025-04-13",
+      "narration": "IRCTC",
+      "merchant": "IRCTC",
+      "category": "travel",
+      "direction": "debit",
+      "amount_paise": 1882200
+    },
+    {
+      "id": "0f5a7a7c-c72d-469f-80eb-219a97f771d6",
+      "date": "2025-04-12",
+      "narration": "ACH D- STAR HEALTH-152917388",
+      "merchant": "STAR HEALTH",
+      "category": "insurance_health",
+      "direction": "debit",
+      "amount_paise": 195000
+    },
+    {
+      "id": "0f61ce70-a156-4cc3-be2b-d3c5b7c2eb70",
+      "date": "2025-04-12",
+      "narration": "ACH D- HDFC LIFE TERM-019850081",
+      "merchant": "HDFC LIFE TERM",
+      "category": "insurance_term",
+      "direction": "debit",
+      "amount_paise": 218000
+    },
+    {
+      "id": "30078778-1777-472b-aec3-f7e51fd74520",
+      "date": "2025-04-10",
+      "narration": "EMI 2218756 CHQ S8153434571 6662663109",
+      "merchant": null,
+      "category": "loan_emi",
+      "direction": "debit",
+      "amount_paise": 3160000
+    },
+    {
+      "id": "af1208b0-24d2-4e01-8fd8-de167c2469a4",
+      "date": "2025-04-08",
+      "narration": "IB BILLPAY DR-BESCOM-818967XXXXXX3347",
+      "merchant": "BESCOM",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 240000
+    },
+    {
+      "id": "6d85b89d-9fda-4626-b16d-4102475e6517",
+      "date": "2025-04-08",
+      "narration": "UPI-SWIGGY-swiggy@ybl-YESB0YBLUPI-946594228022-PAYMENT",
+      "merchant": "SWIGGY",
+      "category": "food_delivery",
+      "direction": "debit",
+      "amount_paise": 54900
+    },
+    {
+      "id": "fd803cfe-5c3b-419f-89d4-785e49221a90",
+      "date": "2025-04-08",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-437644613626-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 105100
+    },
+    {
+      "id": "ddc9dca2-f398-44ab-b5f3-8db35c5ff4be",
+      "date": "2025-04-08",
+      "narration": "IB BILLPAY DR-ACT FIBERNET-377806XXXXXX2351",
+      "merchant": "ACT FIBERNET",
+      "category": "utilities",
+      "direction": "debit",
+      "amount_paise": 110000
+    },
+    {
+      "id": "1474d19a-8146-4b6d-8d10-3987e0befe64",
+      "date": "2025-04-07",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-569283040101-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 21900
+    },
+    {
+      "id": "50091ca6-a8c6-4d52-912a-045dbcdeaa7f",
+      "date": "2025-04-07",
+      "narration": "IB BILLPAY DR-PPF ACCOUNT-706310XXXXXX2969",
+      "merchant": "PPF ACCOUNT",
+      "category": "investment_ppf",
+      "direction": "debit",
+      "amount_paise": 1250000
+    },
+    {
+      "id": "cc19650f-f984-4180-83da-e0fe7d137817",
+      "date": "2025-04-06",
+      "narration": "SHELL INDIA",
+      "merchant": "SHELL INDIA",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 293500
+    },
+    {
+      "id": "149046dd-a13d-420b-9815-a1c6dba4276a",
+      "date": "2025-04-05",
+      "narration": "SI-TAD-AXIS MF ELSS-5761253870",
+      "merchant": "AXIS MF ELSS",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1500000
+    },
+    {
+      "id": "41f4a3ce-bfab-4bf4-a4d5-c4efa1b4b16c",
+      "date": "2025-04-05",
+      "narration": "UPI-NAMDHARIS FRESH-namdharisfresh@ybl-YESB0YBLUPI-610462561645-PAYMENT",
+      "merchant": "NAMDHARIS FRESH",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 323100
+    },
+    {
+      "id": "9b99cc68-963a-4edc-9318-72f49f14b321",
+      "date": "2025-04-05",
+      "narration": "UPI-BIGBASKET-bigbasket@ybl-YESB0YBLUPI-075282108702-PAYMENT",
+      "merchant": "BIGBASKET",
+      "category": "groceries",
+      "direction": "debit",
+      "amount_paise": 254400
+    },
+    {
+      "id": "e943de32-f940-40aa-95fb-2ef1ec6e7fd1",
+      "date": "2025-04-05",
+      "narration": "SI-TAD-PARAG PARIKH FLEXI-1314227025",
+      "merchant": "PARAG PARIKH FLEXI",
+      "category": "investment_sip",
+      "direction": "debit",
+      "amount_paise": 1000000
+    },
+    {
+      "id": "799a595c-9e84-4ac3-a149-b558b7e0c9f1",
+      "date": "2025-04-03",
+      "narration": "POS 416050XXXXXX1692 CTR MALLESHWARAM POS DEBIT",
+      "merchant": "CTR MALLESHWARAM",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 180300
+    },
+    {
+      "id": "004c45a0-6b4a-4b62-87eb-389088028ebb",
+      "date": "2025-04-03",
+      "narration": "NEFT DR-HDFC0000512-PRAKASH REDDY-NETBANK-N723420397514066-PERSONAL",
+      "merchant": "PRAKASH REDDY",
+      "category": "rent",
+      "direction": "debit",
+      "amount_paise": 3800000
+    },
+    {
+      "id": "d751ac71-e289-46a8-a55e-955217e70510",
+      "date": "2025-04-01",
+      "narration": "UPI-NAMMA METRO-nammametro@ybl-YESB0YBLUPI-240357408704-PAYMENT",
+      "merchant": "NAMMA METRO",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 49800
+    },
+    {
+      "id": "08d35813-c271-4539-b5cf-2477aa57a4be",
+      "date": "2025-04-01",
+      "narration": "NEFT CR-HDFC0000060-ZENTRIX LABS PVT LTD-SALARY APR25-N573150814195081",
+      "merchant": "ZENTRIX LABS PVT LTD",
+      "category": "income",
+      "direction": "credit",
+      "amount_paise": 17240000
+    },
+    {
+      "id": "7a40d220-01d2-4023-b95d-f20d468c5ddb",
+      "date": "2025-04-01",
+      "narration": "UPI-UBER INDIA-uberindia@ybl-YESB0YBLUPI-812932479174-PAYMENT",
+      "merchant": "UBER INDIA",
+      "category": "transport",
+      "direction": "debit",
+      "amount_paise": 51500
+    },
+    {
+      "id": "d55d26b7-f046-44d5-b3e9-b8eb2aa0d009",
+      "date": "2025-03-30",
+      "narration": "INDIAN OIL",
+      "merchant": "INDIAN OIL",
+      "category": "fuel",
+      "direction": "debit",
+      "amount_paise": 139700
+    },
+    {
+      "id": "80337e52-fd86-4fc3-8bc6-be87cd264ac6",
+      "date": "2025-03-28",
+      "narration": "TOIT BREWPUB",
+      "merchant": "TOIT BREWPUB",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 86600
+    },
+    {
+      "id": "169ba238-b448-4c55-8759-8db4521552c2",
+      "date": "2025-03-27",
+      "narration": "IKEA BENGALURU",
+      "merchant": "IKEA BENGALURU",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 266700
+    },
+    {
+      "id": "a2ff9695-2ce7-423a-a0a5-278ab339ee32",
+      "date": "2025-03-27",
+      "narration": "BLUE TOKAI",
+      "merchant": "BLUE TOKAI",
+      "category": "dining",
+      "direction": "debit",
+      "amount_paise": 198200
+    },
+    {
+      "id": "a9fe96f2-5bff-4c55-b7ce-55547ff7ec4d",
+      "date": "2025-03-23",
+      "narration": "AMAZON IN",
+      "merchant": "AMAZON IN",
+      "category": "shopping",
+      "direction": "debit",
+      "amount_paise": 264300
+    }
+  ],
+  "summary": [
+    {
+      "category": "rent",
+      "total_paise": 45600000,
+      "count": 12
+    },
+    {
+      "category": "loan_emi",
+      "total_paise": 37920000,
+      "count": 12
+    },
+    {
+      "category": "investment_sip",
+      "total_paise": 30000000,
+      "count": 24
+    },
+    {
+      "category": "card_payment",
+      "total_paise": 29339200,
+      "count": 11
+    },
+    {
+      "category": "investment_ppf",
+      "total_paise": 15000000,
+      "count": 12
+    },
+    {
+      "category": "shopping",
+      "total_paise": 12820200,
+      "count": 24
+    },
+    {
+      "category": "groceries",
+      "total_paise": 10091400,
+      "count": 48
+    },
+    {
+      "category": "dining",
+      "total_paise": 10088500,
+      "count": 52
+    },
+    {
+      "category": "travel",
+      "total_paise": 8570900,
+      "count": 7
+    },
+    {
+      "category": "fuel",
+      "total_paise": 4376400,
+      "count": 20
+    },
+    {
+      "category": "utilities",
+      "total_paise": 4200000,
+      "count": 24
+    },
+    {
+      "category": "food_delivery",
+      "total_paise": 3417000,
+      "count": 60
+    },
+    {
+      "category": "insurance_term",
+      "total_paise": 2616000,
+      "count": 12
+    },
+    {
+      "category": "insurance_health",
+      "total_paise": 2340000,
+      "count": 12
+    },
+    {
+      "category": "transport",
+      "total_paise": 1994200,
+      "count": 72
+    },
+    {
+      "category": "subscription",
+      "total_paise": 1017600,
+      "count": 24
+    },
+    {
+      "category": "health",
+      "total_paise": 968200,
+      "count": 7
+    }
+  ],
+  "qa": [
+    {
+      "question": "How much did I spend on food delivery in March?",
+      "answer": "You spent ₹3,064.00 on food delivery in March, across 5 transactions.",
+      "route": "sql"
+    },
+    {
+      "question": "What was my largest single transaction last quarter?",
+      "answer": "Your largest transaction in the last quarter (Jan-Mar 2026) was ₹38,000.00 to PRAKASH REDDY on 2026-01-03.",
+      "route": "sql"
+    },
+    {
+      "question": "Should I prepay my home loan or invest the surplus?",
+      "answer": "To help you decide whether to prepay your home loan or invest the surplus, let's consider the context provided [prepay-vs-invest]. \n\nPrepaying your home loan offers a **guaranteed, risk-free return equal to the loan's interest rate**, saving you that much interest every time you prepay. On the other hand, investing the surplus in equity offers a **higher expected return over the long run, but it isn't guaranteed**. \n\nIf your loan's interest rate is high (e.g., unsecured personal loans, most credit card debt), prepayment tends to win because the guaranteed saving is hard to beat. However, if your loan's rate is low (e.g., some subsidised or long-tenure secured loans) and you have a long investment horizon and the risk tolerance for it, investing the surplus can plausibly come out ahead.\n\nConsider your loan's interest rate and your overall financial situation before making a decision.",
+      "route": "hybrid"
+    }
+  ]
+}
