@@ -92,9 +92,12 @@ evaluation methodology. Correctness and measurability matter more than feature c
 
 ## Current phase
 
-Phase 4 is done (knowledge corpus, pgvector, chunking, router, hybrid
-answer assembly — see git history for detail). Phase 1-3 are done too.
-Still no frontend.
+Phase 6 — Next.js dashboard, demo mode, deploy. Phases 1-4 are done (see
+git history). Node v24.15.0 / npm 11.12.1 already installed, no setup
+needed there. Known gap going in: app/rag/answer.py's hybrid Q&A has no
+HTTP endpoint yet — only /statements/* is wired into app/main.py, so
+that needs adding before the frontend has anything to call for the
+insights/chat feature.
 
 Phase 5 (`RAG_EVALUATION.md`) is in progress. Done: `eval/` scaffolding,
 `eval/seed_persona.py` (real eval user seeded via the actual upload
