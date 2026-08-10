@@ -295,3 +295,31 @@ label would measure something adjacent, not the same thing the judge
 computes, making the agreement figure less directly comparable.
 `eval/CALIBRATION.md` now states explicitly it's 6 of 18, not silently
 presented as the full set.
+
+## 2026-08-10 — Groundedness calibration: deferred until after live testing, not faked
+
+**Problem:** Owner asked to mark every claim in `eval/CALIBRATION.md` as
+GROUNDED for now, to unblock other work, with real labeling planned once
+the app is live and scenarios can be tested directly.
+
+**Considered:** filling in all-GROUNDED labels and computing a
+judge-human agreement figure now, so Phase 5's calibration step shows as
+complete.
+
+**Choice:** declined the rubric-stamp, calibration left explicitly
+undone rather than faked.
+
+**Reasoning:** the judge's own grounded rate on this subset is already
+known (~88%); an all-grounded rubber stamp would trivially reproduce a
+number close to that back as "agreement," producing a statistic with
+zero discriminating power while looking like a real calibration result.
+Reporting that in the portfolio as "the judge was calibrated" would
+misrepresent what was actually measured - worse than just stating
+plainly that it hasn't happened yet.
+
+**What's actually happening:** deferring the real hand-labeling until
+the owner can test scenarios against the live app is a reasonable
+sequencing call, not a shortcut - noted here so the gap is honest and
+visible rather than hidden behind a fabricated number.
+`eval/CALIBRATION.md` stays unchecked; no judge-human agreement figure
+exists yet, and none should be reported until real labels do.

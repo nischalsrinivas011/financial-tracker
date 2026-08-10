@@ -105,14 +105,29 @@ baseline (`eval/results/2026-08-10_baseline.json`: routing 94.4%,
 recall@5 88.0%, constraint pass rate 71.4%). `eval/FAILURES.md` has 4
 real findings from reading the baseline output, not just the numbers —
 one is a genuine bug (`answer_sql_question` mishandles category-less
-date-range questions like "how much did I spend in February").
+date-range questions like "how much did I spend in February"). The
+3-way chunking experiment is done too (`eval/CHUNKING_EXPERIMENT.md`):
+the pre-registered hypothesis did NOT hold (fixed-size beat
+section-aware on raw recall@5), but that's a corpus-size confound, not
+evidence fixed-size is better — MRR (where section-aware wins) is the
+more relevant metric for how this app actually uses retrieval, so
+Phase 4's production choice stands.
 
-Not yet built: groundedness (LLM-as-judge) and refusal-behaviour
-metrics — the groundedness judge specifically needs the owner to
-hand-label ~20 answers for calibration, not something Claude can do
-alone (see docs/DECISIONS.md if that changes). Also not built: the
-3-way chunking experiment (fixed-size vs. section-aware vs. semantic) —
-Phase 4 only built section-aware.
+The groundedness judge is built and run (`eval/metrics/groundedness.py`,
+`eval/results/2026-08-10_groundedness-judge.json`: 18 questions, 147
+claims, ~88% judge-grounded rate) but **not calibrated** —
+`eval/CALIBRATION.md` (a tractable 6-question/48-claim subset) is
+sitting unchecked on purpose. The owner asked Claude to fill it in
+(first fully, then as an all-GROUNDED rubber stamp); both declined,
+since Claude generating both the judge's verdicts and the "human"
+comparison labels defeats the entire point of calibration — see the
+two 2026-08-10 entries in docs/DECISIONS.md. Deferred until the owner
+can test scenarios against the live app; no judge-human agreement
+figure exists yet, and none should be reported until real labels do.
+
+Not yet built: refusal-behaviour metrics (under/over-refusal rate for
+`route: refuse` questions) — doesn't need human input, unblocked
+whenever picked up.
 
 Other known, deliberately deferred gaps ("we can optimize later"): the
 router's 2 known misses on deliberately open-ended edge-case questions
