@@ -257,3 +257,41 @@ categorisation cascade's stage 3) before Phase 5's formal baseline
 run, or whether 94.4% with two well-understood, documented misses is
 an acceptable baseline to carry into Phase 5 and revisit there with
 real eval infrastructure. Owner's call, not made yet.
+
+## 2026-08-10 — Groundedness calibration: 6-question subset, and why Claude can't do the labeling
+
+**Problem:** `RAG_EVALUATION.md` requires calibrating the groundedness
+judge by hand-labeling answers independently and reporting judge-human
+agreement. The full judged set is 18 questions / 147 claims - too much
+for the owner to get through in one sitting. Separately, the owner asked
+whether Claude could do the hand-labeling instead.
+
+**On Claude doing the labeling:** declined, not deferred. Calibration
+exists to answer "does the judge - an LLM - agree with independent human
+judgment?" If the same kind of model (or Claude specifically) generates
+both the judge's verdicts and the "human" comparison labels, the
+resulting agreement number is one LLM checking another wearing a
+different hat, not a real calibration signal. Reporting that as human
+calibration in the portfolio would misrepresent what was actually
+measured.
+
+**Options considered for making the real labeling tractable:**
+1. Keep all 18 questions / 147 claims.
+2. Reduce to a smaller representative subset.
+3. Coarser per-question (not per-claim) labels across all 18.
+4. Defer calibration entirely, document as an unresolved gap.
+
+**Choice:** Option 2. Subset: `vec-001, vec-002, vec-005, hyb-001,
+hyb-006, hyb-007` - 3 vector + 3 hybrid, spanning easy/medium/hard
+difficulty and distinct topics (budgeting, insurance, housing,
+prepay-vs-invest, savings, affordability). 48 claims, not 147.
+
+**Reasoning:** A real, honest sample the owner can actually complete
+beats either a token few claims or an abandoned calibration. Per-claim
+(not per-question) granularity kept for this subset, since that's what
+the groundedness metric itself measures (RAG_EVALUATION.md section 3:
+"percentage of claims traceable to a source") - a coarser per-question
+label would measure something adjacent, not the same thing the judge
+computes, making the agreement figure less directly comparable.
+`eval/CALIBRATION.md` now states explicitly it's 6 of 18, not silently
+presented as the full set.

@@ -42,8 +42,16 @@ from eval.run_eval import _get_eval_user_id
 
 GOLDEN_QUESTIONS = Path(__file__).parent / "golden_questions.yaml"
 BASELINE_PATH = Path(__file__).parent / "results" / "2026-08-10_baseline.json"
+JUDGE_RESULTS_PATH = Path(__file__).parent / "results" / "2026-08-10_groundedness-judge.json"
 RESULTS_DIR = Path(__file__).parent / "results"
 CALIBRATION_DOC = Path(__file__).parent / "CALIBRATION.md"
+
+# All 18 judged questions is a lot to hand-label in one sitting (147
+# claims). This subset trades sample size for tractability: 3 vector + 3
+# hybrid, spanning easy/medium/hard difficulty and distinct topics
+# (budgeting, insurance, housing, prepay-vs-invest, savings, affordability)
+# - 48 claims, not 147. A real, honest calibration sample, not a token one.
+CALIBRATION_SUBSET = ["vec-001", "vec-002", "vec-005", "hyb-001", "hyb-006", "hyb-007"]
 
 
 def _load_questions_by_id() -> dict:
@@ -99,7 +107,8 @@ def run_judge_on_baseline() -> dict:
     return results
 
 
-def write_calibration_doc(results: dict) -> None:
+def write_calibration_doc(results: dict, subset: list[str] | None = None) -> None:
+    question_ids = subset if subset is not None else list(results)
     lines = [
         "# Groundedness calibration",
         "",
@@ -112,7 +121,14 @@ def write_calibration_doc(results: dict) -> None:
         "sounds plausible or matches general personal-finance knowledge.",
         "",
     ]
-    for qid, r in results.items():
+    if subset is not None:
+        lines += [
+            f"({len(subset)} of {len(results)} judged questions - a representative subset",
+            "chosen for tractability, not all of them. See docs/DECISIONS.md.)",
+            "",
+        ]
+    for qid in question_ids:
+        r = results[qid]
         lines.append(f"## {qid}")
         lines.append(f"**Question:** {r['question']}")
         lines.append("")
