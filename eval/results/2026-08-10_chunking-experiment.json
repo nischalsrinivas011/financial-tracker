@@ -1,0 +1,590 @@
+{
+  "generated_at": "2026-08-10T09:17:58.042178+00:00",
+  "questions_scored": 18,
+  "hypothesis": "section-aware should beat fixed-size on recall because a rule of thumb and its caveats live in the same section and fixed-size splits them apart",
+  "hypothesis_held": false,
+  "strategies": {
+    "section_aware": {
+      "summary": {
+        "precision@3": 0.4259259259259259,
+        "precision@5": 0.2666666666666667,
+        "precision@10": 0.14444444444444446,
+        "recall@3": 0.8518518518518519,
+        "recall@5": 0.8796296296296297,
+        "recall@10": 0.9351851851851851,
+        "mrr": 0.9629629629629629,
+        "chunk_count": 21
+      },
+      "per_question": [
+        {
+          "id": "vec-001",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-002",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-003",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-004",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-005",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.2,
+          "recall@5": 0.5,
+          "precision@10": 0.1,
+          "recall@10": 0.5,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-006",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-007",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-008",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-009",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-010",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-001",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.2,
+          "recall@5": 0.5,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-002",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-003",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-004",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-005",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-006",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-007",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.2,
+          "recall@5": 0.5,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-008",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.3333333333333333,
+          "precision@5": 0.2,
+          "recall@5": 0.3333333333333333,
+          "precision@10": 0.1,
+          "recall@10": 0.3333333333333333,
+          "mrr": 0.3333333333333333
+        }
+      ]
+    },
+    "fixed_size": {
+      "summary": {
+        "precision@3": 0.4074074074074074,
+        "precision@5": 0.30000000000000004,
+        "precision@10": 0.15555555555555556,
+        "recall@3": 0.8981481481481483,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "mrr": 0.8518518518518519,
+        "chunk_count": 11
+      },
+      "per_question": [
+        {
+          "id": "vec-001",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-002",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-003",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 0.3333333333333333
+        },
+        {
+          "id": "vec-004",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 0.5
+        },
+        {
+          "id": "vec-005",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-006",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-007",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-008",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-009",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-010",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 0.5
+        },
+        {
+          "id": "hyb-001",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-002",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-003",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-004",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-005",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-006",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-007",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 0.5,
+          "precision@5": 0.6,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 0.5
+        },
+        {
+          "id": "hyb-008",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 0.6666666666666666,
+          "precision@5": 0.6,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 0.5
+        }
+      ]
+    },
+    "semantic": {
+      "summary": {
+        "precision@3": 0.5185185185185185,
+        "precision@5": 0.3888888888888889,
+        "precision@10": 0.2222222222222222,
+        "recall@3": 0.7685185185185186,
+        "recall@5": 0.8148148148148148,
+        "recall@10": 0.8981481481481483,
+        "mrr": 0.8333333333333334,
+        "chunk_count": 35
+      },
+      "per_question": [
+        {
+          "id": "vec-001",
+          "precision@3": 1.0,
+          "recall@3": 1.0,
+          "precision@5": 0.6,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-002",
+          "precision@3": 1.0,
+          "recall@3": 1.0,
+          "precision@5": 0.8,
+          "recall@5": 1.0,
+          "precision@10": 0.4,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-003",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-004",
+          "precision@3": 0.0,
+          "recall@3": 0.0,
+          "precision@5": 0.0,
+          "recall@5": 0.0,
+          "precision@10": 0.0,
+          "recall@10": 0.0,
+          "mrr": 0.0
+        },
+        {
+          "id": "vec-005",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.2,
+          "recall@5": 0.5,
+          "precision@10": 0.1,
+          "recall@10": 0.5,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-006",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-007",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 0.5
+        },
+        {
+          "id": "vec-008",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.4,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-009",
+          "precision@3": 1.0,
+          "recall@3": 1.0,
+          "precision@5": 0.8,
+          "recall@5": 1.0,
+          "precision@10": 0.4,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "vec-010",
+          "precision@3": 0.0,
+          "recall@3": 0.0,
+          "precision@5": 0.0,
+          "recall@5": 0.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 0.16666666666666666
+        },
+        {
+          "id": "hyb-001",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-002",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-003",
+          "precision@3": 1.0,
+          "recall@3": 1.0,
+          "precision@5": 0.6,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-004",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.4,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-005",
+          "precision@3": 0.6666666666666666,
+          "recall@3": 1.0,
+          "precision@5": 0.6,
+          "recall@5": 1.0,
+          "precision@10": 0.3,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-006",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 1.0,
+          "precision@5": 0.2,
+          "recall@5": 1.0,
+          "precision@10": 0.1,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-007",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.5,
+          "precision@5": 0.2,
+          "recall@5": 0.5,
+          "precision@10": 0.2,
+          "recall@10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hyb-008",
+          "precision@3": 0.3333333333333333,
+          "recall@3": 0.3333333333333333,
+          "precision@5": 0.6,
+          "recall@5": 0.6666666666666666,
+          "precision@10": 0.3,
+          "recall@10": 0.6666666666666666,
+          "mrr": 0.3333333333333333
+        }
+      ]
+    }
+  }
+}
