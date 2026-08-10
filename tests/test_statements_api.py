@@ -97,17 +97,24 @@ def test_upload_card_statement_creates_one_statement_per_cycle(client, monkeypat
 
 
 def test_upload_requires_auth(client, monkeypatch, db_session):
+    # Counts compared before/after, not asserted as 0: the shared Neon
+    # database also holds real, persistent eval-persona seed data
+    # (eval/seed_persona.py) outside this test's transaction.
+    accounts_before = db_session.query(Account).count()
     monkeypatch.setattr(deps, "authenticate_request", lambda request, options: signed_out())
     pdf = FIXTURES / "arjun_salaried" / "arjun_salaried_FY2025-26_bank.pdf"
 
     response = _upload(client, "/statements/bank", pdf)
     assert response.status_code == 401
-    assert db_session.query(Account).count() == 0
+    assert db_session.query(Account).count() == accounts_before
 
 
 def test_reconciliation_failure_returns_422_and_stores_nothing(client, monkeypatch, db_session):
     import app.api.statements as statements_module
     from app.parsers.reconcile import ReconciliationError
+
+    accounts_before = db_session.query(Account).count()
+    statements_before = db_session.query(Statement).count()
 
     _authed_client(client, monkeypatch)
     monkeypatch.setattr(
@@ -118,5 +125,5 @@ def test_reconciliation_failure_returns_422_and_stores_nothing(client, monkeypat
 
     response = _upload(client, "/statements/bank", pdf)
     assert response.status_code == 422
-    assert db_session.query(Account).count() == 0
-    assert db_session.query(Statement).count() == 0
+    assert db_session.query(Account).count() == accounts_before
+    assert db_session.query(Statement).count() == statements_before

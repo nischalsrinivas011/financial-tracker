@@ -8,7 +8,7 @@ KNOWLEDGE_DIR = Path(__file__).parent.parent / "knowledge"
 
 
 def _required_chunk_ids() -> set[str]:
-    with open(Path(__file__).parent.parent / "golden_questions.yaml") as f:
+    with open(Path(__file__).parent.parent / "eval" / "golden_questions.yaml") as f:
         data = yaml.safe_load(f)
     required = set()
     for q in data["questions"]:

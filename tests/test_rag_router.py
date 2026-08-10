@@ -13,7 +13,7 @@ import yaml
 
 from app.rag.router import route
 
-GOLDEN_QUESTIONS = Path(__file__).parent.parent / "golden_questions.yaml"
+GOLDEN_QUESTIONS = Path(__file__).parent.parent / "eval" / "golden_questions.yaml"
 
 # Known, understood misses: both are deliberately open-ended edge-case
 # questions ("edge cases - where products actually break", per the file's
