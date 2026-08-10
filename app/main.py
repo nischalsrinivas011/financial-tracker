@@ -7,12 +7,14 @@ load_dotenv()
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import ask, statements
+from app.api import accounts, ask, statements, transactions
 from app.api.deps import CurrentUser
 
 app = FastAPI(title="Financial Tracker API")
 app.include_router(statements.router)
 app.include_router(ask.router)
+app.include_router(accounts.router)
+app.include_router(transactions.router)
 
 # Bearer-token cross-origin calls only (Clerk's frontend SDK attaches the
 # session token as an Authorization header, not a cookie) - allow_credentials
