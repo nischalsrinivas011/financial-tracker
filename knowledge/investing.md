@@ -53,8 +53,8 @@ equity return as if both were equally certain, when they are not.
 
 ## Where to park money needed in the near term <!-- chunk_id: parking-short-term-funds -->
 
-Money that will be needed within roughly the next 6-12 months (an upcoming
-expense, part of an emergency fund, savings toward a near-term goal)
+Money that will be needed within roughly the next 6-12 months — an
+upcoming expense, a down payment, savings toward a near-term goal —
 generally shouldn't sit in equity — a market downturn right before the
 money is needed could force selling at a loss. Better options for this
 kind of near-term money:
