@@ -217,3 +217,43 @@ more honest engineering story for the portfolio than chasing benchmark
 scores at the cost of what can actually run in production. Revisit if
 Phase 5's eval shows retrieval quality is the binding constraint, not
 routing or prompting.
+
+## 2026-08-09 — Router: rule-based first, measured at 94.4% against the golden set
+
+**Problem:** `RAG_EVALUATION.md` names routing accuracy as the single
+most important metric (target >95%, "cheapest to get right, most
+damaging to get wrong"). Needed a first implementation to measure
+against the real 36-question golden set, not just design in the
+abstract.
+
+**Options considered:**
+1. LLM-based classification for every question.
+2. Rule-based keyword classifier first (same precedent as the
+   categorisation cascade: rules before LLM), falling back to an LLM
+   router only if rules can't clear a reasonable bar.
+
+**Choice:** Option 2, built and measured.
+
+**Result:** 34/36 (94.4%) against the full golden set - just under the
+95% target. Both misses are `edge-003` ("Am I spending too much?") and
+`edge-005` ("Summarise my finances.") - the file's own "edge cases -
+where products actually break" section. Both confidently match an
+SQL-only signal (personal-data reference) and no corpus-signal
+keyword, so they land on `sql` instead of `hybrid`.
+
+**Reasoning for not chasing the last 2 questions with more keywords:**
+hand-crafting patterns for these two exact phrases would be tuning to
+memorize the eval set, not building a router that generalizes to
+questions not in it - the same concern `golden_questions.yaml`'s own
+header raises about not editing questions to match model behaviour,
+applied to the router instead of the corpus. This is documented as a
+known, understood limitation (`tests/test_rag_router.py`'s
+`KNOWN_MISSES`) rather than silently accepted or hidden behind a
+loosened assertion.
+
+**Not yet decided:** whether closing the gap to >95% is worth an
+LLM-based fallback for low-confidence cases (mirroring the
+categorisation cascade's stage 3) before Phase 5's formal baseline
+run, or whether 94.4% with two well-understood, documented misses is
+an acceptable baseline to carry into Phase 5 and revisit there with
+real eval infrastructure. Owner's call, not made yet.
