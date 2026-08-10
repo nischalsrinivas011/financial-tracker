@@ -54,17 +54,25 @@ def run_eval(label: str) -> dict:
     try:
         user_id = _get_eval_user_id(db)
 
-        answers = {}
+        answer_records = {}
+        answer_texts = {}
         call_records = []
         for q in questions:
             result = answer(db, user_id, q["question"])
-            answers[q["id"]] = result.text
+            answer_texts[q["id"]] = result.text
+            answer_records[q["id"]] = {
+                "text": result.text,
+                "route": result.route,
+                "used_llm": result.used_llm,
+                "sources": result.sources,
+                "cost": result.cost,
+            }
             if result.cost:
                 call_records.append(result.cost)
 
         routing_result = evaluate_routing(questions)
         retrieval_result = evaluate_retrieval(db, questions)
-        constraints_result = evaluate_constraints(answers, questions)
+        constraints_result = evaluate_constraints(answer_texts, questions)
         cost_result = evaluate_cost(call_records)
     finally:
         db.close()
@@ -77,7 +85,7 @@ def run_eval(label: str) -> dict:
         "retrieval": retrieval_result,
         "constraints": constraints_result,
         "cost": cost_result,
-        "answers": answers,
+        "answers": answer_records,
     }
 
 
