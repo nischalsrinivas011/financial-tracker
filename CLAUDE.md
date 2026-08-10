@@ -92,30 +92,31 @@ evaluation methodology. Correctness and measurability matter more than feature c
 
 ## Current phase
 
-Phase 4 is functionally complete: 21-chunk non-tax knowledge corpus
-(`knowledge/`, tax scope dropped 2026-08-09 — see `docs/DECISIONS.md`),
-pgvector + local embeddings (`all-MiniLM-L6-v2`) on Neon, section-aware
-chunking (`app/rag/chunking.py`), vector search (`app/rag/retrieval.py`),
-SQL retrieval helpers over transactions (`app/rag/sql_retrieval.py`), a
-rule-based router measured at 94.4% against the golden set
-(`app/rag/router.py`), and hybrid answer assembly (`app/rag/answer.py`)
-verified live end-to-end with a real LLM call, not just mocked tests.
-Phase 1 (synthetic fixtures, deterministic parsers, reconciliation),
-Phase 2 (categorisation cascade), and Phase 3 (FastAPI + Postgres + real
-Clerk auth + first deploy on Render) are done. Still no frontend.
+Phase 4 is done (knowledge corpus, pgvector, chunking, router, hybrid
+answer assembly — see git history for detail). Phase 1-3 are done too.
+Still no frontend.
 
-Known, deliberately deferred gaps carried into Phase 5 rather than fixed
-now ("we can optimize later"): the router's 2 known misses on
-deliberately-open-ended edge-case questions (not chased with more
-keywords — see `docs/DECISIONS.md`); `answer_sql_question`'s NL→SQL-params
-extraction is rule-based and scoped to the golden set's patterns, not a
-general parser; vector-route retrieval at k=5 on a 21-chunk corpus
-sometimes pulls in tangentially-related chunks that the LLM then
-discusses even when not asked about — observed live, not yet fixed
-(likely a smaller k or a distance cutoff); `sentence-transformers`
-pulling in ~530MB of torch is unverified against Render's free-tier
-build/image size limits.
+Phase 5 (`RAG_EVALUATION.md`) is in progress. Done: `eval/` scaffolding,
+`eval/seed_persona.py` (real eval user seeded via the actual upload
+endpoints with arjun_salaried's data — `salaried_bengaluru_v1`), the
+deterministic metrics (`eval/metrics/{routing,retrieval,constraints,cost}.py`,
+no LLM needed), `eval/run_eval.py`, `eval/report.py`, and the first
+baseline (`eval/results/2026-08-10_baseline.json`: routing 94.4%,
+recall@5 88.0%, constraint pass rate 71.4%). `eval/FAILURES.md` has 4
+real findings from reading the baseline output, not just the numbers —
+one is a genuine bug (`answer_sql_question` mishandles category-less
+date-range questions like "how much did I spend in February").
 
-Phase 5 (`RAG_EVALUATION.md`) is where these get measured properly: eval
-harness, baseline run, and the 3-way chunking comparison (section-aware
-vs. fixed-size vs. semantic) that Phase 4 deliberately didn't build.
+Not yet built: groundedness (LLM-as-judge) and refusal-behaviour
+metrics — the groundedness judge specifically needs the owner to
+hand-label ~20 answers for calibration, not something Claude can do
+alone (see docs/DECISIONS.md if that changes). Also not built: the
+3-way chunking experiment (fixed-size vs. section-aware vs. semantic) —
+Phase 4 only built section-aware.
+
+Other known, deliberately deferred gaps ("we can optimize later"): the
+router's 2 known misses on deliberately open-ended edge-case questions
+(not chased with more keywords); vector-route retrieval at k=5 on a
+21-chunk corpus sometimes pulls in tangentially-related chunks the LLM
+then discusses unprompted; `sentence-transformers` pulling in ~530MB of
+torch is unverified against Render's free-tier build/image size limits.
