@@ -1,0 +1,1295 @@
+{
+  "label": "embedding-swap-fastembed",
+  "generated_at": "2026-08-10T17:34:57.599165+00:00",
+  "question_count": 36,
+  "routing": {
+    "accuracy": 0.9444444444444444,
+    "correct": 34,
+    "total": 36,
+    "confusion_matrix": {
+      "hybrid->hybrid": 8,
+      "hybrid->sql": 2,
+      "refuse->refuse": 6,
+      "sql->sql": 10,
+      "vector->vector": 10
+    },
+    "per_question": [
+      {
+        "id": "sql-001",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "sql-002",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "sql-003",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "sql-004",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "sql-005",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "sql-006",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "vec-001",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-002",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-003",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-004",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-005",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-006",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-007",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-008",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-009",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "vec-010",
+        "expected": "vector",
+        "got": "vector",
+        "correct": true
+      },
+      {
+        "id": "hyb-001",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-002",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-003",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-004",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-005",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-006",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-007",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "hyb-008",
+        "expected": "hybrid",
+        "got": "hybrid",
+        "correct": true
+      },
+      {
+        "id": "ref-001",
+        "expected": "refuse",
+        "got": "refuse",
+        "correct": true
+      },
+      {
+        "id": "ref-002",
+        "expected": "refuse",
+        "got": "refuse",
+        "correct": true
+      },
+      {
+        "id": "ref-003",
+        "expected": "refuse",
+        "got": "refuse",
+        "correct": true
+      },
+      {
+        "id": "ref-004",
+        "expected": "refuse",
+        "got": "refuse",
+        "correct": true
+      },
+      {
+        "id": "ref-005",
+        "expected": "refuse",
+        "got": "refuse",
+        "correct": true
+      },
+      {
+        "id": "ref-006",
+        "expected": "refuse",
+        "got": "refuse",
+        "correct": true
+      },
+      {
+        "id": "edge-001",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "edge-002",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "edge-003",
+        "expected": "hybrid",
+        "got": "sql",
+        "correct": false
+      },
+      {
+        "id": "edge-004",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      },
+      {
+        "id": "edge-005",
+        "expected": "hybrid",
+        "got": "sql",
+        "correct": false
+      },
+      {
+        "id": "edge-006",
+        "expected": "sql",
+        "got": "sql",
+        "correct": true
+      }
+    ]
+  },
+  "retrieval": {
+    "summary": {
+      "precision@3": 0.4259259259259259,
+      "precision@5": 0.2666666666666667,
+      "precision@10": 0.14444444444444446,
+      "recall@3": 0.8611111111111112,
+      "recall@5": 0.8796296296296297,
+      "recall@10": 0.925925925925926,
+      "mrr": 0.9305555555555556,
+      "questions_scored": 18
+    },
+    "per_question": [
+      {
+        "id": "vec-001",
+        "retrieved": [
+          "budgeting-50-30-20",
+          "essential-vs-discretionary",
+          "foir-affordability",
+          "emergency-fund-framework",
+          "healthy-debt-to-income",
+          "credit-utilization-ratio",
+          "savings-rate-definition",
+          "debt-payoff-strategies",
+          "prepay-vs-invest",
+          "debt-ratios"
+        ],
+        "relevant": [
+          "budgeting-50-30-20"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-002",
+        "retrieved": [
+          "term-insurance-coverage",
+          "insurance-adequacy",
+          "budgeting-50-30-20",
+          "emergency-fund-framework",
+          "healthy-debt-to-income",
+          "essential-vs-discretionary",
+          "asset-allocation-by-age",
+          "sip-mechanics",
+          "foir-affordability",
+          "savings-rate-definition"
+        ],
+        "relevant": [
+          "insurance-adequacy",
+          "term-insurance-coverage"
+        ],
+        "precision@3": 0.6666666666666666,
+        "recall@3": 1.0,
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-003",
+        "retrieved": [
+          "asset-allocation-by-age",
+          "equity-expected-returns",
+          "debt-payoff-strategies",
+          "budgeting-50-30-20",
+          "debt-ratios",
+          "healthy-debt-to-income",
+          "parking-short-term-funds",
+          "prepay-vs-invest",
+          "term-insurance-coverage",
+          "emergency-fund-framework"
+        ],
+        "relevant": [
+          "asset-allocation-by-age"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-004",
+        "retrieved": [
+          "parking-short-term-funds",
+          "emergency-fund-framework",
+          "essential-vs-discretionary",
+          "budgeting-50-30-20",
+          "rent-vs-buy",
+          "debt-payoff-strategies",
+          "savings-rate-definition",
+          "prepay-vs-invest",
+          "asset-allocation-by-age",
+          "equity-expected-returns"
+        ],
+        "relevant": [
+          "parking-short-term-funds"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-005",
+        "retrieved": [
+          "rent-vs-buy",
+          "essential-vs-discretionary",
+          "budgeting-50-30-20",
+          "healthy-debt-to-income",
+          "asset-allocation-by-age",
+          "equity-expected-returns",
+          "term-insurance-coverage",
+          "parking-short-term-funds",
+          "emergency-fund-framework",
+          "insurance-adequacy"
+        ],
+        "relevant": [
+          "emi-calculation",
+          "rent-vs-buy"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.1,
+        "recall@10": 0.5,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-006",
+        "retrieved": [
+          "sip-mechanics",
+          "savings-rate-definition",
+          "cc-revolving-interest",
+          "emi-calculation",
+          "credit-utilization-ratio",
+          "debt-ratios",
+          "credit-score-factors",
+          "cc-late-payment",
+          "essential-vs-discretionary",
+          "foir-affordability"
+        ],
+        "relevant": [
+          "sip-mechanics"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-007",
+        "retrieved": [
+          "essential-vs-discretionary",
+          "emergency-fund-framework",
+          "term-insurance-coverage",
+          "budgeting-50-30-20",
+          "parking-short-term-funds",
+          "insurance-adequacy",
+          "healthy-debt-to-income",
+          "foir-affordability",
+          "savings-rate-definition",
+          "sip-mechanics"
+        ],
+        "relevant": [
+          "emergency-fund-framework"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 0.5
+      },
+      {
+        "id": "vec-008",
+        "retrieved": [
+          "cc-late-payment",
+          "cc-revolving-interest",
+          "credit-score-factors",
+          "credit-utilization-ratio",
+          "debt-payoff-strategies",
+          "debt-ratios",
+          "rent-vs-buy",
+          "essential-vs-discretionary",
+          "parking-short-term-funds",
+          "healthy-debt-to-income"
+        ],
+        "relevant": [
+          "cc-late-payment",
+          "credit-score-factors"
+        ],
+        "precision@3": 0.6666666666666666,
+        "recall@3": 1.0,
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-009",
+        "retrieved": [
+          "credit-utilization-ratio",
+          "credit-score-factors",
+          "cc-late-payment",
+          "cc-revolving-interest",
+          "debt-ratios",
+          "debt-payoff-strategies",
+          "healthy-debt-to-income",
+          "essential-vs-discretionary",
+          "foir-affordability",
+          "budgeting-50-30-20"
+        ],
+        "relevant": [
+          "credit-score-factors",
+          "credit-utilization-ratio"
+        ],
+        "precision@3": 0.6666666666666666,
+        "recall@3": 1.0,
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "vec-010",
+        "retrieved": [
+          "debt-payoff-strategies",
+          "debt-ratios",
+          "essential-vs-discretionary",
+          "prepay-vs-invest",
+          "healthy-debt-to-income",
+          "equity-expected-returns",
+          "cc-revolving-interest",
+          "credit-score-factors",
+          "term-insurance-coverage",
+          "sip-mechanics"
+        ],
+        "relevant": [
+          "debt-payoff-strategies"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-001",
+        "retrieved": [
+          "prepay-vs-invest",
+          "healthy-debt-to-income",
+          "parking-short-term-funds",
+          "asset-allocation-by-age",
+          "budgeting-50-30-20",
+          "equity-expected-returns",
+          "debt-payoff-strategies",
+          "foir-affordability",
+          "essential-vs-discretionary",
+          "rent-vs-buy"
+        ],
+        "relevant": [
+          "equity-expected-returns",
+          "prepay-vs-invest"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-002",
+        "retrieved": [
+          "healthy-debt-to-income",
+          "debt-ratios",
+          "term-insurance-coverage",
+          "debt-payoff-strategies",
+          "asset-allocation-by-age",
+          "foir-affordability",
+          "essential-vs-discretionary",
+          "budgeting-50-30-20",
+          "emergency-fund-framework",
+          "credit-utilization-ratio"
+        ],
+        "relevant": [
+          "debt-ratios",
+          "healthy-debt-to-income"
+        ],
+        "precision@3": 0.6666666666666666,
+        "recall@3": 1.0,
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-003",
+        "retrieved": [
+          "budgeting-50-30-20",
+          "essential-vs-discretionary",
+          "healthy-debt-to-income",
+          "foir-affordability",
+          "savings-rate-definition",
+          "asset-allocation-by-age",
+          "insurance-adequacy",
+          "term-insurance-coverage",
+          "parking-short-term-funds",
+          "emergency-fund-framework"
+        ],
+        "relevant": [
+          "budgeting-50-30-20"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-004",
+        "retrieved": [
+          "essential-vs-discretionary",
+          "parking-short-term-funds",
+          "emergency-fund-framework",
+          "budgeting-50-30-20",
+          "insurance-adequacy",
+          "term-insurance-coverage",
+          "savings-rate-definition",
+          "sip-mechanics",
+          "healthy-debt-to-income",
+          "foir-affordability"
+        ],
+        "relevant": [
+          "emergency-fund-framework",
+          "essential-vs-discretionary"
+        ],
+        "precision@3": 0.6666666666666666,
+        "recall@3": 1.0,
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-005",
+        "retrieved": [
+          "cc-revolving-interest",
+          "cc-late-payment",
+          "debt-payoff-strategies",
+          "credit-score-factors",
+          "credit-utilization-ratio",
+          "debt-ratios",
+          "healthy-debt-to-income",
+          "prepay-vs-invest",
+          "savings-rate-definition",
+          "parking-short-term-funds"
+        ],
+        "relevant": [
+          "cc-late-payment",
+          "cc-revolving-interest"
+        ],
+        "precision@3": 0.6666666666666666,
+        "recall@3": 1.0,
+        "precision@5": 0.4,
+        "recall@5": 1.0,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-006",
+        "retrieved": [
+          "savings-rate-definition",
+          "emergency-fund-framework",
+          "term-insurance-coverage",
+          "essential-vs-discretionary",
+          "parking-short-term-funds",
+          "budgeting-50-30-20",
+          "healthy-debt-to-income",
+          "foir-affordability",
+          "insurance-adequacy",
+          "rent-vs-buy"
+        ],
+        "relevant": [
+          "savings-rate-definition"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 1.0,
+        "precision@5": 0.2,
+        "recall@5": 1.0,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-007",
+        "retrieved": [
+          "foir-affordability",
+          "healthy-debt-to-income",
+          "budgeting-50-30-20",
+          "rent-vs-buy",
+          "prepay-vs-invest",
+          "parking-short-term-funds",
+          "asset-allocation-by-age",
+          "essential-vs-discretionary",
+          "debt-ratios",
+          "equity-expected-returns"
+        ],
+        "relevant": [
+          "emi-calculation",
+          "foir-affordability"
+        ],
+        "precision@3": 0.3333333333333333,
+        "recall@3": 0.5,
+        "precision@5": 0.2,
+        "recall@5": 0.5,
+        "precision@10": 0.1,
+        "recall@10": 0.5,
+        "mrr": 1.0
+      },
+      {
+        "id": "hyb-008",
+        "retrieved": [
+          "parking-short-term-funds",
+          "healthy-debt-to-income",
+          "asset-allocation-by-age",
+          "emergency-fund-framework",
+          "term-insurance-coverage",
+          "essential-vs-discretionary",
+          "budgeting-50-30-20",
+          "equity-expected-returns",
+          "insurance-adequacy",
+          "prepay-vs-invest"
+        ],
+        "relevant": [
+          "debt-ratios",
+          "emergency-fund-framework",
+          "insurance-adequacy"
+        ],
+        "precision@3": 0.0,
+        "recall@3": 0.0,
+        "precision@5": 0.2,
+        "recall@5": 0.3333333333333333,
+        "precision@10": 0.2,
+        "recall@10": 0.6666666666666666,
+        "mrr": 0.25
+      }
+    ]
+  },
+  "constraints": {
+    "passed": 10,
+    "total": 14,
+    "pass_rate": 0.7142857142857143,
+    "per_question": [
+      {
+        "id": "sql-001",
+        "passed": false,
+        "missing_required": [
+          "amount",
+          "month"
+        ],
+        "forbidden_present": []
+      },
+      {
+        "id": "vec-001",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "vec-002",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "vec-004",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "vec-005",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "hyb-001",
+        "passed": false,
+        "missing_required": [
+          "your surplus"
+        ],
+        "forbidden_present": []
+      },
+      {
+        "id": "hyb-002",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "hyb-003",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "hyb-006",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "hyb-007",
+        "passed": false,
+        "missing_required": [
+          "assumption",
+          "indicative"
+        ],
+        "forbidden_present": []
+      },
+      {
+        "id": "hyb-008",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "ref-001",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "ref-005",
+        "passed": true,
+        "missing_required": [],
+        "forbidden_present": []
+      },
+      {
+        "id": "edge-001",
+        "passed": false,
+        "missing_required": [
+          "no data",
+          "February"
+        ],
+        "forbidden_present": []
+      }
+    ]
+  },
+  "cost": {
+    "llm_calls": 18,
+    "total_input_tokens": 23174,
+    "total_output_tokens": 5223,
+    "avg_input_tokens": 1287.4444444444443,
+    "avg_output_tokens": 290.1666666666667,
+    "p50_latency_ms": 2343.5148000717163,
+    "p95_latency_ms": 5155.2984999725595,
+    "providers_used": [
+      "groq",
+      "mistral"
+    ]
+  },
+  "answers": {
+    "sql-001": {
+      "text": "You spent ₹3,064.00 on food delivery in March, across 5 transactions.",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "sql-002": {
+      "text": "Your largest transaction in the last quarter (Jan-Mar 2026) was ₹38,000.00 to PRAKASH REDDY on 2026-01-03.",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "sql-003": {
+      "text": "Average monthly spend was ₹190,122.17 in H1 (Apr-Sep) versus ₹175,551.33 in H2 (Oct-Mar), a difference of ₹14,570.83.",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "sql-004": {
+      "text": "You paid ZOMATO most often in the fiscal year: 34 times.",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "sql-005": {
+      "text": "In the fiscal year, 18.3% of your income (₹2,068,800.00) went to EMIs (₹379,200.00).",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "sql-006": {
+      "text": "Spending on subscription went down: ₹848.00 in 2025-04 to ₹848.00 in 2026-03.",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "vec-001": {
+      "text": "The 50/30/20 budgeting rule suggests dividing a take-home income into three buckets:\n\n- **50% for needs** (rent, groceries, utilities, insurance, minimum debt payments, and essential expenses that a person would struggle to live without).\n- **30% for wants** (dining out, entertainment, subscriptions, travel, and other discretionary spending).\n- **20% for savings and debt paydown** (building an emergency fund, investing, and paying down debt faster than the required minimum).\n\nYou may need to adjust this rule based on your individual circumstances, such as a high cost of living in your area, the number of dependents you have, or irregular income. [budgeting-50-30-20]\n\nNote that needs and wants are also categorized as essential and discretionary spending, with essential spending including rent, groceries, utilities, insurance, and minimum debt payments, and discretionary spending including dining out, entertainment, and subscriptions. [essential-vs-discretionary]\n\nIn terms of affordability, your fixed obligation to income ratio (FOIR) should be below 50% for most lenders, though this can vary by lender and income level. [foir-affordability]\n\nFor building an emergency fund, it's recommended to hold 3 to 6 months of essential expenses in a safe and immediately accessible savings account. [emergency-fund-framework]\n\nFinally, a healthy debt-to-income ratio is generally considered to be under 20%, with 20-36% being manageable but leaving less room to absorb an income shock, and above 36-40% being a cautionary range for lenders. [healthy-debt-to-income]",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "budgeting-50-30-20",
+        "essential-vs-discretionary",
+        "foir-affordability",
+        "emergency-fund-framework",
+        "healthy-debt-to-income"
+      ],
+      "cost": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_tokens": 1247,
+        "output_tokens": 335,
+        "latency_ms": 814.8292999248952
+      }
+    },
+    "vec-002": {
+      "text": "To estimate how much life insurance coverage you need, consider the following factors:\n\n- Your annual income\n- Number of dependents, considering their age and the length of time they'll be relying on you financially\n- Outstanding loans (e.g., home loan, car loan)\n- Existing assets and savings that could reduce the need for additional coverage\n\nThe rule of thumb is 10 to 15 times your annual income, adjusted by the factors mentioned above [term-insurance-coverage]. However, a more precise approach is to calculate the sum of what dependents actually need (years of expenses, outstanding debt, future goals) and subtract what's already covered by existing assets and policies.\n\nConsider having a conversation with a professional to tailor your coverage to your specific situation.\n\nIt's also worth noting that adequate insurance coverage is often risk-based, not solely dependent on a single number. You may want to consider what specific bad scenarios you want your policy to cover and whether the payout would actually address it today [insurance-adequacy].",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "term-insurance-coverage",
+        "insurance-adequacy",
+        "budgeting-50-30-20",
+        "emergency-fund-framework",
+        "healthy-debt-to-income"
+      ],
+      "cost": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_tokens": 1223,
+        "output_tokens": 207,
+        "latency_ms": 667.998000048101
+      }
+    },
+    "vec-003": {
+      "text": "As you get older, it's suggested that your equity/debt mix should shift. A common rule of thumb is to roughly target [asset-allocation-by-age] an equity allocation percentage of 100 minus your age. \n\nA 30-year-old might target roughly 70% equity, 30% debt; a 60-year-old might target roughly 40% equity, 60% debt. The reasoning behind this is the shrinking time horizon and falling risk capacity with age [asset-allocation-by-age].\n\nFor example, if you are a 40-year-old, you might aim for around 60% equity and 40% debt, depending on your individual risk capacity and needs. Keep in mind this is just a starting heuristic. Your actual risk capacity depends on factors like income stability, other assets, and how soon the money is needed.\n\nIt's also worth noting that your current debt-to-income ratio [debt-ratios] is crucial in making these decisions. You may want to prioritize debt paydown strategies, such as the avalanche or snowball methods [debt-payoff-strategies], and ensure you have some savings for short-term needs within your 50/30/20 budgeting framework [budgeting-50-30-20].",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "asset-allocation-by-age",
+        "equity-expected-returns",
+        "debt-payoff-strategies",
+        "budgeting-50-30-20",
+        "debt-ratios"
+      ],
+      "cost": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_tokens": 1128,
+        "output_tokens": 255,
+        "latency_ms": 686.8055999511853
+      }
+    },
+    "vec-004": {
+      "text": "For money you’ll need in the next **6 months**, the safest and most liquid options—each with distinct trade-offs—include:\n\n1. **Savings account or sweep-in fixed deposit (FD)**\n   - *Pros*: Fully liquid, principal-safe, and easy to access without penalties.\n   - *Trade-off*: Offers modest returns, leaving little room for growth beyond inflation [parking-short-term-funds].\n\n2. **Short-term fixed deposits (FDs)**\n   - *Pros*: Slightly better returns than a savings account, principal-safe.\n   - *Trade-off*: Early withdrawal may incur small penalties, reducing flexibility [parking-short-term-funds].\n\n3. **Liquid or short-duration mutual funds**\n   - *Pros*: More liquid than FDs and historically more stable than equity, with potential for modest growth.\n   - *Trade-off*: No principal guarantee (unlike bank deposits), though risk is lower than equity [parking-short-term-funds].\n\nThe core trade-off is **safety and accessibility** (e.g., savings accounts/FDs) versus **slightly higher returns** (e.g., liquid funds), but none match the long-term upside of equity. Since your horizon is short, prioritizing liquidity and principal protection may outweigh incremental yield.",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "parking-short-term-funds",
+        "emergency-fund-framework",
+        "essential-vs-discretionary",
+        "budgeting-50-30-20",
+        "rent-vs-buy"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1432,
+        "output_tokens": 275,
+        "latency_ms": 2365.738600026816
+      }
+    },
+    "vec-005": {
+      "text": "The decision to rent or buy a home involves key trade-offs based on your personal circumstances and local market conditions:\n\n- **Time horizon matters**: If you expect to stay in the same home for many years, buying may make sense because the upfront costs (down payment, registration, brokerage) can be \"paid back\" over time by avoiding future rent payments. However, if you anticipate moving frequently or relocating for work or family reasons, renting offers more flexibility [rent-vs-buy].\n\n- **Opportunity cost of the down payment**: The money tied up in a down payment could instead be invested, potentially growing over time. A financial comparison should weigh the home’s expected appreciation and the savings from not paying rent against the returns the down payment could have earned elsewhere [rent-vs-buy].\n\n- **Local price-to-rent ratio**: In some markets, renting and investing the difference between rent and mortgage payments might yield better financial returns than buying. In others, where purchase prices are relatively low compared to rent, buying could be more advantageous. This varies significantly by city and neighborhood [rent-vs-buy].\n\n- **Non-financial factors**: Stability, control over the property, and the ability to customize or modify your living space are important considerations that don’t appear in financial calculations. For many people, these factors outweigh purely financial trade-offs [rent-vs-buy].\n\nUltimately, the choice depends on balancing these factors against your priorities and financial situation.",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "rent-vs-buy",
+        "essential-vs-discretionary",
+        "budgeting-50-30-20",
+        "healthy-debt-to-income",
+        "asset-allocation-by-age"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1447,
+        "output_tokens": 303,
+        "latency_ms": 2343.5148000717163
+      }
+    },
+    "vec-006": {
+      "text": "A SIP (Systematic Investment Plan) works by investing a **fixed amount** into a mutual fund at regular intervals—typically monthly—**automatically**, rather than making a one-time lump-sum investment [sip-mechanics].\n\nThe key mechanism is **rupee-cost averaging**: since the fund’s unit price fluctuates, each instalment buys more units when prices are low and fewer when prices are high. Over time, this smooths out the average purchase cost across market ups and downs, reducing the impact of timing the market [sip-mechanics].\n\nHowever, a SIP is just a **discipline for how** you invest a set amount over time—it doesn’t determine **which fund** to choose or whether that fund is suitable for your goals [sip-mechanics].",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "sip-mechanics",
+        "savings-rate-definition",
+        "cc-revolving-interest",
+        "emi-calculation",
+        "credit-utilization-ratio"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1197,
+        "output_tokens": 165,
+        "latency_ms": 1698.4990999335423
+      }
+    },
+    "vec-007": {
+      "text": "Based on the provided context, here’s how the question about an emergency fund can be addressed:\n\nThe recommended size for an emergency fund is typically **3 to 6 months of essential expenses** [emergency-fund-framework]. This range accounts for trade-offs between liquidity and coverage:\n\n- **Lower end (3 months):** Suitable for those with stable, salaried jobs at large employers or strong safety nets (e.g., a spouse with independent income) [emergency-fund-framework].\n- **Higher end (6+ months):** Justified for freelancers, commission-based earners, or those in volatile industries, as well as individuals supporting dependents (e.g., children, parents, or a non-earning spouse) [emergency-fund-framework].\n\nThe fund should cover *only essential expenses*—not total spending—since discretionary spending (e.g., dining out, travel) can be reduced without immediate crisis [essential-vs-discretionary, emergency-fund-framework]. The trade-off is between having enough to weather an income gap and maintaining flexibility in other financial goals (e.g., investments or debt repayment).",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "essential-vs-discretionary",
+        "emergency-fund-framework",
+        "term-insurance-coverage",
+        "budgeting-50-30-20",
+        "parking-short-term-funds"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1333,
+        "output_tokens": 234,
+        "latency_ms": 2136.746000032872
+      }
+    },
+    "vec-008": {
+      "text": "If you miss a credit card payment, several consequences will occur. These include:\n\n- Interest starting to accrue on the outstanding balance at a high monthly rate [cc-late-payment].\n- A late payment fee being charged, which is usually a flat amount or a percentage of the overdue sum [cc-late-payment].\n- A negative impact on your credit score, as payment history is typically the single largest factor in most credit scoring models [credit-score-factors].\n- Loss of the interest-free period on new purchases, meaning future purchases will start accruing interest immediately [cc-late-payment].\n\nIt's essential to consider the combination of these consequences, as the interest charge alone might be small, but the credit score hit and the loss of the interest-free period have lasting effects [cc-late-payment].",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "cc-late-payment",
+        "cc-revolving-interest",
+        "credit-score-factors",
+        "credit-utilization-ratio",
+        "debt-payoff-strategies"
+      ],
+      "cost": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_tokens": 1239,
+        "output_tokens": 162,
+        "latency_ms": 420.9945999318734
+      }
+    },
+    "vec-009": {
+      "text": "Your credit utilization ratio—the percentage of your available credit limit that you’re currently using—directly influences your credit score, even if you pay the balance in full each month [credit-utilization-ratio][credit-score-factors].\n\nThe impact depends on how high your utilization is:\n- Keeping it **under 30%** is generally safe, though scores may benefit further if you stay **below 10%**.\n- The key trade-off is that **your credit score can drop** if your utilization spikes near or above these thresholds, even if you pay the statement balance on time. This happens because credit issuers report your balance at a specific statement date to bureaus, regardless of whether you clear it before the due date [credit-utilization-ratio].\n\nSince **payment history and utilization together dominate most credit scores**, balancing these factors is critical. For example, maintaining low utilization helps offset minor score fluctuations from occasional late payments, but high utilization could amplify the negative impact of a missed payment [credit-score-factors][cc-late-payment].\n\nThe trade-off isn’t just about the score—high utilization also signals to lenders that you might be overextended, which could affect future borrowing terms (e.g., higher interest rates or stricter approvals) [debt-ratios]. However, if you prioritize paying balances in full to avoid interest costs, you might accept slightly higher utilization as a temporary trade-off for better cash flow [cc-revolving-interest].",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "credit-utilization-ratio",
+        "credit-score-factors",
+        "cc-late-payment",
+        "cc-revolving-interest",
+        "debt-ratios"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1148,
+        "output_tokens": 300,
+        "latency_ms": 5155.2984999725595
+      }
+    },
+    "vec-010": {
+      "text": "The **debt snowball** and **debt avalanche** methods differ primarily in how they prioritize extra payments toward multiple debts:\n\n- **Snowball** focuses on paying off the *smallest balance* first, regardless of interest rate [debt-payoff-strategies]. This approach can provide psychological momentum by clearing debts quickly, which may help maintain motivation—especially for someone who needs visible progress to stay committed.\n\n- **Avalanche** targets the debt with the *highest interest rate* first, which mathematically minimizes total interest paid over time [debt-payoff-strategies]. This method is more cost-effective but may feel slower if high-interest debts have large balances.\n\nThe trade-off lies between **mathematical efficiency** (saving more money with avalanche) and **psychological sustainability** (gaining confidence with snowball). Neither is inherently \"better\"—the choice depends on which method aligns with your ability to stay disciplined.",
+      "route": "vector",
+      "used_llm": true,
+      "sources": [
+        "debt-payoff-strategies",
+        "debt-ratios",
+        "essential-vs-discretionary",
+        "prepay-vs-invest",
+        "healthy-debt-to-income"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1161,
+        "output_tokens": 199,
+        "latency_ms": 1879.570099990815
+      }
+    },
+    "hyb-001": {
+      "text": "Here’s how the provided context addresses your trade-off between prepaying your home loan and investing the surplus, along with relevant trade-offs:\n\n1. **Guaranteed vs. uncertain returns**\n   - Prepaying your home loan offers a **guaranteed, risk-free return equal to the loan’s interest rate**—every rupee prepayed saves exactly that much in interest over time, with no market risk [prepay-vs-invest].\n   - Investing (e.g., in equity) could yield **higher expected returns over the long run**, but these are **not guaranteed** and depend on market performance, which carries uncertainty [prepay-vs-invest].\n\n2. **Interest rate sensitivity**\n   - If your home loan’s interest rate is **high** (e.g., unsecured or personal loans), prepaying may be more advantageous because the guaranteed savings could outperform most investments [prepay-vs-invest].\n   - If your home loan’s rate is **low** (e.g., subsidized or long-tenure secured loans) and you have a **long investment horizon** with **high risk tolerance**, investing *might* plausibly exceed the savings from prepayment—but this is speculative, not certain [prepay-vs-invest].\n\n3. **Debt-to-income context**\n   - Your **debt-to-income ratio** (not provided here) could influence whether prepaying is feasible without straining your budget. If you’re already near the **36-40% threshold**, aggressive prepayment might limit flexibility for emergencies or other financial goals [healthy-debt-to-income].\n   - Conversely, if your ratio is **under 20%**, you may have more room to allocate surplus funds toward either prepayment or investing without risking financial instability.\n\n4. **Time horizon and risk capacity**\n   - If you’re **far from retirement** (e.g., younger age) and",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "prepay-vs-invest",
+        "healthy-debt-to-income",
+        "parking-short-term-funds",
+        "asset-allocation-by-age",
+        "budgeting-50-30-20"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1403,
+        "output_tokens": 400,
+        "latency_ms": 3163.0333000794053
+      }
+    },
+    "hyb-002": {
+      "text": "To determine how much of your income is going toward debt each month and whether that's healthy, we will need to know your gross monthly income and how much you are spending on debt payments each month. Unfortunately, none of this information is provided in the context given. However, the general guideline for debt-to-income ratio provided in [healthy-debt-to-income] suggests a range of under 20% to above 40% is considered. \n\nTo give you a better assessment, you would need to gather more information about your income and existing debt payments. Once you have that data, you can calculate your debt-to-income ratio and determine whether your payments are within a healthy range.",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "healthy-debt-to-income",
+        "debt-ratios",
+        "term-insurance-coverage",
+        "debt-payoff-strategies",
+        "asset-allocation-by-age"
+      ],
+      "cost": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_tokens": 1213,
+        "output_tokens": 137,
+        "latency_ms": 500.0845999456942
+      }
+    },
+    "hyb-003": {
+      "text": "Since your actual spending categories and income aren’t provided in the context, I can’t calculate a **50/30/20** budget using your real numbers. However, here’s how the framework would *theoretically* apply based on the general rules from the corpus, along with key trade-offs to consider:\n\n---\n\n### **How the 50/30/20 Rule Would Work with Your Data (Hypothetical)**\n1. **Needs (50%)**\n   - *What it covers*: Rent/mortgage EMI, groceries, utilities, insurance premiums, minimum debt payments, and essential transport (e.g., commuting to work) [budgeting-50-30-20, essential-vs-discretionary].\n   - *Trade-offs*:\n     - If your **cost of living is high** (e.g., rent or groceries consume >50%), you might need to adjust the split (e.g., 60/20/20) to avoid cutting discretionary spending too aggressively [budgeting-50-30-20].\n     - Some \"needs\" (e.g., subscriptions for work tools) could blur into discretionary spending—clarifying which are *non-negotiable* is critical [essential-vs-discretionary].\n\n2. **Wants (30%)**\n   - *What it covers*: Dining out, entertainment, non-essential shopping, travel, or premium groceries (e.g., organic produce) [budgeting-50-30-20, essential-vs-discretionary].\n   - *Trade-offs*:\n     - Cutting this category first in a financial squeeze is easy, but over time, it may reduce quality of life or act as a mental buffer [budgeting-50-30-20].\n     - If your **",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "budgeting-50-30-20",
+        "essential-vs-discretionary",
+        "healthy-debt-to-income",
+        "foir-affordability",
+        "savings-rate-definition"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1334,
+        "output_tokens": 400,
+        "latency_ms": 3627.3319999454543
+      }
+    },
+    "hyb-004": {
+      "text": "Based on the provided context, here’s how your emergency fund size could be evaluated:\n\n1. **Focus on essential expenses only**—your emergency fund should cover **3–6 months of essential spending** (e.g., rent, groceries, utilities, debt minimums, transport, and medicine), not total spending. This distinction matters because discretionary spending (e.g., dining out, subscriptions) can be paused without immediate crisis [essential-vs-discretionary].\n\n2. **Job stability and dependents matter**—if you’re in a stable salaried role with no dependents, **3 months of essential expenses** may suffice. If you’re freelance, in a volatile industry, or support dependents (e.g., children, parents), aim closer to **6+ months** [emergency-fund-framework].\n\n3. **Liquidity and safety trade-offs**—your emergency fund should be **fully liquid and principal-safe** (e.g., savings account, sweep-in FD, or liquid mutual funds), not tied to equity or locked investments. The trade-off is lower returns for security and immediate access [parking-short-term-funds].\n\n4. **Other safety nets reduce the target**—if you have a spouse with stable income, family support, or other financial cushions, you might safely target the lower end of the range (e.g., 3 months) [emergency-fund-framework].\n\n**Key question to assess your fund:**\n*If you lost your income tomorrow, could you cover your essential expenses for 3–6 months without dipping into discretionary spending or debt?* If not, your fund may need adjustment.",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "essential-vs-discretionary",
+        "parking-short-term-funds",
+        "emergency-fund-framework",
+        "budgeting-50-30-20",
+        "insurance-adequacy"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1280,
+        "output_tokens": 341,
+        "latency_ms": 4164.03210000135
+      }
+    },
+    "hyb-005": {
+      "text": "Your high credit card interest likely stems from one or more of these factors based on the context provided:\n\n1. **Revolving a balance** – If you carried over any portion of your statement balance from one month to the next (even by a small amount), interest began accruing on the unpaid amount [cc-revolving-interest]. This is typically calculated daily or monthly at a high rate, and the interest-free grace period for new purchases disappears until the full balance is paid off again.\n\n2. **Missing or late payments** – If you missed a payment or paid less than the minimum due, interest may have started accruing on the outstanding balance, and the grace period for future purchases was lost [cc-late-payment]. Additionally, late payments can trigger higher interest charges and negatively impact your credit score.\n\n3. **High monthly interest rate** – Even if the rate seems modest (e.g., 3.5% per month), the effective annualized rate is significantly higher due to compounding. This makes credit card debt one of the most expensive forms of borrowing [cc-revolving-interest].\n\n**Trade-offs to consider:**\n- Paying off the balance in full each month avoids interest entirely, but if you’ve already revolved debt, clearing it aggressively (e.g., using the **avalanche method** for high-interest debt) could save more money long-term, though it may require sacrificing liquidity [debt-payoff-strategies, cc-revolving-interest].\n- If you’re close to maxing out your credit limit, high utilization could be affecting your credit score even if you pay in full, as issuers report balances to credit bureaus regardless of payment timing [credit-utilization-ratio]. Reducing spending or requesting a higher limit might help.",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "cc-revolving-interest",
+        "cc-late-payment",
+        "debt-payoff-strategies",
+        "credit-score-factors",
+        "credit-utilization-ratio"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1277,
+        "output_tokens": 366,
+        "latency_ms": 2913.42750005424
+      }
+    },
+    "hyb-006": {
+      "text": "Based on the provided context, here’s how you might approach calculating your **monthly savings** while accounting for the nuances mentioned:\n\n1. **Separate savings and investing** – Your total savings figure should distinguish between money held in **savings accounts** (or similar safe, liquid assets) and money **invested** (e.g., SIPs, mutual funds). The context emphasizes that these are distinct categories, as investing carries market risk [savings-rate-definition].\n\n2. **Exclude inter-account transfers** – If you’re moving money between your own accounts (e.g., from a checking account to a savings account or from a joint account to an individual account), those transfers **do not count as new savings**. They’re just the same money changing location, which could inflate your savings number if included [savings-rate-definition].\n\n3. **Focus on net savings after expenses** – To calculate your savings rate, subtract your **total expenses** (both essential and discretionary) from your **total income**. The remaining amount is what’s available for savings or investing. The context doesn’t provide specific numbers, but it clarifies that **essential expenses** (e.g., rent, groceries, utilities, debt payments) are distinct from discretionary spending (e.g., dining out, subscriptions) [essential-vs-discretionary].\n\n4. **Trade-offs in categorization** – How you classify spending (e.g., whether a subscription is \"essential\" or \"discretionary\") will affect your savings calculation. For example, if you treat a work-related subscription as essential, it reduces your net savings compared to treating it as discretionary [essential-vs-discretionary].\n\n### Key Trade-offs:\n- **Liquidity vs. growth**: If you’re saving for near-term goals (e.g., a down payment or upcoming expense), the context suggests parking that money in **savings accounts, fixed deposits, or liquid",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "savings-rate-definition",
+        "emergency-fund-framework",
+        "term-insurance-coverage",
+        "essential-vs-discretionary",
+        "parking-short-term-funds"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1350,
+        "output_tokens": 400,
+        "latency_ms": 3509.8131999839097
+      }
+    },
+    "hyb-007": {
+      "text": "Whether you can afford a 50 lakh home loan is dependent on several factors, including your gross monthly income, existing loan obligations, and the interest rate and tenure of the proposed loan. Lenders typically use the FOIR (Fixed Obligation to Income Ratio) to decide how large a loan you can take on, which is usually capped at 40-50% of your gross monthly income [foir-affordability].\n\nWithout knowing your current income or debt obligations, it's difficult to determine if the 50 lakh home loan would put you in a manageable debt-to-income ratio. However, as a rough guideline, under 20% is considered a comfortable debt-to-income ratio, 20-36% is manageable but leaves less room for income shocks, and above 36-40% is where lenders may become cautious [healthy-debt-to-income].\n\nIt's also worth considering how a 50 lakh home loan would fit into your overall budget. The 50/30/20 rule suggests that 50% of your take-home income should go towards needs, 30% towards discretionary spending, and 20% towards savings and debt paydown [budgeting-50-30-20]. While this rule is just a heuristic, it can help you visualize how a large loan would impact your finances.\n\nUltimately, whether you can afford a 50 lakh home loan is a trade-off that depends on your individual financial situation, local market factors, and personal preferences. It's essential to weigh the pros and cons, including the opportunity cost of the down payment, the interest rate and tenure of the loan, and the potential returns from investing the surplus amount [rent-vs-buy, prepay-vs-invest].",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "foir-affordability",
+        "healthy-debt-to-income",
+        "budgeting-50-30-20",
+        "rent-vs-buy",
+        "prepay-vs-invest"
+      ],
+      "cost": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "input_tokens": 1422,
+        "output_tokens": 344,
+        "latency_ms": 724.5959000429139
+      }
+    },
+    "hyb-008": {
+      "text": "Your biggest financial risk right now appears to be **liquidity risk tied to a large, unexplained transaction of ₹38,000** to \"PRAKASH REDDY\" on April 3, 2025—especially if this represents a near-term financial obligation or an unplanned expense that could strain your cash flow.\n\nHere’s why this could pose a risk, based on the context provided:\n1. **No clear context for the transaction**: Since this is your largest single transaction in the fiscal year and lacks explicit categorization (e.g., as a planned savings goal, debt repayment, or investment), it may indicate an **unexpected or unbudgeted expense** that could disrupt your liquidity. If this was for an essential need (e.g., medical, emergency repair, or debt settlement), it could leave you vulnerable to another shock without adequate reserves [emergency-fund-framework].\n2. **Potential debt or leverage risk**: If this transaction was for debt repayment (e.g., a loan or credit card), it could signal a **debt-to-income (DTI) ratio that’s higher than comfortable** if your income isn’t fully accounted for in the data. While the corpus doesn’t provide your total debt or income, a DTI above 36% could make you more sensitive to income disruptions or new obligations [healthy-debt-to-income].\n3. **Opportunity cost of liquidity**: If the ₹38,000 was meant to be parked for a near-term goal (e.g., within 6–12 months), keeping it in an **illiquid or volatile asset** (like equity) could force you to sell at a loss if you need it urgently. The corpus suggests alternatives like **savings accounts, short-term FDs, or liquid mutual funds** are safer for short-term needs, but if this money was tied up elsewhere, it",
+      "route": "hybrid",
+      "used_llm": true,
+      "sources": [
+        "parking-short-term-funds",
+        "healthy-debt-to-income",
+        "asset-allocation-by-age",
+        "emergency-fund-framework",
+        "term-insurance-coverage"
+      ],
+      "cost": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "input_tokens": 1340,
+        "output_tokens": 400,
+        "latency_ms": 3400.1574999419972
+      }
+    },
+    "ref-001": {
+      "text": "I can't help with that one - it's outside what this app can responsibly answer from your data or general financial guidance.",
+      "route": "refuse",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "ref-002": {
+      "text": "I can't help with that one - it's outside what this app can responsibly answer from your data or general financial guidance.",
+      "route": "refuse",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "ref-003": {
+      "text": "I can't help with that one - it's outside what this app can responsibly answer from your data or general financial guidance.",
+      "route": "refuse",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "ref-004": {
+      "text": "I can't help with that one - it's outside what this app can responsibly answer from your data or general financial guidance.",
+      "route": "refuse",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "ref-005": {
+      "text": "I can't help with that one - it's outside what this app can responsibly answer from your data or general financial guidance.",
+      "route": "refuse",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "ref-006": {
+      "text": "I can't help with that one - it's outside what this app can responsibly answer from your data or general financial guidance.",
+      "route": "refuse",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "edge-001": {
+      "text": "I couldn't identify a specific category or place from your question, and I don't have location data to work from - could you name the category or merchant?",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "edge-002": {
+      "text": "I couldn't identify a specific category or place from your question, and I don't have location data to work from - could you name the category or merchant?",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "edge-003": {
+      "text": "I couldn't identify a specific category or place from your question, and I don't have location data to work from - could you name the category or merchant?",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "edge-004": {
+      "text": "I couldn't identify a specific category or place from your question, and I don't have location data to work from - could you name the category or merchant?",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "edge-005": {
+      "text": "I couldn't identify a specific category or place from your question, and I don't have location data to work from - could you name the category or merchant?",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    },
+    "edge-006": {
+      "text": "I couldn't identify a specific category or place from your question, and I don't have location data to work from - could you name the category or merchant?",
+      "route": "sql",
+      "used_llm": false,
+      "sources": [],
+      "cost": null
+    }
+  }
+}

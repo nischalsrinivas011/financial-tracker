@@ -162,5 +162,24 @@ Other known, deliberately deferred gaps ("we can optimize later"): the
 router's 2 known misses on deliberately open-ended edge-case questions
 (not chased with more keywords); vector-route retrieval at k=5 on a
 21-chunk corpus sometimes pulls in tangentially-related chunks the LLM
-then discusses unprompted; `sentence-transformers` pulling in ~530MB of
-torch is unverified against Render's free-tier build/image size limits.
+then discusses unprompted; one retrieval pytest has a known accepted
+narrow miss since the embedding runtime swap below (see its comment
+in tests/test_rag_retrieval.py).
+
+Embeddings run on `fastembed` (ONNXRuntime), not `sentence-transformers`
+(torch) — swapped 2026-08-10 after a real Render free-tier deploy
+OOM-killed the app at boot (torch alone resolves to ~360MB resident;
+the free tier caps at 512MB). Same all-MiniLM-L6-v2 weights, ~211MB
+fully loaded via ONNXRuntime instead. Full eval suite re-run after the
+swap and a corpus re-ingest showed no regression (routing 94.4%,
+recall@5 88.0%, constraint pass rate 71.4% — identical to baseline).
+See the 2026-08-10 "Embedding runtime" entry in docs/DECISIONS.md.
+
+Vercel deploy is live: https://financial-tracker-sepia-iota.vercel.app
+(root directory `frontend`, Clerk dev keys reused rather than a
+separate production instance). Backend is live on Render:
+https://financial-tracker-api-973o.onrender.com. Still needed:
+`CORS_ALLOWED_ORIGINS` / `CLERK_AUTHORIZED_PARTIES` on Render must
+include the Vercel URL before the signed-in dashboard (upload/
+accounts/ask) will work cross-origin — demo mode doesn't need this
+since it makes no backend call.

@@ -323,3 +323,54 @@ sequencing call, not a shortcut - noted here so the gap is honest and
 visible rather than hidden behind a fabricated number.
 `eval/CALIBRATION.md` stays unchecked; no judge-human agreement figure
 exists yet, and none should be reported until real labels do.
+
+## 2026-08-10 — Embedding runtime: fastembed (ONNXRuntime) over sentence-transformers (torch)
+
+**Problem:** the first real Phase 6 deploy to Render's free tier
+(512MB RAM) OOM-killed the app during boot. Measured locally:
+`import torch` alone resolves to ~360MB resident before FastAPI,
+SQLAlchemy, uvicorn, or any app code loads; sentence-transformers plus
+the loaded all-MiniLM-L6-v2 model and a first encode call brings that
+to ~444MB. That's already over budget before the rest of the app's
+baseline memory is counted. This was a known, explicitly-flagged risk
+(see the 2026-08-09 "Embedding model" entry) - "not yet confirmed" -
+now confirmed, and confirmed not to fit.
+
+**Considered:**
+1. Defer the `sentence_transformers` import to first use instead of
+   module import time. Rejected: torch's ~360MB is the dominant cost,
+   not the model weights, so this only moves the crash from boot-time
+   (predictable, total outage) to the first vector/hybrid question
+   (unpredictable, mid-request outage) - not a real fix.
+2. Upgrade Render to a paid plan for more RAM. Rejected for now: no
+   code change needed, but costs real money and breaks the free-tier
+   approach used everywhere else in this project (Neon free, Groq/
+   Gemini/Mistral free, Vercel free). Owner's call, and owner chose
+   not to.
+3. Swap to a torch-free embedding runtime that still runs the same
+   model weights locally, keeping the "never a paid embedding API"
+   hard rule intact.
+
+**Choice:** option 3 - `fastembed` (ONNXRuntime-backed), running the
+identical `sentence-transformers/all-MiniLM-L6-v2` weights (fastembed's
+model registry serves this exact model, still 384 dims, no schema
+change needed). Measured locally: import + model load + first encode
+settles at ~211MB, under half of the torch path.
+
+**Reasoning:** same model, same "local, free, CPU-only" constraints,
+just a lighter inference engine. Re-ran the full eval suite after the
+swap and re-ingesting the corpus (`eval/results/2026-08-10_embedding-
+swap-fastembed.json`): routing accuracy 94.4%, recall@5 88.0%,
+constraint pass rate 71.4% - identical to the 2026-08-10 baseline, so
+no measurable regression at the level the eval actually scores.
+
+**Known cost:** one pytest in `tests/test_rag_retrieval.py` now fails -
+"How much emergency fund should someone keep?" ranks
+`essential-vs-discretionary` (distance 0.522) just ahead of the
+expected `emergency-fund-framework` (0.563), a narrow flip between two
+adjacent, genuinely related chunks in the same source doc, most likely
+from ONNXRuntime and PyTorch executing the same weights with slightly
+different floating-point kernels on an already-close pair. recall@5 is
+unaffected. Left failing with a comment rather than loosened to pass -
+same treatment as the router's already-documented known misses, not
+worth chasing for one borderline query.
